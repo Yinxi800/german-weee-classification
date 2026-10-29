@@ -1,31 +1,27 @@
-# 德国 WEEE 分类初筛
+<p align="center">
+  <img src="logo.svg" alt="德国 WEEE 产品分类" width="110" />
+</p>
 
-在线使用：[德国 WEEE 分类初筛工具](https://yinxi800.github.io/german-weee-classification/)
+# 德国 WEEE 产品分类
 
-[![在线使用](https://img.shields.io/badge/在线使用-GitHub%20Pages-brightgreen)](https://yinxi800.github.io/german-weee-classification/)
-[![隐私](https://img.shields.io/badge/产品信息-浏览器本地处理-success)](https://yinxi800.github.io/german-weee-classification/)
+在线使用：[德国 WEEE 产品分类工具](https://yinxi800.github.io/german-weee-classification/)
 
-通过产品名称查询或条件引导，获取德国 WEEE 初步分类建议。产品信息在浏览器本地处理。
+按产品名称或规格查询德国 WEEE 类别，查看分类建议及参考依据。产品信息仅在当前浏览器处理。
 
 ## 核心功能
 
-- **🔎 产品匹配**：支持中文、德语和英语名称；未命中时提供相关产品候选，已识别信息不重复提问，必要规格同页确认。
-- **💬 条件引导**：无需产品名称，同页填写功能、用途和尺寸后统一判断；两种方式各自保留进度。
-- **📋 结果导出**：查看分类建议、复制结果或导出 JSON。
-- **🔗 官方核对**：提供 EAR 官方查询入口和分类依据。
+- **名称查询**：支持中文、常用别名及德英名称；相关产品分批完整展示，可继续显示更多。
+- **条件分类**：无需产品名称，同页确认用途、功能及尺寸；两种方式可切换，各自保留进度。
+- **结果使用**：中文展示分类与产品信息，支持修改条件、重新查询、复制及导出。
+- **官方核对**：保留 EAR 原名、参考资料和官方查询入口，便于核对实际型号。
 
-## 使用流程
+## 使用方式
 
-```text
-输入产品名称 → 确认关键条件 → 查看初筛结果 → 到 EAR 官方核对
-```
+输入产品名称 → 必要时选择产品、确认规格 → 查看分类建议。
+也可直接使用“条件引导分类”。
 
 ## 使用说明
 
-本工具用于初步筛查，不替代 EAR 官方决定或注册审核。EAR 产品词库是部分搜索结果的本地快照，并非完整数据库或实时查询；未匹配或条件不明确的产品需要进一步核实。
+资料参考 EAR 产品示例及分类规则，词库覆盖部分产品，非 EAR 实时查询。本结果仅供分类参考，不代表 EAR 官方认定或注册审核结果。
 
-## 开发维护
-
-名称索引、产品资料、判定规则和证据分别保存在 `data/names.js`、`data/products.js`、`lib/classification-engine.js` 和 `data/evidence.js`。新增产品可关联已有规则，无需修改页面判断分支。官方原始示例与人工整理说明分开标记，未覆盖的特殊条件仍进入复核。
-
-使用 Node.js 运行 `node tests/engine.test.cjs` 和 `node tests/knowledge.test.cjs`；浏览器交互测试为 `tests/browser.test.cjs`，需要 Playwright。
+[EAR 官方查询](https://www.stiftung-ear.de/service/geraetezuordnung/) · [图标 SVG](logo.svg) · [图标 PNG](assets/icon-512.png)
