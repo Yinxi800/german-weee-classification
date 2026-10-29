@@ -26,7 +26,7 @@ window.EAR_CATALOG_ZH = {
     "Nass-/Trockensauger": "湿/干吸尘器",
     "Rückfahrkamera": "后视摄像头",
     "tragbares Solar-Ladegerät": "便携式太阳能充电器",
-    "GPS-Gerät für Kfz (z.B. per Plug \u0026 Play betriebene)": "车辆 GPS 设备（例如通过即插即用操作的设备）",
+    "GPS-Gerät für Kfz (z.B. per Plug & Play betriebene)": "车辆 GPS 设备（例如通过即插即用操作的设备）",
     "Tragbare Powerstation mit Wechselstromanschluss": "带交流插座的便携式储能电源",
     "ITK-Datenkabel": "信息通信数据线",
     "Kfz-Anhänger-Adapter": "汽车拖车适配器",
@@ -105,7 +105,7 @@ window.EAR_CATALOG_ZH = {
     "Netzwerktester": "网络测试仪",
     "Garagentorantrieb": "车库门驱动装置",
     "Tretroller mit Leuchtrollen (ohne Motor)": "带发光轮的滑板车（无电机）",
-    "Heißgetränke- \u0026 Einkochautomat": "热饮保温及煮制设备",
+    "Heißgetränke- & Einkochautomat": "热饮保温及煮制设备",
     "Speiseeisbereiter": "冰淇淋机",
     "Küchenanschlussbox": "厨房炉灶电源接线盒",
     "Peltier-Entfeuchter": "半导体除湿机",
@@ -280,6 +280,11 @@ window.EAR_CATALOG_ZH = {
     "Bewegungsmelder": "运动探测器",
     "Schütz": "接触器",
     "Kühlschrank (mit Kompressor)": "冰箱（带压缩机）",
-    "Kühlschrank (thermoelektrisch)": "冰箱（热电式）"
+    "Kühlschrank (thermoelektrisch)": "冰箱（热电式）",
+    "Multimeter": "万用表",
+    "Stoppuhr": "电子秒表",
+    "Schachuhr": "电子棋钟",
+    "Uhrenbeweger": "摇表器",
+    "Uhrenprüfer": "钟表检测仪"
   }
 };

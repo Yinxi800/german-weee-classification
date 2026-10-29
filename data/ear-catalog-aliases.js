@@ -1,5 +1,6 @@
 // Independently maintained Chinese exact-name aliases; not supplied by EAR.
 window.EAR_CATALOG_ALIASES = {
+  '万用表':'Multimeter','万用电表':'Multimeter','数字万用表':'Multimeter','数显万用表':'Multimeter','指针式万用表':'Multimeter','指针万用表':'Multimeter','三用表':'Multimeter','万能表':'Multimeter','digital multimeter':'Multimeter','秒表':'Stoppuhr','电子秒表':'Stoppuhr','棋钟':'Schachuhr','测表仪':'Uhrenprüfer','校表仪':'Uhrenprüfer','自动摇表器':'Uhrenbeweger','电子手表':'Uhr, Armbanduhr','石英手表':'Uhr, Armbanduhr',
   'LED灯泡':'LED-Lampe (auch mit Zusatzfunktionen z.B. LED-Lampe mit Lautsprecher)','LED光源':'LED-Lampe (auch mit Zusatzfunktionen z.B. LED-Lampe mit Lautsprecher)','紧凑型荧光灯':'Kompaktleuchtstofflampe','气体放电灯':'Gasentladungslampe','USB线':'USB-Kabel','USB数据线':'USB-Kabel',
   '气垫':'Luftmatratze, selbstaufblasend','气垫床':'Luftmatratze, selbstaufblasend','充气床垫':'Luftmatratze, selbstaufblasend','内置电动气泵气垫':'Luftmatratze, selbstaufblasend','内置电泵气垫':'Luftmatratze, selbstaufblasend',
   '自动充气气垫':'Luftmatratze, selbstaufblasend','自动充气床垫':'Luftmatratze, selbstaufblasend','电动充气床垫':'Luftmatratze, selbstaufblasend',

@@ -3,6 +3,9 @@ window.EAR_PRODUCT_CATALOG = {
   "sourceUrl": "https://www.stiftung-ear.de/service/geraetezuordnung/",
   "checked": "2026-10-29",
   "queries": [
+    "Multimeter",
+    "Messgerät",
+    "Uhr",
     "a",
     "e",
     "i",
@@ -372,8 +375,8 @@ window.EAR_PRODUCT_CATALOG = {
       ]
     },
     {
-      "name": "GPS-Gerät für Kfz (z.B. per Plug \u0026 Play betriebene)",
-      "english": "GPS equipment for cars (e.g. operated via plug \u0026 play)",
+      "name": "GPS-Gerät für Kfz (z.B. per Plug & Play betriebene)",
+      "english": "GPS equipment for cars (e.g. operated via plug & play)",
       "candidates": [
         "Kleine Geräte der Informations- und Telekommunikationstechnik für die ausschließliche Nutzung in anderen als privaten Haushalten",
         "Kleine Geräte der Informations- und Telekommunikationstechnik, die in privaten Haushalten genutzt werden können"
@@ -441,7 +444,7 @@ window.EAR_PRODUCT_CATALOG = {
       ],
       "remarks": [
         "Autoradio mit vollem Funktionsumfang eines Android Tablets zum Einbau in Mittelkonsole (z.B. Doppel-DIN-Schacht) eines Pkw (Nachrüstung).",
-        "Bildschirm \u003e 100 cm²"
+        "Bildschirm > 100 cm²"
       ],
       "queries": [
         "a",
@@ -665,7 +668,7 @@ window.EAR_PRODUCT_CATALOG = {
         "Kleingeräte, die in privaten Haushalten genutzt werden können"
       ],
       "remarks": [
-        "Tuningprodukt zur Nachrüstung (mit Plug \u0026 Play Kabelbaum)"
+        "Tuningprodukt zur Nachrüstung (mit Plug & Play Kabelbaum)"
       ],
       "queries": [
         "a"
@@ -1522,7 +1525,7 @@ window.EAR_PRODUCT_CATALOG = {
       ]
     },
     {
-      "name": "Heißgetränke- \u0026 Einkochautomat",
+      "name": "Heißgetränke- & Einkochautomat",
       "english": "Buffet food warmer and cooker",
       "candidates": [
         "Kleingeräte, die in privaten Haushalten genutzt werden können"
@@ -2384,7 +2387,7 @@ window.EAR_PRODUCT_CATALOG = {
     },
     {
       "name": "Raclette-Fondue-Kombination",
-      "english": "Electric Raclette Grill \u0026 Fondue",
+      "english": "Electric Raclette Grill & Fondue",
       "candidates": [
         "Kleingeräte, die in privaten Haushalten genutzt werden können"
       ],
@@ -3937,6 +3940,61 @@ window.EAR_PRODUCT_CATALOG = {
       ],
       "queries": [
         "Kühlschrank"
+      ]
+    },
+    {
+      "name": "Multimeter",
+      "english": "Multimeter",
+      "candidates": [
+        "Kleingeräte, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [],
+      "queries": [
+        "Multimeter"
+      ]
+    },
+    {
+      "name": "Stoppuhr",
+      "english": "Stopwatch timer",
+      "candidates": [
+        "Kleingeräte, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [],
+      "queries": [
+        "Uhr"
+      ]
+    },
+    {
+      "name": "Schachuhr",
+      "english": "Chess clock timer",
+      "candidates": [
+        "Kleingeräte, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [],
+      "queries": [
+        "Uhr"
+      ]
+    },
+    {
+      "name": "Uhrenbeweger",
+      "english": "Watch winder",
+      "candidates": [
+        "Kleingeräte, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [],
+      "queries": [
+        "Uhr"
+      ]
+    },
+    {
+      "name": "Uhrenprüfer",
+      "english": "Timegrapher",
+      "candidates": [
+        "Kleingeräte für die ausschließliche Nutzung in anderen als privaten Haushalten"
+      ],
+      "remarks": [],
+      "queries": [
+        "Uhr"
       ]
     }
   ]

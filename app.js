@@ -221,7 +221,7 @@ function renderResult(kind,lastKey){
   $('status').textContent=isReview?'待确认':'分类建议';showSection('result');heading.focus({preventScroll:true});
 }
 function formatResult(){return [`德国 WEEE 分类初筛`,resultData.product?`产品：${resultData.product}`:'判定方式：条件引导',`结果：${resultData.status}`,resultData.category?`类别：第 ${resultData.category.number} 类 ${resultData.category.name}`:'',resultData.deviceType?`候选设备类型：${resultData.deviceTypeChinese} / ${resultData.officialDirectory?.name || resultData.deviceType}`:'',resultData.officialProduct?`匹配依据：EAR 产品条目 ${resultData.officialProduct.name}（核对日期：${resultData.officialProduct.checked}）`:'',...resultData.userExamples.map(item=>`词库参考：${item.name}${item.categoryOptions.length ? `（第 ${item.categoryOptions.join(' / ')} 类）` : ''}`),resultData.sourceWarning?`资料差异：${resultData.sourceWarning}`:'',...resultData.assumptions.map(item=>`自动采用的条件：${item}`),`说明：${resultData.reason}`,`提示：${resultData.notice}`,`官方核对：https://www.stiftung-ear.de/service/geraetezuordnung/`].filter(Boolean).join('\n');}
-function runExactQuery(input){const value=input.trim();if(!value){$('input-error').textContent='请先输入产品名称。';$('product').focus();return;}$('input-error').textContent='';product=value;answers={};history=[];resultData=null;earProduct=findEarProduct(product);directMatch=false;catalogMatches=earProduct?[]:findCatalog(product);userMatches=findUserExamples(product);sourceWarning=getSourceWarning(product);
+function runExactQuery(input,displayName){const value=input.trim();if(!value){$('input-error').textContent='请先输入产品名称。';$('product').focus();return;}$('input-error').textContent='';product=displayName||value;answers={};history=[];resultData=null;earProduct=findEarProduct(value);directMatch=false;catalogMatches=earProduct?[]:findCatalog(value);userMatches=findUserExamples(product);sourceWarning=getSourceWarning(product);
   const userClasses=[...new Set(userMatches.flatMap(item=>item.category ? [item.category] : item.categoryOptions || []))];
   const officialClasses=officialCandidateClasses();
   if(userClasses.length && officialClasses.length && !earProduct?.verifiedOverride && userClasses.some(category=>!officialClasses.includes(category))){if(earProduct){sourceWarning=sourceWarning || '词库参考类别与已核对的 EAR 产品条目不同；请根据产品的实际条件核对，以下按 EAR 条目初筛。';}else{sourceWarning='词库参考与 EAR 条目不同，以下按 EAR 条目及实际产品条件初筛。';}}
@@ -292,6 +292,13 @@ function setMode(mode){
 $('mode-name').addEventListener('click',()=>setMode('name'));
 $('mode-guide').addEventListener('click',()=>setMode('guide'));
 for(const mode of ['name','guide'])$('mode-'+mode).addEventListener('keydown',e=>{if(['ArrowLeft','ArrowRight','Home','End'].includes(e.key)){e.preventDefault();const next=e.key==='Home'?'name':e.key==='End'?'guide':activeMode==='name'?'guide':'name';setMode(next);$('mode-'+next).focus();}});
+function meterTypeCandidates(query){
+ const key=nameKey(query),clock=['挂钟','电子／石英腕表','智能手表','电子秒表','电子棋钟','摇表器','钟表检测仪'],measuring=['万用表','其他电气测量仪表'];
+ const groups={'表':[...clock,...measuring],'钟表':clock,'手表':['电子／石英腕表','智能手表'],'仪表':measuring,'测量仪表':measuring,'计时表':['电子秒表','电子棋钟','定时开关']};
+ if(!groups[key])return null;
+ const lookup={'电子／石英腕表':'Uhr, Armbanduhr','其他电气测量仪表':'Messgerät'};
+ return groups[key].map(label=>{const term=lookup[label]||label,e=findEarProduct(term),entry=findCatalog(term)[0];return {label,lookup:term,official:e?.officialName||entry?.name,classes:entry?.name==='Uhr, Wanduhr'?[4,5]:e?.directKind?[categories[e.directKind][0]]:[...new Set((catalogVariants(entry)||[]).map(v=>categories[v.kind][0]))]};});
+}
 function productCandidates(query){
  const key=nameKey(query),candidates=[];
  for(const e of window.EAR_PRODUCTS||[])candidates.push({label:e.aliases[0],lookup:e.aliases[0],official:e.officialName,terms:e.aliases,classes:e.directKind?[categories[e.directKind][0]]:({'official-luminaire':[4,5],'official-personal-computer':[4,6],'official-fridge':[1,4,5],'official-compressor':[1],'official-thermoelectric':[4,5],'official-peltier':[4,5],pv:[4,5]}[e.id]||[])});
@@ -303,11 +310,12 @@ function productCandidates(query){
 function nameQuery(){
  const value=$('product').value.trim();$('related-products').replaceChildren();
  if(!value){$('input-error').textContent='请输入产品名称后查询。';$('product').focus();return;}
- if(findEarProduct(value)||findCatalog(value).length){runExactQuery(value);return;}
- const found=productCandidates(value);product=value;answers={};history=[];resultData=null;earProduct=null;profile=null;lastRendered=null;showSection('start');$('input-error').textContent='';
- const root=$('related-products'),title=document.createElement('h3');title.className='related-title';title.textContent=found.length?'选择与你的产品最接近的条目':'暂未找到相关产品';root.append(title);const note=document.createElement('p');note.className='related-note';note.textContent=found.length?'名称相近不代表类别相同。请确认实际产品后选择，或切换条件引导。':'可尝试常见名称，或切换条件引导继续判断。';root.append(note);
+ const types=meterTypeCandidates(value);
+ if(!types&&(findEarProduct(value)||findCatalog(value).length)){runExactQuery(value);return;}
+ const found=types||productCandidates(value);product=value;answers={};history=[];resultData=null;earProduct=null;profile=null;lastRendered=null;showSection('start');$('input-error').textContent='';
+ const root=$('related-products'),title=document.createElement('h3');title.className='related-title';title.textContent=types?'请选择具体的表类产品':found.length?'选择与你的产品最接近的条目':'暂未找到相关产品';root.append(title);const note=document.createElement('p');note.className='related-note';note.textContent=types?'钟表与测量仪表按不同用途区分。以下钟表条目适用于具有电气功能的产品；纯机械产品请使用条件引导确认适用范围。':found.length?'名称相近不代表类别相同。请确认实际产品后选择，或切换条件引导。':'可尝试常见名称，或切换条件引导继续判断。';root.append(note);
  const list=document.createElement('div');list.className='related-list';
- for(const c of found){const b=document.createElement('button');b.type='button';b.className='related-item';const label=document.createElement('strong'),detail=document.createElement('small');label.textContent=c.label;detail.textContent=c.official+(c.classes.length?` · 候选第 ${c.classes.join(' / ')} 类，需确认产品条件`:' · 需核实产品条件');b.append(label,detail);b.addEventListener('click',()=>{$('product').value=c.label;runExactQuery(c.lookup);});list.append(b);}root.append(list);
+ for(const c of found){const b=document.createElement('button');b.type='button';b.className='related-item';const label=document.createElement('strong'),detail=document.createElement('small');label.textContent=c.label;detail.textContent=c.official+(c.classes.length?` · 候选第 ${c.classes.join(' / ')} 类，需确认产品条件`:' · 需核实产品条件');b.append(label,detail);b.addEventListener('click',()=>{$('product').value=c.label;runExactQuery(c.lookup,c.label);});list.append(b);}root.append(list);
 }
 $('begin').addEventListener('click',nameQuery);
 $('product').addEventListener('input',()=>{$('related-products').replaceChildren();$('input-error').textContent='';});
