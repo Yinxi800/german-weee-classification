@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.svg" alt="德国 WEEE 产品分类" width="110" />
+  <img src="logo.svg?v=20261029-de-electronics" alt="德国 WEEE 产品分类" width="110" />
 </p>
 
 # 德国 WEEE 产品分类
