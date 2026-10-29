@@ -1,5 +1,6 @@
 // Independently maintained Chinese exact-name aliases; not supplied by EAR.
 window.EAR_CATALOG_ALIASES = {
+  '气垫':'Luftmatratze, selbstaufblasend','气垫床':'Luftmatratze, selbstaufblasend','充气床垫':'Luftmatratze, selbstaufblasend','内置电动气泵气垫':'Luftmatratze, selbstaufblasend','内置电泵气垫':'Luftmatratze, selbstaufblasend',
   '自动充气气垫':'Luftmatratze, selbstaufblasend','自动充气床垫':'Luftmatratze, selbstaufblasend','电动充气床垫':'Luftmatratze, selbstaufblasend',
   '电脑鼠标':'PC-Maus','电脑键盘':'Tastatur','全自动咖啡机':'Kaffee-Vollautomat',
   '电动皂液器':'Seifenspender, elektrisch','电动洗手液机':'Seifenspender, elektrisch',
