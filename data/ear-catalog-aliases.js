@@ -1,5 +1,6 @@
 // Independently maintained Chinese exact-name aliases; not supplied by EAR.
 window.EAR_CATALOG_ALIASES = {
+  'LED灯泡':'LED-Lampe (auch mit Zusatzfunktionen z.B. LED-Lampe mit Lautsprecher)','LED光源':'LED-Lampe (auch mit Zusatzfunktionen z.B. LED-Lampe mit Lautsprecher)','紧凑型荧光灯':'Kompaktleuchtstofflampe','气体放电灯':'Gasentladungslampe','USB线':'USB-Kabel','USB数据线':'USB-Kabel',
   '气垫':'Luftmatratze, selbstaufblasend','气垫床':'Luftmatratze, selbstaufblasend','充气床垫':'Luftmatratze, selbstaufblasend','内置电动气泵气垫':'Luftmatratze, selbstaufblasend','内置电泵气垫':'Luftmatratze, selbstaufblasend',
   '自动充气气垫':'Luftmatratze, selbstaufblasend','自动充气床垫':'Luftmatratze, selbstaufblasend','电动充气床垫':'Luftmatratze, selbstaufblasend',
   '电脑鼠标':'PC-Maus','电脑键盘':'Tastatur','全自动咖啡机':'Kaffee-Vollautomat',
