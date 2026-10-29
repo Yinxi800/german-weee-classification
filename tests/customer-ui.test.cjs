@@ -13,12 +13,22 @@ const {chromium}=require('playwright'),assert=require('node:assert/strict'),path
  assert(options.length>=290);assert(options.every(s=>/[\u3400-\u9fff]/u.test(s)));assert(!options.includes('Multimeter'));assert(!options.includes('TAN 发生器'));assert(options.includes('网银动态验证码器（TAN）'));
  await page.locator('#begin').click();assert.match(await page.locator('#input-error').innerText(),/请输入产品名称/);
  await query('完全未收录的测试商品');assert.match(await page.locator('#related-products').innerText(),/条件引导/);
- await query('表');assert.equal(await page.locator('.related-item').count(),9);assert((await page.locator('.related-item').allTextContents()).every(text=>!text.includes('Uhr')&&!text.includes('Multimeter')));
+ await query('表');assert.equal(await page.locator('.related-item').count(),10);assert((await page.locator('.related-item').allTextContents()).every(text=>!text.includes('Uhr')&&!text.includes('Multimeter')));
  await query('Multimeter');assert.equal(await page.locator('.result-sub').innerText(),'产品：万用表');assert.equal(await page.evaluate(()=>resultData.officialProduct.name),'Multimeter');assert.equal(await page.locator('.result-box').innerText(),'建议设备类型\n小型设备（可用于家庭）');assert(!await page.getByText('注册设备类型（德语）：',{exact:false}).isVisible());await page.locator('#result details').first().locator('summary').click();assert.match(await page.locator('#result details').first().innerText(),/Multimeter/);
  await query('OBD-Diagnosegerät');assert.match(await page.locator('#product-form .product-line').innerText(),/诊断/);assert.doesNotMatch(await page.locator('#product-form .product-line').innerText(),/Diagnosegerät/);
  await query('挂钟');await page.locator('#name-field-size input[value=no]').check();await page.getByRole('button',{name:'查看分类建议',exact:true}).click();assert.equal(await page.evaluate(()=>resultData.kind),'small');assert.match(await page.locator('#result').innerText(),/常见型号|可家用型号/);assert(await page.locator('#result details').last().evaluate(el=>el.open));assert.match(await page.locator('#result details').last().innerText(),/您已确认/);assert.match(await page.locator('#result details').last().innerText(),/预填，请核对/);assert.doesNotMatch(await page.locator('#result details').last().innerText(),/？：/);
  await page.getByRole('tab',{name:'条件引导分类'}).click();await page.getByRole('button',{name:'生成分类建议',exact:true}).click();assert.match(await page.locator('#guide-error').innerText(),/请补充/);assert.equal(await page.locator('#guide-form input:checked').count(),0);
  for(const[key,value]of Object.entries({electric:'yes',scope:'no',household:'yes',function:'other',size:'no',subtype:'ict'}))await page.locator(`#guide-form input[name=${key}][value=${value}]`).check();await page.getByRole('button',{name:'生成分类建议',exact:true}).click();assert.equal(await page.evaluate(()=>resultData.kind),'ict');assert.equal(await page.locator('#result .result-sub').count(),0);
+
+ // Complete broad-term results remain available through explicit pagination.
+ await query('灯');assert.equal(await page.locator('.related-item').count(),10);assert.match(await page.locator('.related-title').innerText(),/35/);
+ await page.getByRole('button',{name:/^显示更多/}).click();assert.equal(await page.locator('.related-item').count(),20);
+ await page.getByRole('tab',{name:'条件引导分类'}).click();await page.getByRole('tab',{name:'产品名称查询'}).click();assert.equal(await page.locator('.related-item').count(),20);
+ await page.getByRole('button',{name:/^显示更多/}).click();assert.equal(await page.locator('.related-item').count(),30);
+ await page.getByRole('button',{name:/^显示更多/}).click();assert.equal(await page.locator('.related-item').count(),35);assert.equal(await page.getByRole('button',{name:/^显示更多/}).count(),0);assert.match(await page.locator('#related-products').innerText(),/已显示全部 35 项/);
+ for(const name of ['气体放电灯','LED灯带','太阳能灯','手电筒','露营提灯'])assert(await page.locator('.related-item strong').getByText(name,{exact:true}).isVisible());
+ await page.locator('.related-item').filter({has:page.getByText('完整灯具',{exact:true})}).click();await page.locator('#name-field-size input[value=no]').check();await page.getByRole('button',{name:'查看分类建议',exact:true}).click();assert.equal(await page.evaluate(()=>resultData.kind),'small');
+ await query('线');assert.equal(await page.locator('.related-item').count(),10);assert.match(await page.locator('.related-title').innerText(),/25/);
  if(process.env.WEEE_SCREENSHOT_DIR)fs.mkdirSync(process.env.WEEE_SCREENSHOT_DIR,{recursive:true});
  for(const width of [1440,768,390,320]){
   await page.setViewportSize({width,height:1000});await query('集成逆变器的交流电池储能装置');assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));

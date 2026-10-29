@@ -8,4 +8,14 @@ equal(k.lookup('数字万用表').product.id,k.lookup('Multimeter').product.id);
 const copy=k.lookup('挂钟').product;copy.defaults.household.value='no';equal(k.lookup('挂钟').product.defaults.household.value,'yes');
 for(const mutate of [x=>x.products.records.push(x.products.records[0]),x=>x.names.records[0].productId='missing',x=>x.products.records[0].evidenceIds=['missing'],x=>x.products.schemaVersion=99,x=>x.products.records[0].decision.required=['bad_question']]){const config=input();mutate(config);assert.throws(()=>knowledge.create(config));checks++;}
 const config=input(),evidence={id:'fixture-source',type:'test_fixture',title:'仅测试的独立产品事实',url:'https://example.test/source',checked:'2026-10-29'};config.evidence.records.push(evidence);config.products.records.push({id:'fixture-product',name:'新增测量设备',officialName:'fixture only',decision:{mode:'recipe',recipe:'ordinary',required:['size']},defaults:{household:{value:'yes',basis:'assumption',sourceIds:['fixture-source']}},facts:{},evidenceIds:['fixture-source'],presentation:{}});config.names.records.push({text:'新测量仪',productId:'fixture-product',status:'curated',language:'zh',sourceIds:['fixture-source']});const extended=knowledge.create(config);equal(engine.assess(extended.lookup('新测量仪').product,{size:'no'}).kind,'small');equal(engine.assess(extended.lookup('新测量仪').product,{size:'yes'}).kind,'large');
+
+// Broad terms must retain all literal product matches, without a score or top-five cutoff.
+for(const [query,expectedCount,requiredNames] of [
+ ['灯',35,['气体放电灯','LED灯带','太阳能灯','手电筒','露营提灯']],
+ ['线',25,['USB线','音频线','HDMI 高清连接线','DP 显示连接线']]
+]){const matches=k.suggest(query);equal(matches.length,expectedCount);equal(new Set(matches.map(row=>row.productId)).size,expectedCount);for(const name of requiredNames)equal(matches.some(row=>row.label===name),true);equal(matches.every(row=>row.matchType==='literal'),true);}
+equal(k.lookup('表').candidates.some(row=>row.productId===k.lookup('车辆附加仪表（车速表除外）').product.id),true);
+equal(k.lookup('表').candidates.length,10);
+equal(new Set(k.lookup('表').candidates.map(row=>row.productId)).size,10);
+equal(k.suggest('Multimter').some(row=>row.productId===k.lookup('Multimeter').product.id&&row.matchType==='similar'),true);
 console.log('PASS',checks,'knowledge/independent product fixtures, schema integrity, ambiguity, provenance, isolated defaults, data-only product extension');
