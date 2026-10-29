@@ -200,6 +200,7 @@ function renderResult(kind,lastKey){
   if(sourceWarning)root.append(node('p','source-warning','该产品可能因实际功能、用途或尺寸不同而归入不同类别，请以已确认的产品条件和 EAR 要求为准。'));
   root.append(node('p','result-reason',reason+' 正式注册前，请结合产品资料与 EAR 要求复核。'));
   const actions=node('div','result-actions');
+  const restart=node('button','secondary',activeMode==='name'?'重新查询':'重新判断');restart.type='button';restart.addEventListener('click',restartClassification);actions.append(restart);
   if(isReview){const next=node('button','primary',activeMode==='name'?'继续条件判断':answers[lastKey]==='unknown'?'补充信息并继续':'核对已选条件');next.type='button';next.addEventListener('click',()=>{if(activeMode==='name'){continueReviewGuide();return;}const previous=history.pop();delete answers[previous];ask(previous);});actions.append(next);}
   const officialLink=node('a',isReview?'secondary':'primary','到 EAR 官方核对');officialLink.href='https://www.stiftung-ear.de/service/geraetezuordnung/';officialLink.target='_blank';officialLink.rel='noopener noreferrer';actions.append(officialLink);
   const copy=node('button','secondary','复制结果');copy.type='button';copy.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(formatResult());$('feedback').textContent='已复制结果。';}catch{$('feedback').textContent='无法自动复制，请使用导出结果。';}});actions.append(copy);
@@ -315,4 +316,13 @@ function continueReviewGuide(){
  setMode('guide');
  if(existing)return;
  product=target;profile={id:'guide',compactMeasurement:compact,carriedAnswers:{...carried}};answers=carried;history=[];earProduct=null;catalogMatches=[];userMatches=[];sourceWarning=null;resultData=null;lastRendered=null;ask('electric');
+}
+
+function restartClassification(){
+ const currentProduct=product;
+ answers={};history=[];resultData=null;profile=null;earProduct=null;directMatch=false;catalogMatches=[];userMatches=[];sourceWarning=null;lastRendered=null;
+ modeDrafts[activeMode]=null;
+ $('input-error').textContent='';$('related-products').replaceChildren();$('result').replaceChildren();
+ if(activeMode==='guide'){product=currentProduct;profile={id:'guide'};ask('electric');}
+ else{product='';$('product').value='';$('status').textContent='产品查询';showSection('start');$('product').focus();}
 }
