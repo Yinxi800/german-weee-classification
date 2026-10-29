@@ -101,10 +101,11 @@ function findEarProduct(name){
 }
 function questionFor(key){
   if(key==='confirm') return {title:'请确认：产品符合以下描述吗？',detail:`${profile.description} 它是单独销售的完整产品，不涉及法律排除情形或复杂套装。`,yes:'符合',no:'不符合'};
-  return {household:householdQuestion,size:sizeQuestion,gas:gasQuestion,cooling:coolingQuestion,peltier:peltierQuestion}[key];
+  return {household:householdQuestion,size:sizeQuestion,gas:gasQuestion,cooling:coolingQuestion,peltier:peltierQuestion,...guideQuestions}[key];
 }
 function nextKey(key,value){
   if(value==='unknown' || (key==='confirm' && value==='no')) return 'review';
+  if(profile.id==='guide') return guideNext(key,value);
   if(profile.id==='catalog') return catalogNext();
   if(key==='confirm') return 'household';
   if(key==='cooling'||key==='peltier') return 'household';
@@ -128,7 +129,7 @@ function nextKey(key,value){
 }
 function showSection(name){
   for(const id of ['start','question-area','result']) $(id).hidden=id!==name;
-  $('work-title').textContent={start:'开始分类','question-area':'确认产品条件',result:'初筛结果'}[name];
+  $('work-title').textContent={start:'查询产品','question-area':'确认关键条件',result:'分类建议'}[name];
   document.querySelectorAll('.hero-meta span').forEach((step,index)=>{
     const current=index===({start:0,'question-area':1,result:2}[name]);
     step.classList.toggle('active',current);
@@ -136,7 +137,7 @@ function showSection(name){
   });
 }
 function ask(key){
-  const q=questionFor(key); history.push(key); $('product-label').textContent=product;
+  const q=questionFor(key); history.push(key);$('back').disabled=history.length<=1; $('product-label').textContent=product;
   $('recognition').hidden=!earProduct;
   $('recognition').textContent=earProduct ? `已匹配 EAR 产品条目：${earProduct.officialName}` : '';
   $('question-progress').textContent=`问题 ${history.length}`;
@@ -147,7 +148,7 @@ function ask(key){
     const text=document.createElement('span');text.textContent=label;button.append(text);
     button.addEventListener('click',()=>{answers[key]=value;const next=nextKey(key,value);if(next==='review') renderResult('review',key);else if(next.startsWith('result:')) renderResult(next.slice(7),key);else ask(next);});choices.append(button);
   }
-  $('status').textContent='确认条件中';showSection('question-area');$('question-title').focus({preventScroll:true});
+  $('status').textContent='条件确认';showSection('question-area');$('question-title').focus({preventScroll:true});
 }
 function deviceName(kind,household){
   const category=categories[kind];return category[household==='yes'?2:3]+(household==='yes'?'，die in privaten Haushalten genutzt werden können':' für die ausschließliche Nutzung in anderen als privaten Haushalten');
@@ -167,33 +168,34 @@ const deviceLabels = {thermal:'温度交换设备',screen:'屏幕设备',gas:'�
 function renderResult(kind,lastKey){
   const isReview=kind==='review';const info=categories[kind];const official=isReview?null:matchOfficial(kind,answers.household);
   const officialProductName=profile?.id==='official-peltier' && answers.peltier ? (answers.peltier==='yes'?'Peltier-Entfeuchter':'Kühlschrank (thermoelektrisch)') : earProduct?.officialName;
-  let reason=isReview ? (lastKey==='sourceConflict'?'用户资料与 EAR 候选类别不一致，请核对产品及来源。':lastKey==='userEvidence'?'已找到用户提供的分类示例，请核对具体产品、用途和条件。':lastKey==='catalogReview'?'官方条目包含多个结果或特殊备注，需核对具体产品后再确定分类。':(profile?.id==='official-personal-computer'||profile?.id==='official-peltier')&&answers[lastKey]!=='unknown'&&lastKey!=='confirm'?'当前产品条件超出已核对的官方示例，请进一步核实。':lastKey==='unrecognized'?'暂未识别该产品，请补充更明确的产品名称，或到 EAR 官方查询。':answers[lastKey]==='unknown'?'关键条件尚未确认，请补充产品资料后核对。':'产品与识别描述不符，请修改名称或到 EAR 官方核对。') : directMatch ? `直接匹配 EAR 产品条目。适用条件：${earProduct.assumptions.join('；')}。如产品不符，请重新核对。` : earProduct ? '根据匹配的 EAR 产品条目和已确认的关键条件得出初筛建议。' : '根据本地产品规则和你确认的条件得出初筛建议。';
+  let reason=isReview ? (lastKey==='sourceConflict'?'用户资料与 EAR 候选类别不一致，请核对产品及来源。':lastKey==='userEvidence'?'该产品还需要确认具体功能和规格，可切换条件引导继续判断。':lastKey==='catalogReview'?'官方条目包含多个结果或特殊备注，需核对具体产品后再确定分类。':(profile?.id==='official-personal-computer'||profile?.id==='official-peltier')&&answers[lastKey]!=='unknown'&&lastKey!=='confirm'?'当前产品条件超出已核对的官方示例，请进一步核实。':lastKey==='unrecognized'?'暂未找到可直接对应的产品，请尝试更具体的名称，或切换条件引导分类。':answers[lastKey]==='unknown'?'关键条件尚未确认，请补充产品资料后核对。':'产品与识别描述不符，请修改名称或到 EAR 官方核对。') : directMatch ? `直接匹配 EAR 产品条目。适用条件：${earProduct.assumptions.join('；')}。如产品不符，请重新核对。` : earProduct ? '根据匹配的 EAR 产品条目和已确认的关键条件得出初筛建议。' : '依据 EAR 设备分类规则及你确认的条件给出分类建议。';
+  if(isReview && profile?.id==='guide')reason=lastKey==='electric' && answers.electric==='no'?'产品未确认具有电气或电子功能，请核实是否属于 ElektroG 适用范围。':lastKey==='scope' && answers.scope==='yes'?'该产品涉及特殊适用范围，建议结合技术资料进一步核实。':'部分关键条件尚未确认，请补充产品资料后继续判断。';
   const publicDirectory=official ? {name:official.name,fetchedAt:official.fetchedAt,source:official.source} : null;
-  resultData={product, status:isReview?'需要人工复核':'初步分类建议',category:isReview?null:{number:info[0],name:info[1]},deviceType:isReview?null:deviceName(kind,answers.household),deviceTypeChinese:isReview?null:`${kind==='lamp' && answers.household==='no'?'灯':deviceLabels[kind]}（${answers.household==='yes'?'可用于私人家庭':'仅限非私人家庭'}）`,household:answers.household==='yes'?'可用于私人家庭':answers.household==='no'?'仅限非私人家庭':null,reason,answers:history.map(key=>({question:questionFor(key).title,detail:questionFor(key).detail,answer:answers[key]==='unknown'?'不确定':answers[key]==='yes'?questionFor(key).yes:questionFor(key).no})),sourceChecked:'2026-10-29',officialProduct:earProduct ? {name:officialProductName,query:earProduct.query,checked:earProduct.checked,note:earProduct.note,sourceUrl:'https://www.stiftung-ear.de/service/geraetezuordnung/'} : null,catalogMatches:catalogMatches.map(entry=>({name:entry.name,chineseName:window.EAR_CATALOG_ZH?.names[entry.name] || null,english:entry.english,candidates:entry.candidates,remarks:entry.remarks,queries:entry.queries})),matchMode:directMatch?'官方条目直接匹配':earProduct?'官方条目加条件确认':'本地规则',assumptions:directMatch?earProduct.assumptions:[],officialDirectory:publicDirectory,userExamples:userMatches.map(item=>({name:item.name,categoryOptions:item.categoryOptions || []})),sourceWarning,officialLiveApiConnected:false,notice:'仅供初筛，不等于 EAR 官方决定或注册结论。'};
+  resultData={product, status:isReview?'需要人工复核':'初步分类建议',category:isReview?null:{number:info[0],name:info[1]},deviceType:isReview?null:deviceName(kind,answers.household),deviceTypeChinese:isReview?null:`${kind==='lamp' && answers.household==='no'?'灯':deviceLabels[kind]}（${answers.household==='yes'?'可用于私人家庭':'仅限非私人家庭'}）`,household:answers.household==='yes'?'可用于私人家庭':answers.household==='no'?'仅限非私人家庭':null,reason,answers:history.map(key=>({question:questionFor(key).title,detail:questionFor(key).detail,answer:answers[key]==='unknown'?'不确定':answers[key]==='yes'?questionFor(key).yes:questionFor(key).no})),sourceChecked:'2026-10-29',officialProduct:earProduct ? {name:officialProductName,query:earProduct.query,checked:earProduct.checked,note:earProduct.note,sourceUrl:'https://www.stiftung-ear.de/service/geraetezuordnung/'} : null,catalogMatches:catalogMatches.map(entry=>({name:entry.name,chineseName:window.EAR_CATALOG_ZH?.names[entry.name] || null,english:entry.english,candidates:entry.candidates,remarks:entry.remarks,queries:entry.queries})),matchMode:directMatch?'官方条目直接匹配':earProduct?'官方条目加条件确认':'EAR 条件引导',assumptions:directMatch?earProduct.assumptions:[],officialDirectory:publicDirectory,userExamples:userMatches.map(item=>({name:item.name,categoryOptions:item.categoryOptions || []})),sourceWarning,officialLiveApiConnected:false,notice:'仅供初筛，不等于 EAR 官方决定或注册结论。'};
   const root=$('result');root.replaceChildren();
   const node=(tag,cls,text)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(text!==undefined)el.textContent=text;return el;};
-  const top=node('div','result-top',isReview?'需要进一步核实':'初筛已完成');const heading=node('h3','result-heading',isReview?'建议人工复核':`第 ${info[0]} 类 · ${info[1]}`);heading.tabIndex=-1;root.append(top,heading,node('p','result-sub',`产品：${product}`));
-  if(!isReview){const box=node('div','result-box');box.append(node('small','','候选设备类型'),node('strong','',resultData.deviceTypeChinese),node('p','',official ? official.name : deviceName(kind,answers.household)));const details=node('details','directory-details');details.append(node('summary','','查看匹配依据'),node('p','',earProduct ? `EAR 产品条目：${window.EAR_CATALOG_ZH?.names[officialProductName] || officialProductName}（${officialProductName}）；核对日期：${earProduct.checked}。${earProduct.note}` : '依据本地产品规则及已确认条件；未匹配到官方产品条目。'),node('p','',official ? `设备类型名称来自 EAR 目录快照，更新时间：${new Date(official.fetchedAt).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai'})}（北京时间）。` : '设备类型名称未匹配到目录快照，请到 EAR 官方页面核对。'));if(catalogMatches.length===1){const entry=catalogMatches[0];details.append(node('p','',`官方候选类型原文：${entry.candidates.join('；')}`));if(entry.remarks.length)details.append(node('p','',`官方备注原文：${entry.remarks.join('；')}`));}box.append(details);root.append(box);}
+  const top=node('div','result-top',isReview?'需要补充确认':'已生成分类建议');const heading=node('h3','result-heading',isReview?'建议进一步核实':`第 ${info[0]} 类 · ${info[1]}`);heading.tabIndex=-1;root.append(top,heading,node('p','result-sub',`产品：${product}`));
+  if(!isReview){const box=node('div','result-box');box.append(node('small','','候选设备类型'),node('strong','',resultData.deviceTypeChinese),node('p','',official ? official.name : deviceName(kind,answers.household)));const details=node('details','directory-details');details.append(node('summary','','查看分类依据'),node('p','',earProduct ? `EAR 产品条目：${window.EAR_CATALOG_ZH?.names[officialProductName] || officialProductName}（${officialProductName}）；核对日期：${earProduct.checked}。${earProduct.note}` : '依据 EAR 官方设备分类决策流程及已确认条件；具体产品仍需核实适用范围。'),node('p','',official ? '设备类型名称参照 EAR 公布的目录。' : '请在 EAR 官方页面核对设备类型名称。'));if(catalogMatches.length===1){const entry=catalogMatches[0];details.append(node('p','',`官方候选类型原文：${entry.candidates.join('；')}`));if(entry.remarks.length)details.append(node('p','',`官方备注原文：${entry.remarks.join('；')}`));}box.append(details);root.append(box);}
   if(isReview && earProduct && !catalogMatches.length){const box=node('div','result-box');box.append(node('small','','EAR 产品条目'),node('strong','',officialProductName),node('p','',earProduct.note));root.append(box);}
   if(isReview && catalogMatches.length){
     for(const entry of catalogMatches){const box=node('div','result-box');box.append(node('small','','EAR 官方搜索条目 · 原文'),node('strong','',window.EAR_CATALOG_ZH?.names[entry.name] || entry.name));if(window.EAR_CATALOG_ZH?.names[entry.name])box.append(node('p','',`EAR 德语名称：${entry.name}`));if(entry.english)box.append(node('p','',entry.english));box.append(node('p','',`候选设备类型：${entry.candidates.join('；')}`));if(entry.remarks.length)box.append(node('p','',`官方备注原文：${entry.remarks.join('；')}`));root.append(box);}
   }
-  if(userMatches.length){
+  if(false && userMatches.length){
     const details=node('details','directory-details user-evidence');details.open=isReview;details.append(node('summary','','查看产品词库参考类别')); 
     for(const item of userMatches){const category=item.categoryOptions?.length ? `第 ${item.categoryOptions.join(' / ')} 类` : '类别未单独标注';details.append(node('p','',`${item.name}：${category}（仅供对照，以 EAR 条目为准）`));}
     root.append(details);
   }
-  if(sourceWarning)root.append(node('p','source-warning',sourceWarning));
-  root.append(node('p','result-reason',reason+' 结果不是 EAR 官方决定，也不判断是否需要新增注册。'));
+  if(sourceWarning)root.append(node('p','source-warning','该产品可能因实际功能、用途或尺寸不同而归入不同类别，请以已确认的产品条件和 EAR 要求为准。'));
+  root.append(node('p','result-reason',reason+' 正式注册前，请结合产品资料与 EAR 要求复核。'));
   const actions=node('div','result-actions');const officialLink=node('a','primary','到 EAR 官方核对');officialLink.href='https://www.stiftung-ear.de/service/geraetezuordnung/';officialLink.target='_blank';officialLink.rel='noopener noreferrer';actions.append(officialLink);
-  const copy=node('button','secondary','复制结果');copy.type='button';copy.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(formatResult());$('feedback').textContent='已复制结果。';}catch{$('feedback').textContent='无法自动复制，请使用导出 JSON。';}});actions.append(copy);
-  const exportButton=node('button','secondary','导出 JSON');exportButton.type='button';exportButton.addEventListener('click',()=>{const blob=new Blob([JSON.stringify(resultData,null,2)],{type:'application/json'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='weee-classification.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);});actions.append(exportButton);
+  const copy=node('button','secondary','复制结果');copy.type='button';copy.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(formatResult());$('feedback').textContent='已复制结果。';}catch{$('feedback').textContent='无法自动复制，请使用导出结果。';}});actions.append(copy);
+  const exportButton=node('button','secondary','导出结果');exportButton.type='button';exportButton.addEventListener('click',()=>{const blob=new Blob([JSON.stringify(resultData,null,2)],{type:'application/json'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='weee-classification.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);});actions.append(exportButton);
   if(directMatch && profile.id==='official-router'){const verify=node('button','secondary','核对产品条件');verify.type='button';verify.addEventListener('click',()=>{directMatch=false;answers={};history=[];ask('household');});actions.append(verify);}
-  const edit=node('button','secondary',history.length?'修改答案':'修改产品');edit.type='button';edit.addEventListener('click',()=>{if(!history.length){$('status').textContent='本地初筛';showSection('start');$('product').focus();return;}const previous=history.pop();delete answers[previous];ask(previous);});actions.append(edit);root.append(actions,node('div','feedback',''));root.lastChild.id='feedback';
-  $('status').textContent=isReview?'人工复核':'初筛完成';showSection('result');heading.focus({preventScroll:true});
+  const edit=node('button','secondary',history.length?'修改答案':'修改产品');edit.type='button';edit.addEventListener('click',()=>{if(!history.length){$('status').textContent='产品查询';showSection('start');$('product').focus();return;}const previous=history.pop();delete answers[previous];ask(previous);});actions.append(edit);root.append(actions,node('div','feedback',''));root.lastChild.id='feedback';
+  $('status').textContent=isReview?'待确认':'分类建议';showSection('result');heading.focus({preventScroll:true});
 }
 function formatResult(){return [`德国 WEEE 分类初筛`,`产品：${resultData.product}`,`结果：${resultData.status}`,resultData.category?`类别：第 ${resultData.category.number} 类 ${resultData.category.name}`:'',resultData.deviceType?`候选设备类型：${resultData.deviceTypeChinese} / ${resultData.officialDirectory?.name || resultData.deviceType}`:'',resultData.officialProduct?`匹配依据：EAR 产品条目 ${resultData.officialProduct.name}（核对日期：${resultData.officialProduct.checked}）`:'',...resultData.userExamples.map(item=>`词库参考：${item.name}${item.categoryOptions.length ? `（第 ${item.categoryOptions.join(' / ')} 类）` : ''}`),resultData.sourceWarning?`资料差异：${resultData.sourceWarning}`:'',`说明：${resultData.reason}`,`提示：${resultData.notice}`,`官方核对：https://www.stiftung-ear.de/service/geraetezuordnung/`].filter(Boolean).join('\n');}
-$('begin').addEventListener('click',()=>{const value=$('product').value.trim();if(!value){$('input-error').textContent='请先输入产品名称。';$('product').focus();return;}$('input-error').textContent='';product=value;answers={};history=[];resultData=null;earProduct=findEarProduct(product);directMatch=false;catalogMatches=earProduct?[]:findCatalog(product);userMatches=findUserExamples(product);sourceWarning=getSourceWarning(product);
+function runExactQuery(input){const value=input.trim();if(!value){$('input-error').textContent='请先输入产品名称。';$('product').focus();return;}$('input-error').textContent='';product=value;answers={};history=[];resultData=null;earProduct=findEarProduct(product);directMatch=false;catalogMatches=earProduct?[]:findCatalog(product);userMatches=findUserExamples(product);sourceWarning=getSourceWarning(product);
   const userClasses=[...new Set(userMatches.flatMap(item=>item.category ? [item.category] : item.categoryOptions || []))];
   const officialClasses=officialCandidateClasses();
   if(userClasses.length && officialClasses.length && !earProduct?.verifiedOverride && userClasses.some(category=>!officialClasses.includes(category))){if(earProduct){sourceWarning=sourceWarning || '词库参考类别与已核对的 EAR 产品条目不同；请根据产品的实际条件核对，以下按 EAR 条目初筛。';}else{profile={id:'source-conflict'};renderResult('review','sourceConflict');return;}}
@@ -210,12 +212,77 @@ $('begin').addEventListener('click',()=>{const value=$('product').value.trim();i
     if(next.startsWith('result:')){renderResult(next.slice(7),'direct');return;}
     ask(next);return;
   }
-  profile=earProduct ? {id:earProduct.id,description:earProduct.description} : null;if(!profile){renderResult('review','unrecognized');return;}if(earProduct){if(profile.id==='official-personal-computer'||profile.id==='pv'){ask('confirm');}else if(profile.id==='official-peltier'){ask('peltier');}else if(earProduct.directKind){answers.household='yes';directMatch=true;renderResult(earProduct.directKind,'direct');}else if(profile.id==='official-fridge')ask('cooling');else ask('household');}else ask('confirm');});
+  profile=earProduct ? {id:earProduct.id,description:earProduct.description} : null;if(!profile){renderResult('review','unrecognized');return;}if(earProduct){if(profile.id==='official-personal-computer'||profile.id==='pv'){ask('confirm');}else if(profile.id==='official-peltier'){ask('peltier');}else if(earProduct.directKind){answers.household='yes';directMatch=true;renderResult(earProduct.directKind,'direct');}else if(profile.id==='official-fridge')ask('cooling');else ask('household');}else ask('confirm');}
 $('product').addEventListener('keydown',e=>{if(e.key==='Enter'){$('begin').click();}});
-$('change-product').addEventListener('click',()=>{answers={};history=[];resultData=null;earProduct=null;directMatch=false;catalogMatches=[];userMatches=[];sourceWarning=null;$('status').textContent='本地初筛';showSection('start');$('product').focus();});
-$('back').addEventListener('click',()=>{history.pop();if(!history.length){showSection('start');$('status').textContent='本地初筛';return;}const previous=history.pop();delete answers[previous];ask(previous);});
+$('change-product').addEventListener('click',()=>{if(activeMode==='guide'){resetGuide();return;}answers={};history=[];resultData=null;earProduct=null;directMatch=false;catalogMatches=[];userMatches=[];sourceWarning=null;$('status').textContent='产品查询';showSection('start');$('product').focus();});
+$('back').addEventListener('click',()=>{delete answers[history.pop()];if(!history.length){showSection('start');$('status').textContent='产品查询';return;}const previous=history.pop();delete answers[previous];ask(previous);});
 
 const suggestions=$('product-suggestions');
 const suggestionNames=new Set([...Object.values(window.EAR_CATALOG_ZH?.names || {}),...Object.keys(window.EAR_CATALOG_ALIASES || {}),...(window.USER_WEEE_EXAMPLES?.records || []).flatMap(item=>item.matchable?item.aliases:[])]);
 for(const name of suggestionNames){const option=document.createElement('option');option.value=name;suggestions.append(option);}
+showSection('start');
+
+// The guided route follows EAR's decision order. Name similarity only offers candidates.
+const guideQuestions = {
+ electric:{title:'产品是否依赖电力或电磁场工作？',detail:'包括使用电池、插电或太阳能供电的产品，以及用于产生、传输或测量电流的设备。',yes:'是，具有电气或电子功能',no:'否，不具有电气或电子功能'},
+ scope:{title:'是否涉及需要单独核实的产品情形？',detail:'例如普通白炽灯、单独电池或组件、复杂套装、大型固定工业设备、交通工具、军用／航天／专用研发设备，以及植入式或可能感染的医疗设备。高压设备或无法确认适用范围时请选择“不确定”。',yes:'是，涉及上述情形',no:'否，是普通完整设备'},
+ thermal:{title:'是否通过内置回路进行温度交换？',detail:'设备利用制冷剂、气体或油等非水物质制冷、加热或除湿。仅使用水、风扇或热电元件不直接归入这一类。',yes:'是，使用非水物质的内置回路',no:'否，不符合上述条件'},
+ screen:{title:'是否属于屏幕、显示器或相关显示设备？',detail:'独立显示器和电视不受屏幕大小限制；其他设备须以显示图像或信息为主要目的，且屏幕面积大于 100 cm²。',yes:'是，符合显示设备条件',no:'否，主要用途不是上述显示功能'},
+ light:{title:'是否为单独销售的灯或光源？',detail:'例如可替换的灯泡、灯管。完整台灯、吊灯、灯带等灯具请选择“否”，按后续设备条件判断。',yes:'是，属于独立光源',no:'否，是灯具或其他设备'},
+ pv:{title:'是否为独立光伏组件？',detail:'光伏组件将光能转为电能。带太阳能供电的成品设备（例如太阳能灯）请选择“否”。',yes:'是，独立光伏组件',no:'否，其他完整设备'},
+ ict:{title:'主要用途是否为信息处理或通信？',detail:'例如收集、传输、处理、存储和显示信息，或远距离传输语音、视频和数据。',yes:'是，信息或通信设备',no:'否，其他用途'}
+};
+let activeMode='name', lastRendered=null;
+const modeDrafts={name:null,guide:null};
+const originalRenderResult=renderResult;
+renderResult=function(kind,key){lastRendered={kind,key};originalRenderResult(kind,key);};
+function guideNext(key,value){
+ if(key==='electric')return value==='yes'?'scope':'review';
+ if(key==='scope')return value==='no'?'household':'review';
+ if(key==='household')return 'thermal';
+ if(key==='thermal')return value==='yes'?'result:thermal':'screen';
+ if(key==='screen')return value==='yes'?'result:screen':'light';
+ if(key==='light')return value==='yes'?(answers.household==='yes'?'gas':'result:lamp'):'size';
+ if(key==='gas')return value==='yes'?'result:gas':'result:lamp';
+ if(key==='size')return 'pv';
+ if(key==='pv')return value==='yes'?(answers.size==='yes'?'result:largePV':'result:smallPV'):(answers.size==='yes'?'result:large':'ict');
+ if(key==='ict')return value==='yes'?'result:ict':'result:small';
+ return 'review';
+}
+function captureMode(){return {product,answers:{...answers},history:[...history],resultData,profile,earProduct,directMatch,catalogMatches,userMatches,sourceWarning,lastRendered,lastView:!$('start').hidden?'start':!$('question-area').hidden?'question-area':'result',input:$('product').value,related:[...$('related-products').childNodes]};}
+function resetGuide(){product=$('product').value.trim()||'条件引导中的产品';answers={};history=[];resultData=null;profile={id:'guide'};earProduct=null;directMatch=false;catalogMatches=[];userMatches=[];sourceWarning=null;lastRendered=null;ask('electric');}
+function setMode(mode){
+ if(mode===activeMode)return;
+ modeDrafts[activeMode]=captureMode();activeMode=mode;
+ for(const m of ['name','guide']){$('mode-'+m).setAttribute('aria-selected',String(mode===m));$('mode-'+m).tabIndex=mode===m?0:-1;}
+ $('classification-panel').setAttribute('aria-labelledby','mode-'+mode);
+ $('mode-hint').textContent=mode==='name'?'输入名称，查找相关产品与分类建议。':'按实际功能和规格确认条件，逐步获得分类建议。';
+ const saved=modeDrafts[mode];
+ if(saved){({product,answers,history,resultData,profile,earProduct,directMatch,catalogMatches,userMatches,sourceWarning,lastRendered}=saved);$('product').value=saved.input;$('related-products').replaceChildren(...saved.related);if(saved.lastView==='question-area'){const key=history.pop();ask(key);}else if(saved.lastView==='result'){renderResult(lastRendered.kind,lastRendered.key);}else{showSection('start');$('status').textContent='产品查询';}}
+ else if(mode==='guide')resetGuide();
+ else{answers={};history=[];resultData=null;earProduct=null;profile=null;lastRendered=null;showSection('start');$('status').textContent='产品查询';}
+}
+$('mode-name').addEventListener('click',()=>setMode('name'));
+$('mode-guide').addEventListener('click',()=>setMode('guide'));
+for(const mode of ['name','guide'])$('mode-'+mode).addEventListener('keydown',e=>{if(['ArrowLeft','ArrowRight','Home','End'].includes(e.key)){e.preventDefault();const next=e.key==='Home'?'name':e.key==='End'?'guide':activeMode==='name'?'guide':'name';setMode(next);$('mode-'+next).focus();}});
+function productCandidates(query){
+ const key=nameKey(query),candidates=[];
+ for(const e of window.EAR_PRODUCTS||[])candidates.push({label:e.aliases[0],lookup:e.aliases[0],official:e.officialName,terms:e.aliases,classes:e.directKind?[categories[e.directKind][0]]:({'official-luminaire':[4,5],'official-personal-computer':[4,6],'official-fridge':[1,4,5],'official-compressor':[1],'official-thermoelectric':[4,5],'official-peltier':[4,5],pv:[4,5]}[e.id]||[])});
+ for(const e of window.EAR_PRODUCT_CATALOG?.entries||[]){const zh=window.EAR_CATALOG_ZH?.names[e.name];candidates.push({label:zh||e.name,lookup:e.name,official:e.name,classes:[...new Set((catalogVariants(e)||[]).map(v=>categories[v.kind][0]))],terms:[e.name,e.english,zh,...Object.entries(window.EAR_CATALOG_ALIASES||{}).filter(([,de])=>de===e.name).map(([cn])=>cn)].filter(Boolean)});}
+ const grams=x=>{const v=nameKey(x);return new Set(v.length<2?[v]:Array.from({length:v.length-1},(_,i)=>v.slice(i,i+2)));};
+ const q=grams(query);const score=term=>{const t=nameKey(term);if(t===key)return 1;if(t.includes(key)||key.includes(t))return Math.min(t.length,key.length)/Math.max(t.length,key.length)*.8;const g=grams(term),common=[...q].filter(v=>g.has(v)).length;return 2*common/(q.size+g.size);};
+ const seen=new Set();return candidates.map(c=>({...c,score:Math.max(...c.terms.map(score))})).filter(c=>c.score>=.28).sort((a,b)=>b.score-a.score).filter(c=>{if(seen.has(c.official))return false;seen.add(c.official);return true;}).slice(0,5);
+}
+function nameQuery(){
+ const value=$('product').value.trim();$('related-products').replaceChildren();
+ if(!value){$('input-error').textContent='请输入产品名称后查询。';$('product').focus();return;}
+ if(findEarProduct(value)||findCatalog(value).length){runExactQuery(value);return;}
+ const found=productCandidates(value);product=value;answers={};history=[];resultData=null;earProduct=null;profile=null;lastRendered=null;showSection('start');$('input-error').textContent='';
+ const root=$('related-products'),title=document.createElement('h3');title.className='related-title';title.textContent=found.length?'选择与你的产品最接近的条目':'暂未找到相关产品';root.append(title);const note=document.createElement('p');note.className='related-note';note.textContent=found.length?'名称相近不代表类别相同。请确认实际产品后选择，或切换条件引导。':'可尝试常见名称，或切换条件引导继续判断。';root.append(note);
+ const list=document.createElement('div');list.className='related-list';
+ for(const c of found){const b=document.createElement('button');b.type='button';b.className='related-item';const label=document.createElement('strong'),detail=document.createElement('small');label.textContent=c.label;detail.textContent=c.official+(c.classes.length?` · 候选第 ${c.classes.join(' / ')} 类，需确认产品条件`:' · 需核实产品条件');b.append(label,detail);b.addEventListener('click',()=>{$('product').value=c.label;runExactQuery(c.lookup);});list.append(b);}root.append(list);
+}
+$('begin').addEventListener('click',nameQuery);
+$('product').addEventListener('input',()=>{$('related-products').replaceChildren();$('input-error').textContent='';});
+for(const button of document.querySelectorAll('[data-example]'))button.addEventListener('click',()=>{$('product').value=button.dataset.example;nameQuery();});
 showSection('start');

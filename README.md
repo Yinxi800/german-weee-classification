@@ -5,12 +5,12 @@
 [![在线使用](https://img.shields.io/badge/在线使用-GitHub%20Pages-brightgreen)](https://yinxi800.github.io/german-weee-classification/)
 [![隐私](https://img.shields.io/badge/产品信息-浏览器本地处理-success)](https://yinxi800.github.io/german-weee-classification/)
 
-输入产品名称，匹配 EAR 产品条目并获取初步分类建议。产品信息在浏览器本地处理。
+通过产品名称查询或条件引导，获取德国 WEEE 初步分类建议。产品信息在浏览器本地处理。
 
 ## 核心功能
 
-- **🔎 产品匹配**：支持中文、德语和英语产品名称。
-- **💬 条件确认**：根据产品情况询问用途、尺寸等关键条件。
+- **🔎 产品匹配**：支持中文、德语和英语名称；未命中时提供相关产品候选。
+- **💬 条件引导**：按功能、用途和尺寸逐步判断，两种方式可随时切换并保留当前进度。
 - **📋 结果导出**：查看分类建议、复制结果或导出 JSON。
 - **🔗 官方核对**：提供 EAR 官方查询入口和分类依据。
 

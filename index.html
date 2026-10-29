@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="根据产品条件初步判断德国 WEEE 类别与设备类型。">
-  <title>德国 WEEE 分类初筛</title>
+  <title>德国 WEEE 产品分类</title>
   <link rel="stylesheet" href="./style.css">
   <script src="./data/ear-directory.js" defer></script>
   <script src="./data/ear-products.js" defer></script>
@@ -15,17 +15,21 @@
   <script src="./app.js" defer></script>
 </head>
 <body>
-  <header class="topbar"><div class="wrap top-inner"><a class="brand" href="./"><span class="brand-mark">W</span><span>WEEE <small>分类初筛</small></span></a><a class="top-link" href="https://www.stiftung-ear.de/service/geraetezuordnung/" target="_blank" rel="noopener noreferrer">EAR 官方查询 </a></div></header>
-  <main class="wrap">
-    <section class="hero"><h1>德国 WEEE <em>分类初筛</em></h1><p>输入产品名称，匹配官方产品条目；必要时确认关键条件。</p><div class="hero-meta" aria-label="分类步骤"><span>01 输入产品</span><i></i><span>02 确认条件</span><i></i><span>03 核对结果</span></div></section>
-    <div class="layout">
-      <section class="work-card" aria-labelledby="work-title"><div class="card-head"><div><h2 id="work-title">开始分类</h2></div><span class="status" id="status">本地初筛</span></div>
-        <div id="start"><label class="field-label" for="product">产品名称 <span>必填</span></label><p class="hint">输入中文或其他语言名称，例如：LED 台灯、蓝牙音箱。</p><div class="input-row"><input id="product" list="product-suggestions" maxlength="120" placeholder="请输入产品名称" autocomplete="off"><button class="primary" id="begin" type="button">开始确认</button></div><datalist id="product-suggestions"></datalist><p class="input-error" id="input-error" role="alert"></p><div class="name-note"><p>支持中文输入；中文名称为非官方译名，未覆盖或有歧义时需核对。</p></div></div>
-        <div id="question-area" hidden><div class="product-line"><span>当前产品</span><strong id="product-label"></strong><button class="text-button" id="change-product" type="button">修改</button></div><div class="recognition" id="recognition" hidden></div><div class="question-progress" id="question-progress"></div><h3 id="question-title" tabindex="-1"></h3><p class="question-detail" id="question-detail"></p><div id="choices" class="choices"></div><div class="question-actions"><button class="text-button back" id="back" type="button">上一步</button><span>不确定时请选择「不确定」</span></div></div>
-        <div id="result" hidden aria-live="polite"></div>
-      </section>
-      <aside><div class="side-card"><h2>判断前了解一下</h2><div class="side-step"><b>01</b><div><strong>确认实际产品</strong><p>先匹配已核对的 EAR 产品条目；未匹配时转人工复核。</p></div></div><div class="side-step"><b>02</b><div><strong>回答关键问题</strong><p>能明确匹配时直接给出建议；必要时确认关键条件。</p></div></div><div class="side-step"><b>03</b><div><strong>到 EAR 核对</strong><p>初筛提供候选类别；注册前请核实设备类型。设备目录来自 EAR 生产接口的已同步数据。</p></div></div></div><div class="side-note"><p>初筛不判断是否需要新增注册。还需核对责任主体、品牌及已有注册覆盖范围。</p></div></aside>
-    </div>
-    <section class="sources"><div><h2>依据与使用说明</h2><p>本工具根据公开资料整理，供初步筛查。官方产品词库为部分搜索结果，设备目录为接口同步快照；两者均非实时查询。特殊产品、组件、套装及排除情形需进一步核实。</p></div><div class="source-links"><a href="https://www.gesetze-im-internet.de/elektrog_2015/__2.html" target="_blank" rel="noopener noreferrer"><div><b>德国 ElektroG 第 2 条</b><small>适用范围与六大类别</small></div></a><a href="https://www.gesetze-im-internet.de/elektrog_2015/anlage_1.html" target="_blank" rel="noopener noreferrer"><div><b>ElektroG 附录 1</b><small>非穷尽产品示例</small></div></a><a href="https://www.stiftung-ear.de/service/geraetezuordnung/" target="_blank" rel="noopener noreferrer"><div><b>EAR 官方设备分类工具</b><small>产品查询与决策辅助</small></div></a><a href="https://ear-system.de/ear-soap/v2/doc/service_ear_VerzeichnisService.html" target="_blank" rel="noopener noreferrer"><div><b>EAR 目录接口文档</b><small>设备类型目录，非产品自动判类接口</small></div></a></div></section>
-  </main><footer class="wrap"><span>德国 WEEE 分类初筛</span><span>依据核对日期：2026-10-29 · 结果仅供初步参考</span></footer>
+<header class="topbar"><div class="wrap top-inner"><a class="brand" href="./"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 6l3 12 4-9 4 9 3-12"/></svg></span><span>WEEE <small>德国设备分类</small></span></a><a class="top-link" href="https://www.stiftung-ear.de/service/geraetezuordnung/" target="_blank" rel="noopener noreferrer">EAR 官方查询 <span aria-hidden="true">↗</span></a></div></header>
+<main class="wrap">
+<section class="hero"><h1>找到产品的<br><em>德国 WEEE 类别。</em></h1><p>从产品名称开始，或通过关键条件逐步判断。</p></section>
+<div class="layout">
+<section class="workspace" aria-label="产品分类工作区">
+<div class="mode-switch" role="tablist" aria-label="选择分类方式"><button type="button" id="mode-name" role="tab" aria-selected="true" aria-controls="classification-panel">产品名称查询</button><button type="button" id="mode-guide" role="tab" aria-selected="false" aria-controls="classification-panel">条件引导分类</button></div>
+<p class="mode-hint" id="mode-hint">输入名称，查找相关产品与分类建议。</p>
+<div class="work-card" id="classification-panel" role="tabpanel" aria-labelledby="mode-name"><div class="card-head"><h2 id="work-title">查询产品</h2><span class="status" id="status">产品查询</span></div>
+<div id="start"><label class="field-label" for="product">产品名称</label><p class="hint">建议填写具体产品，例如「LED 台灯」或「无线路由器」。</p><div class="input-row"><input id="product" list="product-suggestions" maxlength="120" placeholder="输入产品名称" autocomplete="off"><button class="primary" id="begin" type="button">查询分类</button></div><datalist id="product-suggestions"></datalist><p class="input-error" id="input-error" role="alert"></p><div class="quick-examples" aria-label="试试这些产品"><span>试试</span><button type="button" data-example="LED台灯">LED 台灯</button><button type="button" data-example="路由器">路由器</button><button type="button" data-example="电脑主机">电脑主机</button></div><div class="name-note"><p>没有找到合适的产品？可随时切换「条件引导分类」。</p></div><div id="related-products" aria-live="polite"></div></div>
+<div id="question-area" hidden><div class="product-line"><span>当前产品</span><strong id="product-label"></strong><button class="text-button" id="change-product" type="button">重新开始</button></div><div class="recognition" id="recognition" hidden></div><div class="question-progress" id="question-progress"></div><h3 id="question-title" tabindex="-1"></h3><p class="question-detail" id="question-detail"></p><div id="choices" class="choices"></div><div class="question-actions"><button class="text-button back" id="back" type="button">上一步</button><span>信息不足可选择「不确定」</span></div></div>
+<div id="result" hidden aria-live="polite"></div>
+</div><p class="session-note">两种方式可随时切换，当前进度将为你保留。</p>
+</section>
+<aside class="reference-panel"><h2>六大设备类别</h2><p>按设备功能和规格区分</p><ol class="category-list"><li><span>1</span><div><strong>温度交换设备</strong><small>如使用制冷剂的冰箱、空调</small></div></li><li><span>2</span><div><strong>屏幕与显示设备</strong><small>如显示器、电视、笔记本电脑</small></div></li><li><span>3</span><div><strong>灯</strong><small>如 LED 灯泡、荧光灯管</small></div></li><li><span>4</span><div><strong>大型设备</strong><small>符合条件且任一外部尺寸 ＞ 50 cm</small></div></li><li><span>5</span><div><strong>小型设备</strong><small>符合条件且外部尺寸均 ≤ 50 cm</small></div></li><li><span>6</span><div><strong>小型信息和通信设备</strong><small>如手机、路由器、电脑鼠标</small></div></li></ol><div class="reference-note">类别建议用于注册前的产品梳理。实际注册还需核对品牌、责任主体及设备用途。</div></aside>
+</div>
+<details class="sources"><summary>分类依据与服务说明</summary><p>分类依据 EAR 产品条目及设备分类规则。产品词库为部分资料的整理版本，非实时查询；同名产品可能因功能、用途或尺寸不同而归入不同类别。结果供初步参考，正式注册前请核对 EAR 要求。</p><div class="source-links"><a href="https://www.stiftung-ear.de/service/geraetezuordnung/" target="_blank" rel="noopener noreferrer">EAR 设备分类工具 ↗</a><a href="https://www.gesetze-im-internet.de/elektrog_2015/__2.html" target="_blank" rel="noopener noreferrer">ElektroG 第 2 条 ↗</a><a href="https://www.gesetze-im-internet.de/elektrog_2015/anlage_1.html" target="_blank" rel="noopener noreferrer">设备类别示例 ↗</a></div></details>
+</main><footer class="wrap"><span>德国 WEEE 分类工具</span><span>产品信息在当前浏览器内处理</span></footer>
 </body></html>
