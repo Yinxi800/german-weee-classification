@@ -23,3 +23,9 @@
 ## 使用说明
 
 本工具用于初步筛查，不替代 EAR 官方决定或注册审核。EAR 产品词库是部分搜索结果的本地快照，并非完整数据库或实时查询；未匹配或条件不明确的产品需要进一步核实。
+
+## 开发维护
+
+名称索引、产品资料、判定规则和证据分别保存在 `data/names.js`、`data/products.js`、`lib/classification-engine.js` 和 `data/evidence.js`。新增产品可关联已有规则，无需修改页面判断分支。官方原始示例与人工整理说明分开标记，未覆盖的特殊条件仍进入复核。
+
+使用 Node.js 运行 `node tests/engine.test.cjs` 和 `node tests/knowledge.test.cjs`；浏览器交互测试为 `tests/browser.test.cjs`，需要 Playwright。
