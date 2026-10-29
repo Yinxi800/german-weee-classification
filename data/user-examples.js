@@ -1967,13 +1967,12 @@ window.USER_WEEE_EXAMPLES = {
     },
     {
       "name": "钟变压器",
-      "matchable": true,
+      "matchable": false,
       "aliases": [
         "钟变压器"
       ],
-      "categoryOptions": [
-        5
-      ]
+      "categoryOptions": [],
+      "note": "旧资料中的含糊名称，未核实产品原义，不用于推荐或分类"
     },
     {
       "name": "KNX设备 (Konnex)",

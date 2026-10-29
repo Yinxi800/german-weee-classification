@@ -285,6 +285,7 @@ window.EAR_CATALOG_ZH = {
     "Stoppuhr": "电子秒表",
     "Schachuhr": "电子棋钟",
     "Uhrenbeweger": "摇表器",
-    "Uhrenprüfer": "钟表检测仪"
+    "Uhrenprüfer": "钟表检测仪",
+    "Klingeltransformator": "门铃变压器"
   }
 };

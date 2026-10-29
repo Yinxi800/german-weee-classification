@@ -3996,6 +3996,20 @@ window.EAR_PRODUCT_CATALOG = {
       "queries": [
         "Uhr"
       ]
+    },
+    {
+      "name": "Klingeltransformator",
+      "english": "Door bell transformer",
+      "candidates": [
+        "Nicht im Anwendungsbereich"
+      ],
+      "remarks": [
+        "Einfacher Klingeltrafo ohne Zusatzfunktionen. Auch auf Hutschiene nicht registrierungspflichtig."
+      ],
+      "queries": [
+        "Transformator",
+        "Klingel"
+      ]
     }
   ]
 };

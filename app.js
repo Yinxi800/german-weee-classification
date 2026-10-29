@@ -190,6 +190,7 @@ function renderResult(kind,lastKey){
   if(!isReview && profile?.smartForm)reason='依据已匹配的 EAR 条目、自动采用的适用条件及已填写的关键规格生成建议。';
   if(isReview && profile?.smartForm && nameScopeKeys.includes(lastKey))reason='当前产品不符合这条判定路径的关键适用条件，请改用条件引导或查询更具体的产品。';
   if(!isReview && profile?.sizeRuleDerived)reason='本建议结合 EAR 产品条目的适用条件、通用分类规则和已确认规格生成；搜索示例不视为唯一类别。';
+  if(isReview && earProduct?.officialName==='Klingeltransformator')reason='EAR 将没有附加功能的简单门铃变压器列为不在适用范围，即使安装在 DIN 导轨上也是如此。如带其他电气功能，需另行核实；不能按这个简单门铃变压器示例直接判断。';
   const publicDirectory=official ? {name:official.name,fetchedAt:official.fetchedAt,source:official.source} : null;
   resultData={product:activeMode==='guide'?null:product, status:isReview?'需要人工复核':'初步分类建议',category:isReview?null:{number:info[0],name:info[1]},deviceType:isReview?null:deviceName(kind,answers.household),deviceTypeChinese:isReview?null:`${kind==='lamp' && answers.household==='no'?'灯':deviceLabels[kind]}（${answers.household==='yes'?'可用于私人家庭':'仅限非私人家庭'}）`,household:answers.household==='yes'?'可用于私人家庭':answers.household==='no'?'仅限非私人家庭':null,reason,answers:[...history,...Object.keys(profile?.carriedAnswers||{}).filter(key=>!history.includes(key))].map(key=>({question:questionFor(key).title,detail:questionFor(key).detail,answer:answers[key]==='unknown'?'不确定':answers[key]==='yes'?questionFor(key).yes:questionFor(key).no})),sourceChecked:'2026-10-29',officialProduct:earProduct ? {name:officialProductName,query:earProduct.query,checked:earProduct.checked,note:earProduct.note,sourceUrl:'https://www.stiftung-ear.de/service/geraetezuordnung/'} : null,catalogMatches:catalogMatches.map(entry=>({name:entry.name,chineseName:window.EAR_CATALOG_ZH?.names[entry.name] || null,english:entry.english,candidates:entry.candidates,remarks:entry.remarks,queries:entry.queries,sourceEntryCount:entry.sourceEntryCount||1})),matchMode:directMatch?'官方条目直接匹配':earProduct?'官方条目加条件确认':'EAR 条件引导',assumptions:directMatch?earProduct.assumptions:nameAssumptions(),automaticAnswers:profile?.automaticAnswers|| (profile?.namePump?{builtInPump:{value:'yes',source:'产品名称明确为内置电泵'}}:{}),classificationRule:profile?.sizeRuleDerived?{basis:'EAR 产品条目的适用条件及通用分类规则',sourceUrl:'https://www.stiftung-ear.de/service/geraetezuordnung/',derived:true}:null,officialDirectory:publicDirectory,userExamples:userMatches.map(item=>({name:item.name,categoryOptions:item.categoryOptions || []})),sourceWarning,officialLiveApiConnected:false,notice:'仅供初筛，不等于 EAR 官方决定或注册结论。'};
   const root=$('result');root.replaceChildren();
@@ -294,7 +295,7 @@ $('mode-guide').addEventListener('click',()=>setMode('guide'));
 for(const mode of ['name','guide'])$('mode-'+mode).addEventListener('keydown',e=>{if(['ArrowLeft','ArrowRight','Home','End'].includes(e.key)){e.preventDefault();const next=e.key==='Home'?'name':e.key==='End'?'guide':activeMode==='name'?'guide':'name';setMode(next);$('mode-'+next).focus();}});
 function meterTypeCandidates(query){
  const key=nameKey(query),clock=['挂钟','电子／石英腕表','智能手表','电子秒表','电子棋钟','摇表器','钟表检测仪'],measuring=['万用表','其他电气测量仪表'];
- const groups={'表':[...clock,...measuring],'钟表':clock,'手表':['电子／石英腕表','智能手表'],'仪表':measuring,'测量仪表':measuring,'计时表':['电子秒表','电子棋钟','定时开关']};
+ const groups={'表':[...clock,...measuring],'钟表':clock,'石英表':['挂钟','电子／石英腕表'],'手表':['电子／石英腕表','智能手表'],'仪表':measuring,'测量仪表':measuring,'计时表':['电子秒表','电子棋钟','定时开关']};
  if(!groups[key])return null;
  const lookup={'电子／石英腕表':'Uhr, Armbanduhr','其他电气测量仪表':'Messgerät'};
  return groups[key].map(label=>{const term=lookup[label]||label,e=findEarProduct(term),entry=findCatalog(term)[0];return {label,lookup:term,official:e?.officialName||entry?.name,classes:entry?.name==='Uhr, Wanduhr'?[4,5]:e?.directKind?[categories[e.directKind][0]]:[...new Set((catalogVariants(entry)||[]).map(v=>categories[v.kind][0]))]};});
@@ -313,7 +314,7 @@ function nameQuery(){
  const types=meterTypeCandidates(value);
  if(!types&&(findEarProduct(value)||findCatalog(value).length)){runExactQuery(value);return;}
  const found=types||productCandidates(value);product=value;answers={};history=[];resultData=null;earProduct=null;profile=null;lastRendered=null;showSection('start');$('input-error').textContent='';
- const root=$('related-products'),title=document.createElement('h3');title.className='related-title';title.textContent=types?'请选择具体的表类产品':found.length?'选择与你的产品最接近的条目':'暂未找到相关产品';root.append(title);const note=document.createElement('p');note.className='related-note';note.textContent=types?'钟表与测量仪表按不同用途区分。以下钟表条目适用于具有电气功能的产品；纯机械产品请使用条件引导确认适用范围。':found.length?'名称相近不代表类别相同。请确认实际产品后选择，或切换条件引导。':'可尝试常见名称，或切换条件引导继续判断。';root.append(note);
+ const root=$('related-products'),title=document.createElement('h3');title.className='related-title';title.textContent=types?'请选择具体的表类产品':found.length?'选择与你的产品最接近的条目':'暂未找到相关产品';root.append(title);const note=document.createElement('p');note.className='related-note';note.textContent=nameKey(value)==='钟变压器'?'“钟变压器”是旧资料中的含糊名称，已停止推荐。以下仅是相近名称，请按实际用途选择；门铃供电设备与钟表属于不同产品。':types?'钟表与测量仪表按不同用途区分。以下钟表条目适用于具有电气功能的产品；纯机械产品请使用条件引导确认适用范围。':found.length?'名称相近不代表类别相同。请确认实际产品后选择，或切换条件引导。':'可尝试常见名称，或切换条件引导继续判断。';root.append(note);
  const list=document.createElement('div');list.className='related-list';
  for(const c of found){const b=document.createElement('button');b.type='button';b.className='related-item';const label=document.createElement('strong'),detail=document.createElement('small');label.textContent=c.label;detail.textContent=c.official+(c.classes.length?` · 候选第 ${c.classes.join(' / ')} 类，需确认产品条件`:' · 需核实产品条件');b.append(label,detail);b.addEventListener('click',()=>{$('product').value=c.label;runExactQuery(c.lookup,c.label);});list.append(b);}root.append(list);
 }
@@ -460,7 +461,7 @@ function prepareCatalogPlan(entry){
    'Alle Geräte zum Einbau in einen PC sind Kleine Geräte der Informations- und Telekommunikationstechnik':'供 PC 内部安装的设备',
    'Diese Geräte sind Bildschirmgeräte, unabhängig von der Bildschirmgröße.':'该类独立显示设备不受屏幕尺寸限制',
    'Mobiltelefone sind Kleine Geräte der Informations- und Telekommunikationstechnik, unabhängig von der Bildschirmgröße.':'手机按信息通信设备处理，不按屏幕设备处理',
-   'Alle kleinen Uhren (auch Quarzuhren, Smartwatches, Fitnesstracker usw., ob mit oder ohne SIM-Karte, ob mit oder ohne WLAN usw.) sind immer Kleingeräte.':'小型手表及可穿戴手表按小型设备处理',
+   'Alle kleinen Uhren (auch Quarzuhren, Smartwatches, Fitnesstracker usw., ob mit oder ohne SIM-Karte, ob mit oder ohne WLAN usw.) sind immer Kleingeräte.':'普通小型腕表（含石英表、智能手表、健身追踪器）按第5类处理；SIM卡或Wi-Fi功能不改变此条目的分类',
    'Alle tragbaren Uhren, auch mit smarten Funktionen, sind Kleingeräte.':'可穿戴手表按小型设备处理',
    'WLAN-Gerät im engeren Sinne, wie Router, Repeater, Extender usw.':'普通 WLAN 路由、转发或扩展设备',
    'Ein Gerät ist auch dann eine Leuchte, wenn es fest eingebaute, nicht werkzeuglos tauschbare Leuchtmittel (LEDs) enthält.':'完整灯具，固定 LED 不作为独立光源处理',
