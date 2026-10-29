@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="根据产品条件初步判断德国 WEEE 类别与设备类型。">
+  <title>德国 WEEE 分类初筛</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./data/ear-directory.js" defer></script>
+  <script src="./data/ear-products.js" defer></script>
+  <script src="./data/ear-product-catalog.js" defer></script>
+  <script src="./data/ear-catalog-aliases.js" defer></script>
+  <script src="./data/ear-catalog-zh.js" defer></script>
+  <script src="./data/user-examples.js" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <header class="topbar"><div class="wrap top-inner"><a class="brand" href="./"><span class="brand-mark">W</span><span>WEEE <small>分类初筛</small></span></a><a class="top-link" href="https://www.stiftung-ear.de/service/geraetezuordnung/" target="_blank" rel="noopener noreferrer">EAR 官方查询 </a></div></header>
+  <main class="wrap">
+    <section class="hero"><h1>德国 WEEE <em>分类初筛</em></h1><p>输入产品名称，匹配官方产品条目；必要时确认关键条件。</p><div class="hero-meta" aria-label="分类步骤"><span>01 输入产品</span><i></i><span>02 确认条件</span><i></i><span>03 核对结果</span></div></section>
+    <div class="layout">
+      <section class="work-card" aria-labelledby="work-title"><div class="card-head"><div><h2 id="work-title">开始分类</h2></div><span class="status" id="status">本地初筛</span></div>
+        <div id="start"><label class="field-label" for="product">产品名称 <span>必填</span></label><p class="hint">输入中文或其他语言名称，例如：LED 台灯、蓝牙音箱。</p><div class="input-row"><input id="product" list="product-suggestions" maxlength="120" placeholder="请输入产品名称" autocomplete="off"><button class="primary" id="begin" type="button">开始确认</button></div><datalist id="product-suggestions"></datalist><p class="input-error" id="input-error" role="alert"></p><div class="name-note"><p>支持中文输入；中文名称为非官方译名，未覆盖或有歧义时需核对。</p></div></div>
+        <div id="question-area" hidden><div class="product-line"><span>当前产品</span><strong id="product-label"></strong><button class="text-button" id="change-product" type="button">修改</button></div><div class="recognition" id="recognition" hidden></div><div class="question-progress" id="question-progress"></div><h3 id="question-title" tabindex="-1"></h3><p class="question-detail" id="question-detail"></p><div id="choices" class="choices"></div><div class="question-actions"><button class="text-button back" id="back" type="button">上一步</button><span>不确定时请选择「不确定」</span></div></div>
+        <div id="result" hidden aria-live="polite"></div>
+      </section>
+      <aside><div class="side-card"><h2>判断前了解一下</h2><div class="side-step"><b>01</b><div><strong>确认实际产品</strong><p>先匹配已核对的 EAR 产品条目，再尝试本地规则。</p></div></div><div class="side-step"><b>02</b><div><strong>回答关键问题</strong><p>能明确匹配时直接给出建议；必要时确认关键条件。</p></div></div><div class="side-step"><b>03</b><div><strong>到 EAR 核对</strong><p>初筛提供候选类别；注册前请核实设备类型。设备目录来自 EAR 生产接口的已同步数据。</p></div></div></div><div class="side-note"><p>初筛不判断是否需要新增注册。还需核对责任主体、品牌及已有注册覆盖范围。</p></div></aside>
+    </div>
+    <section class="sources"><div><h2>依据与使用说明</h2><p>本工具根据公开资料整理，供初步筛查。官方产品词库为部分搜索结果，设备目录为接口同步快照；两者均非实时查询。特殊产品、组件、套装及排除情形需进一步核实。</p></div><div class="source-links"><a href="https://www.gesetze-im-internet.de/elektrog_2015/__2.html" target="_blank" rel="noopener noreferrer"><div><b>德国 ElektroG 第 2 条</b><small>适用范围与六大类别</small></div></a><a href="https://www.gesetze-im-internet.de/elektrog_2015/anlage_1.html" target="_blank" rel="noopener noreferrer"><div><b>ElektroG 附录 1</b><small>非穷尽产品示例</small></div></a><a href="https://www.stiftung-ear.de/service/geraetezuordnung/" target="_blank" rel="noopener noreferrer"><div><b>EAR 官方设备分类工具</b><small>产品查询与决策辅助</small></div></a><a href="https://ear-system.de/ear-soap/v2/doc/service_ear_VerzeichnisService.html" target="_blank" rel="noopener noreferrer"><div><b>EAR 目录接口文档</b><small>设备类型目录，非产品自动判类接口</small></div></a></div></section>
+  </main><footer class="wrap"><span>德国 WEEE 分类初筛</span><span>依据核对日期：2026-10-29 · 结果仅供初步参考</span></footer>
+</body></html>
