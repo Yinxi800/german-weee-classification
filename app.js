@@ -149,7 +149,7 @@ function ask(key){
   $('question-progress').textContent=`问题 ${history.length}`;
   $('question-title').textContent=q.title; $('question-detail').textContent=q.detail;
   const choices=$('choices'); choices.replaceChildren();
-  for(const [value,label] of [['yes',q.yes],['no',q.no],['unknown','不确定']]){
+  for(const [value,label] of [['yes',q.yes],['no',q.no]]){
     const button=document.createElement('button');button.type='button';button.className='choice';
     const text=document.createElement('span');text.textContent=label;button.append(text);
     button.addEventListener('click',()=>{answers[key]=value;const next=nextKey(key,value);if(next==='review') renderResult('review',key);else if(next.startsWith('result:')) renderResult(next.slice(7),key);else ask(next);});choices.append(button);
@@ -184,8 +184,9 @@ function renderResult(kind,lastKey){
   }else if(isReview && answers[lastKey]==='unknown')reason=`还没有确认：${questionFor(lastKey).title} 请补充这项信息后继续。`;
   if(!isReview && profile?.smartForm)reason='依据已匹配的 EAR 条目、自动采用的适用条件及已填写的关键规格生成建议。';
   if(isReview && profile?.smartForm && ['refrigerant','finishedCable','noRefrigerant'].includes(lastKey))reason='当前产品不符合该 EAR 条目的关键适用条件，请改用条件引导或查询更具体的产品。';
+  if(!isReview && profile?.sizeRuleDerived)reason='EAR 搜索示例列出的设备类型并非唯一类别；官方备注明确按外部尺寸区分大小设备。本建议根据该备注、EAR 分类规则及已确认尺寸生成。';
   const publicDirectory=official ? {name:official.name,fetchedAt:official.fetchedAt,source:official.source} : null;
-  resultData={product:activeMode==='guide'?null:product, status:isReview?'需要人工复核':'初步分类建议',category:isReview?null:{number:info[0],name:info[1]},deviceType:isReview?null:deviceName(kind,answers.household),deviceTypeChinese:isReview?null:`${kind==='lamp' && answers.household==='no'?'灯':deviceLabels[kind]}（${answers.household==='yes'?'可用于私人家庭':'仅限非私人家庭'}）`,household:answers.household==='yes'?'可用于私人家庭':answers.household==='no'?'仅限非私人家庭':null,reason,answers:[...history,...Object.keys(profile?.carriedAnswers||{}).filter(key=>!history.includes(key))].map(key=>({question:questionFor(key).title,detail:questionFor(key).detail,answer:answers[key]==='unknown'?'不确定':answers[key]==='yes'?questionFor(key).yes:questionFor(key).no})),sourceChecked:'2026-10-29',officialProduct:earProduct ? {name:officialProductName,query:earProduct.query,checked:earProduct.checked,note:earProduct.note,sourceUrl:'https://www.stiftung-ear.de/service/geraetezuordnung/'} : null,catalogMatches:catalogMatches.map(entry=>({name:entry.name,chineseName:window.EAR_CATALOG_ZH?.names[entry.name] || null,english:entry.english,candidates:entry.candidates,remarks:entry.remarks,queries:entry.queries})),matchMode:directMatch?'官方条目直接匹配':earProduct?'官方条目加条件确认':'EAR 条件引导',assumptions:directMatch?earProduct.assumptions:nameAssumptions(),automaticAnswers:profile?.automaticAnswers|| (profile?.namePump?{builtInPump:{value:'yes',source:'产品名称明确为内置电泵'}}:{}),officialDirectory:publicDirectory,userExamples:userMatches.map(item=>({name:item.name,categoryOptions:item.categoryOptions || []})),sourceWarning,officialLiveApiConnected:false,notice:'仅供初筛，不等于 EAR 官方决定或注册结论。'};
+  resultData={product:activeMode==='guide'?null:product, status:isReview?'需要人工复核':'初步分类建议',category:isReview?null:{number:info[0],name:info[1]},deviceType:isReview?null:deviceName(kind,answers.household),deviceTypeChinese:isReview?null:`${kind==='lamp' && answers.household==='no'?'灯':deviceLabels[kind]}（${answers.household==='yes'?'可用于私人家庭':'仅限非私人家庭'}）`,household:answers.household==='yes'?'可用于私人家庭':answers.household==='no'?'仅限非私人家庭':null,reason,answers:[...history,...Object.keys(profile?.carriedAnswers||{}).filter(key=>!history.includes(key))].map(key=>({question:questionFor(key).title,detail:questionFor(key).detail,answer:answers[key]==='unknown'?'不确定':answers[key]==='yes'?questionFor(key).yes:questionFor(key).no})),sourceChecked:'2026-10-29',officialProduct:earProduct ? {name:officialProductName,query:earProduct.query,checked:earProduct.checked,note:earProduct.note,sourceUrl:'https://www.stiftung-ear.de/service/geraetezuordnung/'} : null,catalogMatches:catalogMatches.map(entry=>({name:entry.name,chineseName:window.EAR_CATALOG_ZH?.names[entry.name] || null,english:entry.english,candidates:entry.candidates,remarks:entry.remarks,queries:entry.queries})),matchMode:directMatch?'官方条目直接匹配':earProduct?'官方条目加条件确认':'EAR 条件引导',assumptions:directMatch?earProduct.assumptions:nameAssumptions(),automaticAnswers:profile?.automaticAnswers|| (profile?.namePump?{builtInPump:{value:'yes',source:'产品名称明确为内置电泵'}}:{}),classificationRule:profile?.sizeRuleDerived?{basis:'EAR 产品条目的大小设备尺寸备注及通用分类规则',sourceUrl:'https://www.stiftung-ear.de/service/geraetezuordnung/',derived:true}:null,officialDirectory:publicDirectory,userExamples:userMatches.map(item=>({name:item.name,categoryOptions:item.categoryOptions || []})),sourceWarning,officialLiveApiConnected:false,notice:'仅供初筛，不等于 EAR 官方决定或注册结论。'};
   const root=$('result');root.replaceChildren();
   const node=(tag,cls,text)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(text!==undefined)el.textContent=text;return el;};
   const top=node('div','result-top',isReview?'分类尚未完成':'已生成分类建议');const heading=node('h3','result-heading',isReview?(answers[lastKey]==='unknown'?'请补充这项产品信息':activeMode==='name'?'请继续确认产品条件':'需要核对产品适用范围'):`第 ${info[0]} 类 · ${info[1]}`);heading.tabIndex=-1;root.append(top,heading);if(activeMode==='name')root.append(node('p','result-sub',`产品：${product}`));
@@ -426,6 +427,13 @@ function prepareCatalogPlan(entry){
   if(automatic[note]){defaults.push(automatic[note]);continue;}
   // Unmapped special restrictions remain review-only; never infer them from a similar name.
   return false;
+ }
+ // EAR search candidates are examples; the explicit size note governs both size branches.
+ const sizeNote='Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab.';
+ if(entry.remarks.includes(sizeNote) && entry.remarks.every(note=>generalRemarksOnly({remarks:[note]})) && profile.variants.every(v=>['small','large'].includes(v.kind))){
+  const existing=profile.variants;profile.variants=[...existing];
+  for(const household of new Set(existing.map(v=>v.household)))for(const kind of ['small','large'])if(!existing.some(v=>v.household===household&&v.kind===kind))profile.variants.push({kind,household});
+  if(profile.variants.length>existing.length){profile.sizeRuleDerived=true;defaults.push('按 EAR 明确的尺寸备注区分大小设备，搜索示例不代表唯一类别');}
  }
  const variants=profile.variants,kinds=new Set(variants.map(v=>v.kind)),households=[...new Set(variants.map(v=>v.household))];
  profile.catalogKeys=[...new Set(rules)];
