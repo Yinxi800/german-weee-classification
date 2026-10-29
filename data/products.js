@@ -1,6 +1,6 @@
 // Curated structured knowledge. Product names and examples are not classification rules.
 window.WEEE_PRODUCTS = {
-  "version": "2026-10-29-layered-1",
+  "version": "2026-10-29-chinese-ui-1",
   "schemaVersion": 1,
   "records": [
     {
@@ -60,7 +60,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_e60eadf765671a09",
-      "name": "气垫，自动充气",
+      "name": "自动充气气垫",
       "officialName": "Luftmatratze, selbstaufblasend",
       "coverage": "supported",
       "decision": {
@@ -100,7 +100,7 @@ window.WEEE_PRODUCTS = {
         "questionOverrides": {
           "size": {
             "title": "折叠或卷起后，有任一外部尺寸大于 50 cm 吗？",
-            "detail": "柔性设备按最紧凑状态测量，请按折叠或卷起后的尺寸确认，而不是展开使用时的尺寸。",
+            "detail": "按折叠或卷起后的最紧凑尺寸测量，不按展开长度计算。",
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
@@ -159,7 +159,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_10e36a1a7768003c",
-      "name": "游戏硬件（操纵杆、方向盘、踏板等）",
+      "name": "游戏控制设备（摇杆、方向盘、踏板等）",
       "officialName": "Gaming-Hardware (Joystick, Lenkrad, Pedal usw.)",
       "coverage": "supported",
       "decision": {
@@ -257,7 +257,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_04ff627a6c853f9a",
-      "name": "集成逆变器的交流电池储能装置",
+      "name": "交流储能设备（内置逆变器）",
       "officialName": "AC-Batteriespeicher mit integriertem Wechselrichter",
       "coverage": "supported",
       "decision": {
@@ -321,7 +321,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_eaaedf4ff79fa9ae",
-      "name": "LED 灯（还具有附加功能，例如带扬声器的 LED 灯）",
+      "name": "LED 光源（含带扬声器等附加功能型号）",
       "officialName": "LED-Lampe (auch mit Zusatzfunktionen z.B. LED-Lampe mit Lautsprecher)",
       "coverage": "supported",
       "decision": {
@@ -400,7 +400,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_2353f5f55701008d",
-      "name": "预装配控制柜",
+      "name": "预装控制柜",
       "officialName": "vorkonfektionierter Schaltschrank",
       "coverage": "supported",
       "decision": {
@@ -701,7 +701,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_e87b749f255b8359",
-      "name": "带电缆接线片的电池电缆",
+      "name": "电池连接线（带接线鼻）",
       "officialName": "Batteriekabel mit Kabelschuhen",
       "coverage": "review",
       "decision": {
@@ -796,7 +796,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_bd9963eeca248d43",
-      "name": "户外、花园、露营太阳能系统",
+      "name": "户外及露营太阳能系统",
       "officialName": "Solaranlage für Outdoor, Garten, Camping",
       "coverage": "supported",
       "decision": {
@@ -849,7 +849,7 @@ window.WEEE_PRODUCTS = {
         "questionOverrides": {
           "size": {
             "title": "折叠或卷起后，有任一外部尺寸大于 50 cm 吗？",
-            "detail": "柔性设备按最紧凑状态测量，请按折叠或卷起后的尺寸确认，而不是展开使用时的尺寸。",
+            "detail": "按折叠或卷起后的最紧凑尺寸测量，不按展开长度计算。",
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
@@ -906,7 +906,7 @@ window.WEEE_PRODUCTS = {
         "questionOverrides": {
           "size": {
             "title": "折叠或卷起后，有任一外部尺寸大于 50 cm 吗？",
-            "detail": "柔性设备按最紧凑状态测量，请按折叠或卷起后的尺寸确认，而不是展开使用时的尺寸。",
+            "detail": "按折叠或卷起后的最紧凑尺寸测量，不按展开长度计算。",
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
@@ -916,7 +916,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_0acb1d928308126d",
-      "name": "用于手机、智能手机、平板电脑、笔记本电脑安装的备件",
+      "name": "手机、平板及笔记本电脑内置配件",
       "officialName": "Ersatzteile zum Einbau für Handy, Smartphone, Tablet, Laptop",
       "coverage": "review",
       "decision": {
@@ -946,7 +946,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_55bb22c39b14edb4",
-      "name": "单板计算机用迷你 LED 红绿灯模块",
+      "name": "单板电脑用迷你 LED 交通灯模块",
       "officialName": "Mini LED Ampelmodul für Einplatinencomputer",
       "coverage": "review",
       "decision": {
@@ -976,7 +976,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_7813296ab0d472a3",
-      "name": "湿/干吸尘器",
+      "name": "干湿两用吸尘器",
       "officialName": "Nass-/Trockensauger",
       "coverage": "supported",
       "decision": {
@@ -1031,7 +1031,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_ebc7dc021b19f418",
-      "name": "后视摄像头",
+      "name": "倒车摄像头",
       "officialName": "Rückfahrkamera",
       "coverage": "review",
       "decision": {
@@ -1091,7 +1091,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_1d214c13e9f04c23",
-      "name": "车辆 GPS 设备（例如通过即插即用操作的设备）",
+      "name": "车载 GPS 设备（含即插即用型号）",
       "officialName": "GPS-Gerät für Kfz (z.B. per Plug & Play betriebene)",
       "coverage": "review",
       "decision": {
@@ -1198,7 +1198,7 @@ window.WEEE_PRODUCTS = {
         "questionOverrides": {
           "size": {
             "title": "折叠或卷起后，有任一外部尺寸大于 50 cm 吗？",
-            "detail": "柔性设备按最紧凑状态测量，请按折叠或卷起后的尺寸确认，而不是展开使用时的尺寸。",
+            "detail": "按折叠或卷起后的最紧凑尺寸测量，不按展开长度计算。",
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
@@ -1208,7 +1208,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_c8c1a96cc66b8ea6",
-      "name": "汽车拖车适配器",
+      "name": "汽车拖车连接适配器",
       "officialName": "Kfz-Anhänger-Adapter",
       "coverage": "review",
       "decision": {
@@ -1347,7 +1347,7 @@ window.WEEE_PRODUCTS = {
         "questionOverrides": {
           "size": {
             "title": "折叠或卷起后，有任一外部尺寸大于 50 cm 吗？",
-            "detail": "柔性设备按最紧凑状态测量，请按折叠或卷起后的尺寸确认，而不是展开使用时的尺寸。",
+            "detail": "按折叠或卷起后的最紧凑尺寸测量，不按展开长度计算。",
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
@@ -1357,7 +1357,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_3add27e1227fba82",
-      "name": "小家电电缆",
+      "name": "小型电器连接线",
       "officialName": "Kleingerätekabel",
       "coverage": "supported",
       "decision": {
@@ -1404,7 +1404,7 @@ window.WEEE_PRODUCTS = {
         "questionOverrides": {
           "size": {
             "title": "折叠或卷起后，有任一外部尺寸大于 50 cm 吗？",
-            "detail": "柔性设备按最紧凑状态测量，请按折叠或卷起后的尺寸确认，而不是展开使用时的尺寸。",
+            "detail": "按折叠或卷起后的最紧凑尺寸测量，不按展开长度计算。",
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
@@ -1414,7 +1414,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_12ca69471cb25c06",
-      "name": "带电气功能的服装（带加热/按摩/灯光功能等）",
+      "name": "电气功能服装（加热、按摩、灯光等）",
       "officialName": "Bekleidung mit elektrischen Funktionen (mit Heiz-/Massage-/Leuchtfunktionen usw.)",
       "coverage": "review",
       "decision": {
@@ -1444,7 +1444,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_22506fb57a444489",
-      "name": "RAM 随机存取存储器",
+      "name": "内存（RAM）",
       "officialName": "RAM Random-Access Memory",
       "coverage": "supported",
       "decision": {
@@ -1494,7 +1494,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_1609ed41cf24db22",
-      "name": "电脑内部水冷装置",
+      "name": "电脑内置水冷散热装置",
       "officialName": "interne Wasserkühlung für PC",
       "coverage": "supported",
       "decision": {
@@ -1603,7 +1603,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_b53fc773330cd2aa",
-      "name": "屋顶、大篷车、船只等的光伏组件",
+      "name": "屋顶、房车及船舶等用光伏组件",
       "officialName": "Photovoltaikmodul auf Hausdächern, Wohnwagen, Booten usw.",
       "coverage": "supported",
       "decision": {
@@ -1657,7 +1657,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_3047f0c89b239e2e",
-      "name": "头发和身体护理装置",
+      "name": "美发及身体护理设备",
       "officialName": "Haar- und Körperpflegegerät",
       "coverage": "supported",
       "decision": {
@@ -1706,7 +1706,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_4fc9bc1a945113f4",
-      "name": "音乐设备（教堂管风琴除外）",
+      "name": "音乐器材（不含教堂管风琴）",
       "officialName": "Musikausrüstung (mit Ausnahme von Kirchenorgeln)",
       "coverage": "supported",
       "decision": {
@@ -1847,7 +1847,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_7e1bc5d0439e0094",
-      "name": "公共街道照明用气体放电灯/LED灯",
+      "name": "道路照明用气体放电灯／LED 光源",
       "officialName": "Gasentladungslampe/LED-Lampe für öffentliche Straßenbeleuchtung",
       "coverage": "supported",
       "decision": {
@@ -2033,7 +2033,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_b49fe29388f1b552",
-      "name": "用于数据输入的扫描笔",
+      "name": "数据录入扫描笔",
       "officialName": "Scannerstift zur Dateneingabe",
       "coverage": "review",
       "decision": {
@@ -2235,7 +2235,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_cb58c9e2d8dda57d",
-      "name": "电动烛桥灯",
+      "name": "拱形烛台装饰灯",
       "officialName": "Schwibbogen",
       "coverage": "supported",
       "decision": {
@@ -2290,7 +2290,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_c071f6ef44f2ab6b",
-      "name": "适用于水族馆、池塘、业余爱好的 UVC 灯",
+      "name": "水族、池塘及业余用途 UVC 灯",
       "officialName": "UVC-Lampe für Aquarien, Teiche, Hobby",
       "coverage": "supported",
       "decision": {
@@ -2388,7 +2388,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_19fb8daa71d68cb1",
-      "name": "TAN 发生器",
+      "name": "网银动态验证码器（TAN）",
       "officialName": "TAN-Generator",
       "coverage": "supported",
       "decision": {
@@ -2486,7 +2486,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_c7068dc01b553755",
-      "name": "自动球发射器",
+      "name": "自动抛球机",
       "officialName": "Automatischer Ballwerfer",
       "coverage": "supported",
       "decision": {
@@ -2535,7 +2535,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_c64ed0f45886b84a",
-      "name": "电子烟烟弹（电子烟）",
+      "name": "电子烟烟弹",
       "officialName": "Pod für Dampfer (E-Zigarette)",
       "coverage": "review",
       "decision": {
@@ -2663,7 +2663,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_ce57e7d3e868fa9d",
-      "name": "线路板、电路板",
+      "name": "电路板",
       "officialName": "Leiterplatte, Platine",
       "coverage": "review",
       "decision": {
@@ -2746,7 +2746,7 @@ window.WEEE_PRODUCTS = {
         "questionOverrides": {
           "size": {
             "title": "折叠或卷起后，有任一外部尺寸大于 50 cm 吗？",
-            "detail": "柔性设备按最紧凑状态测量，请按折叠或卷起后的尺寸确认，而不是展开使用时的尺寸。",
+            "detail": "按折叠或卷起后的最紧凑尺寸测量，不按展开长度计算。",
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
@@ -2786,7 +2786,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_7a712128984781cd",
-      "name": "具有附加功能的移动电源",
+      "name": "多功能移动电源",
       "officialName": "Powerbank mit Zusatzfunktion",
       "coverage": "review",
       "decision": {
@@ -2949,7 +2949,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_a68f2c543741dae7",
-      "name": "带玻璃的刚性光伏组件",
+      "name": "刚性光伏组件（带玻璃）",
       "officialName": "starrres PV-Modul mit Glas",
       "coverage": "supported",
       "decision": {
@@ -3052,7 +3052,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_3b08dcd443e632c5",
-      "name": "单板计算机用 LCD 按键扩展板",
+      "name": "单板电脑用 LCD 按键扩展板",
       "officialName": "Keypad-Shield mit LCD für Einplatinencomputer",
       "coverage": "review",
       "decision": {
@@ -3109,7 +3109,7 @@ window.WEEE_PRODUCTS = {
         "questionOverrides": {
           "size": {
             "title": "折叠或卷起后，有任一外部尺寸大于 50 cm 吗？",
-            "detail": "柔性设备按最紧凑状态测量，请按折叠或卷起后的尺寸确认，而不是展开使用时的尺寸。",
+            "detail": "按折叠或卷起后的最紧凑尺寸测量，不按展开长度计算。",
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
@@ -3119,7 +3119,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_ac58d8d816413d58",
-      "name": "带激光的数字经纬仪",
+      "name": "激光数字经纬仪",
       "officialName": "Digitaler Theodolit mit Laser",
       "coverage": "supported",
       "decision": {
@@ -3223,7 +3223,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_30f51b0195123ed6",
-      "name": "接地设备（ESD设备）",
+      "name": "静电防护接地设备（ESD）",
       "officialName": "Erdungsausrüstung (ESD-Ausrüstung)",
       "coverage": "review",
       "decision": {
@@ -3300,7 +3300,7 @@ window.WEEE_PRODUCTS = {
         "questionOverrides": {
           "size": {
             "title": "折叠或卷起后，有任一外部尺寸大于 50 cm 吗？",
-            "detail": "柔性设备按最紧凑状态测量，请按折叠或卷起后的尺寸确认，而不是展开使用时的尺寸。",
+            "detail": "按折叠或卷起后的最紧凑尺寸测量，不按展开长度计算。",
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
@@ -3310,7 +3310,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_03460d199971efdb",
-      "name": "大型 IT 和电信设备",
+      "name": "大型信息与通信设备",
       "officialName": "großes IT- und Telekommunikationsgerät",
       "coverage": "supported",
       "decision": {
@@ -3557,7 +3557,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_0e1e272c101db27f",
-      "name": "不带 GPS 的蓝牙钥匙查找器",
+      "name": "蓝牙钥匙防丢器（不含 GPS）",
       "officialName": "Bluetooth Schlüsselfinder ohne eigenes GPS",
       "coverage": "review",
       "decision": {
@@ -3617,7 +3617,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_0e761536fbc5a632",
-      "name": "蓝牙发射器 FM",
+      "name": "蓝牙调频发射器（FM）",
       "officialName": "Bluetooth-Transmitter FM",
       "coverage": "review",
       "decision": {
@@ -3677,7 +3677,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_71e4619c38c2312f",
-      "name": "带 LED 照明的水泡柱",
+      "name": "LED 气泡装饰柱",
       "officialName": "Wassersprudelsäule mit LED-Beleuchtung",
       "coverage": "review",
       "decision": {
@@ -3852,7 +3852,7 @@ window.WEEE_PRODUCTS = {
         "questionOverrides": {
           "size": {
             "title": "折叠或卷起后，有任一外部尺寸大于 50 cm 吗？",
-            "detail": "柔性设备按最紧凑状态测量，请按折叠或卷起后的尺寸确认，而不是展开使用时的尺寸。",
+            "detail": "按折叠或卷起后的最紧凑尺寸测量，不按展开长度计算。",
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
@@ -4242,7 +4242,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_825b89d4a7ace07c",
-      "name": "检查相机",
+      "name": "检测摄像机",
       "officialName": "Inspektionskamera",
       "coverage": "review",
       "decision": {
@@ -4269,7 +4269,7 @@ window.WEEE_PRODUCTS = {
         "questionOverrides": {
           "size": {
             "title": "折叠或卷起后，有任一外部尺寸大于 50 cm 吗？",
-            "detail": "柔性设备按最紧凑状态测量，请按折叠或卷起后的尺寸确认，而不是展开使用时的尺寸。",
+            "detail": "按折叠或卷起后的最紧凑尺寸测量，不按展开长度计算。",
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
@@ -4279,7 +4279,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_ca959537dadd9889",
-      "name": "电蒸汽消毒器",
+      "name": "奶瓶蒸汽消毒器",
       "officialName": "Vaporisator",
       "coverage": "review",
       "decision": {
@@ -4356,7 +4356,7 @@ window.WEEE_PRODUCTS = {
         "questionOverrides": {
           "size": {
             "title": "折叠或卷起后，有任一外部尺寸大于 50 cm 吗？",
-            "detail": "柔性设备按最紧凑状态测量，请按折叠或卷起后的尺寸确认，而不是展开使用时的尺寸。",
+            "detail": "按折叠或卷起后的最紧凑尺寸测量，不按展开长度计算。",
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
@@ -4748,8 +4748,8 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": true,
         "questionOverrides": {
           "noRefrigerant": {
-            "title": "是否为不含制冷剂和压缩机的珀尔帖除湿机？",
-            "detail": "该条目只对应无制冷剂、无压缩机的除湿设备。",
+            "title": "是否为无制冷剂、无压缩机的半导体除湿机？",
+            "detail": "请核对说明书中的除湿原理和结构。",
             "yes": "是，符合上述结构",
             "no": "否，结构不符合"
           }
@@ -4838,7 +4838,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_cee82169d5ce61d9",
-      "name": "幼儿车辆",
+      "name": "幼儿电动玩具车",
       "officialName": "Kleinkinderfahrzeug",
       "coverage": "review",
       "decision": {
@@ -5043,7 +5043,7 @@ window.WEEE_PRODUCTS = {
         "questionOverrides": {
           "size": {
             "title": "折叠或卷起后，有任一外部尺寸大于 50 cm 吗？",
-            "detail": "柔性设备按最紧凑状态测量，请按折叠或卷起后的尺寸确认，而不是展开使用时的尺寸。",
+            "detail": "按折叠或卷起后的最紧凑尺寸测量，不按展开长度计算。",
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
@@ -5100,7 +5100,7 @@ window.WEEE_PRODUCTS = {
         "questionOverrides": {
           "size": {
             "title": "折叠或卷起后，有任一外部尺寸大于 50 cm 吗？",
-            "detail": "柔性设备按最紧凑状态测量，请按折叠或卷起后的尺寸确认，而不是展开使用时的尺寸。",
+            "detail": "按折叠或卷起后的最紧凑尺寸测量，不按展开长度计算。",
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
@@ -5163,7 +5163,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_f81f5edd5dc36332",
-      "name": "具有冷却/冷冻功能的（家用）器具",
+      "name": "带冷藏或冷冻功能的家用设备",
       "officialName": "(Haushalts-) Geräte mit Kühl-/Gefrierfunktion",
       "coverage": "supported",
       "decision": {
@@ -5319,7 +5319,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_fb4fc57d5f4fa49b",
-      "name": "具有永久集成 NFC 或 RFID 芯片的产品",
+      "name": "固定内置 NFC 或 RFID 芯片的产品",
       "officialName": "Produkt mit fest integriertem NFC- oder RFID-Chip",
       "coverage": "review",
       "decision": {
@@ -5452,7 +5452,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_7ffc122c173872ae",
-      "name": "信息通信适配器（例如 USB 转 Micro-USB、DisplayPort 转 DVI）",
+      "name": "信息与通信接口转换器（如 USB、DisplayPort 转接器）",
       "officialName": "ITK-Adapter, z.B. USB auf Micro-USB, Displayport auf DVI",
       "coverage": "supported",
       "decision": {
@@ -5501,7 +5501,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_78b7e93f6e500509",
-      "name": "换档灯",
+      "name": "换挡提示灯",
       "officialName": "Schaltblitz",
       "coverage": "review",
       "decision": {
@@ -5651,7 +5651,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_7ce99d665b17effd",
-      "name": "用于单板计算机的迷你 MP3 播放器",
+      "name": "单板电脑用迷你 MP3 播放器",
       "officialName": "Mini Mp3-Spieler für Einplatinencomputer",
       "coverage": "supported",
       "decision": {
@@ -5947,7 +5947,7 @@ window.WEEE_PRODUCTS = {
         "questionOverrides": {
           "size": {
             "title": "折叠或卷起后，有任一外部尺寸大于 50 cm 吗？",
-            "detail": "柔性设备按最紧凑状态测量，请按折叠或卷起后的尺寸确认，而不是展开使用时的尺寸。",
+            "detail": "按折叠或卷起后的最紧凑尺寸测量，不按展开长度计算。",
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
@@ -6006,7 +6006,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_e5d96bf05dbe71c4",
-      "name": "车辆强制照明",
+      "name": "车辆法定必备照明设备",
       "officialName": "vorgeschriebene Beleuchtung für Kfz",
       "coverage": "review",
       "decision": {
@@ -6099,7 +6099,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_98bbec8acb2471e7",
-      "name": "电动天花板升降设备",
+      "name": "顶装式电动升降装置",
       "officialName": "Deckenlift, elektrisch",
       "coverage": "supported",
       "decision": {
@@ -6184,7 +6184,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_c8d84347032fb3c9",
-      "name": "全球寻呼定位器",
+      "name": "户外导航通信终端",
       "officialName": "Globalfinder",
       "coverage": "review",
       "decision": {
@@ -6451,7 +6451,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_efdaa87a38e68db0",
-      "name": "电动苍蝇拍",
+      "name": "电蚊蝇拍",
       "officialName": "elektrische Fliegenklatsche",
       "coverage": "supported",
       "decision": {
@@ -6690,7 +6690,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_0b4152db02389b07",
-      "name": "数字价格标签",
+      "name": "电子价签",
       "officialName": "Digitales Preisschild",
       "coverage": "supported",
       "decision": {
@@ -6739,7 +6739,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_3643fe494607026a",
-      "name": "用于实验室和工业的循环/再循环冷却器",
+      "name": "实验室及工业循环冷却器",
       "officialName": "Umwälz-/Umlaufkühler für Labore und Industrie",
       "coverage": "supported",
       "decision": {
@@ -6787,7 +6787,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_b7fa6c17b71d9c73",
-      "name": "供爱好者使用的控制模块",
+      "name": "电子制作控制模块",
       "officialName": "Steuerungsmodule für Bastler",
       "coverage": "review",
       "decision": {
@@ -6844,7 +6844,7 @@ window.WEEE_PRODUCTS = {
         "questionOverrides": {
           "size": {
             "title": "折叠或卷起后，有任一外部尺寸大于 50 cm 吗？",
-            "detail": "柔性设备按最紧凑状态测量，请按折叠或卷起后的尺寸确认，而不是展开使用时的尺寸。",
+            "detail": "按折叠或卷起后的最紧凑尺寸测量，不按展开长度计算。",
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
@@ -6937,7 +6937,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_b244919f308c100f",
-      "name": "望远镜手动控制",
+      "name": "望远镜手持控制器",
       "officialName": "Handsteuerung für Teleskope",
       "coverage": "supported",
       "decision": {
@@ -7232,7 +7232,7 @@ window.WEEE_PRODUCTS = {
         "questionOverrides": {
           "displayArea": {
             "title": "是否为纯触摸屏操作，且屏幕面积大于 100 cm²？",
-            "detail": "该官方条目专门以纯触屏操作及面积区分屏幕设备；不符合时继续按设备尺寸判断。",
+            "detail": "请同时确认操作方式和屏幕面积；不符合时，继续确认产品尺寸。",
             "yes": "是，纯触屏且面积大于 100 cm²",
             "no": "否，不符合上述条件"
           }
@@ -7242,7 +7242,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_195733dcb954c843",
-      "name": "望远镜安装座",
+      "name": "天文望远镜支架",
       "officialName": "Montierung für Teleskop",
       "coverage": "supported",
       "decision": {
@@ -7296,7 +7296,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_29ffa0eac1a0a79c",
-      "name": "PC（个人电脑）",
+      "name": "个人电脑（PC）",
       "officialName": "PC (Personal Computer)",
       "coverage": "supported",
       "decision": {
@@ -7389,7 +7389,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_2d00d5701bda9895",
-      "name": "仅用于通信或信息技术的麦克风",
+      "name": "通信或信息设备专用麦克风",
       "officialName": "Mikrofon, ausschließlich für Kommunikations- oder IT-Zwecke",
       "coverage": "supported",
       "decision": {
@@ -7596,7 +7596,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_3ff8e27ab4e8084f",
-      "name": "通讯天线",
+      "name": "通信天线",
       "officialName": "Kommunikationsantenne",
       "coverage": "review",
       "decision": {
@@ -7735,7 +7735,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_f6e741311ab22c06",
-      "name": "笔记本电脑USB风扇",
+      "name": "笔记本电脑 USB 散热风扇",
       "officialName": "USB-Lüfter für Laptop",
       "coverage": "review",
       "decision": {
@@ -8025,7 +8025,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_b3e07006d4d63861",
-      "name": "打孔电路板",
+      "name": "洞洞板（通孔实验电路板）",
       "officialName": "Lochrasterplatine",
       "coverage": "review",
       "decision": {
@@ -8645,7 +8645,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_34d719879f1d19b6",
-      "name": "气垫床，自动充气",
+      "name": "自动充气气垫床",
       "officialName": "Luftbett, selbstaufblasend",
       "coverage": "supported",
       "decision": {
@@ -8685,7 +8685,7 @@ window.WEEE_PRODUCTS = {
         "questionOverrides": {
           "size": {
             "title": "折叠或卷起后，有任一外部尺寸大于 50 cm 吗？",
-            "detail": "柔性设备按最紧凑状态测量，请按折叠或卷起后的尺寸确认，而不是展开使用时的尺寸。",
+            "detail": "按折叠或卷起后的最紧凑尺寸测量，不按展开长度计算。",
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
@@ -8695,7 +8695,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_e2fd2a811ee44fa9",
-      "name": "带除湿功能的建筑干燥机",
+      "name": "建筑除湿干燥机",
       "officialName": "Bautrockner mit Entfeuchtung",
       "coverage": "supported",
       "decision": {
@@ -8747,7 +8747,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_7752463eacb16dd8",
-      "name": "带 USB 充电接口的蓄电池",
+      "name": "带 USB 充电接口的充电电池",
       "officialName": "USB-Akku",
       "coverage": "review",
       "decision": {
@@ -9237,7 +9237,7 @@ window.WEEE_PRODUCTS = {
         "questionOverrides": {
           "size": {
             "title": "折叠或卷起后，有任一外部尺寸大于 50 cm 吗？",
-            "detail": "柔性设备按最紧凑状态测量，请按折叠或卷起后的尺寸确认，而不是展开使用时的尺寸。",
+            "detail": "按折叠或卷起后的最紧凑尺寸测量，不按展开长度计算。",
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
@@ -9247,7 +9247,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_59e71a1c39631918",
-      "name": "跑步用运动电脑",
+      "name": "跑步运动记录器",
       "officialName": "Laufcomputer",
       "coverage": "supported",
       "decision": {
@@ -9456,7 +9456,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_9f39ecaa4022f32f",
-      "name": "测量装置",
+      "name": "测量仪器",
       "officialName": "Messgerät",
       "coverage": "supported",
       "decision": {
@@ -9637,7 +9637,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_9566eeaf0a6a3486",
-      "name": "照明镜",
+      "name": "带灯镜",
       "officialName": "beleuchteter Spiegel",
       "coverage": "supported",
       "decision": {
@@ -9936,7 +9936,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_ad9a722a44d165d2",
-      "name": "LED闪光橡胶球",
+      "name": "LED 闪光弹力球",
       "officialName": "LED-Blinkflummi",
       "coverage": "supported",
       "decision": {
@@ -10035,7 +10035,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_faa9c1723f6d034f",
-      "name": "高度可调的桌子/手推车",
+      "name": "可升降桌／推车",
       "officialName": "höhenverstellbarer Tisch/Wagen",
       "coverage": "supported",
       "decision": {
@@ -10137,13 +10137,13 @@ window.WEEE_PRODUCTS = {
         "questionOverrides": {
           "size": {
             "title": "折叠或卷起后，有任一外部尺寸大于 50 cm 吗？",
-            "detail": "柔性设备按最紧凑状态测量，请按折叠或卷起后的尺寸确认，而不是展开使用时的尺寸。",
+            "detail": "按折叠或卷起后的最紧凑尺寸测量，不按展开长度计算。",
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           },
           "finishedCable": {
-            "title": "是否为已经装好连接端的成品线缆？",
-            "detail": "散装米线、仅带线鼻或端套的半成品不能直接沿用此条目。USB 线须两端都有 USB 接口。",
+            "title": "是否为已装好接头的成品线缆？",
+            "detail": "USB 线须两端都有 USB 接口。散装线材，或仅带线鼻、端套的半成品，请选“否”。",
             "yes": "是，完整成品线缆",
             "no": "否，米线或半成品"
           }
@@ -10281,7 +10281,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_8025cfea85dc8211",
-      "name": "带照明的浴室柜或镜柜",
+      "name": "带灯浴室柜／镜柜",
       "officialName": "beleuchteter Bad-/Spiegelschrank",
       "coverage": "supported",
       "decision": {
@@ -10575,7 +10575,7 @@ window.WEEE_PRODUCTS = {
         "questionOverrides": {
           "size": {
             "title": "折叠或卷起后，有任一外部尺寸大于 50 cm 吗？",
-            "detail": "柔性设备按最紧凑状态测量，请按折叠或卷起后的尺寸确认，而不是展开使用时的尺寸。",
+            "detail": "按折叠或卷起后的最紧凑尺寸测量，不按展开长度计算。",
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
@@ -10634,7 +10634,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_39cf850914df7b39",
-      "name": "婴儿辅食加热器",
+      "name": "婴儿食品加热器",
       "officialName": "Babykosterwärmer",
       "coverage": "supported",
       "decision": {
@@ -10780,7 +10780,7 @@ window.WEEE_PRODUCTS = {
         "questionOverrides": {
           "size": {
             "title": "折叠或卷起后，有任一外部尺寸大于 50 cm 吗？",
-            "detail": "柔性设备按最紧凑状态测量，请按折叠或卷起后的尺寸确认，而不是展开使用时的尺寸。",
+            "detail": "按折叠或卷起后的最紧凑尺寸测量，不按展开长度计算。",
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
@@ -10929,7 +10929,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_bbb4b18e7652e064",
-      "name": "儿童四轮车",
+      "name": "儿童四轮摩托车",
       "officialName": "Kinder-Quad",
       "coverage": "review",
       "decision": {
@@ -11093,7 +11093,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_a3cacebdb3d30eed",
-      "name": "日光浴床",
+      "name": "日光浴美黑床",
       "officialName": "Sonnenbank",
       "coverage": "supported",
       "decision": {
@@ -11348,7 +11348,7 @@ window.WEEE_PRODUCTS = {
         "questionOverrides": {
           "size": {
             "title": "折叠或卷起后，有任一外部尺寸大于 50 cm 吗？",
-            "detail": "柔性设备按最紧凑状态测量，请按折叠或卷起后的尺寸确认，而不是展开使用时的尺寸。",
+            "detail": "按折叠或卷起后的最紧凑尺寸测量，不按展开长度计算。",
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
@@ -11473,7 +11473,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_53c44477089829e2",
-      "name": "KNX设备",
+      "name": "KNX 楼宇控制设备",
       "officialName": "KNX-Gerät",
       "coverage": "supported",
       "decision": {
@@ -11530,7 +11530,7 @@ window.WEEE_PRODUCTS = {
         "questionOverrides": {
           "displayArea": {
             "title": "是否为纯触摸屏操作，且屏幕面积大于 100 cm²？",
-            "detail": "该官方条目专门以纯触屏操作及面积区分屏幕设备；不符合时继续按设备尺寸判断。",
+            "detail": "请同时确认操作方式和屏幕面积；不符合时，继续确认产品尺寸。",
             "yes": "是，纯触屏且面积大于 100 cm²",
             "no": "否，不符合上述条件"
           }
@@ -11752,7 +11752,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_016e8c8a41695f3d",
-      "name": "电动助力车",
+      "name": "电动助力自行车",
       "officialName": "Pedelec",
       "coverage": "review",
       "decision": {
@@ -12174,7 +12174,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_832953e4bce97547",
-      "name": "用于改装的客厅灯（房车、大篷车）",
+      "name": "房车加装室内灯",
       "officialName": "Wohnraumleuchte zum Nachrüsten (Wohnmobil, Wohnwagen)",
       "coverage": "supported",
       "decision": {
@@ -12223,7 +12223,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_f391a2111f2aa7d5",
-      "name": "灯具吊线与灯座悬挂器",
+      "name": "灯具悬吊供电组件",
       "officialName": "Leuchtenpendel",
       "coverage": "supported",
       "decision": {
@@ -12270,7 +12270,7 @@ window.WEEE_PRODUCTS = {
         "questionOverrides": {
           "size": {
             "title": "折叠或卷起后，有任一外部尺寸大于 50 cm 吗？",
-            "detail": "柔性设备按最紧凑状态测量，请按折叠或卷起后的尺寸确认，而不是展开使用时的尺寸。",
+            "detail": "按折叠或卷起后的最紧凑尺寸测量，不按展开长度计算。",
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
@@ -12359,7 +12359,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_fed9959f1e21dbd0",
-      "name": "自行车照明",
+      "name": "自行车照明设备",
       "officialName": "Fahrradbeleuchtung",
       "coverage": "review",
       "decision": {
@@ -12436,7 +12436,7 @@ window.WEEE_PRODUCTS = {
         "questionOverrides": {
           "size": {
             "title": "折叠或卷起后，有任一外部尺寸大于 50 cm 吗？",
-            "detail": "柔性设备按最紧凑状态测量，请按折叠或卷起后的尺寸确认，而不是展开使用时的尺寸。",
+            "detail": "按折叠或卷起后的最紧凑尺寸测量，不按展开长度计算。",
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
@@ -12446,7 +12446,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_5c06bb97d205a4e2",
-      "name": "野营灯笼",
+      "name": "露营提灯",
       "officialName": "Campinglaterne",
       "coverage": "review",
       "decision": {
@@ -12555,7 +12555,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_5b837ca92035ae91",
-      "name": "运动探测器",
+      "name": "移动感应器",
       "officialName": "Bewegungsmelder",
       "coverage": "supported",
       "decision": {
@@ -12992,7 +12992,7 @@ window.WEEE_PRODUCTS = {
         "questionOverrides": {}
       },
       "reviewReason": "special_conditions_not_covered",
-      "reviewText": "EAR 将没有附加功能的简单门铃变压器列为不在适用范围，即使安装在 DIN 导轨上也是如此。如带其他电气功能，需另行核实。"
+      "reviewText": "无附加功能的简单门铃变压器，EAR 列为不在适用范围；安装在 DIN 导轨上不影响该结论。带其他电气功能的型号请另行确认。"
     },
     {
       "id": "p_f1ff73d297169669",
@@ -13047,7 +13047,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_ae992bd69e562f6e",
-      "name": "HDMI线",
+      "name": "HDMI 高清连接线",
       "officialName": "HDMI-Kabel",
       "facts": {
         "referenceShape": {
@@ -13099,7 +13099,7 @@ window.WEEE_PRODUCTS = {
         "questionOverrides": {
           "size": {
             "title": "折叠或卷起后，有任一外部尺寸大于 50 cm 吗？",
-            "detail": "柔性设备按最紧凑状态测量，请按折叠或卷起后的尺寸确认，而不是展开使用时的尺寸。",
+            "detail": "按折叠或卷起后的最紧凑尺寸测量，不按展开长度计算。",
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
@@ -13108,7 +13108,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_1fb73722d82b1dbf",
-      "name": "DP线",
+      "name": "DP 显示连接线",
       "officialName": "Displayportkabel",
       "facts": {
         "referenceShape": {
@@ -13160,7 +13160,7 @@ window.WEEE_PRODUCTS = {
         "questionOverrides": {
           "size": {
             "title": "折叠或卷起后，有任一外部尺寸大于 50 cm 吗？",
-            "detail": "柔性设备按最紧凑状态测量，请按折叠或卷起后的尺寸确认，而不是展开使用时的尺寸。",
+            "detail": "按折叠或卷起后的最紧凑尺寸测量，不按展开长度计算。",
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
@@ -13212,7 +13212,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_7d250a5404fb44c0",
-      "name": "珀尔帖冷却器",
+      "name": "半导体制冷／除湿设备（珀尔帖）",
       "officialName": "Peltier-Entfeuchter / Kühlschrank (thermoelektrisch)",
       "facts": {
         "referenceShape": {
@@ -13263,7 +13263,7 @@ window.WEEE_PRODUCTS = {
     },
     {
       "id": "p_4adfeae82542bfad",
-      "name": "CPU风扇",
+      "name": "处理器散热风扇（CPU）",
       "officialName": "CPU-Lüfter",
       "facts": {
         "referenceShape": {

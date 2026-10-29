@@ -45,7 +45,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_e60eadf765671a09"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Air mattress, inflatable",
@@ -198,7 +199,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_10e36a1a7768003c"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Gaming hardware",
@@ -252,7 +254,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_04ff627a6c853f9a"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "AC battery storage system with integrated inverter",
@@ -279,7 +282,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_eaaedf4ff79fa9ae"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "LED lamp (also with additional function, eg. LED lamp with loudspeaker)",
@@ -351,7 +355,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_2353f5f55701008d"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Ready-made cabinet",
@@ -513,7 +518,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_e87b749f255b8359"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "battery cable with ring terminals",
@@ -567,7 +573,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_bd9963eeca248d43"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Solar Panel for outdoor, camping",
@@ -621,7 +628,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_0acb1d928308126d"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Spare parts for installation for mobile phone, smartphone, tablet, laptop",
@@ -648,7 +656,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_55bb22c39b14edb4"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Mini Traffic Light LED Display Board Module for single-board computer (SBC)",
@@ -675,7 +684,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_7813296ab0d472a3"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "wet and dry vacuum cleaner",
@@ -711,7 +721,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_ebc7dc021b19f418"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Car Back Reversing Camera",
@@ -765,7 +776,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_1d214c13e9f04c23"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "GPS equipment for cars (e.g. operated via plug & play)",
@@ -846,7 +858,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_c8c1a96cc66b8ea6"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Car to trailer caravan converter",
@@ -954,7 +967,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_3add27e1227fba82"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Small appliance cable",
@@ -981,7 +995,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_12ca69471cb25c06"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Clothing with electrical functions (heating/massage/lighting function, etc)",
@@ -1008,7 +1023,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_22506fb57a444489"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Computer memory",
@@ -1035,7 +1051,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_1609ed41cf24db22"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "internal Water Cooler for personal computer",
@@ -1116,7 +1133,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_b53fc773330cd2aa"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Photovoltaic panel on rooftops, caravans, boats, etc.",
@@ -1143,7 +1161,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_3047f0c89b239e2e"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Appliance for hair and body care",
@@ -1170,7 +1189,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_4fc9bc1a945113f4"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Musical equipment (excluding pipe organs installed in churches )",
@@ -1251,7 +1271,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_7e1bc5d0439e0094"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Gas discharge lamp/LED lamp for public street lighting",
@@ -1386,7 +1407,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_b49fe29388f1b552"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Scan Reader Pen",
@@ -1521,7 +1543,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_cb58c9e2d8dda57d"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Wooden illuminated electric candle bridge",
@@ -1548,7 +1571,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_c071f6ef44f2ab6b"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "UVC lamp for fish tanks, ponds, hobbies",
@@ -1602,7 +1626,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_19fb8daa71d68cb1"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "TAN generator",
@@ -1656,7 +1681,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_c7068dc01b553755"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Ball machine",
@@ -1683,7 +1709,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_c64ed0f45886b84a"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Pod vape",
@@ -1764,7 +1791,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_ce57e7d3e868fa9d"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Printed circuit board (PCB)",
@@ -1845,7 +1873,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_7a712128984781cd"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Power bank with additional function",
@@ -1953,7 +1982,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_a68f2c543741dae7"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Rigid photovoltaic module with glass",
@@ -2007,7 +2037,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_3b08dcd443e632c5"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "LCD Keypad Shield for single-board computer (SBC)",
@@ -2061,7 +2092,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_ac58d8d816413d58"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Electronic Theodolite Laser",
@@ -2115,7 +2147,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_30f51b0195123ed6"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Electrostatic discharge-equipment",
@@ -2169,7 +2202,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_03460d199971efdb"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "large IT and telecommunications equipment",
@@ -2304,7 +2338,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_0e1e272c101db27f"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Bluetooth key finder without GPS",
@@ -2358,7 +2393,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_0e761536fbc5a632"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Bluetooth transmitter (receiver, adapter)",
@@ -2412,7 +2448,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_71e4619c38c2312f"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Bubble Tube with LED",
@@ -2736,7 +2773,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_825b89d4a7ace07c"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Endoscope inspection camera",
@@ -2763,7 +2801,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_ca959537dadd9889"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Electric steam steriliser",
@@ -3096,7 +3135,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_cee82169d5ce61d9"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Indfant children’s electric vehicle",
@@ -3285,7 +3325,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_f81f5edd5dc36332"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "(Household) equipment for cooling/freezing",
@@ -3366,7 +3407,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_fb4fc57d5f4fa49b"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Product with a permanently integrated NFC or RFID chip",
@@ -3456,7 +3498,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_7ffc122c173872ae"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "ITK adapter, e.g. USB to Micro USB, Display port to DVI",
@@ -3483,7 +3526,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_78b7e93f6e500509"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Racing shift light",
@@ -3564,7 +3608,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_7ce99d665b17effd"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Mini MP3 Player Module",
@@ -3780,7 +3825,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_e5d96bf05dbe71c4"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Lighting for motor vehicles",
@@ -3834,7 +3880,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_98bbec8acb2471e7"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Lift mechanism, electric",
@@ -3888,7 +3935,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_c8d84347032fb3c9"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Global finder (Paging device)",
@@ -4059,7 +4107,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_efdaa87a38e68db0"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Fly swatter",
@@ -4221,7 +4270,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_0b4152db02389b07"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Electronic price tag",
@@ -4248,7 +4298,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_3643fe494607026a"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Refrigerated circulator for laboratories and the industry",
@@ -4275,7 +4326,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_b7fa6c17b71d9c73"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Control module for hobbyists",
@@ -4383,7 +4435,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_b244919f308c100f"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Hand control for telescopes",
@@ -4545,7 +4598,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_195733dcb954c843"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Telescope Mount",
@@ -4572,7 +4626,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_29ffa0eac1a0a79c"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Personal computer",
@@ -4662,7 +4717,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_2d00d5701bda9895"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Microphone,  exclusively for communication or IT use",
@@ -4797,7 +4853,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_3ff8e27ab4e8084f"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Antenna for communication",
@@ -4905,7 +4962,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_f6e741311ab22c06"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "USB Notebook air cooler",
@@ -5067,7 +5125,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_b3e07006d4d63861"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Perforated Grid Board",
@@ -5436,7 +5495,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_34d719879f1d19b6"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Air bed, inflatable",
@@ -5463,7 +5523,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_e2fd2a811ee44fa9"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Compressor Dehumidifier",
@@ -5490,7 +5551,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_7752463eacb16dd8"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "USB charging battery",
@@ -5841,7 +5903,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_59e71a1c39631918"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Computer for running",
@@ -5949,7 +6012,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_9f39ecaa4022f32f"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Measuring equipment",
@@ -6057,7 +6121,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_9566eeaf0a6a3486"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "illuminated Mirror",
@@ -6228,7 +6293,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_ad9a722a44d165d2"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "LED bouncy ball",
@@ -6282,7 +6348,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_faa9c1723f6d034f"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Adjustable table and cart",
@@ -6426,7 +6493,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_8025cfea85dc8211"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Illuminated bathroom/mirror cabinet",
@@ -6633,7 +6701,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_39cf850914df7b39"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Baby food warmer",
@@ -6822,7 +6891,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_bbb4b18e7652e064"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Kids Powered Quad Bike",
@@ -6921,7 +6991,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_a3cacebdb3d30eed"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Sun bed",
@@ -7173,7 +7244,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_53c44477089829e2"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "KNX equipment",
@@ -7335,7 +7407,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_016e8c8a41695f3d"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Electric Bike",
@@ -7695,7 +7768,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_832953e4bce97547"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Retrofit LED ceiling light (mobile caravans, camping vehicles)",
@@ -7722,7 +7796,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_f391a2111f2aa7d5"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Renovation Socket",
@@ -7803,7 +7878,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_fed9959f1e21dbd0"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Bicycle lighting",
@@ -7857,7 +7933,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_5c06bb97d205a4e2"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Camping lantern",
@@ -7938,7 +8015,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_5b837ca92035ae91"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "Motion detector",
@@ -8442,7 +8520,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_ae992bd69e562f6e"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "HDMI连接线",
@@ -8487,7 +8566,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_1fb73722d82b1dbf"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "DP高清线",
@@ -8577,7 +8657,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_7d250a5404fb44c0"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "半导体冷却器",
@@ -8604,7 +8685,8 @@ window.WEEE_NAMES = {
       "status": "curated",
       "sourceIds": [
         "ear_4adfeae82542bfad"
-      ]
+      ],
+      "suggestible": false
     },
     {
       "text": "cpu风扇",
@@ -8617,6 +8699,1205 @@ window.WEEE_NAMES = {
     },
     {
       "text": "电脑内部cpu风扇",
+      "productId": "p_4adfeae82542bfad",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_4adfeae82542bfad"
+      ]
+    },
+    {
+      "text": "自动充气垫",
+      "productId": "p_e60eadf765671a09",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_e60eadf765671a09"
+      ]
+    },
+    {
+      "text": "游戏控制设备（摇杆、方向盘、踏板等）",
+      "productId": "p_10e36a1a7768003c",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_10e36a1a7768003c"
+      ]
+    },
+    {
+      "text": "游戏摇杆",
+      "productId": "p_10e36a1a7768003c",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_10e36a1a7768003c"
+      ]
+    },
+    {
+      "text": "游戏方向盘",
+      "productId": "p_10e36a1a7768003c",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_10e36a1a7768003c"
+      ]
+    },
+    {
+      "text": "游戏踏板",
+      "productId": "p_10e36a1a7768003c",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_10e36a1a7768003c"
+      ]
+    },
+    {
+      "text": "交流储能设备（内置逆变器）",
+      "productId": "p_04ff627a6c853f9a",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_04ff627a6c853f9a"
+      ]
+    },
+    {
+      "text": "内置逆变器储能设备",
+      "productId": "p_04ff627a6c853f9a",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_04ff627a6c853f9a"
+      ]
+    },
+    {
+      "text": "LED 光源（含带扬声器等附加功能型号）",
+      "productId": "p_eaaedf4ff79fa9ae",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_eaaedf4ff79fa9ae"
+      ]
+    },
+    {
+      "text": "带扬声器的LED灯泡",
+      "productId": "p_eaaedf4ff79fa9ae",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_eaaedf4ff79fa9ae"
+      ]
+    },
+    {
+      "text": "预装控制柜",
+      "productId": "p_2353f5f55701008d",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_2353f5f55701008d"
+      ]
+    },
+    {
+      "text": "电池连接线（带接线鼻）",
+      "productId": "p_e87b749f255b8359",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_e87b749f255b8359"
+      ]
+    },
+    {
+      "text": "带接线鼻的电池线",
+      "productId": "p_e87b749f255b8359",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_e87b749f255b8359"
+      ]
+    },
+    {
+      "text": "户外及露营太阳能系统",
+      "productId": "p_bd9963eeca248d43",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_bd9963eeca248d43"
+      ]
+    },
+    {
+      "text": "花园太阳能系统",
+      "productId": "p_bd9963eeca248d43",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_bd9963eeca248d43"
+      ]
+    },
+    {
+      "text": "手机、平板及笔记本电脑内置配件",
+      "productId": "p_0acb1d928308126d",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_0acb1d928308126d"
+      ]
+    },
+    {
+      "text": "手机内置维修配件",
+      "productId": "p_0acb1d928308126d",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_0acb1d928308126d"
+      ]
+    },
+    {
+      "text": "笔记本电脑内置维修配件",
+      "productId": "p_0acb1d928308126d",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_0acb1d928308126d"
+      ]
+    },
+    {
+      "text": "单板电脑用迷你 LED 交通灯模块",
+      "productId": "p_55bb22c39b14edb4",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_55bb22c39b14edb4"
+      ]
+    },
+    {
+      "text": "单板电脑交通灯模块",
+      "productId": "p_55bb22c39b14edb4",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_55bb22c39b14edb4"
+      ]
+    },
+    {
+      "text": "干湿吸尘器",
+      "productId": "p_7813296ab0d472a3",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_7813296ab0d472a3"
+      ]
+    },
+    {
+      "text": "倒车摄像头",
+      "productId": "p_ebc7dc021b19f418",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_ebc7dc021b19f418"
+      ]
+    },
+    {
+      "text": "倒车后视摄像头",
+      "productId": "p_ebc7dc021b19f418",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_ebc7dc021b19f418"
+      ]
+    },
+    {
+      "text": "车载 GPS 设备（含即插即用型号）",
+      "productId": "p_1d214c13e9f04c23",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_1d214c13e9f04c23"
+      ]
+    },
+    {
+      "text": "车载GPS设备",
+      "productId": "p_1d214c13e9f04c23",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_1d214c13e9f04c23"
+      ]
+    },
+    {
+      "text": "汽车拖车连接适配器",
+      "productId": "p_c8c1a96cc66b8ea6",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_c8c1a96cc66b8ea6"
+      ]
+    },
+    {
+      "text": "小型电器连接线",
+      "productId": "p_3add27e1227fba82",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_3add27e1227fba82"
+      ]
+    },
+    {
+      "text": "电气功能服装（加热、按摩、灯光等）",
+      "productId": "p_12ca69471cb25c06",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_12ca69471cb25c06"
+      ]
+    },
+    {
+      "text": "电加热服装",
+      "productId": "p_12ca69471cb25c06",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_12ca69471cb25c06"
+      ]
+    },
+    {
+      "text": "带灯光功能的服装",
+      "productId": "p_12ca69471cb25c06",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_12ca69471cb25c06"
+      ]
+    },
+    {
+      "text": "内存（RAM）",
+      "productId": "p_22506fb57a444489",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_22506fb57a444489"
+      ]
+    },
+    {
+      "text": "随机存取存储器",
+      "productId": "p_22506fb57a444489",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_22506fb57a444489"
+      ]
+    },
+    {
+      "text": "电脑内置水冷散热装置",
+      "productId": "p_1609ed41cf24db22",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_1609ed41cf24db22"
+      ]
+    },
+    {
+      "text": "电脑水冷散热装置",
+      "productId": "p_1609ed41cf24db22",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_1609ed41cf24db22"
+      ]
+    },
+    {
+      "text": "屋顶、房车及船舶等用光伏组件",
+      "productId": "p_b53fc773330cd2aa",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_b53fc773330cd2aa"
+      ]
+    },
+    {
+      "text": "美发及身体护理设备",
+      "productId": "p_3047f0c89b239e2e",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_3047f0c89b239e2e"
+      ]
+    },
+    {
+      "text": "音乐器材（不含教堂管风琴）",
+      "productId": "p_4fc9bc1a945113f4",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_4fc9bc1a945113f4"
+      ]
+    },
+    {
+      "text": "道路照明用气体放电灯／LED 光源",
+      "productId": "p_7e1bc5d0439e0094",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_7e1bc5d0439e0094"
+      ]
+    },
+    {
+      "text": "数据录入扫描笔",
+      "productId": "p_b49fe29388f1b552",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_b49fe29388f1b552"
+      ]
+    },
+    {
+      "text": "拱形烛台装饰灯",
+      "productId": "p_cb58c9e2d8dda57d",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_cb58c9e2d8dda57d"
+      ]
+    },
+    {
+      "text": "烛台装饰灯",
+      "productId": "p_cb58c9e2d8dda57d",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_cb58c9e2d8dda57d"
+      ]
+    },
+    {
+      "text": "电烛桥灯",
+      "productId": "p_cb58c9e2d8dda57d",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_cb58c9e2d8dda57d"
+      ]
+    },
+    {
+      "text": "水族、池塘及业余用途 UVC 灯",
+      "productId": "p_c071f6ef44f2ab6b",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_c071f6ef44f2ab6b"
+      ]
+    },
+    {
+      "text": "水族UVC灯",
+      "productId": "p_c071f6ef44f2ab6b",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_c071f6ef44f2ab6b"
+      ]
+    },
+    {
+      "text": "网银动态验证码器（TAN）",
+      "productId": "p_19fb8daa71d68cb1",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_19fb8daa71d68cb1"
+      ]
+    },
+    {
+      "text": "网银动态验证码器",
+      "productId": "p_19fb8daa71d68cb1",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_19fb8daa71d68cb1"
+      ]
+    },
+    {
+      "text": "TAN验证码器",
+      "productId": "p_19fb8daa71d68cb1",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_19fb8daa71d68cb1"
+      ]
+    },
+    {
+      "text": "自动抛球机",
+      "productId": "p_c7068dc01b553755",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_c7068dc01b553755"
+      ]
+    },
+    {
+      "text": "自动投球机",
+      "productId": "p_c7068dc01b553755",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_c7068dc01b553755"
+      ]
+    },
+    {
+      "text": "电子烟烟弹",
+      "productId": "p_c64ed0f45886b84a",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_c64ed0f45886b84a"
+      ]
+    },
+    {
+      "text": "电路板",
+      "productId": "p_ce57e7d3e868fa9d",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_ce57e7d3e868fa9d"
+      ]
+    },
+    {
+      "text": "线路板",
+      "productId": "p_ce57e7d3e868fa9d",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_ce57e7d3e868fa9d"
+      ]
+    },
+    {
+      "text": "多功能移动电源",
+      "productId": "p_7a712128984781cd",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_7a712128984781cd"
+      ]
+    },
+    {
+      "text": "多功能充电宝",
+      "productId": "p_7a712128984781cd",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_7a712128984781cd"
+      ]
+    },
+    {
+      "text": "刚性光伏组件（带玻璃）",
+      "productId": "p_a68f2c543741dae7",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_a68f2c543741dae7"
+      ]
+    },
+    {
+      "text": "单板电脑用 LCD 按键扩展板",
+      "productId": "p_3b08dcd443e632c5",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_3b08dcd443e632c5"
+      ]
+    },
+    {
+      "text": "激光数字经纬仪",
+      "productId": "p_ac58d8d816413d58",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_ac58d8d816413d58"
+      ]
+    },
+    {
+      "text": "静电防护接地设备（ESD）",
+      "productId": "p_30f51b0195123ed6",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_30f51b0195123ed6"
+      ]
+    },
+    {
+      "text": "静电接地设备",
+      "productId": "p_30f51b0195123ed6",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_30f51b0195123ed6"
+      ]
+    },
+    {
+      "text": "大型信息与通信设备",
+      "productId": "p_03460d199971efdb",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_03460d199971efdb"
+      ]
+    },
+    {
+      "text": "蓝牙钥匙防丢器（不含 GPS）",
+      "productId": "p_0e1e272c101db27f",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_0e1e272c101db27f"
+      ]
+    },
+    {
+      "text": "蓝牙钥匙防丢器",
+      "productId": "p_0e1e272c101db27f",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_0e1e272c101db27f"
+      ]
+    },
+    {
+      "text": "蓝牙调频发射器（FM）",
+      "productId": "p_0e761536fbc5a632",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_0e761536fbc5a632"
+      ]
+    },
+    {
+      "text": "蓝牙FM发射器",
+      "productId": "p_0e761536fbc5a632",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_0e761536fbc5a632"
+      ]
+    },
+    {
+      "text": "LED 气泡装饰柱",
+      "productId": "p_71e4619c38c2312f",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_71e4619c38c2312f"
+      ]
+    },
+    {
+      "text": "气泡装饰柱",
+      "productId": "p_71e4619c38c2312f",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_71e4619c38c2312f"
+      ]
+    },
+    {
+      "text": "检测摄像机",
+      "productId": "p_825b89d4a7ace07c",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_825b89d4a7ace07c"
+      ]
+    },
+    {
+      "text": "奶瓶蒸汽消毒器",
+      "productId": "p_ca959537dadd9889",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_ca959537dadd9889"
+      ]
+    },
+    {
+      "text": "蒸汽奶瓶消毒器",
+      "productId": "p_ca959537dadd9889",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_ca959537dadd9889"
+      ]
+    },
+    {
+      "text": "幼儿电动玩具车",
+      "productId": "p_cee82169d5ce61d9",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_cee82169d5ce61d9"
+      ]
+    },
+    {
+      "text": "带冷藏或冷冻功能的家用设备",
+      "productId": "p_f81f5edd5dc36332",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_f81f5edd5dc36332"
+      ]
+    },
+    {
+      "text": "固定内置 NFC 或 RFID 芯片的产品",
+      "productId": "p_fb4fc57d5f4fa49b",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_fb4fc57d5f4fa49b"
+      ]
+    },
+    {
+      "text": "信息与通信接口转换器（如 USB、DisplayPort 转接器）",
+      "productId": "p_7ffc122c173872ae",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_7ffc122c173872ae"
+      ]
+    },
+    {
+      "text": "换挡提示灯",
+      "productId": "p_78b7e93f6e500509",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_78b7e93f6e500509"
+      ]
+    },
+    {
+      "text": "换挡指示灯",
+      "productId": "p_78b7e93f6e500509",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_78b7e93f6e500509"
+      ]
+    },
+    {
+      "text": "单板电脑用迷你 MP3 播放器",
+      "productId": "p_7ce99d665b17effd",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_7ce99d665b17effd"
+      ]
+    },
+    {
+      "text": "车辆法定必备照明设备",
+      "productId": "p_e5d96bf05dbe71c4",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_e5d96bf05dbe71c4"
+      ]
+    },
+    {
+      "text": "顶装式电动升降装置",
+      "productId": "p_98bbec8acb2471e7",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_98bbec8acb2471e7"
+      ]
+    },
+    {
+      "text": "户外导航通信终端",
+      "productId": "p_c8d84347032fb3c9",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_c8d84347032fb3c9"
+      ]
+    },
+    {
+      "text": "户外导航通信设备",
+      "productId": "p_c8d84347032fb3c9",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_c8d84347032fb3c9"
+      ]
+    },
+    {
+      "text": "电蚊蝇拍",
+      "productId": "p_efdaa87a38e68db0",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_efdaa87a38e68db0"
+      ]
+    },
+    {
+      "text": "电蚊拍",
+      "productId": "p_efdaa87a38e68db0",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_efdaa87a38e68db0"
+      ]
+    },
+    {
+      "text": "电子价签",
+      "productId": "p_0b4152db02389b07",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_0b4152db02389b07"
+      ]
+    },
+    {
+      "text": "电子价格标签",
+      "productId": "p_0b4152db02389b07",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_0b4152db02389b07"
+      ]
+    },
+    {
+      "text": "实验室及工业循环冷却器",
+      "productId": "p_3643fe494607026a",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_3643fe494607026a"
+      ]
+    },
+    {
+      "text": "电子制作控制模块",
+      "productId": "p_b7fa6c17b71d9c73",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_b7fa6c17b71d9c73"
+      ]
+    },
+    {
+      "text": "望远镜手持控制器",
+      "productId": "p_b244919f308c100f",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_b244919f308c100f"
+      ]
+    },
+    {
+      "text": "望远镜手持控制盒",
+      "productId": "p_b244919f308c100f",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_b244919f308c100f"
+      ]
+    },
+    {
+      "text": "天文望远镜支架",
+      "productId": "p_195733dcb954c843",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_195733dcb954c843"
+      ]
+    },
+    {
+      "text": "天文望远镜安装座",
+      "productId": "p_195733dcb954c843",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_195733dcb954c843"
+      ]
+    },
+    {
+      "text": "个人电脑（PC）",
+      "productId": "p_29ffa0eac1a0a79c",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_29ffa0eac1a0a79c"
+      ]
+    },
+    {
+      "text": "通信或信息设备专用麦克风",
+      "productId": "p_2d00d5701bda9895",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_2d00d5701bda9895"
+      ]
+    },
+    {
+      "text": "通信天线",
+      "productId": "p_3ff8e27ab4e8084f",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_3ff8e27ab4e8084f"
+      ]
+    },
+    {
+      "text": "笔记本电脑 USB 散热风扇",
+      "productId": "p_f6e741311ab22c06",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_f6e741311ab22c06"
+      ]
+    },
+    {
+      "text": "笔记本USB风扇",
+      "productId": "p_f6e741311ab22c06",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_f6e741311ab22c06"
+      ]
+    },
+    {
+      "text": "洞洞板（通孔实验电路板）",
+      "productId": "p_b3e07006d4d63861",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_b3e07006d4d63861"
+      ]
+    },
+    {
+      "text": "洞洞板",
+      "productId": "p_b3e07006d4d63861",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_b3e07006d4d63861"
+      ]
+    },
+    {
+      "text": "通孔实验电路板",
+      "productId": "p_b3e07006d4d63861",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_b3e07006d4d63861"
+      ]
+    },
+    {
+      "text": "自动充气气垫床",
+      "productId": "p_34d719879f1d19b6",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_34d719879f1d19b6"
+      ]
+    },
+    {
+      "text": "建筑除湿干燥机",
+      "productId": "p_e2fd2a811ee44fa9",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_e2fd2a811ee44fa9"
+      ]
+    },
+    {
+      "text": "带 USB 充电接口的充电电池",
+      "productId": "p_7752463eacb16dd8",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_7752463eacb16dd8"
+      ]
+    },
+    {
+      "text": "跑步运动记录器",
+      "productId": "p_59e71a1c39631918",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_59e71a1c39631918"
+      ]
+    },
+    {
+      "text": "测量仪器",
+      "productId": "p_9f39ecaa4022f32f",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_9f39ecaa4022f32f"
+      ]
+    },
+    {
+      "text": "测量设备",
+      "productId": "p_9f39ecaa4022f32f",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_9f39ecaa4022f32f"
+      ]
+    },
+    {
+      "text": "带灯镜",
+      "productId": "p_9566eeaf0a6a3486",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_9566eeaf0a6a3486"
+      ]
+    },
+    {
+      "text": "带灯镜子",
+      "productId": "p_9566eeaf0a6a3486",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_9566eeaf0a6a3486"
+      ]
+    },
+    {
+      "text": "LED 闪光弹力球",
+      "productId": "p_ad9a722a44d165d2",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_ad9a722a44d165d2"
+      ]
+    },
+    {
+      "text": "闪光弹力球",
+      "productId": "p_ad9a722a44d165d2",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_ad9a722a44d165d2"
+      ]
+    },
+    {
+      "text": "可升降桌／推车",
+      "productId": "p_faa9c1723f6d034f",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_faa9c1723f6d034f"
+      ]
+    },
+    {
+      "text": "带灯浴室柜／镜柜",
+      "productId": "p_8025cfea85dc8211",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_8025cfea85dc8211"
+      ]
+    },
+    {
+      "text": "婴儿食品加热器",
+      "productId": "p_39cf850914df7b39",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_39cf850914df7b39"
+      ]
+    },
+    {
+      "text": "儿童四轮摩托车",
+      "productId": "p_bbb4b18e7652e064",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_bbb4b18e7652e064"
+      ]
+    },
+    {
+      "text": "日光浴美黑床",
+      "productId": "p_a3cacebdb3d30eed",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_a3cacebdb3d30eed"
+      ]
+    },
+    {
+      "text": "美黑床",
+      "productId": "p_a3cacebdb3d30eed",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_a3cacebdb3d30eed"
+      ]
+    },
+    {
+      "text": "KNX 楼宇控制设备",
+      "productId": "p_53c44477089829e2",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_53c44477089829e2"
+      ]
+    },
+    {
+      "text": "KNX楼宇控制设备",
+      "productId": "p_53c44477089829e2",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_53c44477089829e2"
+      ]
+    },
+    {
+      "text": "电动助力自行车",
+      "productId": "p_016e8c8a41695f3d",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_016e8c8a41695f3d"
+      ]
+    },
+    {
+      "text": "房车加装室内灯",
+      "productId": "p_832953e4bce97547",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_832953e4bce97547"
+      ]
+    },
+    {
+      "text": "房车室内加装灯",
+      "productId": "p_832953e4bce97547",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_832953e4bce97547"
+      ]
+    },
+    {
+      "text": "灯具悬吊供电组件",
+      "productId": "p_f391a2111f2aa7d5",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_f391a2111f2aa7d5"
+      ]
+    },
+    {
+      "text": "灯具吊线组件",
+      "productId": "p_f391a2111f2aa7d5",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_f391a2111f2aa7d5"
+      ]
+    },
+    {
+      "text": "自行车照明设备",
+      "productId": "p_fed9959f1e21dbd0",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_fed9959f1e21dbd0"
+      ]
+    },
+    {
+      "text": "自行车车灯",
+      "productId": "p_fed9959f1e21dbd0",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_fed9959f1e21dbd0"
+      ]
+    },
+    {
+      "text": "露营提灯",
+      "productId": "p_5c06bb97d205a4e2",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_5c06bb97d205a4e2"
+      ]
+    },
+    {
+      "text": "野营提灯",
+      "productId": "p_5c06bb97d205a4e2",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_5c06bb97d205a4e2"
+      ]
+    },
+    {
+      "text": "移动感应器",
+      "productId": "p_5b837ca92035ae91",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_5b837ca92035ae91"
+      ]
+    },
+    {
+      "text": "移动探测器",
+      "productId": "p_5b837ca92035ae91",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_5b837ca92035ae91"
+      ]
+    },
+    {
+      "text": "HDMI 高清连接线",
+      "productId": "p_ae992bd69e562f6e",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_ae992bd69e562f6e"
+      ]
+    },
+    {
+      "text": "DP 显示连接线",
+      "productId": "p_1fb73722d82b1dbf",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_1fb73722d82b1dbf"
+      ]
+    },
+    {
+      "text": "DP连接线",
+      "productId": "p_1fb73722d82b1dbf",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_1fb73722d82b1dbf"
+      ]
+    },
+    {
+      "text": "半导体制冷／除湿设备（珀尔帖）",
+      "productId": "p_7d250a5404fb44c0",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_ed4f19973569078f",
+        "ear_722d1e20e3d95ad6"
+      ]
+    },
+    {
+      "text": "半导体制冷除湿设备",
+      "productId": "p_7d250a5404fb44c0",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_ed4f19973569078f",
+        "ear_722d1e20e3d95ad6"
+      ]
+    },
+    {
+      "text": "处理器散热风扇（CPU）",
+      "productId": "p_4adfeae82542bfad",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_4adfeae82542bfad"
+      ]
+    },
+    {
+      "text": "处理器散热风扇",
       "productId": "p_4adfeae82542bfad",
       "language": "zh",
       "status": "curated",
@@ -8750,6 +10031,6 @@ window.WEEE_NAMES = {
     ]
   },
   "retired": {
-    "钟变压器": "旧资料中的含糊名称尚未核实，已停止推荐。请按实际用途查找产品或使用条件引导。"
+    "钟变压器": "该名称含义不清，请填写具体用途，或使用条件引导。"
   }
 };
