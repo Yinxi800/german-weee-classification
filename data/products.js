@@ -396,6 +396,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "EAR 示例为不含其他电子元件的磁带，此类磁带不属于电气设备。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -587,6 +588,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于壁挂或立式安装的红外加热器。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -727,6 +729,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "EAR 示例为仅带线端套管或接线鼻的电缆，此类电缆被视为零部件。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -942,6 +945,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "EAR 示例为故障手机、智能手机、平板电脑或笔记本电脑内部安装或自行更换的维修配件。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -972,6 +976,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于供电子制作爱好者使用的单板电脑迷你 LED 交通灯模块。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -1057,6 +1062,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于后装的倒车摄像头。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -1087,6 +1093,8 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于内置太阳能电池、带 USB 接口且太阳能电池面积不超过 0.5 平方米的充电器；超过 0.5 平方米按光伏组件处理。",
+      "officialReferenceOptions": [{"condition": "带 USB 接口且太阳能电池面积不超过 0.5 平方米", "result": "第 5 类 · 可用于家庭的小型设备"}, {"condition": "太阳能电池面积超过 0.5 平方米", "result": "按光伏组件判断，类别还需核对尺寸等条件"}],
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -1117,6 +1125,8 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "本参考不包括具有物理测量或监控等附加功能的设备；具有此类功能时为小型设备。家用或专用商用设备类型取决于使用地点。",
+      "officialReferenceOptions": [{"condition": "无物理测量或监控等附加功能的 GPS 设备", "result": "第 6 类 · 家用或专用商用类型取决于使用地点"}, {"condition": "具有物理测量或监控等附加功能", "result": "小型设备，需结合规格和使用场景核对"}],
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -1147,6 +1157,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于带交流电源插座等附加功能的便携储能电源。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -1234,6 +1245,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "EAR 示例为汽车拖车使用的 7 针或 13 针适配器，可用于照明连接；自行车照明需要注册。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -1264,6 +1276,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于后装于汽车中控台、具备安卓平板完整功能且屏幕面积大于 100 平方厘米的车载收音机。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -1294,6 +1307,8 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "仅双轮自平衡交通工具需注册，例如平衡车、悬浮滑板或双轮自平衡轮椅；单轮或超过两轮的交通工具不在适用范围内。",
+      "officialReferenceOptions": [{"condition": "双轮自平衡交通工具", "result": "第 4 类 · 可用于家庭的大型设备"}, {"condition": "单轮或多于两轮的交通工具", "result": "不在 ElektroG 适用范围内"}],
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -1440,6 +1455,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "衣物应在折叠后的最紧凑状态下测量尺寸。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -1794,6 +1810,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于仅限工业或医疗用途、作为后装设备或独立设备的触摸屏。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -1921,6 +1938,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于后装改装产品，例如带即插即用线束的排气阀门控制器。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -1951,6 +1969,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "EAR 示例为连接端子。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -2059,6 +2078,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于扫描印刷或数字文本，同时作为数字输入设备的扫描笔。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -2089,6 +2109,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "门锁通常与门分开，作为独立设备看待。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -2119,6 +2140,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "EAR 示例为带压电点火器的燃气烧烤炉，产品不得具有其他电气功能。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -2561,6 +2583,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于具有电气功能的烟弹，例如内置不可拆卸的发热芯或 RFID 功能。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -2689,6 +2712,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "EAR 示例为未装配的电路板，以及只有导线线路或孔阵列的电路板；此类产品属于零部件。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -2782,6 +2806,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于生物反馈及神经反馈训练设备。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -2812,6 +2837,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于包含电池并具有内置照明、无线充电或交流电源插座等附加功能的设备。电量显示、充电接口、电池管理系统、内置通信模块及内置充电线仍属于电池部分；移动电源也受电池法规约束。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -2842,6 +2868,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "EAR 示例须仅用于商业用途，具有独立电源且无需连接电网，具备自行驱动的车轮，并且不得用于道路交通。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -3078,6 +3105,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于供电子制作爱好者使用、主要用途是在屏幕上显示信息的设备。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -3115,6 +3143,7 @@ window.WEEE_PRODUCTS = {
           }
         }
       },
+      "officialReferenceConditions": "适用于带北约接口的应急启动电缆；柔性设备应在折叠或卷起后的最紧凑状态下测量。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -3249,6 +3278,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "EAR 示例须仅用于接地，不得包含其他电气功能或电子元件。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -3553,6 +3583,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于固定集成电气功能的床板架。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -3583,6 +3614,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于与智能手机配对、没有自身 GPS 的蓝牙钥匙防丢器。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -3613,6 +3645,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "可替换的 LED 发光轮通常直径约 80 毫米，可代替普通轮子安装，作为独立电气设备。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -3643,6 +3676,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于听音乐或免提通话的蓝牙 FM 发射器。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -3673,6 +3707,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "EAR 示例为部分装配电缆或按长度销售的电缆；仅装线端套管或环形接线鼻的电缆也被视为未装配。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -3703,6 +3738,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于注水式落地灯。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -4159,6 +4195,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "EAR 示例为不含其他电子元件的磁带，此类磁带不属于电气设备。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -4238,6 +4275,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于帮助视力障碍者阅读的 LCD 显示设备；此类设备不论屏幕尺寸均属于屏幕设备。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -4275,6 +4313,7 @@ window.WEEE_PRODUCTS = {
           }
         }
       },
+      "officialReferenceConditions": "适用于通过线缆摄像头连接智能手机的检测摄像机；柔性设备应在折叠或卷起后的最紧凑状态下测量。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -4305,6 +4344,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于用水蒸气消毒奶瓶、奶嘴及配件的设备。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -4551,6 +4591,8 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "可替换的 LED 发光轮是独立电气设备；无电机滑板车不是交通工具。若滑板车固定集成 LED，则应注册为大型设备。",
+      "officialReferenceOptions": [{"condition": "可替换的 LED 发光轮", "result": "第 5 类 · 独立小型设备"}, {"condition": "无电机滑板车固定集成 LED", "result": "第 4 类 · 大型设备"}],
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -4684,6 +4726,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "EAR 示例用于连接厨房炉灶，包含部分装配的电缆。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -4834,6 +4877,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "EAR 将电池管理系统视为电池的一部分，即使单独销售也是如此；产品不得具有其他附加电气功能。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -4864,6 +4908,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于时速约 5 公里的电动幼儿玩具车；其属于电动玩具而非交通工具，即使超过两轮也需注册。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -4992,6 +5037,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "EAR 示例为避雷针。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -5345,6 +5391,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "NFC 或 RFID 是整体产品唯一的电气功能时，如芯片不能简单且无损地移除，整体产品成为电气设备。家用或专用商用类型取决于使用地点和目标群体；还需查看 NFC 或 RFID 芯片条目的说明。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -5527,6 +5574,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于赛车运动中使用的换挡提示灯或挡位显示器。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -5776,6 +5824,8 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于时速最高约 25 公里的儿童摩托车：仅双轮电动自行车需注册，超过两轮不在适用范围内。时速约 5 公里的幼儿车属于玩具，无论轮数均需注册。",
+      "officialReferenceOptions": [{"condition": "时速最高约 25 公里的双轮电动自行车型儿童摩托", "result": "第 4 类 · 可用于家庭的大型设备"}, {"condition": "超过两轮的交通工具", "result": "不在 ElektroG 适用范围内"}, {"condition": "时速约 5 公里的幼儿玩具车", "result": "属于玩具，无论轮数均需注册；具体类别须核对"}],
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -5865,6 +5915,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "EAR 示例为不带芯片、仅带磁条的磁卡。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -5895,6 +5946,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于由座椅或平台、驱动装置和安装在楼梯或墙壁上的承载导轨组成的楼梯升降椅；EAR 说明其不属于大型固定设备豁免。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -6032,6 +6084,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "EAR 示例为机动车法定必备照明；自行车照明、工作灯和氛围灯需要注册。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -6180,6 +6233,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "EAR 示例仅包括卫星锅及支架，不含 LNB，也不含其他电子元件。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -6210,6 +6264,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于户外导航及全球消息传输设备。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -6447,6 +6502,8 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "家用或专用商用类型取决于使用地点。扫描后若直接向私人终端用户提供功能，例如促销、信息或抽奖，则为可家用设备；若芯片仅服务于商用用户且按预期经常进入家庭，例如仅用于防盗和商品管理，则不在 ElektroG 适用范围内。",
+      "officialReferenceOptions": [{"condition": "扫描后直接向私人终端用户提供功能", "result": "第 6 类 · 可用于家庭的信息和通信设备"}, {"condition": "仅服务商用用户且按预期经常进入家庭", "result": "不在 ElektroG 适用范围内"}, {"condition": "其他情况", "result": "按使用地点和用途核对家用或专用商用设备类型"}],
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -6596,6 +6653,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于带键盘、控制电视或投影仪等设备的多媒体遥控器。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -6626,6 +6684,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于供企业与顾客互动、通过大型触摸屏下单的自助终端，例如快餐店点餐机。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -6656,6 +6715,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于为非电声乐器后装的拾音器。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -6686,6 +6746,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于固定内置电机的遮阳棚。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -6813,6 +6874,8 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于铣床、3D 打印机等自制项目控制设备；带触摸控制、屏幕面积大于 100 平方厘米的型号对应屏幕设备，其他参考型号对应小型设备。",
+      "officialReferenceOptions": [{"condition": "触摸控制且屏幕面积大于 100 平方厘米的自制项目模块", "result": "第 2 类 · 可用于家庭的屏幕设备"}, {"condition": "EAR 所列其他自制项目模块示例", "result": "第 5 类 · 可用于家庭的小型设备；实际产品仍需核对"}],
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -6850,6 +6913,7 @@ window.WEEE_PRODUCTS = {
           }
         }
       },
+      "officialReferenceConditions": "适用于完全制成的线缆，一端为欧规插头、圆孔插头或音频接口；柔性设备应在折叠或卷起后的最紧凑状态下测量。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -6933,6 +6997,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于人力驱动且固定集成照明的普通滑板；无电机滑板不是交通工具。可替换的 LED 发光轮则为独立小型设备。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -7012,6 +7077,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于后装的车辆附加仪表，车速表除外。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -7464,6 +7530,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于作为后装件销售的燃气烧烤炉 LED 旋钮。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -7592,6 +7659,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "独立或单独销售的电动机需注册；EAR 同时列出不在适用范围内的可能结果，需结合实际产品用途和结构核对。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -7622,6 +7690,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于仅供信息和通信技术使用的天线；独立或单独销售的天线需注册。家用或专用商用类型取决于使用地点；EAR 同时列出不在适用范围内的可能结果。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -7701,6 +7770,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于将模拟视频信号编码为数字信号的设备，例如视频监控或视频流设备；家用或专用商用类型取决于使用地点。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -7731,6 +7801,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "EAR 示例为自行移动的机器，仅用于商业用途；不得为家庭生活环境设计或出售至家庭。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -7761,6 +7832,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于放置笔记本电脑以进行冷却的底座风扇。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -8051,6 +8123,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "EAR 示例为带预制孔阵列的未装配电路板。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -8081,6 +8154,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "EAR 示例为具有座位、三轮或四轮的电动代步车；EAR 说明单轮或多于两轮的交通工具不在适用范围内。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -8641,6 +8715,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "EAR 示例为电熔焊接套筒。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -8773,6 +8848,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "EAR 示例为带内置 USB 充电接口的电池。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -9103,6 +9179,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于带 USB 接口的墙壁插座。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -9186,6 +9263,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于单独销售、作为激光打印机耗材或配件的感光鼓单元。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -9535,6 +9613,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于最大外部尺寸不超过 50 厘米、集成电气功能的小家具。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -10228,6 +10307,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "EAR 示例为纯光学光纤电缆，仅传输光或光脉冲，不含任何电子元件。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -10816,6 +10896,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于配合专用笔即时数字化书写内容、不带 LCD 屏幕且不带平板的输入设备。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -10895,6 +10976,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "EAR 示例为空控制柜。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -10925,6 +11007,8 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "EAR 说明：两轮电动滑板或电动摇摆板属于可用于家庭的大型设备；其他轮数的电动滑板无需注册。",
+      "officialReferenceOptions": [{"condition": "两轮电动滑板或电动摇摆板", "result": "第 4 类 · 可用于家庭的大型设备"}, {"condition": "其他轮数的电动滑板", "result": "不在 ElektroG 适用范围内"}],
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -10955,6 +11039,8 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "EAR 示例为最高时速不超过 25 公里的四轮儿童车辆；约 5 公里/小时的幼儿车辆视为玩具，不论轮数均需注册。",
+      "officialReferenceOptions": [{"condition": "EAR 示例中的四轮儿童交通工具", "result": "不在 ElektroG 适用范围内"}, {"condition": "时速约 5 公里的幼儿玩具车", "result": "属于玩具，无论轮数均需注册；具体类别须核对"}],
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -11040,6 +11126,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "EAR 示例为血糖试纸。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -11778,6 +11865,8 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "仅双轮、额定持续功率不超过 250 瓦且脚踏助力速度不超过 25 公里每小时的电动助力自行车需注册；EAR 将其他电动自行车列为不在适用范围内。",
+      "officialReferenceOptions": [{"condition": "双轮、额定持续功率不超过 250 瓦且助力速度不超过 25 公里/小时", "result": "第 4 类 · 可用于家庭的大型设备"}, {"condition": "其他电动自行车", "result": "EAR 示例列为不在 ElektroG 适用范围内"}],
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -12355,6 +12444,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于后装及单独使用的工作灯。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -12385,6 +12475,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于自行车或电动自行车的 LED 前灯或尾灯。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -12472,6 +12563,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于 LED 露营提灯，也包括带光伏电池、发电机或其他附加功能的型号。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -12551,6 +12643,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "适用于单独销售、用于灯光控制的 LED 变压器。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -12630,6 +12723,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "EAR 示例为接触器。",
       "reviewReason": "special_conditions_not_covered"
     },
     {
@@ -12991,6 +13085,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
+      "officialReferenceConditions": "EAR 示例为无附加功能的简单门铃变压器；安装在 DIN 导轨上也无需注册。",
       "reviewReason": "special_conditions_not_covered",
       "reviewText": "无附加功能的简单门铃变压器，EAR 列为不在适用范围；安装在 DIN 导轨上不影响该结论。带其他电气功能的型号请另行确认。"
     },

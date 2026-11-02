@@ -140,7 +140,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Datkassette",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "a"
       ],
@@ -216,7 +216,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Infrarotheizung",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "a"
       ],
@@ -275,7 +275,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Batteriekabel mit Kabelschuhen",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "a",
         "e",
@@ -357,7 +357,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Ersatzteile zum Einbau für Handy, Smartphone, Tablet, Laptop",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "a",
         "e",
@@ -378,7 +378,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Mini LED Ampelmodul für Einplatinencomputer",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "a",
         "e",
@@ -419,7 +419,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Rückfahrkamera",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "a"
       ],
@@ -436,7 +436,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "tragbares Solar-Ladegerät",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "a",
         "e",
@@ -456,7 +456,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "GPS-Gerät für Kfz (z.B. per Plug & Play betriebene)",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "a",
         "e",
@@ -478,7 +478,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Tragbare Powerstation mit Wechselstromanschluss",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "a",
         "e",
@@ -516,7 +516,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Kfz-Anhänger-Adapter",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "a"
       ],
@@ -534,7 +534,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Android Autoradio",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "a",
         "i",
@@ -554,7 +554,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Selbstbalancierendes Fahrzeug (mit oder ohne Haltestange)",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "a",
         "e",
@@ -616,7 +616,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Bekleidung mit elektrischen Funktionen (mit Heiz-/Massage-/Leuchtfunktionen usw.)",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "a",
         "e",
@@ -757,7 +757,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Touch Panel für ausschließlich industrielle oder medizinische Zwecke",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "a",
         "e",
@@ -815,7 +815,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Auspuffklappensteuerung",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "a"
       ],
@@ -832,7 +832,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Verbindungsklemme",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "a",
         "e"
@@ -882,7 +882,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Scannerstift zur Dateneingabe",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "a",
         "i"
@@ -900,7 +900,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Motorschloss",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "a",
         "i"
@@ -918,7 +918,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Gasgrill mit elektrischem Piezozünder",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "a",
         "e",
@@ -1078,7 +1078,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Pod für Dampfer (E-Zigarette)",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "a"
       ],
@@ -1127,7 +1127,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Leiterplatte, Platine",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "a",
         "i",
@@ -1168,7 +1168,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Biofeedback Trainer",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "a",
         "i"
@@ -1186,7 +1186,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Powerbank mit Zusatzfunktion",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "a",
         "i",
@@ -1210,7 +1210,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Aufsitz-Kehrmaschine",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "a",
         "i"
@@ -1299,7 +1299,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Keypad-Shield mit LCD für Einplatinencomputer",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "a",
         "e",
@@ -1320,7 +1320,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Nato-Starthilfekabel",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "a",
         "b"
@@ -1377,7 +1377,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Erdungsausrüstung (ESD-Ausrüstung)",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "a",
         "e",
@@ -1489,7 +1489,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Lattenrost, elektrisch",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "e"
       ],
@@ -1506,7 +1506,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Bluetooth Schlüsselfinder ohne eigenes GPS",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "e",
         "i",
@@ -1525,7 +1525,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Leuchtrolle (z.B. für Inliner, Skateboards)",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "e",
         "o",
@@ -1544,7 +1544,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Bluetooth-Transmitter FM",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "e"
       ],
@@ -1561,7 +1561,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Kabel, unkonfektioniert, teilkonfektioniert",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "e",
         "i",
@@ -1583,7 +1583,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Wassersprudelsäule mit LED-Beleuchtung",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "e",
         "u",
@@ -1746,7 +1746,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Tonband",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "e"
       ],
@@ -1778,7 +1778,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Elektronische Lesehilfe",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "e",
         "i"
@@ -1796,7 +1796,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Inspektionskamera",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "e",
         "o"
@@ -1815,7 +1815,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Vaporisator",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "e"
       ],
@@ -1906,7 +1906,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Tretroller mit Leuchtrollen (ohne Motor)",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "e",
         "i",
@@ -1961,7 +1961,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Küchenanschlussbox",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "e",
         "o"
@@ -2012,7 +2012,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Batteriemanagementsystem (BMS)",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "e",
         "b"
@@ -2031,7 +2031,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Kleinkinderfahrzeug",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "e",
         "i"
@@ -2084,7 +2084,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Blitzableiter",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "e",
         "u"
@@ -2211,7 +2211,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Produkt mit fest integriertem NFC- oder RFID-Chip",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "i"
       ],
@@ -2284,7 +2284,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Schaltblitz",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "i",
         "Leuchte"
@@ -2373,7 +2373,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Kinder-Motorrad",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "i",
         "b",
@@ -2411,7 +2411,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Magnetkarte (ohne Chip)",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "i"
       ],
@@ -2428,7 +2428,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Treppenlift",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "i"
       ],
@@ -2480,7 +2480,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "vorgeschriebene Beleuchtung für Kfz",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "i",
         "o",
@@ -2540,7 +2540,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Satellitenschüssel (ohne LNB)",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "i"
       ],
@@ -2557,7 +2557,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Globalfinder",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "i"
       ],
@@ -2640,7 +2640,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "RFID-Chip",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "i"
       ],
@@ -2702,7 +2702,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Airmaus Fernbedienung",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "i",
         "u"
@@ -2720,7 +2720,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "interaktiver Kiosk",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "i"
       ],
@@ -2737,7 +2737,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Tonabnehmer für akustische Instrumente",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "i",
         "u"
@@ -2755,7 +2755,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Markise, elektrisch",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "i"
       ],
@@ -2805,7 +2805,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Steuerungsmodule für Bastler",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "o",
         "Router"
@@ -2825,7 +2825,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Eurokabel mit USB",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "o",
         "u",
@@ -2864,7 +2864,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "LED-Skateboard (ohne Motor)",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "o",
         "b",
@@ -2899,7 +2899,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Zusatzinstrumente (außer Tachos) für Kfz",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "o"
       ],
@@ -3049,7 +3049,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "LED-Drehknopf für Gasgrill",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "o",
         "b"
@@ -3098,7 +3098,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "großer Elektromotor",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "o"
       ],
@@ -3116,7 +3116,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Kommunikationsantenne",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "o"
       ],
@@ -3153,7 +3153,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Videoencoder",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "o"
       ],
@@ -3172,7 +3172,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Serviceroboter",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "o",
         "b",
@@ -3191,7 +3191,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "USB-Lüfter für Laptop",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "o",
         "u",
@@ -3300,7 +3300,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Lochrasterplatine",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "o",
         "b"
@@ -3318,7 +3318,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Elektromobil",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "o",
         "b"
@@ -3511,7 +3511,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Elektroschweißmuffe",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "u"
       ],
@@ -3564,7 +3564,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "USB-Akku",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "u",
         "b"
@@ -3681,7 +3681,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "USB-Steckdose",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "u"
       ],
@@ -3717,7 +3717,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Trommeleinheit für Laserdrucker",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "u"
       ],
@@ -3841,7 +3841,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Kleinmöbel mit integrierter elektrischer Funktion",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "u"
       ],
@@ -4069,7 +4069,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Glasfaserkabel",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "b"
       ],
@@ -4260,7 +4260,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Smart-Schreibblock",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "b"
       ],
@@ -4292,7 +4292,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Leerer Schaltschrank",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "b"
       ],
@@ -4307,7 +4307,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Elektroskateboard",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "b",
         "Router"
@@ -4326,7 +4326,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Kinder-Quad",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "b",
         "Router"
@@ -4362,7 +4362,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Blutzuckerteststreifen",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "b"
       ],
@@ -4600,7 +4600,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Pedelec",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "Router"
       ],
@@ -4794,7 +4794,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Arbeitsscheinwerfer",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "Leuchte"
       ],
@@ -4811,7 +4811,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Fahrradbeleuchtung",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "Leuchte"
       ],
@@ -4845,7 +4845,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Campinglaterne",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "Leuchte"
       ],
@@ -4877,7 +4877,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "LED-Transformator",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "Leuchte"
       ],
@@ -4909,7 +4909,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Schütz",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "Leuchte"
       ],
@@ -5039,7 +5039,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Klingeltransformator",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "Transformator",
         "Klingel"
