@@ -8,7 +8,7 @@ await query('激光电视');await choose('投影式激光电视');await radio('s
 await query('激光电视');await choose('独立显示屏电视');assert.match(await p.locator('#result').innerText(),/第 2 类/);
 await query('T8 灯管');await choose('独立荧光灯管');assert.match(await p.locator('#result').innerText(),/气体放电灯/);
 await query('T8 灯管');await choose('独立 LED 灯管');assert.match(await p.locator('#result').innerText(),/非气体放电灯/);
-await query('油锯');assert.match(await p.locator('#result').innerText(),/进一步确认/);
+await query('油锯');await radio('eligibleEEE','no');await submit();assert.match(await p.locator('#result').innerText(),/进一步确认/);
 await query('水暖毯');await radio('eligibleEEE','yes');await radio('thermal','yes');await submit();assert.match(await p.locator('#result').innerText(),/第 1 类/);
 await query('水暖毯');await radio('eligibleEEE','yes');await radio('thermal','no');await radio('size','no');await submit();assert.match(await p.locator('#result').innerText(),/第 5 类/);
 await query('电饭煲');await radio('ordinaryScope','yes');await radio('size','no');await submit();assert.match(await p.locator('#result').innerText(),/第 5 类/);assert.deepEqual(errors,[]);await b.close();console.log('PASS alias UI: laser television, T8 LED/fluorescent, gasoline saw review, water blanket, rice cooker')})().catch(e=>{console.error(e);process.exit(1)});

@@ -5917,6 +5917,25 @@ window.WEEE_EVIDENCE = {
         "先核对显示设备等优先类别；其他设备依尺寸和主要用途区分。"
       ],
       "candidates": []
+    },
+    {
+      "id": "ear_copier_20261102",
+      "type": "official_entry",
+      "title": "Kopierer",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Kopierer"
+      ],
+      "candidates": [
+        "Großgeräte für die ausschließliche Nutzung in anderen als privaten Haushalten",
+        "Kleine Geräte der Informations- und Telekommunikationstechnik, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [
+        "Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab.",
+        "Ob die b2b- oder die b2c-Geräteart zu wählen ist, ist abhängig vom Ort der Nutzung."
+      ],
+      "sourceEntryCount": 1
     }
   ]
 };

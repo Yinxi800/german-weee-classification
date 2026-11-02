@@ -1,0 +1,11 @@
+const {chromium}=require('playwright'),assert=require('node:assert/strict'),path=require('path'),{pathToFileURL}=require('url');
+(async()=>{const b=await chromium.launch({headless:true,...(process.env.CHROME_PATH?{executablePath:process.env.CHROME_PATH}:{})}),p=await b.newPage(),errors=[];p.on('pageerror',e=>errors.push(e.message));const u=process.env.WEEE_TEST_URL||pathToFileURL(path.join(__dirname,'../index.html')).href;
+async function run(name,values,expected){await p.goto(u);await p.locator('#product').fill(name);await p.locator('#begin').click();assert(await p.locator('#product-form').isVisible(),name);for(const [k,v] of Object.entries(values))await p.locator(`#name-field-${k} input[value=${v}]`).check();await p.getByRole('button',{name:'查看分类建议',exact:true}).click();const result=await p.locator('#result').innerText();assert.match(result,expected?new RegExp('第 '+expected+' 类'):/需进一步确认/,name+' '+result)}
+for(const name of ['车载显示器','后排娱乐屏']){await run(name,{eligibleEEE:'yes',standaloneDisplay:'yes'},'2');await run(name,{eligibleEEE:'no'},null)}
+for(const name of ['车灯灯泡','H4 灯泡']){await run(name,{eligibleEEE:'yes',lightSource:'yes',nonFilament:'yes',gas:'no'},'3');await run(name,{eligibleEEE:'no'},null);await run(name,{eligibleEEE:'yes',lightSource:'yes',nonFilament:'no'},null)}
+await run('卤钨灯',{lightSource:'yes',nonFilament:'yes',gas:'no'},'3');await run('卤钨灯',{lightSource:'yes',nonFilament:'no'},null);
+await run('油锯',{eligibleEEE:'yes',size:'no'},'5');await run('油锯',{eligibleEEE:'yes',size:'yes'},'4');await run('油锯',{eligibleEEE:'no'},null);
+await run('洗烘一体机',{eligibleEEE:'yes',thermal:'yes'},'1');await run('洗烘一体机',{eligibleEEE:'yes',thermal:'no',size:'no'},'5');await run('洗烘一体机',{eligibleEEE:'yes',thermal:'no',size:'yes'},'4');await run('洗烘一体机',{eligibleEEE:'no'},null);
+await run('复印机',{ordinaryScope:'yes',size:'no'},'6');await run('复印机',{ordinaryScope:'yes',size:'yes'},'4');await run('复印机',{ordinaryScope:'no'},null);
+await run('车充',{eligibleEEE:'yes',size:'no'},'5');await run('车充',{eligibleEEE:'yes',size:'yes'},'4');await run('车充',{eligibleEEE:'no'},null);
+assert.deepEqual(errors,[]);await b.close();console.log('PASS nine original aliases, eligible/review paths, display/light/size/heat-pump classifications')})().catch(e=>{console.error(e);process.exit(1)});

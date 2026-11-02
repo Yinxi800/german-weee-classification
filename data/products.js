@@ -17154,55 +17154,138 @@ window.WEEE_PRODUCTS = {
       "id": "p_gap_g017",
       "name": "车载显示屏",
       "officialName": "EAR 排除情形",
-      "coverage": "review",
+      "coverage": "supported",
       "decision": {
-        "mode": "review",
-        "required": []
+        "mode": "variants",
+        "required": [
+          "eligibleEEE",
+          "standaloneDisplay"
+        ],
+        "variants": [
+          {
+            "kind": "screen",
+            "household": "yes"
+          },
+          {
+            "kind": "screen",
+            "household": "no"
+          }
+        ],
+        "fixedSmall": false
       },
       "facts": {},
-      "defaults": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_scope_exclusions_20261102",
+            "ear_gap_g011"
+          ]
+        }
+      },
       "evidenceIds": [
-        "ear_scope_exclusions_20261102"
+        "ear_scope_exclusions_20261102",
+        "ear_gap_g011"
       ],
-      "presentation": {},
-      "reviewReason": "special_conditions_not_covered",
-      "reviewText": "需核对是否为车辆专用组件、独立设备及相关排除情形，不能仅凭名称确认类别。"
+      "presentation": {
+        "defaultsText": [
+          "限已确认不受车辆专用部件排除的完整显示设备；其他情况需复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "eligibleEEE": {
+            "title": "设备是否属于不受车辆专用部件排除的完整电气设备？",
+            "detail": "请确认它不是仅能作为被排除车辆的专用组成部分发挥功能的设备；仅凭“可拆卸”不能确定。无法确认请选择“否”。",
+            "yes": "是，已确认不属于该排除情形",
+            "no": "否或无法确认"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
     },
     {
       "id": "p_gap_g019",
       "name": "卤素灯泡",
       "officialName": "EAR 排除情形",
-      "coverage": "review",
+      "coverage": "supported",
       "decision": {
-        "mode": "review",
+        "mode": "recipe",
+        "recipe": "lighting",
         "required": []
       },
       "facts": {},
-      "defaults": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_scope_exclusions_20261102",
+            "ear_rules_lighting_20261102"
+          ]
+        }
+      },
       "evidenceIds": [
-        "ear_scope_exclusions_20261102"
+        "ear_scope_exclusions_20261102",
+        "ear_rules_lighting_20261102"
       ],
-      "presentation": {},
-      "reviewReason": "special_conditions_not_covered",
-      "reviewText": "需核对是否为卤素白炽灯以及适用范围；如为 LED 替代光源应按实际技术另行判断。"
+      "presentation": {
+        "defaultsText": [
+          "请确认实际光源技术；卤素白炽灯和无法确认的情形需复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
     },
     {
       "id": "p_gap_g025",
       "name": "汽车灯泡",
       "officialName": "EAR 排除情形",
-      "coverage": "review",
+      "coverage": "supported",
       "decision": {
-        "mode": "review",
-        "required": []
+        "mode": "recipe",
+        "recipe": "lighting",
+        "required": [
+          "eligibleEEE"
+        ]
       },
       "facts": {},
-      "defaults": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_scope_exclusions_20261102",
+            "ear_rules_lighting_20261102"
+          ]
+        }
+      },
       "evidenceIds": [
-        "ear_scope_exclusions_20261102"
+        "ear_scope_exclusions_20261102",
+        "ear_rules_lighting_20261102"
       ],
-      "presentation": {},
-      "reviewReason": "special_conditions_not_covered",
-      "reviewText": "需区分灯泡技术、车辆专用功能及适用范围，不能仅凭名称确认类别。"
+      "presentation": {
+        "defaultsText": [
+          "适用于已确认不受车辆专用部件排除的设备；白炽灯和其他特殊情况需复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "eligibleEEE": {
+            "title": "设备是否属于不受车辆专用部件排除的完整电气设备？",
+            "detail": "请确认它不是仅能作为被排除车辆的专用组成部分发挥功能的设备；仅凭“可拆卸”不能确定。无法确认请选择“否”。",
+            "yes": "是，已确认不属于该排除情形",
+            "no": "否或无法确认"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
     },
     {
       "id": "p_gap_g003",
@@ -18791,19 +18874,46 @@ window.WEEE_PRODUCTS = {
       "id": "p_gap_g085",
       "name": "车载充电器",
       "officialName": "EAR 车辆设备适用范围",
-      "coverage": "review",
+      "coverage": "supported",
       "decision": {
-        "mode": "review",
-        "required": []
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "eligibleEEE"
+        ]
       },
       "facts": {},
-      "defaults": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_scope_exclusions_20261102",
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
       "evidenceIds": [
-        "ear_scope_exclusions_20261102"
+        "ear_scope_exclusions_20261102",
+        "ear_rule_ordinary_20261102"
       ],
-      "presentation": {},
-      "reviewReason": "special_conditions_not_covered",
-      "reviewText": "需区分能否独立使用、是否仅作为车辆专用部件以及具体车辆用途，才能判断适用范围和类别。"
+      "presentation": {
+        "defaultsText": [
+          "适用于已确认不受车辆专用部件排除的完整充电设备；按尺寸判断。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "eligibleEEE": {
+            "title": "设备是否属于不受车辆专用部件排除的完整电气设备？",
+            "detail": "请确认它不是仅能作为被排除车辆的专用组成部分发挥功能的设备；仅凭“可拆卸”不能确定。无法确认请选择“否”。",
+            "yes": "是，已确认不属于该排除情形",
+            "no": "否或无法确认"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
     },
     {
       "id": "p_alias_413",
@@ -19271,19 +19381,80 @@ window.WEEE_PRODUCTS = {
       "id": "p_alias_review_426",
       "name": "洗烘一体机",
       "officialName": "EAR 分类及适用范围条件",
-      "coverage": "review",
+      "coverage": "supported",
       "decision": {
-        "mode": "review",
-        "required": []
+        "mode": "variants",
+        "required": [
+          "eligibleEEE",
+          "thermal",
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "thermal",
+            "household": "yes"
+          },
+          {
+            "kind": "thermal",
+            "household": "no"
+          },
+          {
+            "kind": "large",
+            "household": "yes"
+          },
+          {
+            "kind": "large",
+            "household": "no"
+          },
+          {
+            "kind": "small",
+            "household": "yes"
+          },
+          {
+            "kind": "small",
+            "household": "no"
+          }
+        ],
+        "fixedSmall": false
       },
       "facts": {},
-      "defaults": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_thermal_ordinary_20261102",
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
       "evidenceIds": [
+        "ear_rule_thermal_ordinary_20261102",
         "ear_rule_ordinary_20261102"
       ],
-      "presentation": {},
-      "reviewReason": "special_conditions_not_covered",
-      "reviewText": "需核对是否带热泵、制冷剂循环以及产品整体形态；不要直接套用普通洗衣机或独立干衣机的示例。"
+      "presentation": {
+        "defaultsText": [
+          "按完整设备的循环结构与尺寸依据 EAR 一般条件推导；组合型号正式注册前需核对。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "eligibleEEE": {
+            "title": "是否为适用 ElektroG 的完整电动洗烘一体机？",
+            "detail": "请确认产品依靠电力且不是大型固定工业设施等排除情形。",
+            "yes": "是，符合以上条件",
+            "no": "否或无法确认"
+          },
+          "thermal": {
+            "title": "是否具有使用制冷剂等非水介质的热泵循环？",
+            "detail": "请核对产品说明书；普通电加热、没有非水介质热泵循环的型号选“否”。",
+            "yes": "是，有非水介质热泵循环",
+            "no": "否，没有此类循环"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
     },
     {
       "id": "p_alias_review_427",
@@ -19595,19 +19766,46 @@ window.WEEE_PRODUCTS = {
       "id": "p_alias_review_444",
       "name": "油锯",
       "officialName": "EAR 分类及适用范围条件",
-      "coverage": "review",
+      "coverage": "supported",
       "decision": {
-        "mode": "review",
-        "required": []
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "eligibleEEE"
+        ]
       },
       "facts": {},
-      "defaults": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_scope_exclusions_20261102",
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
       "evidenceIds": [
+        "ear_scope_exclusions_20261102",
         "ear_rule_ordinary_20261102"
       ],
-      "presentation": {},
-      "reviewReason": "special_conditions_not_covered",
-      "reviewText": "“油锯”通常指燃油动力设备，不能直接当作电链锯；请核对是否具有独立电气功能及 ElektroG 适用范围。"
+      "presentation": {
+        "defaultsText": [
+          "仅对实际为电力驱动锯链的完整设备按尺寸判断；燃油动力及不明型号需复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "eligibleEEE": {
+            "title": "这是否为电力驱动锯链的完整电链锯？",
+            "detail": "燃油动力油锯、仅有点火电路的设备或无法确定的型号请选择“否”。",
+            "yes": "是，电力驱动的完整电链锯",
+            "no": "否或无法确认"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
     },
     {
       "id": "p_alias_review_445",
@@ -19919,19 +20117,46 @@ window.WEEE_PRODUCTS = {
       "id": "p_alias_review_462",
       "name": "复印机",
       "officialName": "EAR 分类及适用范围条件",
-      "coverage": "review",
+      "coverage": "supported",
       "decision": {
-        "mode": "review",
-        "required": []
+        "mode": "recipe",
+        "recipe": "ict",
+        "required": [
+          "ordinaryScope"
+        ]
       },
       "facts": {},
-      "defaults": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_copier_20261102",
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
       "evidenceIds": [
+        "ear_copier_20261102",
         "ear_rule_ordinary_20261102"
       ],
-      "presentation": {},
-      "reviewReason": "special_conditions_not_covered",
-      "reviewText": "需核对是否为完整复印设备、使用场景和外部尺寸，再按 EAR 官方设备归属规则判断。"
+      "presentation": {
+        "defaultsText": [
+          "按 EAR 复印机示例及通用尺寸和用途规则推导；具体型号需核对使用场景。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "ordinaryScope": {
+            "title": "是否为完整的电动文件复印设备？",
+            "detail": "请确认不属于大型固定工业设施等排除情形，也不是以显示为主要用途的独立显示设备。",
+            "yes": "是，符合以上条件",
+            "no": "否或无法确认"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
     },
     {
       "id": "p_alias_review_463",
