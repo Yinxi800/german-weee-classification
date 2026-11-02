@@ -1,7 +1,7 @@
 const {chromium}=require('playwright'),assert=require('node:assert/strict'),path=require('path'),{pathToFileURL}=require('url');
 (async()=>{const b=await chromium.launch({headless:true,...(process.env.CHROME_PATH?{executablePath:process.env.CHROME_PATH}:{})});const p=await b.newPage(),errors=[];p.on('pageerror',e=>errors.push(e.message));const u=process.env.WEEE_TEST_URL||pathToFileURL(path.join(__dirname,'../index.html')).href;
 async function start(n){await p.goto(u);await p.locator('#product').fill(n);await p.locator('#begin').click()}
-async function choose(k,v){await p.locator(`#name-field-${k} input[value=${v}]`).check()}
+async function choose(k,v){if(k==='ordinaryScope'&&await p.locator('#scope-assumption').count()&&!(await p.locator('#scope-assumption').evaluate(x=>x.open)))await p.locator('#scope-assumption summary').click();await p.locator(`#name-field-${k} input[value=${v}]`).check()}
 async function result(category){await p.getByRole('button',{name:'查看分类建议',exact:true}).click();let text=await p.locator('#result').innerText();assert.match(text,category?new RegExp('第 '+category+' 类'):/需进一步确认/);}
 await start('饮水机');await choose('thermal','yes');assert.equal(await p.locator('#name-field-size').isVisible(),false);await result('1');
 await start('饮水机');await choose('thermal','no');await choose('size','no');await result('5');

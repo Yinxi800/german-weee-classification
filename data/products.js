@@ -14333,6 +14333,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_gap_g026"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -14346,7 +14351,8 @@ window.WEEE_PRODUCTS = {
         "measurement": "body",
         "householdEditable": true,
         "sizeRuleDerived": false,
-        "questionOverrides": {}
+        "questionOverrides": {},
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -14370,6 +14376,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_gap_g027"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -14383,7 +14394,8 @@ window.WEEE_PRODUCTS = {
         "measurement": "body",
         "householdEditable": true,
         "sizeRuleDerived": false,
-        "questionOverrides": {}
+        "questionOverrides": {},
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -15280,6 +15292,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ordinary_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -15299,7 +15316,8 @@ window.WEEE_PRODUCTS = {
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
-        }
+        },
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -15323,6 +15341,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ordinary_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -15342,7 +15365,8 @@ window.WEEE_PRODUCTS = {
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
-        }
+        },
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -15366,6 +15390,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ordinary_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -15385,7 +15414,8 @@ window.WEEE_PRODUCTS = {
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
-        }
+        },
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -15452,6 +15482,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ordinary_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -15471,7 +15506,8 @@ window.WEEE_PRODUCTS = {
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
-        }
+        },
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -15495,6 +15531,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ordinary_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -15514,7 +15555,8 @@ window.WEEE_PRODUCTS = {
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
-        }
+        },
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -15538,6 +15580,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ordinary_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -15557,7 +15604,8 @@ window.WEEE_PRODUCTS = {
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
-        }
+        },
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -15581,6 +15629,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ordinary_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -15600,7 +15653,8 @@ window.WEEE_PRODUCTS = {
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
-        }
+        },
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -15624,6 +15678,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ordinary_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -15643,7 +15702,8 @@ window.WEEE_PRODUCTS = {
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
-        }
+        },
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -15667,6 +15727,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ordinary_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -15686,7 +15751,8 @@ window.WEEE_PRODUCTS = {
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
-        }
+        },
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -15710,6 +15776,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ordinary_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -15729,7 +15800,8 @@ window.WEEE_PRODUCTS = {
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
-        }
+        },
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -15753,6 +15825,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ordinary_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -15772,7 +15849,8 @@ window.WEEE_PRODUCTS = {
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
-        }
+        },
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -15796,6 +15874,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ordinary_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -15815,7 +15898,8 @@ window.WEEE_PRODUCTS = {
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
-        }
+        },
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -15839,6 +15923,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ordinary_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -15858,7 +15947,8 @@ window.WEEE_PRODUCTS = {
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
-        }
+        },
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -15882,6 +15972,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ordinary_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -15901,7 +15996,8 @@ window.WEEE_PRODUCTS = {
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
-        }
+        },
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -15925,6 +16021,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ordinary_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -15944,7 +16045,8 @@ window.WEEE_PRODUCTS = {
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
-        }
+        },
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -15968,6 +16070,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ordinary_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -15987,7 +16094,8 @@ window.WEEE_PRODUCTS = {
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
-        }
+        },
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -16011,6 +16119,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ordinary_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -16030,7 +16143,8 @@ window.WEEE_PRODUCTS = {
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
-        }
+        },
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -16054,6 +16168,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ordinary_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -16073,7 +16192,8 @@ window.WEEE_PRODUCTS = {
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
-        }
+        },
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -16097,6 +16217,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ordinary_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -16116,7 +16241,8 @@ window.WEEE_PRODUCTS = {
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
-        }
+        },
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -16484,6 +16610,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ordinary_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -16503,7 +16634,8 @@ window.WEEE_PRODUCTS = {
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
-        }
+        },
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -16527,6 +16659,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ordinary_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -16546,7 +16683,8 @@ window.WEEE_PRODUCTS = {
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
-        }
+        },
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -16570,6 +16708,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ordinary_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -16589,7 +16732,8 @@ window.WEEE_PRODUCTS = {
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
-        }
+        },
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -16613,6 +16757,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ordinary_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -16632,7 +16781,8 @@ window.WEEE_PRODUCTS = {
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
-        }
+        },
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -16656,6 +16806,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ordinary_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -16675,7 +16830,8 @@ window.WEEE_PRODUCTS = {
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
-        }
+        },
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -16699,6 +16855,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ordinary_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -16718,7 +16879,8 @@ window.WEEE_PRODUCTS = {
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
-        }
+        },
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -17670,6 +17832,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ordinary_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -17689,7 +17856,8 @@ window.WEEE_PRODUCTS = {
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
-        }
+        },
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -17928,6 +18096,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ordinary_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -17947,7 +18120,8 @@ window.WEEE_PRODUCTS = {
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
-        }
+        },
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -18057,6 +18231,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ordinary_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -18076,7 +18255,8 @@ window.WEEE_PRODUCTS = {
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
-        }
+        },
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -18191,6 +18371,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ict_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -18203,7 +18388,8 @@ window.WEEE_PRODUCTS = {
         "measurement": "body",
         "householdEditable": true,
         "sizeRuleDerived": false,
-        "questionOverrides": {}
+        "questionOverrides": {},
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -18319,6 +18505,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ict_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -18331,7 +18522,8 @@ window.WEEE_PRODUCTS = {
         "measurement": "body",
         "householdEditable": true,
         "sizeRuleDerived": false,
-        "questionOverrides": {}
+        "questionOverrides": {},
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -18374,6 +18566,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ict_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -18386,7 +18583,8 @@ window.WEEE_PRODUCTS = {
         "measurement": "body",
         "householdEditable": true,
         "sizeRuleDerived": false,
-        "questionOverrides": {}
+        "questionOverrides": {},
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -18410,6 +18608,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ict_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -18423,7 +18626,8 @@ window.WEEE_PRODUCTS = {
         "measurement": "body",
         "householdEditable": true,
         "sizeRuleDerived": false,
-        "questionOverrides": {}
+        "questionOverrides": {},
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -18475,6 +18679,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ict_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -18494,7 +18703,8 @@ window.WEEE_PRODUCTS = {
             "yes": "平板文件扫描器或数据录入扫描笔",
             "no": "3D 扫描器或胶片扫描器"
           }
-        }
+        },
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -18518,6 +18728,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ict_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -18532,7 +18747,8 @@ window.WEEE_PRODUCTS = {
         "measurement": "body",
         "householdEditable": true,
         "sizeRuleDerived": false,
-        "questionOverrides": {}
+        "questionOverrides": {},
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -18556,6 +18772,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ict_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -18569,7 +18790,8 @@ window.WEEE_PRODUCTS = {
         "measurement": "body",
         "householdEditable": true,
         "sizeRuleDerived": false,
-        "questionOverrides": {}
+        "questionOverrides": {},
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -19021,6 +19243,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ordinary_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -19040,7 +19267,8 @@ window.WEEE_PRODUCTS = {
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
-        }
+        },
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -19064,6 +19292,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ordinary_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -19083,7 +19316,8 @@ window.WEEE_PRODUCTS = {
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
-        }
+        },
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -19107,6 +19341,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ordinary_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -19126,7 +19365,8 @@ window.WEEE_PRODUCTS = {
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
-        }
+        },
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },
@@ -19150,6 +19390,11 @@ window.WEEE_PRODUCTS = {
           "sourceIds": [
             "ear_rule_ordinary_20261102"
           ]
+        },
+        "ordinaryScope": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": []
         }
       },
       "evidenceIds": [
@@ -19169,7 +19414,8 @@ window.WEEE_PRODUCTS = {
             "yes": "有，大于 50 cm",
             "no": "没有，均不大于 50 cm"
           }
-        }
+        },
+        "scopeDefaultEditable": true
       },
       "reviewReason": "special_conditions_not_covered"
     },

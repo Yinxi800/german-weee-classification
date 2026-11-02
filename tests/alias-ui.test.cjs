@@ -2,7 +2,7 @@ const {chromium}=require('playwright'),assert=require('node:assert/strict'),path
 (async()=>{const b=await chromium.launch({headless:true,...(process.env.CHROME_PATH?{executablePath:process.env.CHROME_PATH}:{})}),p=await b.newPage(),errors=[];p.on('pageerror',e=>errors.push(e.message));const url=process.env.WEEE_TEST_URL||pathToFileURL(path.join(__dirname,'../index.html')).href;
 async function query(x){await p.goto(url);await p.locator('#product').fill(x);await p.locator('#begin').click()}
 async function choose(text){await p.locator('.related-item').filter({has:p.getByText(text,{exact:true})}).click()}
-async function radio(key,value){await p.locator(`#name-field-${key} input[value=${value}]`).check()}
+async function radio(key,value){if(key==='ordinaryScope'&&await p.locator('#scope-assumption').count()&&!(await p.locator('#scope-assumption').evaluate(x=>x.open)))await p.locator('#scope-assumption summary').click();await p.locator(`#name-field-${key} input[value=${value}]`).check()}
 async function submit(){await p.getByRole('button',{name:'查看分类建议',exact:true}).click()}
 await query('激光电视');await choose('投影式激光电视');await radio('size','no');await submit();assert.match(await p.locator('#result').innerText(),/第 5 类/);
 await query('激光电视');await choose('独立显示屏电视');assert.match(await p.locator('#result').innerText(),/第 2 类/);
