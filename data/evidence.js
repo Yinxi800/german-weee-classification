@@ -864,7 +864,7 @@ window.WEEE_EVIDENCE = {
       "type": "official_entry",
       "title": "Beleuchtungssatz für Kfz-Anhänger",
       "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "query": [
         "a",
         "Leuchte"

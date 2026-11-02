@@ -2005,9 +2005,9 @@ window.WEEE_PRODUCTS = {
       "id": "p_68e8f06c35bb3ea7",
       "name": "汽车拖车照明套件",
       "officialName": "Beleuchtungssatz für Kfz-Anhänger",
-      "coverage": "review",
+      "coverage": "supported",
       "decision": {
-        "mode": "review"
+        "mode": "outside_scope"
       },
       "facts": {
         "referenceShape": {
@@ -2029,7 +2029,7 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       },
-      "reviewReason": "special_conditions_not_covered"
+      "scopeText": "EAR 将汽车拖车照明套件列为不在 ElektroG 适用范围内。请核对实际产品是否与该条目一致；EAR 提示自行车照明需注册。"
     },
     {
       "id": "p_b49fe29388f1b552",
