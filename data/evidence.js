@@ -5153,6 +5153,770 @@ window.WEEE_EVIDENCE = {
         "可用于私人家庭",
         "外部尺寸均不超过 50 cm"
       ]
+    },
+    {
+      "id": "ear_gap_g008",
+      "type": "official_entry",
+      "title": "Wärmepumpentrockner",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Wärmepumpentrockner"
+      ],
+      "candidates": [
+        "Wärmeüberträger, die in privaten Haushalten genutzt werden können",
+        "Wärmeüberträger für die ausschließliche Nutzung in anderen als privaten Haushalten"
+      ],
+      "remarks": [
+        "Ob die b2b- oder die b2c-Geräteart zu wählen ist, ist abhängig vom Ort der Nutzung."
+      ],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g010",
+      "type": "official_entry",
+      "title": "Fernseher",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Fernseher"
+      ],
+      "candidates": [
+        "Bildschirmgeräte, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g012",
+      "type": "official_entry",
+      "title": "Beamer",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Projektor"
+      ],
+      "candidates": [
+        "Großgeräte, die in privaten Haushalten genutzt werden können",
+        "Kleingeräte, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [
+        "Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab."
+      ],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g028",
+      "type": "official_entry",
+      "title": "Mikrowellengerät",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Mikrowelle"
+      ],
+      "candidates": [
+        "Großgeräte, die in privaten Haushalten genutzt werden können",
+        "Kleingeräte, die in privaten Haushalten genutzt werden können",
+        "Großgeräte für die ausschließliche Nutzung in anderen als privaten Haushalten"
+      ],
+      "remarks": [
+        "Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab.",
+        "Ob die b2b- oder die b2c-Geräteart zu wählen ist, ist abhängig vom Ort der Nutzung."
+      ],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g038",
+      "type": "official_entry",
+      "title": "Wasserkocher",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Wasserkocher"
+      ],
+      "candidates": [
+        "Kleingeräte, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g041",
+      "type": "official_entry",
+      "title": "Toaster",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Toaster"
+      ],
+      "candidates": [
+        "Großgeräte, die in privaten Haushalten genutzt werden können",
+        "Kleingeräte, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [
+        "Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab."
+      ],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g059",
+      "type": "official_entry",
+      "title": "Bügeleisen",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Bügeleisen"
+      ],
+      "candidates": [
+        "Kleingeräte, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g061",
+      "type": "official_entry",
+      "title": "Staubsauger",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Staubsauger"
+      ],
+      "candidates": [
+        "Kleingeräte, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [
+        "Nicht elektrisches Zubehör (Schlauch, Saugrohre) wird für die äußere Abmessung nicht berücksichtigt."
+      ],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g065",
+      "type": "official_entry",
+      "title": "Luftreiniger",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Luftreiniger"
+      ],
+      "candidates": [
+        "Großgeräte für die ausschließliche Nutzung in anderen als privaten Haushalten",
+        "Großgeräte, die in privaten Haushalten genutzt werden können",
+        "Kleingeräte, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [
+        "Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab.",
+        "Ob die b2b- oder die b2c-Geräteart zu wählen ist, ist abhängig vom Ort der Nutzung."
+      ],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g066",
+      "type": "official_entry",
+      "title": "Luftbefeuchter",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Luftbefeuchter"
+      ],
+      "candidates": [
+        "Kleingeräte, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g068",
+      "type": "official_entry",
+      "title": "Heizdecke",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Heizdecke"
+      ],
+      "candidates": [
+        "Kleingeräte, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [
+        "Flexible Geräte werden im kompaktesten Zustand (zusammengelegt/-gerollt) gemessen."
+      ],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g071",
+      "type": "official_entry",
+      "title": "Insektenvernichter",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Insektenvernichter"
+      ],
+      "candidates": [
+        "Großgeräte für die ausschließliche Nutzung in anderen als privaten Haushalten",
+        "Großgeräte, die in privaten Haushalten genutzt werden können",
+        "Kleingeräte, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [
+        "Falls das Gerät noch separate Lampen (z.B. UV-Leuchtmittel mit Standardsockel) enthält, sind ggf. weitere Registrierungen dafür nötig.",
+        "Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab.",
+        "Ob die b2b- oder die b2c-Geräteart zu wählen ist, ist abhängig vom Ort der Nutzung."
+      ],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g078",
+      "type": "official_entry",
+      "title": "Lötkolben",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Lötkolben"
+      ],
+      "candidates": [
+        "Kleingeräte, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g080",
+      "type": "official_entry",
+      "title": "Hochdruckreiniger",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Hochdruckreiniger"
+      ],
+      "candidates": [
+        "Großgeräte für die ausschließliche Nutzung in anderen als privaten Haushalten",
+        "Kleingeräte, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [
+        "Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab.",
+        "Ob die b2b- oder die b2c-Geräteart zu wählen ist, ist abhängig vom Ort der Nutzung."
+      ],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g081",
+      "type": "official_entry",
+      "title": "Steckdosenleiste",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Steckdosenleiste"
+      ],
+      "candidates": [
+        "Großgeräte, die in privaten Haushalten genutzt werden können",
+        "Kleingeräte, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [
+        "Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab.",
+        "Flexible Geräte werden im kompaktesten Zustand (zusammengelegt/-gerollt) gemessen."
+      ],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g095",
+      "type": "official_entry",
+      "title": "Tierfutterautomat",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Automatischer Futterautomat"
+      ],
+      "candidates": [
+        "Kleingeräte, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g096",
+      "type": "official_entry",
+      "title": "3D-Drucker",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "3D-Drucker"
+      ],
+      "candidates": [
+        "Großgeräte für die ausschließliche Nutzung in anderen als privaten Haushalten",
+        "Großgeräte, die in privaten Haushalten genutzt werden können",
+        "Kleingeräte für die ausschließliche Nutzung in anderen als privaten Haushalten",
+        "Kleingeräte, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [
+        "Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab.",
+        "Ob die b2b- oder die b2c-Geräteart zu wählen ist, ist abhängig vom Ort der Nutzung."
+      ],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g117",
+      "type": "official_entry",
+      "title": "Webcam",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Webcam"
+      ],
+      "candidates": [
+        "Kleingeräte, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g121",
+      "type": "official_entry",
+      "title": "Lautsprecher",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Lautsprecher"
+      ],
+      "candidates": [
+        "Großgeräte, die in privaten Haushalten genutzt werden können",
+        "Kleingeräte, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [
+        "Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab."
+      ],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g122",
+      "type": "official_entry",
+      "title": "Kopfhörer",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Kopfhörer"
+      ],
+      "candidates": [
+        "Kleingeräte, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [
+        "Kopfhörer in der Unterhaltungselektronik, auch mit Bluetooth."
+      ],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g124",
+      "type": "official_entry",
+      "title": "Spielekonsole",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Spielkonsole"
+      ],
+      "candidates": [
+        "Kleingeräte, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [
+        "Auch Spielzeug mit einem Bildschirm größer als 100 cm² ist ein Klein- oder Großgerät."
+      ],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g131",
+      "type": "official_entry",
+      "title": "Drohne",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Drohne"
+      ],
+      "candidates": [
+        "Großgeräte, die in privaten Haushalten genutzt werden können",
+        "Kleingeräte, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [
+        "Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab."
+      ],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g026",
+      "type": "official_entry",
+      "title": "Waschmaschine",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Waschmaschine"
+      ],
+      "candidates": [
+        "Großgeräte für die ausschließliche Nutzung in anderen als privaten Haushalten",
+        "Großgeräte, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [
+        "Ob die b2b- oder die b2c-Geräteart zu wählen ist, ist abhängig vom Ort der Nutzung."
+      ],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g027",
+      "type": "official_entry",
+      "title": "Geschirrspüler",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Geschirrspüler"
+      ],
+      "candidates": [
+        "Großgeräte für die ausschließliche Nutzung in anderen als privaten Haushalten",
+        "Großgeräte, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [
+        "Ob die b2b- oder die b2c-Geräteart zu wählen ist, ist abhängig vom Ort der Nutzung."
+      ],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g088",
+      "type": "official_entry",
+      "title": "Blutdruckmessgerät",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Blutdruckmessgerät"
+      ],
+      "candidates": [
+        "Kleingeräte, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g100",
+      "type": "official_entry",
+      "title": "Wechselrichter",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Wechselrichter"
+      ],
+      "candidates": [
+        "Großgeräte für die ausschließliche Nutzung in anderen als privaten Haushalten",
+        "Großgeräte, die in privaten Haushalten genutzt werden können",
+        "Kleingeräte, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [
+        "Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab.",
+        "Ob die b2b- oder die b2c-Geräteart zu wählen ist, ist abhängig vom Ort der Nutzung."
+      ],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g115",
+      "type": "official_entry",
+      "title": "Drucker",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Drucker"
+      ],
+      "candidates": [
+        "Großgeräte für die ausschließliche Nutzung in anderen als privaten Haushalten",
+        "Großgeräte, die in privaten Haushalten genutzt werden können",
+        "Kleine Geräte der Informations- und Telekommunikationstechnik für die ausschließliche Nutzung in anderen als privaten Haushalten",
+        "Kleine Geräte der Informations- und Telekommunikationstechnik, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [
+        "Ob die Geräteart Kleine Geräte der Informations- und Telekommunikationstechnik oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab.",
+        "Ob die b2b- oder die b2c-Geräteart zu wählen ist, ist abhängig vom Ort der Nutzung."
+      ],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g110",
+      "type": "official_entry",
+      "title": "USB-Stick",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "USB-Stick"
+      ],
+      "candidates": [
+        "Kleine Geräte der Informations- und Telekommunikationstechnik, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g130",
+      "type": "official_entry",
+      "title": "Kartenleser",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Kartenleser"
+      ],
+      "candidates": [
+        "Kleine Geräte der Informations- und Telekommunikationstechnik, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g102",
+      "type": "official_entry",
+      "title": "Notebook",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Notebook"
+      ],
+      "candidates": [
+        "Bildschirmgeräte, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g105",
+      "type": "official_entry",
+      "title": "Tablet",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Tablet-PC"
+      ],
+      "candidates": [
+        "Bildschirmgeräte, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g108",
+      "type": "official_entry",
+      "title": "Modem",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "DSL-Modem"
+      ],
+      "candidates": [
+        "Kleine Geräte der Informations- und Telekommunikationstechnik, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g111",
+      "type": "official_entry",
+      "title": "Festplatte",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Externe Festplatte"
+      ],
+      "candidates": [
+        "Kleine Geräte der Informations- und Telekommunikationstechnik, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [
+        "interne oder externe Festplatten (z.B. HDD, SSD)"
+      ],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g113",
+      "type": "official_entry",
+      "title": "Erweiterungskarte für Computer",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Grafikkarte"
+      ],
+      "candidates": [
+        "Kleine Geräte der Informations- und Telekommunikationstechnik, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g114",
+      "type": "official_entry",
+      "title": "Motherboard",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Mainboard"
+      ],
+      "candidates": [
+        "Kleine Geräte der Informations- und Telekommunikationstechnik, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [
+        "Alle Geräte zum Einbau in einen PC sind Kleine Geräte der Informations- und Telekommunikationstechnik"
+      ],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g128",
+      "type": "official_entry",
+      "title": "Walkie Talkie",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Funkgerät"
+      ],
+      "candidates": [
+        "Kleine Geräte der Informations- und Telekommunikationstechnik, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [
+        "Funkgerät für Kinder und Erwachsene"
+      ],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g129",
+      "type": "official_entry",
+      "title": "Telefon",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "IP-Telefon"
+      ],
+      "candidates": [
+        "Kleine Geräte der Informations- und Telekommunikationstechnik, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g049",
+      "type": "official_entry",
+      "title": "Kaffeemaschine",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Kaffeemaschine"
+      ],
+      "candidates": [
+        "Kleingeräte, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g056",
+      "type": "official_entry",
+      "title": "Rasierapparat",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Rasierapparat"
+      ],
+      "candidates": [
+        "Kleingeräte, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g086",
+      "type": "official_entry",
+      "title": "Waage",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Waage"
+      ],
+      "candidates": [
+        "Kleingeräte für die ausschließliche Nutzung in anderen als privaten Haushalten",
+        "Kleingeräte, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [
+        "Ob die b2b- oder die b2c-Geräteart zu wählen ist, ist abhängig vom Ort der Nutzung."
+      ],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_gap_g011",
+      "type": "official_entry",
+      "title": "Monitor",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "query": [
+        "Monitor"
+      ],
+      "candidates": [
+        "Bildschirmgeräte für die ausschließliche Nutzung in anderen als privaten Haushalten",
+        "Bildschirmgeräte, die in privaten Haushalten genutzt werden können"
+      ],
+      "remarks": [
+        "Ob die b2b- oder die b2c-Geräteart zu wählen ist, ist abhängig vom Ort der Nutzung."
+      ],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_rules_lighting_20261102",
+      "type": "classification_rule",
+      "title": "EAR 独立光源与完整灯具分类条件",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "candidates": [],
+      "remarks": [
+        "分类依产品结构、光源种类、尺寸和使用场景判断。"
+      ]
+    },
+    {
+      "id": "ear_rule_ordinary_20261102",
+      "type": "classification_rule",
+      "title": "EAR 完整设备适用范围与尺寸分类条件",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "candidates": [],
+      "remarks": [
+        "对于不属于优先类别且适用 ElektroG 的完整设备，按照外部尺寸区分大型和小型设备；柔性设备按最紧凑状态测量。"
+      ],
+      "sourceEntryCount": 1
+    },
+    {
+      "id": "ear_rule_thermal_20261102",
+      "type": "classification_rule",
+      "title": "EAR 温度交换设备适用条件",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "candidates": [],
+      "remarks": [
+        "内置非水介质循环且无排除情形的完整设备，按温度交换设备判断。"
+      ]
+    },
+    {
+      "id": "ear_scope_exclusions_20261102",
+      "type": "classification_rule",
+      "title": "EAR ElektroG 排除情形及车辆专用组件",
+      "url": "https://www.stiftung-ear.de/themenwelten/pflichten-hersteller/gibt-es-ausnahmen-fuer-bestimmte-geraete/",
+      "checked": "2026-11-02",
+      "remarks": [
+        "白炽灯和仅作为被排除设备专用组成部分才能发挥功能的设备等，需核对具体适用范围。"
+      ],
+      "candidates": []
+    },
+    {
+      "id": "ear_rule_thermal_ordinary_20261102",
+      "type": "classification_rule",
+      "title": "EAR 温度交换设备与外部尺寸分类条件",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "candidates": [],
+      "remarks": [
+        "具有非水介质循环的温度交换设备与其他设备分别按相应规则判断。"
+      ]
+    },
+    {
+      "id": "ear_rule_ict_20261102",
+      "type": "classification_rule",
+      "title": "EAR 显示、尺寸及信息通信设备分类条件",
+      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
+      "checked": "2026-11-02",
+      "remarks": [
+        "先核对显示设备等优先类别；其他设备依尺寸和主要用途区分。"
+      ],
+      "candidates": []
     }
   ]
 };

@@ -13314,6 +13314,5514 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       }
+    },
+    {
+      "id": "p_gap_g008",
+      "name": "热泵干衣机",
+      "officialName": "Wärmepumpentrockner",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [],
+        "variants": [
+          {
+            "kind": "thermal",
+            "household": "yes"
+          },
+          {
+            "kind": "thermal",
+            "household": "no"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g008"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g008"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "依据 EAR 产品示例，产品形态及使用场景需核对。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g010",
+      "name": "电视",
+      "officialName": "Fernseher",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [],
+        "variants": [
+          {
+            "kind": "screen",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g010"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g010"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "依据 EAR 产品示例，产品形态及使用场景需核对。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g012",
+      "name": "投影仪",
+      "officialName": "Beamer",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "large",
+            "household": "yes"
+          },
+          {
+            "kind": "small",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g012"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g012"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "依据 EAR 产品示例，产品形态及使用场景需核对。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g028",
+      "name": "微波炉",
+      "officialName": "Mikrowellengerät",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "large",
+            "household": "yes"
+          },
+          {
+            "kind": "small",
+            "household": "yes"
+          },
+          {
+            "kind": "large",
+            "household": "no"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g028"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g028"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "依据 EAR 产品示例，产品形态及使用场景需核对。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g038",
+      "name": "电水壶",
+      "officialName": "Wasserkocher",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "small",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g038"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g038"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按 EAR 产品示例核对适用条件；无对应尺寸或用途的型号需进一步确认。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g041",
+      "name": "烤面包机",
+      "officialName": "Toaster",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "large",
+            "household": "yes"
+          },
+          {
+            "kind": "small",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g041"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g041"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按 EAR 产品示例核对适用条件；无对应尺寸或用途的型号需进一步确认。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g059",
+      "name": "电熨斗",
+      "officialName": "Bügeleisen",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "small",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g059"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g059"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按 EAR 产品示例核对适用条件；无对应尺寸或用途的型号需进一步确认。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g061",
+      "name": "吸尘器",
+      "officialName": "Staubsauger",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "small",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g061"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g061"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按 EAR 产品示例核对适用条件；无对应尺寸或用途的型号需进一步确认。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g065",
+      "name": "空气净化器",
+      "officialName": "Luftreiniger",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "large",
+            "household": "no"
+          },
+          {
+            "kind": "large",
+            "household": "yes"
+          },
+          {
+            "kind": "small",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g065"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g065"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按 EAR 产品示例核对适用条件；无对应尺寸或用途的型号需进一步确认。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g066",
+      "name": "加湿器",
+      "officialName": "Luftbefeuchter",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "small",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g066"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g066"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按 EAR 产品示例核对适用条件；无对应尺寸或用途的型号需进一步确认。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g068",
+      "name": "电热毯",
+      "officialName": "Heizdecke",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "small",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g068"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g068"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按 EAR 产品示例核对适用条件；无对应尺寸或用途的型号需进一步确认。"
+        ],
+        "measurement": "compact",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "折叠或卷起后，有任一外部尺寸大于 50 cm 吗？",
+            "detail": "按折叠或卷起后的最紧凑状态测量。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g071",
+      "name": "灭蚊灯",
+      "officialName": "Insektenvernichter",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "large",
+            "household": "no"
+          },
+          {
+            "kind": "large",
+            "household": "yes"
+          },
+          {
+            "kind": "small",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g071"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g071"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按 EAR 产品示例核对适用条件；无对应尺寸或用途的型号需进一步确认。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g078",
+      "name": "电烙铁",
+      "officialName": "Lötkolben",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "small",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g078"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g078"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按 EAR 产品示例核对适用条件；无对应尺寸或用途的型号需进一步确认。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g080",
+      "name": "高压清洗机",
+      "officialName": "Hochdruckreiniger",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "large",
+            "household": "no"
+          },
+          {
+            "kind": "small",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g080"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g080"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按 EAR 产品示例核对适用条件；无对应尺寸或用途的型号需进一步确认。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g081",
+      "name": "插排",
+      "officialName": "Steckdosenleiste",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "large",
+            "household": "yes"
+          },
+          {
+            "kind": "small",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g081"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g081"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按 EAR 产品示例核对适用条件；无对应尺寸或用途的型号需进一步确认。"
+        ],
+        "measurement": "compact",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "折叠或卷起后，有任一外部尺寸大于 50 cm 吗？",
+            "detail": "按折叠或卷起后的最紧凑状态测量。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g095",
+      "name": "宠物自动喂食器",
+      "officialName": "Tierfutterautomat",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "small",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g095"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g095"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按 EAR 产品示例核对适用条件；无对应尺寸或用途的型号需进一步确认。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g096",
+      "name": "3D打印机",
+      "officialName": "3D-Drucker",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "large",
+            "household": "no"
+          },
+          {
+            "kind": "large",
+            "household": "yes"
+          },
+          {
+            "kind": "small",
+            "household": "no"
+          },
+          {
+            "kind": "small",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g096"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g096"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按 EAR 产品示例核对适用条件；无对应尺寸或用途的型号需进一步确认。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g117",
+      "name": "网络摄像头",
+      "officialName": "Webcam",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "small",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g117"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g117"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按 EAR 产品示例核对适用条件；无对应尺寸或用途的型号需进一步确认。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g121",
+      "name": "音箱",
+      "officialName": "Lautsprecher",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "large",
+            "household": "yes"
+          },
+          {
+            "kind": "small",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g121"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g121"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按 EAR 产品示例核对适用条件；无对应尺寸或用途的型号需进一步确认。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g122",
+      "name": "耳机",
+      "officialName": "Kopfhörer",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "small",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g122"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g122"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按 EAR 产品示例核对适用条件；无对应尺寸或用途的型号需进一步确认。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g124",
+      "name": "游戏机",
+      "officialName": "Spielekonsole",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "small",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g124"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g124"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按 EAR 产品示例核对适用条件；无对应尺寸或用途的型号需进一步确认。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g131",
+      "name": "无人机",
+      "officialName": "Drohne",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "large",
+            "household": "yes"
+          },
+          {
+            "kind": "small",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g131"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g131"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按 EAR 产品示例核对适用条件；无对应尺寸或用途的型号需进一步确认。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g026",
+      "name": "洗衣机",
+      "officialName": "Waschmaschine",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "large",
+            "household": "no"
+          },
+          {
+            "kind": "large",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g026"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g026"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按 EAR 产品示例核对适用条件；无对应尺寸或用途的型号需进一步确认。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g027",
+      "name": "洗碗机",
+      "officialName": "Geschirrspüler",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "large",
+            "household": "no"
+          },
+          {
+            "kind": "large",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g027"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g027"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按 EAR 产品示例核对适用条件；无对应尺寸或用途的型号需进一步确认。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g088",
+      "name": "电子血压计",
+      "officialName": "Blutdruckmessgerät",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "small",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g088"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g088"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按 EAR 产品示例核对适用条件；无对应尺寸或用途的型号需进一步确认。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g100",
+      "name": "电源逆变器",
+      "officialName": "Wechselrichter",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "large",
+            "household": "no"
+          },
+          {
+            "kind": "large",
+            "household": "yes"
+          },
+          {
+            "kind": "small",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g100"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g100"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按 EAR 产品示例核对适用条件；无对应尺寸或用途的型号需进一步确认。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g115",
+      "name": "打印机",
+      "officialName": "Drucker",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "large",
+            "household": "no"
+          },
+          {
+            "kind": "large",
+            "household": "yes"
+          },
+          {
+            "kind": "ict",
+            "household": "no"
+          },
+          {
+            "kind": "ict",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g115"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g115"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按 EAR 产品示例核对适用条件；无对应尺寸或用途的型号需进一步确认。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g110",
+      "name": "U盘",
+      "officialName": "USB-Stick",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "ict",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g110"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g110"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按 EAR 产品示例核对适用条件；无对应尺寸或用途的型号需进一步确认。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g130",
+      "name": "读卡器",
+      "officialName": "Kartenleser",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "ict",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g130"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g130"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按 EAR 产品示例核对适用条件；无对应尺寸或用途的型号需进一步确认。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g102",
+      "name": "笔记本电脑",
+      "officialName": "Notebook",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [],
+        "variants": [
+          {
+            "kind": "screen",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "参考 EAR 产品示例；专用型号需核对用途和产品结构。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g105",
+      "name": "平板电脑",
+      "officialName": "Tablet",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [],
+        "variants": [
+          {
+            "kind": "screen",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g105"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g105"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "参考 EAR 产品示例；专用型号需核对用途和产品结构。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g108",
+      "name": "DSL调制解调器",
+      "officialName": "Modem",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "ict",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g108"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g108"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按 EAR 产品示例核对适用条件；无对应尺寸或用途的型号需进一步确认。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g111",
+      "name": "移动硬盘",
+      "officialName": "Festplatte",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "ict",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g111"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g111"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按 EAR 产品示例核对适用条件；无对应尺寸或用途的型号需进一步确认。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g113",
+      "name": "显卡",
+      "officialName": "Erweiterungskarte für Computer",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "ict",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g113"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g113"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按 EAR 产品示例核对适用条件；无对应尺寸或用途的型号需进一步确认。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g114",
+      "name": "主板",
+      "officialName": "Motherboard",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "ict",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g114"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g114"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按 EAR 产品示例核对适用条件；无对应尺寸或用途的型号需进一步确认。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g128",
+      "name": "对讲机",
+      "officialName": "Walkie Talkie",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "ict",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g128"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g128"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按 EAR 产品示例核对适用条件；无对应尺寸或用途的型号需进一步确认。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g129",
+      "name": "IP电话",
+      "officialName": "Telefon",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "ict",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g129"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g129"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按 EAR 产品示例核对适用条件；无对应尺寸或用途的型号需进一步确认。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g112",
+      "name": "固态硬盘",
+      "officialName": "Festplatte",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "ict",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g111"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g111"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按 EAR 产品示例核对适用条件；无对应尺寸或用途的型号需进一步确认。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g049",
+      "name": "滴滤咖啡机",
+      "officialName": "Kaffeemaschine",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "small",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g049"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g049"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按 EAR 产品示例核对适用条件；无对应尺寸或用途的型号需进一步确认。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g056",
+      "name": "电动剃须刀",
+      "officialName": "Rasierapparat",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "small",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g056"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g056"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按 EAR 产品示例核对适用条件；无对应尺寸或用途的型号需进一步确认。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g086",
+      "name": "电子秤",
+      "officialName": "Waage",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "small",
+            "household": "no"
+          },
+          {
+            "kind": "small",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g086"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g086"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按 EAR 产品示例核对适用条件；无对应尺寸或用途的型号需进一步确认。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g011",
+      "name": "显示器",
+      "officialName": "Monitor",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [],
+        "variants": [
+          {
+            "kind": "screen",
+            "household": "yes"
+          },
+          {
+            "kind": "screen",
+            "household": "no"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g011"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g011"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "独立显示器或显示设备；不包含投影仪及未构成终端的组件。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g009",
+      "name": "饮水机",
+      "officialName": "Heiß-/Kaltwasserbereiter",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "thermal",
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "thermal",
+            "household": "yes"
+          },
+          {
+            "kind": "thermal",
+            "household": "no"
+          },
+          {
+            "kind": "large",
+            "household": "yes"
+          },
+          {
+            "kind": "large",
+            "household": "no"
+          },
+          {
+            "kind": "small",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_3cf021c8417481b8",
+            "ear_2a57f3a4e9c01342"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_3cf021c8417481b8",
+        "ear_2a57f3a4e9c01342"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "非水介质循环按温度交换设备判断；其他完整设备按尺寸判断，官方示例未覆盖的型号需进一步确认。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g023",
+      "name": "植物生长灯",
+      "officialName": "EAR 灯具与光源分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "lighting",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rules_lighting_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rules_lighting_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "仅适用于完整独立光源或完整灯具；卤素白炽灯等特殊适用范围需另核对。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g039",
+      "name": "电饭锅",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g040",
+      "name": "空气炸锅",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g042",
+      "name": "电压力锅",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g043",
+      "name": "多用途锅",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g045",
+      "name": "破壁机",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g046",
+      "name": "榨汁机",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g047",
+      "name": "手持搅拌棒",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g048",
+      "name": "胶囊咖啡机",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g050",
+      "name": "电蒸锅",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g051",
+      "name": "酸奶机",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g052",
+      "name": "电热饭盒",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g053",
+      "name": "电吹风",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g054",
+      "name": "直发器",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g055",
+      "name": "卷发棒",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g057",
+      "name": "电动牙刷",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g058",
+      "name": "冲牙器",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g060",
+      "name": "挂烫机",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g062",
+      "name": "扫地机器人",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g064",
+      "name": "蒸汽拖把",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g072",
+      "name": "驱蚊器",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g073",
+      "name": "电钻",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g074",
+      "name": "角磨机",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g075",
+      "name": "电锯",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g076",
+      "name": "电锤",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g077",
+      "name": "电链锯",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g079",
+      "name": "割草机",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g087",
+      "name": "电子体温计",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g089",
+      "name": "血氧仪",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g090",
+      "name": "筋膜枪",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g091",
+      "name": "颈部按摩仪",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g092",
+      "name": "鱼缸水泵",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g093",
+      "name": "鱼缸加热棒",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g094",
+      "name": "宠物电推剪",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g097",
+      "name": "擦窗机器人",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g001",
+      "name": "空调",
+      "officialName": "EAR 温度交换设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "thermal",
+        "required": [
+          "eligibleThermal"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_thermal_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_thermal_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "需符合温度交换设备与适用范围条件。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g006",
+      "name": "热泵",
+      "officialName": "EAR 温度交换设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "thermal",
+        "required": [
+          "eligibleThermal"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_thermal_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_thermal_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "需符合温度交换设备与适用范围条件。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g007",
+      "name": "空气能热水器",
+      "officialName": "EAR 温度交换设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "thermal",
+        "required": [
+          "eligibleThermal"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_thermal_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_thermal_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "需符合温度交换设备与适用范围条件。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g013",
+      "name": "监视器（安防）",
+      "officialName": "Monitor",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "standaloneDisplay"
+        ],
+        "variants": [
+          {
+            "kind": "screen",
+            "household": "yes"
+          },
+          {
+            "kind": "screen",
+            "household": "no"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g011"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g011"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "限完整显示设备；组件或其他特殊设备请核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g014",
+      "name": "拼接屏",
+      "officialName": "Monitor",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "standaloneDisplay"
+        ],
+        "variants": [
+          {
+            "kind": "screen",
+            "household": "yes"
+          },
+          {
+            "kind": "screen",
+            "household": "no"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g011"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g011"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "限完整显示设备；组件或其他特殊设备请核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g015",
+      "name": "数字标牌",
+      "officialName": "Monitor",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "standaloneDisplay"
+        ],
+        "variants": [
+          {
+            "kind": "screen",
+            "household": "yes"
+          },
+          {
+            "kind": "screen",
+            "household": "no"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g011"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g011"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "限完整显示设备；组件或其他特殊设备请核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g016",
+      "name": "电子墨水显示器",
+      "officialName": "Monitor",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "standaloneDisplay"
+        ],
+        "variants": [
+          {
+            "kind": "screen",
+            "household": "yes"
+          },
+          {
+            "kind": "screen",
+            "household": "no"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g011"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g011"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "限完整显示设备；组件或其他特殊设备请核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g022",
+      "name": "智能灯泡",
+      "officialName": "EAR 灯具与光源分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "lighting",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rules_lighting_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rules_lighting_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "仅适用于完整独立光源或完整灯具；卤素白炽灯等特殊适用范围需另核对。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g024",
+      "name": "紫外线杀菌灯",
+      "officialName": "EAR 灯具与光源分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "lighting",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rules_lighting_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rules_lighting_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "仅适用于完整独立光源或完整灯具；卤素白炽灯等特殊适用范围需另核对。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g098",
+      "name": "摄影灯",
+      "officialName": "EAR 灯具与光源分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "lighting",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rules_lighting_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rules_lighting_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "仅适用于完整独立光源或完整灯具；卤素白炽灯等特殊适用范围需另核对。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g099",
+      "name": "射灯",
+      "officialName": "EAR 灯具与光源分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "lighting",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rules_lighting_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rules_lighting_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "仅适用于完整独立光源或完整灯具；卤素白炽灯等特殊适用范围需另核对。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g017",
+      "name": "车载显示屏",
+      "officialName": "EAR 排除情形",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_scope_exclusions_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "需核对是否为车辆专用组件、独立设备及相关排除情形，不能仅凭名称确认类别。"
+    },
+    {
+      "id": "p_gap_g019",
+      "name": "卤素灯泡",
+      "officialName": "EAR 排除情形",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_scope_exclusions_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "需核对是否为卤素白炽灯以及适用范围；如为 LED 替代光源应按实际技术另行判断。"
+    },
+    {
+      "id": "p_gap_g025",
+      "name": "汽车灯泡",
+      "officialName": "EAR 排除情形",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_scope_exclusions_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "需区分灯泡技术、车辆专用功能及适用范围，不能仅凭名称确认类别。"
+    },
+    {
+      "id": "p_gap_g003",
+      "name": "酒柜",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "eligibleEEE",
+          "thermal",
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "thermal",
+            "household": "yes"
+          },
+          {
+            "kind": "thermal",
+            "household": "no"
+          },
+          {
+            "kind": "large",
+            "household": "yes"
+          },
+          {
+            "kind": "large",
+            "household": "no"
+          },
+          {
+            "kind": "small",
+            "household": "yes"
+          },
+          {
+            "kind": "small",
+            "household": "no"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_thermal_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_thermal_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "依据设备适用范围、循环结构和尺寸判断；特殊型号需另行核对。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g005",
+      "name": "医用冰箱",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "eligibleEEE",
+          "thermal",
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "thermal",
+            "household": "yes"
+          },
+          {
+            "kind": "thermal",
+            "household": "no"
+          },
+          {
+            "kind": "large",
+            "household": "yes"
+          },
+          {
+            "kind": "large",
+            "household": "no"
+          },
+          {
+            "kind": "small",
+            "household": "yes"
+          },
+          {
+            "kind": "small",
+            "household": "no"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_thermal_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_thermal_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "依据设备适用范围、循环结构和尺寸判断；特殊型号需另行核对。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g067",
+      "name": "冷风扇",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "eligibleEEE",
+          "thermal",
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "thermal",
+            "household": "yes"
+          },
+          {
+            "kind": "thermal",
+            "household": "no"
+          },
+          {
+            "kind": "large",
+            "household": "yes"
+          },
+          {
+            "kind": "large",
+            "household": "no"
+          },
+          {
+            "kind": "small",
+            "household": "yes"
+          },
+          {
+            "kind": "small",
+            "household": "no"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_thermal_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_thermal_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "依据设备适用范围、循环结构和尺寸判断；特殊型号需另行核对。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g069",
+      "name": "电热毛巾架",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "eligibleEEE",
+          "thermal",
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "thermal",
+            "household": "yes"
+          },
+          {
+            "kind": "thermal",
+            "household": "no"
+          },
+          {
+            "kind": "large",
+            "household": "yes"
+          },
+          {
+            "kind": "large",
+            "household": "no"
+          },
+          {
+            "kind": "small",
+            "household": "yes"
+          },
+          {
+            "kind": "small",
+            "household": "no"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_thermal_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_thermal_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "依据设备适用范围、循环结构和尺寸判断；特殊型号需另行核对。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g070",
+      "name": "暖手宝",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "eligibleEEE",
+          "thermal",
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "thermal",
+            "household": "yes"
+          },
+          {
+            "kind": "thermal",
+            "household": "no"
+          },
+          {
+            "kind": "large",
+            "household": "yes"
+          },
+          {
+            "kind": "large",
+            "household": "no"
+          },
+          {
+            "kind": "small",
+            "household": "yes"
+          },
+          {
+            "kind": "small",
+            "household": "no"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_thermal_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_thermal_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "依据设备适用范围、循环结构和尺寸判断；特殊型号需另行核对。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g029",
+      "name": "烤箱",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g030",
+      "name": "蒸烤一体机",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g032",
+      "name": "电磁炉（嵌入式）",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g033",
+      "name": "集成灶",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g034",
+      "name": "消毒柜",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g035",
+      "name": "跑步机",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g036",
+      "name": "健身车",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g044",
+      "name": "便携电磁炉",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g063",
+      "name": "洗地机",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g083",
+      "name": "电池充电器",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g084",
+      "name": "智能插座",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g082",
+      "name": "电源适配器",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "ordinaryScope",
+          "size",
+          "ict"
+        ],
+        "variants": [
+          {
+            "kind": "large",
+            "household": "yes"
+          },
+          {
+            "kind": "large",
+            "household": "no"
+          },
+          {
+            "kind": "small",
+            "household": "yes"
+          },
+          {
+            "kind": "small",
+            "household": "no"
+          },
+          {
+            "kind": "ict",
+            "household": "yes"
+          },
+          {
+            "kind": "ict",
+            "household": "no"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ict_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ict_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "根据设备主要用途、规格及适用范围判断。",
+          "独立充电器、电脑专用内置电源及不同用途的适配器可能不同。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "ict": {
+            "title": "电源适配器属于哪种类型？",
+            "detail": "EAR 区分电脑内置电源和其他电源适配器；不属于以下两种情况时请进一步复核。",
+            "yes": "电脑内置电源",
+            "no": "其他独立电源适配器"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g103",
+      "name": "台式电脑",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "ordinaryScope",
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "large",
+            "household": "yes"
+          },
+          {
+            "kind": "large",
+            "household": "no"
+          },
+          {
+            "kind": "ict",
+            "household": "yes"
+          },
+          {
+            "kind": "ict",
+            "household": "no"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ict_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ict_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "根据设备主要用途、规格及适用范围判断。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g104",
+      "name": "一体机电脑",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "eligibleEEE",
+          "displayArea",
+          "size",
+          "ict"
+        ],
+        "variants": [
+          {
+            "kind": "screen",
+            "household": "yes"
+          },
+          {
+            "kind": "screen",
+            "household": "no"
+          },
+          {
+            "kind": "large",
+            "household": "yes"
+          },
+          {
+            "kind": "large",
+            "household": "no"
+          },
+          {
+            "kind": "small",
+            "household": "yes"
+          },
+          {
+            "kind": "small",
+            "household": "no"
+          },
+          {
+            "kind": "ict",
+            "household": "yes"
+          },
+          {
+            "kind": "ict",
+            "household": "no"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ict_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ict_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "根据设备主要用途、规格及适用范围判断。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g106",
+      "name": "交换机",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "ordinaryScope",
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "large",
+            "household": "yes"
+          },
+          {
+            "kind": "large",
+            "household": "no"
+          },
+          {
+            "kind": "ict",
+            "household": "yes"
+          },
+          {
+            "kind": "ict",
+            "household": "no"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ict_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ict_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "根据设备主要用途、规格及适用范围判断。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g107",
+      "name": "光猫",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "ordinaryScope",
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "large",
+            "household": "yes"
+          },
+          {
+            "kind": "large",
+            "household": "no"
+          },
+          {
+            "kind": "ict",
+            "household": "yes"
+          },
+          {
+            "kind": "ict",
+            "household": "no"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ict_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ict_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "根据设备主要用途、规格及适用范围判断。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g109",
+      "name": "机顶盒",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ict_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ict_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "根据设备主要用途、规格及适用范围判断。",
+          "按主要功能为摄像、音视频接收、录像或音频播放的完整设备判断；其他用途请人工核对。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g116",
+      "name": "扫描仪",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "ordinaryScope",
+          "size",
+          "ict"
+        ],
+        "variants": [
+          {
+            "kind": "large",
+            "household": "yes"
+          },
+          {
+            "kind": "large",
+            "household": "no"
+          },
+          {
+            "kind": "small",
+            "household": "yes"
+          },
+          {
+            "kind": "small",
+            "household": "no"
+          },
+          {
+            "kind": "ict",
+            "household": "yes"
+          },
+          {
+            "kind": "ict",
+            "household": "no"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ict_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ict_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "根据设备主要用途、规格及适用范围判断。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "ict": {
+            "title": "扫描设备属于哪种类型？",
+            "detail": "EAR 将平板文件扫描器、数据录入扫描笔与 3D 或胶片扫描器列为不同示例；其他类型请改用条件引导或复核。",
+            "yes": "平板文件扫描器或数据录入扫描笔",
+            "no": "3D 扫描器或胶片扫描器"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g118",
+      "name": "监控摄像头",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ict_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ict_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "根据设备主要用途、规格及适用范围判断。",
+          "仅限完整摄像设备；特殊车辆专用组件请核对范围。",
+          "按主要功能为摄像、音视频接收、录像或音频播放的完整设备判断；其他用途请人工核对。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g119",
+      "name": "网络硬盘录像机",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ict_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ict_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "根据设备主要用途、规格及适用范围判断。",
+          "按主要功能为摄像、音视频接收、录像或音频播放的完整设备判断；其他用途请人工核对。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g123",
+      "name": "智能音箱",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ict_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ict_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "根据设备主要用途、规格及适用范围判断。",
+          "按主要功能为摄像、音视频接收、录像或音频播放的完整设备判断；其他用途请人工核对。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "ordinaryScope": {
+            "title": "产品主要用于声音播放，且属于完整电气设备吗？",
+            "detail": "请确认本产品是音箱，不属于主要用于通信的其他设备，也不涉及特殊排除情形。无法确认请选择“否”。",
+            "yes": "是，完整音频播放设备",
+            "no": "否或无法确认"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g126",
+      "name": "POS 收银机",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "eligibleEEE",
+          "displayArea",
+          "size",
+          "ict"
+        ],
+        "variants": [
+          {
+            "kind": "screen",
+            "household": "yes"
+          },
+          {
+            "kind": "screen",
+            "household": "no"
+          },
+          {
+            "kind": "large",
+            "household": "yes"
+          },
+          {
+            "kind": "large",
+            "household": "no"
+          },
+          {
+            "kind": "small",
+            "household": "yes"
+          },
+          {
+            "kind": "small",
+            "household": "no"
+          },
+          {
+            "kind": "ict",
+            "household": "yes"
+          },
+          {
+            "kind": "ict",
+            "household": "no"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ict_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ict_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "根据设备主要用途、规格及适用范围判断。",
+          "EAR 对触摸屏一体式收银系统及普通收银机有不同示例；请核对实际设备。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "displayArea": {
+            "title": "是否为触摸屏一体式收银系统？",
+            "detail": "请选择 EAR 目录中具有显示屏的一体式收银系统；无显示屏或非该类产品选否。",
+            "yes": "是，触摸屏一体式系统",
+            "no": "否，其他类型"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g127",
+      "name": "扫码枪",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "ordinaryScope",
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "large",
+            "household": "yes"
+          },
+          {
+            "kind": "large",
+            "household": "no"
+          },
+          {
+            "kind": "ict",
+            "household": "no"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ict_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ict_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "根据设备主要用途、规格及适用范围判断。",
+          "EAR 条码扫描器示例为专业场所使用；小型家用型号需进一步核对。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g031",
+      "name": "燃气灶",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "适用于普通完整设备；其他情况请按实际情况核对适用范围。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          },
+          "ordinaryScope": {
+            "title": "除点火外，是否还有其他必需的电气功能？",
+            "detail": "仅使用电子或压电点火的燃气设备涉及特殊范围判断；其他排除情形也需核对。",
+            "yes": "是，有其他必需电气功能且无特殊排除",
+            "no": "否、仅点火或无法确认"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g101",
+      "name": "光伏储能一体机",
+      "officialName": "AC-Batteriespeicher mit integriertem Wechselrichter",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "integratedInverter",
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "large",
+            "household": "no"
+          },
+          {
+            "kind": "large",
+            "household": "yes"
+          },
+          {
+            "kind": "small",
+            "household": "yes"
+          },
+          {
+            "kind": "small",
+            "household": "no"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_04ff627a6c853f9a"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_04ff627a6c853f9a"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_04ff627a6c853f9a"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 条目：AC-Batteriespeicher mit integriertem Wechselrichter",
+          "按 EAR 明确的尺寸备注补齐大小设备分支，搜索示例不代表唯一类别"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": true,
+        "questionOverrides": {
+          "integratedInverter": {
+            "title": "是否为电池和逆变器同壳的交流储能设备？",
+            "detail": "仅适用于 EAR 的交流储能设备示例；独立逆变器、直流储能或其他组合请选择“否”。",
+            "yes": "是，同壳交流储能设备",
+            "no": "否或无法确认"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_gap_g085",
+      "name": "车载充电器",
+      "officialName": "EAR 车辆设备适用范围",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_scope_exclusions_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "需区分能否独立使用、是否仅作为车辆专用部件以及具体车辆用途，才能判断适用范围和类别。"
     }
   ]
 };
