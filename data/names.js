@@ -12205,6 +12205,1422 @@ window.WEEE_NAMES = {
       "sourceIds": [
         "ear_scope_exclusions_20261102"
       ]
+    },
+    {
+      "text": "移动空调",
+      "productId": "p_gap_g001",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_thermal_20261102"
+      ]
+    },
+    {
+      "text": "分体空调",
+      "productId": "p_gap_g001",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_thermal_20261102"
+      ]
+    },
+    {
+      "text": "中央空调",
+      "productId": "p_gap_g001",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_thermal_20261102"
+      ]
+    },
+    {
+      "text": "壁挂式空调",
+      "productId": "p_gap_g001",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_thermal_20261102"
+      ]
+    },
+    {
+      "text": "葡萄酒柜",
+      "productId": "p_gap_g003",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_thermal_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "恒温酒柜",
+      "productId": "p_gap_g003",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_thermal_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "空气源热泵",
+      "productId": "p_gap_g006",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_thermal_20261102"
+      ]
+    },
+    {
+      "text": "地源热泵",
+      "productId": "p_gap_g006",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_thermal_20261102"
+      ]
+    },
+    {
+      "text": "热泵热水器",
+      "productId": "p_gap_g007",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_thermal_20261102"
+      ]
+    },
+    {
+      "text": "激光投影仪",
+      "productId": "p_gap_g012",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g012"
+      ]
+    },
+    {
+      "text": "安防监视器",
+      "productId": "p_gap_g013",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g011"
+      ]
+    },
+    {
+      "text": "监控显示器",
+      "productId": "p_gap_g013",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g011"
+      ]
+    },
+    {
+      "text": "液晶拼接屏",
+      "productId": "p_gap_g014",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g011"
+      ]
+    },
+    {
+      "text": "LED 拼接屏",
+      "productId": "p_gap_g014",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g011"
+      ]
+    },
+    {
+      "text": "数字海报屏",
+      "productId": "p_gap_g015",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g011"
+      ]
+    },
+    {
+      "text": "墨水屏显示器",
+      "productId": "p_gap_g016",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g011"
+      ]
+    },
+    {
+      "text": "车载显示器",
+      "productId": "p_gap_g017",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_scope_exclusions_20261102"
+      ]
+    },
+    {
+      "text": "后排娱乐屏",
+      "productId": "p_gap_g017",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_scope_exclusions_20261102"
+      ]
+    },
+    {
+      "text": "卤钨灯",
+      "productId": "p_gap_g019",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_scope_exclusions_20261102"
+      ]
+    },
+    {
+      "text": "WiFi 灯泡",
+      "productId": "p_gap_g022",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rules_lighting_20261102"
+      ]
+    },
+    {
+      "text": "蓝牙灯泡",
+      "productId": "p_gap_g022",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rules_lighting_20261102"
+      ]
+    },
+    {
+      "text": "UV 杀菌灯",
+      "productId": "p_gap_g024",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rules_lighting_20261102"
+      ]
+    },
+    {
+      "text": "紫外线消毒灯管",
+      "productId": "p_gap_g024",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rules_lighting_20261102"
+      ]
+    },
+    {
+      "text": "车灯灯泡",
+      "productId": "p_gap_g025",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_scope_exclusions_20261102"
+      ]
+    },
+    {
+      "text": "H4 灯泡",
+      "productId": "p_gap_g025",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_scope_exclusions_20261102"
+      ]
+    },
+    {
+      "text": "滚筒洗衣机",
+      "productId": "p_gap_g026",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g026"
+      ]
+    },
+    {
+      "text": "波轮洗衣机",
+      "productId": "p_gap_g026",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g026"
+      ]
+    },
+    {
+      "text": "嵌入式洗碗机",
+      "productId": "p_gap_g027",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g027"
+      ]
+    },
+    {
+      "text": "台式洗碗机",
+      "productId": "p_gap_g027",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g027"
+      ]
+    },
+    {
+      "text": "电烤箱",
+      "productId": "p_gap_g029",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "嵌入式烤箱",
+      "productId": "p_gap_g029",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "蒸烤箱",
+      "productId": "p_gap_g030",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "燃气炉灶",
+      "productId": "p_gap_g031",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "嵌入式燃气灶",
+      "productId": "p_gap_g031",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "嵌入式电磁炉",
+      "productId": "p_gap_g032",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "集成环保灶",
+      "productId": "p_gap_g033",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "餐具消毒柜",
+      "productId": "p_gap_g034",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "紫外线消毒柜",
+      "productId": "p_gap_g034",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "家用跑步机",
+      "productId": "p_gap_g035",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "动感单车",
+      "productId": "p_gap_g036",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "电热水壶",
+      "productId": "p_gap_g038",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g038"
+      ]
+    },
+    {
+      "text": "电饭煲",
+      "productId": "p_gap_g039",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "IH 电饭煲",
+      "productId": "p_gap_g039",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "热空气炸锅",
+      "productId": "p_gap_g040",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "多士炉",
+      "productId": "p_gap_g041",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g041"
+      ]
+    },
+    {
+      "text": "电煮锅",
+      "productId": "p_gap_g043",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "料理锅",
+      "productId": "p_gap_g043",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "原汁机",
+      "productId": "p_gap_g046",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "慢速榨汁机",
+      "productId": "p_gap_g046",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "手持料理棒",
+      "productId": "p_gap_g047",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "意式胶囊机",
+      "productId": "p_gap_g048",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "美式咖啡机",
+      "productId": "p_gap_g049",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g049"
+      ]
+    },
+    {
+      "text": "电蒸笼",
+      "productId": "p_gap_g050",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "加热饭盒",
+      "productId": "p_gap_g052",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "电吹风机",
+      "productId": "p_gap_g053",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "直发夹",
+      "productId": "p_gap_g054",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "卷发器",
+      "productId": "p_gap_g055",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "声波牙刷",
+      "productId": "p_gap_g057",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "水牙线",
+      "productId": "p_gap_g058",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "蒸汽熨斗",
+      "productId": "p_gap_g059",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g059"
+      ]
+    },
+    {
+      "text": "手持挂烫机",
+      "productId": "p_gap_g060",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "蒸汽挂烫机",
+      "productId": "p_gap_g060",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "无线吸尘器",
+      "productId": "p_gap_g061",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g061"
+      ]
+    },
+    {
+      "text": "手持吸尘器",
+      "productId": "p_gap_g061",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g061"
+      ]
+    },
+    {
+      "text": "桶式吸尘器",
+      "productId": "p_gap_g061",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g061"
+      ]
+    },
+    {
+      "text": "扫拖机器人",
+      "productId": "p_gap_g062",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "无线洗地机",
+      "productId": "p_gap_g063",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "蒸汽地拖",
+      "productId": "p_gap_g064",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "除甲醛净化器",
+      "productId": "p_gap_g065",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g065"
+      ]
+    },
+    {
+      "text": "香薰加湿器",
+      "productId": "p_gap_g066",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g066"
+      ]
+    },
+    {
+      "text": "蒸发式加湿器",
+      "productId": "p_gap_g066",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g066"
+      ]
+    },
+    {
+      "text": "空调扇",
+      "productId": "p_gap_g067",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_thermal_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "电褥子",
+      "productId": "p_gap_g068",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g068"
+      ]
+    },
+    {
+      "text": "电热毛巾杆",
+      "productId": "p_gap_g069",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_thermal_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "捕蚊灯",
+      "productId": "p_gap_g071",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g071"
+      ]
+    },
+    {
+      "text": "电击灭蚊灯",
+      "productId": "p_gap_g071",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g071"
+      ]
+    },
+    {
+      "text": "超声波驱蚊器",
+      "productId": "p_gap_g072",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "手电钻",
+      "productId": "p_gap_g073",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "冲击钻",
+      "productId": "p_gap_g073",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "磨光机",
+      "productId": "p_gap_g074",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "电动圆锯",
+      "productId": "p_gap_g075",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "电动曲线锯",
+      "productId": "p_gap_g075",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "电动除草机",
+      "productId": "p_gap_g079",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "接线板",
+      "productId": "p_gap_g081",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g081"
+      ]
+    },
+    {
+      "text": "电源适配头",
+      "productId": "p_gap_g082",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ict_20261102"
+      ]
+    },
+    {
+      "text": "WiFi 插座",
+      "productId": "p_gap_g084",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "智能排插",
+      "productId": "p_gap_g084",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "车充",
+      "productId": "p_gap_g085",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_scope_exclusions_20261102"
+      ]
+    },
+    {
+      "text": "电子厨房秤",
+      "productId": "p_gap_g086",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g086"
+      ]
+    },
+    {
+      "text": "额温枪",
+      "productId": "p_gap_g087",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "耳温枪",
+      "productId": "p_gap_g087",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "指夹血氧仪",
+      "productId": "p_gap_g089",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "按摩枪",
+      "productId": "p_gap_g090",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "颈椎按摩器",
+      "productId": "p_gap_g091",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "水族泵",
+      "productId": "p_gap_g092",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "水族加热棒",
+      "productId": "p_gap_g093",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "宠物剃毛器",
+      "productId": "p_gap_g094",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "三维打印机",
+      "productId": "p_gap_g096",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g096"
+      ]
+    },
+    {
+      "text": "擦玻璃机器人",
+      "productId": "p_gap_g097",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "影棚灯",
+      "productId": "p_gap_g098",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rules_lighting_20261102"
+      ]
+    },
+    {
+      "text": "筒灯",
+      "productId": "p_gap_g099",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rules_lighting_20261102"
+      ]
+    },
+    {
+      "text": "轨道灯",
+      "productId": "p_gap_g099",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rules_lighting_20261102"
+      ]
+    },
+    {
+      "text": "逆变器",
+      "productId": "p_gap_g100",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g100"
+      ]
+    },
+    {
+      "text": "轻薄本",
+      "productId": "p_gap_g102",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g102"
+      ]
+    },
+    {
+      "text": "游戏本",
+      "productId": "p_gap_g102",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g102"
+      ]
+    },
+    {
+      "text": "MacBook",
+      "productId": "p_gap_g102",
+      "language": "en",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g102"
+      ]
+    },
+    {
+      "text": "台式机",
+      "productId": "p_gap_g103",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ict_20261102"
+      ]
+    },
+    {
+      "text": "iPad",
+      "productId": "p_gap_g105",
+      "language": "en",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g105"
+      ]
+    },
+    {
+      "text": "以太网交换机",
+      "productId": "p_gap_g106",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ict_20261102"
+      ]
+    },
+    {
+      "text": "POE 交换机",
+      "productId": "p_gap_g106",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ict_20261102"
+      ]
+    },
+    {
+      "text": "光纤猫",
+      "productId": "p_gap_g107",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ict_20261102"
+      ]
+    },
+    {
+      "text": "ONU",
+      "productId": "p_gap_g107",
+      "language": "en",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ict_20261102"
+      ]
+    },
+    {
+      "text": "数字机顶盒",
+      "productId": "p_gap_g109",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ict_20261102"
+      ]
+    },
+    {
+      "text": "电视盒子",
+      "productId": "p_gap_g109",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ict_20261102"
+      ]
+    },
+    {
+      "text": "网络机顶盒",
+      "productId": "p_gap_g109",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ict_20261102"
+      ]
+    },
+    {
+      "text": "闪存盘",
+      "productId": "p_gap_g110",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g110"
+      ]
+    },
+    {
+      "text": "优盘",
+      "productId": "p_gap_g110",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g110"
+      ]
+    },
+    {
+      "text": "移动固态硬盘",
+      "productId": "p_gap_g111",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g111"
+      ]
+    },
+    {
+      "text": "图形卡",
+      "productId": "p_gap_g113",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g113"
+      ]
+    },
+    {
+      "text": "主机板",
+      "productId": "p_gap_g114",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g114"
+      ]
+    },
+    {
+      "text": "喷墨打印机",
+      "productId": "p_gap_g115",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g115"
+      ]
+    },
+    {
+      "text": "激光打印机",
+      "productId": "p_gap_g115",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g115"
+      ]
+    },
+    {
+      "text": "文档扫描仪",
+      "productId": "p_gap_g116",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ict_20261102"
+      ]
+    },
+    {
+      "text": "安防摄像头",
+      "productId": "p_gap_g118",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ict_20261102"
+      ]
+    },
+    {
+      "text": "网络摄像机",
+      "productId": "p_gap_g118",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ict_20261102"
+      ]
+    },
+    {
+      "text": "NVR",
+      "productId": "p_gap_g119",
+      "language": "en",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ict_20261102"
+      ]
+    },
+    {
+      "text": "无线音箱",
+      "productId": "p_gap_g121",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g121"
+      ]
+    },
+    {
+      "text": "便携音箱",
+      "productId": "p_gap_g121",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g121"
+      ]
+    },
+    {
+      "text": "有源音箱",
+      "productId": "p_gap_g121",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g121"
+      ]
+    },
+    {
+      "text": "头戴耳机",
+      "productId": "p_gap_g122",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g122"
+      ]
+    },
+    {
+      "text": "无线耳机",
+      "productId": "p_gap_g122",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g122"
+      ]
+    },
+    {
+      "text": "TWS 耳机",
+      "productId": "p_gap_g122",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g122"
+      ]
+    },
+    {
+      "text": "掌机",
+      "productId": "p_gap_g124",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g124"
+      ]
+    },
+    {
+      "text": "收银机",
+      "productId": "p_gap_g126",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ict_20261102"
+      ]
+    },
+    {
+      "text": "收款机",
+      "productId": "p_gap_g126",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ict_20261102"
+      ]
+    },
+    {
+      "text": "条码扫描器",
+      "productId": "p_gap_g127",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ict_20261102"
+      ]
+    },
+    {
+      "text": "扫码器",
+      "productId": "p_gap_g127",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ict_20261102"
+      ]
+    },
+    {
+      "text": "无线对讲机",
+      "productId": "p_gap_g128",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g128"
+      ]
+    },
+    {
+      "text": "网络电话",
+      "productId": "p_gap_g129",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g129"
+      ]
+    },
+    {
+      "text": "SIP 话机",
+      "productId": "p_gap_g129",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g129"
+      ]
+    },
+    {
+      "text": "SD 读卡器",
+      "productId": "p_gap_g130",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g130"
+      ]
+    },
+    {
+      "text": "航拍无人机",
+      "productId": "p_gap_g131",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g131"
+      ]
+    },
+    {
+      "text": "穿越机",
+      "productId": "p_gap_g131",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g131"
+      ]
+    },
+    {
+      "text": "椭圆机",
+      "productId": "p_alias_413",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "划船机",
+      "productId": "p_alias_414",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "养生壶",
+      "productId": "p_alias_415",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "面包机",
+      "productId": "p_alias_416",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "电陶炉",
+      "productId": "p_alias_417",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "豆浆机",
+      "productId": "p_alias_418",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "焊台",
+      "productId": "p_alias_419",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "水暖毯",
+      "productId": "p_alias_water_blanket",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_thermal_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "洗烘一体机",
+      "productId": "p_alias_review_426",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "油锯",
+      "productId": "p_alias_review_444",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "复印机",
+      "productId": "p_alias_review_462",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ]
+    },
+    {
+      "text": "GPU（其他情况）",
+      "productId": "p_alias_review_461",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "suggestible": false
+    },
+    {
+      "text": "料理机（其他情况）",
+      "productId": "p_alias_review_469",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "suggestible": false
+    },
+    {
+      "text": "游戏主机（其他情况）",
+      "productId": "p_alias_review_470",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "suggestible": false
     }
   ],
   "groups": {
@@ -12328,6 +13744,516 @@ window.WEEE_NAMES = {
       {
         "label": "定时开关",
         "productId": "p_4fba10d870090bae"
+      }
+    ],
+    "激光电视": [
+      {
+        "label": "投影式激光电视",
+        "productId": "p_gap_g012"
+      },
+      {
+        "label": "独立显示屏电视",
+        "productId": "p_gap_g010"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_421"
+      }
+    ],
+    "广告机": [
+      {
+        "label": "如为数字标牌",
+        "productId": "p_gap_g015"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_422"
+      }
+    ],
+    "T8 灯管": [
+      {
+        "label": "独立 LED 灯管",
+        "productId": "p_eaaedf4ff79fa9ae"
+      },
+      {
+        "label": "独立荧光灯管",
+        "productId": "p_b8df6d1da2c44818"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_423"
+      }
+    ],
+    "T5 灯管": [
+      {
+        "label": "独立 LED 灯管",
+        "productId": "p_eaaedf4ff79fa9ae"
+      },
+      {
+        "label": "独立荧光灯管",
+        "productId": "p_b8df6d1da2c44818"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_424"
+      }
+    ],
+    "石英灯": [
+      {
+        "label": "卤素白炽灯泡",
+        "productId": "p_gap_g019"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_425"
+      }
+    ],
+    "光波炉": [
+      {
+        "label": "如为微波炉",
+        "productId": "p_gap_g028"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_427"
+      }
+    ],
+    "烧水壶": [
+      {
+        "label": "如为电水壶",
+        "productId": "p_gap_g038"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_428"
+      }
+    ],
+    "高压锅": [
+      {
+        "label": "如为电压力锅",
+        "productId": "p_gap_g042"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_429"
+      }
+    ],
+    "电磁炉": [
+      {
+        "label": "便携式电磁炉",
+        "productId": "p_gap_g044"
+      },
+      {
+        "label": "嵌入式电磁炉",
+        "productId": "p_gap_g032"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_430"
+      }
+    ],
+    "胶囊机": [
+      {
+        "label": "如为胶囊咖啡机",
+        "productId": "p_gap_g048"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_431"
+      }
+    ],
+    "蒸锅": [
+      {
+        "label": "如为电蒸锅",
+        "productId": "p_gap_g050"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_432"
+      }
+    ],
+    "吹风机": [
+      {
+        "label": "如为电吹风",
+        "productId": "p_gap_g053"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_433"
+      }
+    ],
+    "风筒": [
+      {
+        "label": "如为电吹风",
+        "productId": "p_gap_g053"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_434"
+      }
+    ],
+    "夹板": [
+      {
+        "label": "如为直发器",
+        "productId": "p_gap_g054"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_435"
+      }
+    ],
+    "剃须刀": [
+      {
+        "label": "如为电动剃须刀",
+        "productId": "p_gap_g056"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_436"
+      }
+    ],
+    "刮胡刀": [
+      {
+        "label": "如为电动剃须刀",
+        "productId": "p_gap_g056"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_437"
+      }
+    ],
+    "拖地机": [
+      {
+        "label": "如为洗地机",
+        "productId": "p_gap_g063"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_438"
+      }
+    ],
+    "净化器": [
+      {
+        "label": "如为空气净化器",
+        "productId": "p_gap_g065"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_439"
+      }
+    ],
+    "冷风机": [
+      {
+        "label": "如为冷风扇",
+        "productId": "p_gap_g067"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_440"
+      }
+    ],
+    "暖手器": [
+      {
+        "label": "如为暖手宝",
+        "productId": "p_gap_g070"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_441"
+      }
+    ],
+    "圆锯": [
+      {
+        "label": "如为电锯",
+        "productId": "p_gap_g075"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_442"
+      }
+    ],
+    "曲线锯": [
+      {
+        "label": "如为电锯",
+        "productId": "p_gap_g075"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_443"
+      }
+    ],
+    "除草机": [
+      {
+        "label": "如为割草机",
+        "productId": "p_gap_g079"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_445"
+      }
+    ],
+    "洗车机": [
+      {
+        "label": "如为高压清洗机",
+        "productId": "p_gap_g080"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_446"
+      }
+    ],
+    "电源插座": [
+      {
+        "label": "插排",
+        "productId": "p_gap_g081"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_447"
+      }
+    ],
+    "充电头": [
+      {
+        "label": "如为电源适配器",
+        "productId": "p_gap_g082"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_448"
+      }
+    ],
+    "充电器": [
+      {
+        "label": "电池充电器",
+        "productId": "p_gap_g083"
+      },
+      {
+        "label": "电源适配器",
+        "productId": "p_gap_g082"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_449"
+      }
+    ],
+    "体重秤": [
+      {
+        "label": "如为电子秤",
+        "productId": "p_gap_g086"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_450"
+      }
+    ],
+    "厨房秤": [
+      {
+        "label": "如为电子秤",
+        "productId": "p_gap_g086"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_451"
+      }
+    ],
+    "过滤泵": [
+      {
+        "label": "如为鱼缸水泵",
+        "productId": "p_gap_g092"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_452"
+      }
+    ],
+    "喂食器": [
+      {
+        "label": "如为宠物自动喂食器",
+        "productId": "p_gap_g095"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_453"
+      }
+    ],
+    "补光灯": [
+      {
+        "label": "摄影灯具或光源",
+        "productId": "p_gap_g098"
+      },
+      {
+        "label": "植物生长灯具或光源",
+        "productId": "p_gap_g023"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_454"
+      }
+    ],
+    "储能一体机": [
+      {
+        "label": "如为光伏储能一体机",
+        "productId": "p_gap_g101"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_455"
+      }
+    ],
+    "主机": [
+      {
+        "label": "如为台式电脑",
+        "productId": "p_gap_g103"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_456"
+      }
+    ],
+    "一体机": [
+      {
+        "label": "如为一体机电脑",
+        "productId": "p_gap_g104"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_457"
+      }
+    ],
+    "调制解调器": [
+      {
+        "label": "如为DSL 调制解调器",
+        "productId": "p_gap_g108"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_458"
+      }
+    ],
+    "猫": [
+      {
+        "label": "如为DSL 调制解调器",
+        "productId": "p_gap_g108"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_459"
+      }
+    ],
+    "硬盘": [
+      {
+        "label": "固态硬盘",
+        "productId": "p_gap_g112"
+      },
+      {
+        "label": "移动硬盘",
+        "productId": "p_gap_g111"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_460"
+      }
+    ],
+    "GPU": [
+      {
+        "label": "如为显卡",
+        "productId": "p_gap_g113"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_461"
+      }
+    ],
+    "高拍仪": [
+      {
+        "label": "摄像类设备",
+        "productId": "p_gap_g117"
+      },
+      {
+        "label": "扫描设备",
+        "productId": "p_gap_g116"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_463"
+      }
+    ],
+    "录像机": [
+      {
+        "label": "如为网络硬盘录像机",
+        "productId": "p_gap_g119"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_464"
+      }
+    ],
+    "音响": [
+      {
+        "label": "如为音箱",
+        "productId": "p_gap_g121"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_465"
+      }
+    ],
+    "智能语音助手": [
+      {
+        "label": "如为智能音箱",
+        "productId": "p_gap_g123"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_466"
+      }
+    ],
+    "手环": [
+      {
+        "label": "如为智能手环",
+        "productId": "p_847e2b4261c622f1"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_467"
+      }
+    ],
+    "手台": [
+      {
+        "label": "如为对讲机",
+        "productId": "p_gap_g128"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_468"
+      }
+    ],
+    "料理机": [
+      {
+        "label": "破壁机",
+        "productId": "p_gap_g045"
+      },
+      {
+        "label": "手持搅拌棒",
+        "productId": "p_gap_g047"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_469"
+      }
+    ],
+    "游戏主机": [
+      {
+        "label": "游戏机",
+        "productId": "p_gap_g124"
+      },
+      {
+        "label": "台式电脑主机",
+        "productId": "p_gap_g103"
+      },
+      {
+        "label": "其他情况或无法确认：进一步复核",
+        "productId": "p_alias_review_470"
       }
     ]
   },

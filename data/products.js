@@ -14319,21 +14319,11 @@ window.WEEE_PRODUCTS = {
       "officialName": "Waschmaschine",
       "coverage": "supported",
       "decision": {
-        "mode": "variants",
+        "mode": "recipe",
+        "recipe": "ordinary",
         "required": [
-          "size"
-        ],
-        "variants": [
-          {
-            "kind": "large",
-            "household": "no"
-          },
-          {
-            "kind": "large",
-            "household": "yes"
-          }
-        ],
-        "fixedSmall": false
+          "ordinaryScope"
+        ]
       },
       "facts": {},
       "defaults": {
@@ -14346,11 +14336,12 @@ window.WEEE_PRODUCTS = {
         }
       },
       "evidenceIds": [
-        "ear_gap_g026"
+        "ear_gap_g026",
+        "ear_rule_ordinary_20261102"
       ],
       "presentation": {
         "defaultsText": [
-          "按 EAR 产品示例核对适用条件；无对应尺寸或用途的型号需进一步确认。"
+          "依据 EAR 示例及一般尺寸规则判断，超出普通设备条件的型号需复核。"
         ],
         "measurement": "body",
         "householdEditable": true,
@@ -14365,21 +14356,11 @@ window.WEEE_PRODUCTS = {
       "officialName": "Geschirrspüler",
       "coverage": "supported",
       "decision": {
-        "mode": "variants",
+        "mode": "recipe",
+        "recipe": "ordinary",
         "required": [
-          "size"
-        ],
-        "variants": [
-          {
-            "kind": "large",
-            "household": "no"
-          },
-          {
-            "kind": "large",
-            "household": "yes"
-          }
-        ],
-        "fixedSmall": false
+          "ordinaryScope"
+        ]
       },
       "facts": {},
       "defaults": {
@@ -14392,11 +14373,12 @@ window.WEEE_PRODUCTS = {
         }
       },
       "evidenceIds": [
-        "ear_gap_g027"
+        "ear_gap_g027",
+        "ear_rule_ordinary_20261102"
       ],
       "presentation": {
         "defaultsText": [
-          "按 EAR 产品示例核对适用条件；无对应尺寸或用途的型号需进一步确认。"
+          "依据 EAR 示例及一般尺寸规则判断，超出普通设备条件的型号需复核。"
         ],
         "measurement": "body",
         "householdEditable": true,
@@ -18822,6 +18804,1278 @@ window.WEEE_PRODUCTS = {
       "presentation": {},
       "reviewReason": "special_conditions_not_covered",
       "reviewText": "需区分能否独立使用、是否仅作为车辆专用部件以及具体车辆用途，才能判断适用范围和类别。"
+    },
+    {
+      "id": "p_alias_413",
+      "name": "椭圆机",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按普通完整电器的适用范围及尺寸判断；特殊型号需复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_alias_414",
+      "name": "划船机",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按普通完整电器的适用范围及尺寸判断；特殊型号需复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_alias_415",
+      "name": "养生壶",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按普通完整电器的适用范围及尺寸判断；特殊型号需复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_alias_416",
+      "name": "面包机",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按普通完整电器的适用范围及尺寸判断；特殊型号需复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_alias_417",
+      "name": "电陶炉",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按普通完整电器的适用范围及尺寸判断；特殊型号需复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_alias_418",
+      "name": "豆浆机",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按普通完整电器的适用范围及尺寸判断；特殊型号需复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_alias_419",
+      "name": "焊台",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "recipe",
+        "recipe": "ordinary",
+        "required": [
+          "ordinaryScope"
+        ]
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "按普通完整电器的适用范围及尺寸判断；特殊型号需复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "有任一外部尺寸大于 50 cm 吗？",
+            "detail": "测量产品本体，不含包装；柔性设备按折叠或卷起后的最紧凑状态测量。恰好 50 cm 选择“没有”。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_alias_water_blanket",
+      "name": "水暖毯",
+      "officialName": "EAR 设备分类条件",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [
+          "eligibleEEE",
+          "thermal",
+          "size"
+        ],
+        "variants": [
+          {
+            "kind": "thermal",
+            "household": "yes"
+          },
+          {
+            "kind": "thermal",
+            "household": "no"
+          },
+          {
+            "kind": "large",
+            "household": "yes"
+          },
+          {
+            "kind": "large",
+            "household": "no"
+          },
+          {
+            "kind": "small",
+            "household": "yes"
+          },
+          {
+            "kind": "small",
+            "household": "no"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_rule_thermal_ordinary_20261102"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_rule_thermal_ordinary_20261102"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "依据设备适用范围、循环结构和尺寸判断；特殊型号需另行核对。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {
+          "size": {
+            "title": "折叠或卷起后，有任一外部尺寸大于 50 cm 吗？",
+            "detail": "按折叠或卷起后的最紧凑状态测量，不含包装。",
+            "yes": "有，大于 50 cm",
+            "no": "没有，均不大于 50 cm"
+          }
+        }
+      },
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_alias_review_421",
+      "name": "激光电视",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_422",
+      "name": "广告机",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_423",
+      "name": "T8 灯管",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_424",
+      "name": "T5 灯管",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_425",
+      "name": "石英灯",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_426",
+      "name": "洗烘一体机",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "需核对是否带热泵、制冷剂循环以及产品整体形态；不要直接套用普通洗衣机或独立干衣机的示例。"
+    },
+    {
+      "id": "p_alias_review_427",
+      "name": "光波炉",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_428",
+      "name": "烧水壶",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_429",
+      "name": "高压锅",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_430",
+      "name": "电磁炉",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_431",
+      "name": "胶囊机",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_432",
+      "name": "蒸锅",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_433",
+      "name": "吹风机",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_434",
+      "name": "风筒",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_435",
+      "name": "夹板",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_436",
+      "name": "剃须刀",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_437",
+      "name": "刮胡刀",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_438",
+      "name": "拖地机",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_439",
+      "name": "净化器",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_440",
+      "name": "冷风机",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_441",
+      "name": "暖手器",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_442",
+      "name": "圆锯",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_443",
+      "name": "曲线锯",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_444",
+      "name": "油锯",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "“油锯”通常指燃油动力设备，不能直接当作电链锯；请核对是否具有独立电气功能及 ElektroG 适用范围。"
+    },
+    {
+      "id": "p_alias_review_445",
+      "name": "除草机",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_446",
+      "name": "洗车机",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_447",
+      "name": "电源插座",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_448",
+      "name": "充电头",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_449",
+      "name": "充电器",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_450",
+      "name": "体重秤",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_451",
+      "name": "厨房秤",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_452",
+      "name": "过滤泵",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_453",
+      "name": "喂食器",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_454",
+      "name": "补光灯",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_455",
+      "name": "储能一体机",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_456",
+      "name": "主机",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_457",
+      "name": "一体机",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_458",
+      "name": "调制解调器",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_459",
+      "name": "猫",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_460",
+      "name": "硬盘",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_461",
+      "name": "GPU（其他情况）",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_462",
+      "name": "复印机",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "需核对是否为完整复印设备、使用场景和外部尺寸，再按 EAR 官方设备归属规则判断。"
+    },
+    {
+      "id": "p_alias_review_463",
+      "name": "高拍仪",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_464",
+      "name": "录像机",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_465",
+      "name": "音响",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_466",
+      "name": "智能语音助手",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_467",
+      "name": "手环",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_468",
+      "name": "手台",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能对应不同设备或非电气产品，需先核对具体产品结构、用途及适用范围，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_469",
+      "name": "料理机（其他情况）",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能指不同产品，请先核对产品实际功能与形态，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_alias_review_470",
+      "name": "游戏主机（其他情况）",
+      "officialName": "EAR 分类及适用范围条件",
+      "coverage": "review",
+      "decision": {
+        "mode": "review",
+        "required": []
+      },
+      "facts": {},
+      "defaults": {},
+      "evidenceIds": [
+        "ear_rule_ordinary_20261102"
+      ],
+      "presentation": {},
+      "reviewReason": "special_conditions_not_covered",
+      "reviewText": "该名称可能指不同产品，请先核对产品实际功能与形态，再使用条件引导或联系 EAR 复核。"
     }
   ]
 };

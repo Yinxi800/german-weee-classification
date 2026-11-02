@@ -25,7 +25,7 @@ const {chromium}=require('playwright'),assert=require('node:assert/strict'),path
  await page.getByRole('button',{name:/^显示更多/}).click();assert.equal(await page.locator('.related-item').count(),20);await page.getByRole('tab',{name:'条件引导分类'}).click();await page.getByRole('tab',{name:'产品名称查询'}).click();assert.equal(await page.locator('.related-item').count(),20);while(await page.getByRole('button',{name:/^显示更多/}).count())await page.getByRole('button',{name:/^显示更多/}).click();assert.equal(await page.locator('.related-item').count(),lampCount);assert.match(await page.locator('#related-products').innerText(),new RegExp('已显示全部 '+lampCount+' 项'));
  for(const name of ['气体放电灯','LED灯带','太阳能灯','手电筒','露营提灯'])assert(await page.locator('.related-item strong').getByText(name,{exact:true}).isVisible());
  await page.locator('.related-item').filter({has:page.getByText('完整灯具',{exact:true})}).click();await page.locator('#name-field-size input[value=no]').check();await page.getByRole('button',{name:'查看分类建议',exact:true}).click();assert.equal(await page.evaluate(()=>resultData.kind),'small');
- await query('线');assert.equal(await page.locator('.related-item').count(),10);assert.match(await page.locator('.related-title').innerText(),/27/);
+ await query('线');assert.equal(await page.locator('.related-item').count(),10);assert.match(await page.locator('.related-title').innerText(),/35/);
  if(process.env.WEEE_SCREENSHOT_DIR)fs.mkdirSync(process.env.WEEE_SCREENSHOT_DIR,{recursive:true});
  for(const width of [1440,768,390,320]){
   await page.setViewportSize({width,height:1000});await query('集成逆变器的交流电池储能装置');assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
