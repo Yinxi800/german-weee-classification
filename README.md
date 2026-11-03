@@ -2,11 +2,15 @@
   <img src="logo.svg?v=20261029-de-electronics" alt="德国 WEEE 产品分类" width="110" />
 </p>
 
-# 德国 WEEE 产品分类
+# 德国 WEEE 产品分类 | German WEEE Classification
 
 在线使用：[德国 WEEE 产品分类工具](https://yinxi800.github.io/german-weee-classification/)
 
 按产品名称或规格查询德国 WEEE 类别，查看分类建议及参考依据。产品信息仅在当前浏览器处理。
+
+**German WEEE classification reference tool** — Search by product name or follow product specifications to explore German WEEE categories. The interface is in Chinese; the product index also includes selected German and English names. [Use the tool online](https://yinxi800.github.io/german-weee-classification/).
+
+The tool uses a local reference dataset based on stiftung ear examples and classification rules; it is not a live EAR search and does not provide an official classification or registration decision. Check your actual product against the [EAR device classification tool](https://www.stiftung-ear.de/service/geraetezuordnung/) before registration.
 
 ## 核心功能
 
