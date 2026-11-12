@@ -20782,52 +20782,6 @@ window.WEEE_PRODUCTS = {
       }
     },
     {
-      "id": "p_89c4c547da14f099",
-      "name": "宠物电推剪（Schermaschine für Haustiere）",
-      "officialName": "Schermaschine für Haustiere",
-      "coverage": "supported",
-      "decision": {
-        "mode": "direct",
-        "directKind": "small",
-        "required": [],
-        "conditions": {
-          "household": "yes"
-        }
-      },
-      "facts": {
-        "referenceShape": {
-          "value": "EAR 条目对应的完整产品形态",
-          "basis": "curated_summary",
-          "sourceIds": [
-            "ear_89c4c547da14f099"
-          ]
-        }
-      },
-      "defaults": {
-        "household": {
-          "value": "yes",
-          "basis": "assumption",
-          "sourceIds": [
-            "ear_89c4c547da14f099"
-          ]
-        }
-      },
-      "evidenceIds": [
-        "ear_89c4c547da14f099"
-      ],
-      "presentation": {
-        "defaultsText": [
-          "已匹配 EAR 官方条目：Schermaschine für Haustiere / Grooming Clipper for pets",
-          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
-          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
-        ],
-        "measurement": "body",
-        "householdEditable": true,
-        "sizeRuleDerived": false,
-        "questionOverrides": {}
-      }
-    },
-    {
       "id": "p_9109acf151f04414",
       "name": "无线网卡（WiFi 适配器）",
       "officialName": "WLAN-Adapter",
@@ -21172,41 +21126,6 @@ window.WEEE_PRODUCTS = {
         "sizeRuleDerived": false,
         "questionOverrides": {}
       }
-    },
-    {
-      "id": "p_8476d48dd262509f",
-      "name": "直管荧光灯（Leuchtstofflampe）",
-      "officialName": "Leuchtstofflampe",
-      "coverage": "review",
-      "decision": {
-        "mode": "review"
-      },
-      "facts": {
-        "referenceShape": {
-          "value": "EAR 条目对应的完整产品形态",
-          "basis": "curated_summary",
-          "sourceIds": [
-            "ear_8476d48dd262509f"
-          ]
-        }
-      },
-      "defaults": {},
-      "evidenceIds": [
-        "ear_8476d48dd262509f"
-      ],
-      "presentation": {
-        "defaultsText": [
-          "已匹配 EAR 官方条目：Leuchtstofflampe / Straight fluorescent lamp",
-          "EAR 候选设备类型：第 3 类 · 可用于家庭的气体放电灯；第 3 类 · 仅限专业场所使用的灯",
-          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
-        ],
-        "measurement": "body",
-        "householdEditable": true,
-        "sizeRuleDerived": false,
-        "questionOverrides": {}
-      },
-      "officialReferenceConditions": "EAR 对「Leuchtstofflampe」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。 EAR 说明：Lampen (Leuchtmittel) besitzen immer einen genormten Sockel (Gewinde, Stift, Bajonett, Kappe). Ob die b2b- oder die b2c-Geräteart zu wählen ist, ist abhängig vom Ort der Nutzung.",
-      "reviewReason": "special_conditions_not_covered"
     },
     {
       "id": "p_878fb25058face45",
@@ -21828,52 +21747,6 @@ window.WEEE_PRODUCTS = {
         "defaultsText": [
           "已匹配 EAR 官方条目：Multiscanner / Film and slide scanner",
           "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
-          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
-        ],
-        "measurement": "body",
-        "householdEditable": true,
-        "sizeRuleDerived": false,
-        "questionOverrides": {}
-      }
-    },
-    {
-      "id": "p_2da026252c211646",
-      "name": "芯片卡",
-      "officialName": "Chipkarte",
-      "coverage": "supported",
-      "decision": {
-        "mode": "direct",
-        "directKind": "ict",
-        "required": [],
-        "conditions": {
-          "household": "yes"
-        }
-      },
-      "facts": {
-        "referenceShape": {
-          "value": "EAR 条目对应的完整产品形态",
-          "basis": "curated_summary",
-          "sourceIds": [
-            "ear_2da026252c211646"
-          ]
-        }
-      },
-      "defaults": {
-        "household": {
-          "value": "yes",
-          "basis": "assumption",
-          "sourceIds": [
-            "ear_2da026252c211646"
-          ]
-        }
-      },
-      "evidenceIds": [
-        "ear_2da026252c211646"
-      ],
-      "presentation": {
-        "defaultsText": [
-          "已匹配 EAR 官方条目：Chipkarte / Smart card",
-          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
           "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
         ],
         "measurement": "body",
@@ -25001,59 +24874,6 @@ window.WEEE_PRODUCTS = {
       "reviewReason": "special_conditions_not_covered"
     },
     {
-      "id": "p_ff127f31936f3ef0",
-      "name": "数码相机（Kamera）",
-      "officialName": "Kamera",
-      "coverage": "supported",
-      "decision": {
-        "mode": "variants",
-        "required": [],
-        "variants": [
-          {
-            "kind": "small",
-            "household": "no"
-          },
-          {
-            "kind": "small",
-            "household": "yes"
-          }
-        ],
-        "fixedSmall": false
-      },
-      "facts": {
-        "referenceShape": {
-          "value": "EAR 条目对应的完整产品形态",
-          "basis": "curated_summary",
-          "sourceIds": [
-            "ear_ff127f31936f3ef0"
-          ]
-        }
-      },
-      "defaults": {
-        "household": {
-          "value": "yes",
-          "basis": "assumption",
-          "sourceIds": [
-            "ear_ff127f31936f3ef0"
-          ]
-        }
-      },
-      "evidenceIds": [
-        "ear_ff127f31936f3ef0"
-      ],
-      "presentation": {
-        "defaultsText": [
-          "已匹配 EAR 官方条目：Kamera / Camera",
-          "EAR 候选设备类型：第 5 类 · 仅限专业场所使用的小型设备；第 5 类 · 可用于家庭的小型设备",
-          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
-        ],
-        "measurement": "body",
-        "householdEditable": true,
-        "sizeRuleDerived": false,
-        "questionOverrides": {}
-      }
-    },
-    {
       "id": "p_995d64bbeb1a1d8b",
       "name": "综合治疗台",
       "officialName": "Behandlungseinheit",
@@ -27440,52 +27260,6 @@ window.WEEE_PRODUCTS = {
       }
     },
     {
-      "id": "p_9e28dfbe41ed3353",
-      "name": "条码扫描器（Barcodescanner）",
-      "officialName": "Barcodescanner",
-      "coverage": "supported",
-      "decision": {
-        "mode": "direct",
-        "directKind": "ict",
-        "required": [],
-        "conditions": {
-          "household": "no"
-        }
-      },
-      "facts": {
-        "referenceShape": {
-          "value": "EAR 条目对应的完整产品形态",
-          "basis": "curated_summary",
-          "sourceIds": [
-            "ear_9e28dfbe41ed3353"
-          ]
-        }
-      },
-      "defaults": {
-        "household": {
-          "value": "no",
-          "basis": "assumption",
-          "sourceIds": [
-            "ear_9e28dfbe41ed3353"
-          ]
-        }
-      },
-      "evidenceIds": [
-        "ear_9e28dfbe41ed3353"
-      ],
-      "presentation": {
-        "defaultsText": [
-          "已匹配 EAR 官方条目：Barcodescanner / Barcode (QR Code) Reader",
-          "EAR 候选设备类型：第 6 类 · 仅限专业场所使用的小型信息和通信设备",
-          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
-        ],
-        "measurement": "body",
-        "householdEditable": true,
-        "sizeRuleDerived": false,
-        "questionOverrides": {}
-      }
-    },
-    {
       "id": "p_069ec02245353dbb",
       "name": "微动开关",
       "officialName": "Mikroschalter",
@@ -27518,52 +27292,6 @@ window.WEEE_PRODUCTS = {
         "questionOverrides": {}
       },
       "scopeText": "EAR 将「Mikroschalter」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
-    },
-    {
-      "id": "p_cdd962939f62425d",
-      "name": "收银机（Registrierkasse）",
-      "officialName": "Registrierkasse",
-      "coverage": "supported",
-      "decision": {
-        "mode": "direct",
-        "directKind": "ict",
-        "required": [],
-        "conditions": {
-          "household": "no"
-        }
-      },
-      "facts": {
-        "referenceShape": {
-          "value": "EAR 条目对应的完整产品形态",
-          "basis": "curated_summary",
-          "sourceIds": [
-            "ear_cdd962939f62425d"
-          ]
-        }
-      },
-      "defaults": {
-        "household": {
-          "value": "no",
-          "basis": "assumption",
-          "sourceIds": [
-            "ear_cdd962939f62425d"
-          ]
-        }
-      },
-      "evidenceIds": [
-        "ear_cdd962939f62425d"
-      ],
-      "presentation": {
-        "defaultsText": [
-          "已匹配 EAR 官方条目：Registrierkasse / Cash register",
-          "EAR 候选设备类型：第 6 类 · 仅限专业场所使用的小型信息和通信设备",
-          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
-        ],
-        "measurement": "body",
-        "householdEditable": true,
-        "sizeRuleDerived": false,
-        "questionOverrides": {}
-      }
     },
     {
       "id": "p_7e08b2236a81f74b",
@@ -27809,52 +27537,6 @@ window.WEEE_PRODUCTS = {
         "defaultsText": [
           "已匹配 EAR 官方条目：Telefonadapter / Telephone Socket Adapter",
           "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
-          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
-        ],
-        "measurement": "body",
-        "householdEditable": true,
-        "sizeRuleDerived": false,
-        "questionOverrides": {}
-      }
-    },
-    {
-      "id": "p_7aa33ad8b6c0b6bb",
-      "name": "监控摄像头（Überwachungskamera）",
-      "officialName": "Überwachungskamera",
-      "coverage": "supported",
-      "decision": {
-        "mode": "direct",
-        "directKind": "small",
-        "required": [],
-        "conditions": {
-          "household": "yes"
-        }
-      },
-      "facts": {
-        "referenceShape": {
-          "value": "EAR 条目对应的完整产品形态",
-          "basis": "curated_summary",
-          "sourceIds": [
-            "ear_7aa33ad8b6c0b6bb"
-          ]
-        }
-      },
-      "defaults": {
-        "household": {
-          "value": "yes",
-          "basis": "assumption",
-          "sourceIds": [
-            "ear_7aa33ad8b6c0b6bb"
-          ]
-        }
-      },
-      "evidenceIds": [
-        "ear_7aa33ad8b6c0b6bb"
-      ],
-      "presentation": {
-        "defaultsText": [
-          "已匹配 EAR 官方条目：Überwachungskamera / Surveillance camera",
-          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
           "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
         ],
         "measurement": "body",
@@ -29284,59 +28966,6 @@ window.WEEE_PRODUCTS = {
       }
     },
     {
-      "id": "p_3e2a0e594cd806e6",
-      "name": "热泵（Wärmepumpe）",
-      "officialName": "Wärmepumpe",
-      "coverage": "supported",
-      "decision": {
-        "mode": "variants",
-        "required": [],
-        "variants": [
-          {
-            "kind": "thermal",
-            "household": "no"
-          },
-          {
-            "kind": "thermal",
-            "household": "yes"
-          }
-        ],
-        "fixedSmall": false
-      },
-      "facts": {
-        "referenceShape": {
-          "value": "EAR 条目对应的完整产品形态",
-          "basis": "curated_summary",
-          "sourceIds": [
-            "ear_3e2a0e594cd806e6"
-          ]
-        }
-      },
-      "defaults": {
-        "household": {
-          "value": "yes",
-          "basis": "assumption",
-          "sourceIds": [
-            "ear_3e2a0e594cd806e6"
-          ]
-        }
-      },
-      "evidenceIds": [
-        "ear_3e2a0e594cd806e6"
-      ],
-      "presentation": {
-        "defaultsText": [
-          "已匹配 EAR 官方条目：Wärmepumpe / Heat pump",
-          "EAR 候选设备类型：第 1 类 · 仅限专业场所使用的温度交换设备；第 1 类 · 可用于家庭的温度交换设备",
-          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
-        ],
-        "measurement": "body",
-        "householdEditable": true,
-        "sizeRuleDerived": false,
-        "questionOverrides": {}
-      }
-    },
-    {
       "id": "p_c22b0c8147ad2e30",
       "name": "磁力搅拌器",
       "officialName": "Magnetrührer",
@@ -30359,52 +29988,6 @@ window.WEEE_PRODUCTS = {
       }
     },
     {
-      "id": "p_aa58efe60a73112f",
-      "name": "USB 扩展坞（USB-Dockingstation）",
-      "officialName": "USB-Dockingstation",
-      "coverage": "supported",
-      "decision": {
-        "mode": "direct",
-        "directKind": "ict",
-        "required": [],
-        "conditions": {
-          "household": "yes"
-        }
-      },
-      "facts": {
-        "referenceShape": {
-          "value": "EAR 条目对应的完整产品形态",
-          "basis": "curated_summary",
-          "sourceIds": [
-            "ear_aa58efe60a73112f"
-          ]
-        }
-      },
-      "defaults": {
-        "household": {
-          "value": "yes",
-          "basis": "assumption",
-          "sourceIds": [
-            "ear_aa58efe60a73112f"
-          ]
-        }
-      },
-      "evidenceIds": [
-        "ear_aa58efe60a73112f"
-      ],
-      "presentation": {
-        "defaultsText": [
-          "已匹配 EAR 官方条目：USB-Dockingstation / USB docking station",
-          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
-          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
-        ],
-        "measurement": "body",
-        "householdEditable": true,
-        "sizeRuleDerived": false,
-        "questionOverrides": {}
-      }
-    },
-    {
       "id": "p_da186736c3d50f56",
       "name": "制动电阻",
       "officialName": "Bremswiderstand",
@@ -30711,40 +30294,6 @@ window.WEEE_PRODUCTS = {
         "questionOverrides": {}
       },
       "scopeText": "EAR 将「ABS-Sensor Kfz」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
-    },
-    {
-      "id": "p_c55aacaaf0b7a5d8",
-      "name": "汽车安全气囊",
-      "officialName": "Airbag Kfz",
-      "coverage": "supported",
-      "decision": {
-        "mode": "outside_scope"
-      },
-      "facts": {
-        "referenceShape": {
-          "value": "EAR 条目对应的完整产品形态",
-          "basis": "curated_summary",
-          "sourceIds": [
-            "ear_c55aacaaf0b7a5d8"
-          ]
-        }
-      },
-      "defaults": {},
-      "evidenceIds": [
-        "ear_c55aacaaf0b7a5d8"
-      ],
-      "presentation": {
-        "defaultsText": [
-          "已匹配 EAR 官方条目：Airbag Kfz / Airbag (automotive)",
-          "EAR 候选设备类型：不在 ElektroG 适用范围内",
-          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
-        ],
-        "measurement": "body",
-        "householdEditable": true,
-        "sizeRuleDerived": false,
-        "questionOverrides": {}
-      },
-      "scopeText": "EAR 将「Airbag Kfz」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
     },
     {
       "id": "p_6241509eb1ae5084",
@@ -32574,52 +32123,6 @@ window.WEEE_PRODUCTS = {
       }
     },
     {
-      "id": "p_cde0e2bf6cce31a7",
-      "name": "面包机（Brotbackautomat）",
-      "officialName": "Brotbackautomat",
-      "coverage": "supported",
-      "decision": {
-        "mode": "direct",
-        "directKind": "small",
-        "required": [],
-        "conditions": {
-          "household": "yes"
-        }
-      },
-      "facts": {
-        "referenceShape": {
-          "value": "EAR 条目对应的完整产品形态",
-          "basis": "curated_summary",
-          "sourceIds": [
-            "ear_cde0e2bf6cce31a7"
-          ]
-        }
-      },
-      "defaults": {
-        "household": {
-          "value": "yes",
-          "basis": "assumption",
-          "sourceIds": [
-            "ear_cde0e2bf6cce31a7"
-          ]
-        }
-      },
-      "evidenceIds": [
-        "ear_cde0e2bf6cce31a7"
-      ],
-      "presentation": {
-        "defaultsText": [
-          "已匹配 EAR 官方条目：Brotbackautomat / Breadmaker",
-          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
-          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
-        ],
-        "measurement": "body",
-        "householdEditable": true,
-        "sizeRuleDerived": false,
-        "questionOverrides": {}
-      }
-    },
-    {
       "id": "p_a5a191fc5d0c20be",
       "name": "单耳耳机",
       "officialName": "Ein-Ohr-Headset",
@@ -32976,52 +32479,6 @@ window.WEEE_PRODUCTS = {
       }
     },
     {
-      "id": "p_5d37d7f686b7e8bf",
-      "name": "网络摄像机（Netzwerkkamera）",
-      "officialName": "Netzwerkkamera",
-      "coverage": "supported",
-      "decision": {
-        "mode": "direct",
-        "directKind": "small",
-        "required": [],
-        "conditions": {
-          "household": "yes"
-        }
-      },
-      "facts": {
-        "referenceShape": {
-          "value": "EAR 条目对应的完整产品形态",
-          "basis": "curated_summary",
-          "sourceIds": [
-            "ear_5d37d7f686b7e8bf"
-          ]
-        }
-      },
-      "defaults": {
-        "household": {
-          "value": "yes",
-          "basis": "assumption",
-          "sourceIds": [
-            "ear_5d37d7f686b7e8bf"
-          ]
-        }
-      },
-      "evidenceIds": [
-        "ear_5d37d7f686b7e8bf"
-      ],
-      "presentation": {
-        "defaultsText": [
-          "已匹配 EAR 官方条目：Netzwerkkamera / Network camera",
-          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
-          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
-        ],
-        "measurement": "body",
-        "householdEditable": true,
-        "sizeRuleDerived": false,
-        "questionOverrides": {}
-      }
-    },
-    {
       "id": "p_80e5cc7f2ae17ec9",
       "name": "门铃",
       "officialName": "Haustürklingel",
@@ -33318,52 +32775,6 @@ window.WEEE_PRODUCTS = {
       "presentation": {
         "defaultsText": [
           "已匹配 EAR 官方条目：Heißluftpistole / Heat gun",
-          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
-          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
-        ],
-        "measurement": "body",
-        "householdEditable": true,
-        "sizeRuleDerived": false,
-        "questionOverrides": {}
-      }
-    },
-    {
-      "id": "p_e94b5b044a7a3167",
-      "name": "电视盒子（TV Box）",
-      "officialName": "TV Box",
-      "coverage": "supported",
-      "decision": {
-        "mode": "direct",
-        "directKind": "small",
-        "required": [],
-        "conditions": {
-          "household": "yes"
-        }
-      },
-      "facts": {
-        "referenceShape": {
-          "value": "EAR 条目对应的完整产品形态",
-          "basis": "curated_summary",
-          "sourceIds": [
-            "ear_e94b5b044a7a3167"
-          ]
-        }
-      },
-      "defaults": {
-        "household": {
-          "value": "yes",
-          "basis": "assumption",
-          "sourceIds": [
-            "ear_e94b5b044a7a3167"
-          ]
-        }
-      },
-      "evidenceIds": [
-        "ear_e94b5b044a7a3167"
-      ],
-      "presentation": {
-        "defaultsText": [
-          "已匹配 EAR 官方条目：TV Box / TV Box",
           "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
           "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
         ],
@@ -33934,41 +33345,6 @@ window.WEEE_PRODUCTS = {
       }
     },
     {
-      "id": "p_b4abf4e4df5a854a",
-      "name": "复印机（Kopierer）",
-      "officialName": "Kopierer",
-      "coverage": "review",
-      "decision": {
-        "mode": "review"
-      },
-      "facts": {
-        "referenceShape": {
-          "value": "EAR 条目对应的完整产品形态",
-          "basis": "curated_summary",
-          "sourceIds": [
-            "ear_b4abf4e4df5a854a"
-          ]
-        }
-      },
-      "defaults": {},
-      "evidenceIds": [
-        "ear_b4abf4e4df5a854a"
-      ],
-      "presentation": {
-        "defaultsText": [
-          "已匹配 EAR 官方条目：Kopierer / Copier",
-          "EAR 候选设备类型：第 4 类 · 仅限专业场所使用的大型设备；第 6 类 · 可用于家庭的小型信息和通信设备",
-          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
-        ],
-        "measurement": "body",
-        "householdEditable": true,
-        "sizeRuleDerived": false,
-        "questionOverrides": {}
-      },
-      "officialReferenceConditions": "EAR 对「Kopierer」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。 EAR 说明：Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab. Ob die b2b- oder die b2c-Geräteart zu wählen ist, ist abhängig vom Ort der Nutzung.",
-      "reviewReason": "special_conditions_not_covered"
-    },
-    {
       "id": "p_9d7d38fe1593322f",
       "name": "工具",
       "officialName": "Werkzeug",
@@ -34214,52 +33590,6 @@ window.WEEE_PRODUCTS = {
         "defaultsText": [
           "已匹配 EAR 官方条目：Kühlbox (mit Kompressor) / Cooler (with compressor)",
           "EAR 候选设备类型：第 1 类 · 可用于家庭的温度交换设备",
-          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
-        ],
-        "measurement": "body",
-        "householdEditable": true,
-        "sizeRuleDerived": false,
-        "questionOverrides": {}
-      }
-    },
-    {
-      "id": "p_312f91285e048e09",
-      "name": "笔记本电脑（Laptop）",
-      "officialName": "Laptop",
-      "coverage": "supported",
-      "decision": {
-        "mode": "direct",
-        "directKind": "screen",
-        "required": [],
-        "conditions": {
-          "household": "yes"
-        }
-      },
-      "facts": {
-        "referenceShape": {
-          "value": "EAR 条目对应的完整产品形态",
-          "basis": "curated_summary",
-          "sourceIds": [
-            "ear_312f91285e048e09"
-          ]
-        }
-      },
-      "defaults": {
-        "household": {
-          "value": "yes",
-          "basis": "assumption",
-          "sourceIds": [
-            "ear_312f91285e048e09"
-          ]
-        }
-      },
-      "evidenceIds": [
-        "ear_312f91285e048e09"
-      ],
-      "presentation": {
-        "defaultsText": [
-          "已匹配 EAR 官方条目：Laptop / Laptop",
-          "EAR 候选设备类型：第 2 类 · 可用于家庭的屏幕设备",
           "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
         ],
         "measurement": "body",
@@ -35508,105 +34838,6 @@ window.WEEE_PRODUCTS = {
       "reviewReason": "special_conditions_not_covered"
     },
     {
-      "id": "p_f56965373da12816",
-      "name": "冷冻柜（Gefriergerät）",
-      "officialName": "Gefriergerät",
-      "coverage": "supported",
-      "decision": {
-        "mode": "variants",
-        "required": [],
-        "variants": [
-          {
-            "kind": "thermal",
-            "household": "no"
-          },
-          {
-            "kind": "thermal",
-            "household": "yes"
-          }
-        ],
-        "fixedSmall": false
-      },
-      "facts": {
-        "referenceShape": {
-          "value": "EAR 条目对应的完整产品形态",
-          "basis": "curated_summary",
-          "sourceIds": [
-            "ear_f56965373da12816"
-          ]
-        }
-      },
-      "defaults": {
-        "household": {
-          "value": "yes",
-          "basis": "assumption",
-          "sourceIds": [
-            "ear_f56965373da12816"
-          ]
-        }
-      },
-      "evidenceIds": [
-        "ear_f56965373da12816"
-      ],
-      "presentation": {
-        "defaultsText": [
-          "已匹配 EAR 官方条目：Gefriergerät / Freezer",
-          "EAR 候选设备类型：第 1 类 · 仅限专业场所使用的温度交换设备；第 1 类 · 可用于家庭的温度交换设备",
-          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
-        ],
-        "measurement": "body",
-        "householdEditable": true,
-        "sizeRuleDerived": false,
-        "questionOverrides": {}
-      }
-    },
-    {
-      "id": "p_0b06e45a34ed1377",
-      "name": "遥控器（Fernbedienung）",
-      "officialName": "Fernbedienung",
-      "coverage": "supported",
-      "decision": {
-        "mode": "direct",
-        "directKind": "small",
-        "required": [],
-        "conditions": {
-          "household": "yes"
-        }
-      },
-      "facts": {
-        "referenceShape": {
-          "value": "EAR 条目对应的完整产品形态",
-          "basis": "curated_summary",
-          "sourceIds": [
-            "ear_0b06e45a34ed1377"
-          ]
-        }
-      },
-      "defaults": {
-        "household": {
-          "value": "yes",
-          "basis": "assumption",
-          "sourceIds": [
-            "ear_0b06e45a34ed1377"
-          ]
-        }
-      },
-      "evidenceIds": [
-        "ear_0b06e45a34ed1377"
-      ],
-      "presentation": {
-        "defaultsText": [
-          "已匹配 EAR 官方条目：Fernbedienung / Remote control",
-          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
-          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
-        ],
-        "measurement": "body",
-        "householdEditable": true,
-        "sizeRuleDerived": false,
-        "questionOverrides": {}
-      }
-    },
-    {
       "id": "p_45fa8f79ea001415",
       "name": "压电打火机",
       "officialName": "Piezofeuerzeug",
@@ -35677,52 +34908,6 @@ window.WEEE_PRODUCTS = {
       "presentation": {
         "defaultsText": [
           "已匹配 EAR 官方条目：Rotpunktvisier / Hunting Riflescope Red Dot",
-          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
-          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
-        ],
-        "measurement": "body",
-        "householdEditable": true,
-        "sizeRuleDerived": false,
-        "questionOverrides": {}
-      }
-    },
-    {
-      "id": "p_48f9bdc175df447e",
-      "name": "录像机（Videorekorder）",
-      "officialName": "Videorekorder",
-      "coverage": "supported",
-      "decision": {
-        "mode": "direct",
-        "directKind": "small",
-        "required": [],
-        "conditions": {
-          "household": "yes"
-        }
-      },
-      "facts": {
-        "referenceShape": {
-          "value": "EAR 条目对应的完整产品形态",
-          "basis": "curated_summary",
-          "sourceIds": [
-            "ear_48f9bdc175df447e"
-          ]
-        }
-      },
-      "defaults": {
-        "household": {
-          "value": "yes",
-          "basis": "assumption",
-          "sourceIds": [
-            "ear_48f9bdc175df447e"
-          ]
-        }
-      },
-      "evidenceIds": [
-        "ear_48f9bdc175df447e"
-      ],
-      "presentation": {
-        "defaultsText": [
-          "已匹配 EAR 官方条目：Videorekorder / Video recorder",
           "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
           "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
         ],

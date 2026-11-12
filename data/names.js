@@ -13759,29 +13759,20 @@ window.WEEE_NAMES = {
     },
     {
       "text": "Schermaschine für Haustiere",
-      "productId": "p_89c4c547da14f099",
+      "productId": "p_gap_g094",
       "language": "de",
       "status": "official",
       "sourceIds": [
-        "ear_89c4c547da14f099"
+        "ear_rule_ordinary_20261102"
       ]
     },
     {
       "text": "Grooming Clipper for pets",
-      "productId": "p_89c4c547da14f099",
+      "productId": "p_gap_g094",
       "language": "en",
       "status": "official",
       "sourceIds": [
-        "ear_89c4c547da14f099"
-      ]
-    },
-    {
-      "text": "宠物电推剪（Schermaschine für Haustiere）",
-      "productId": "p_89c4c547da14f099",
-      "language": "zh",
-      "status": "curated",
-      "sourceIds": [
-        "ear_89c4c547da14f099"
+        "ear_rule_ordinary_20261102"
       ]
     },
     {
@@ -14002,29 +13993,20 @@ window.WEEE_NAMES = {
     },
     {
       "text": "Leuchtstofflampe",
-      "productId": "p_8476d48dd262509f",
+      "productId": "p_b8df6d1da2c44818",
       "language": "de",
       "status": "official",
       "sourceIds": [
-        "ear_8476d48dd262509f"
+        "ear_b8df6d1da2c44818"
       ]
     },
     {
       "text": "Straight fluorescent lamp",
-      "productId": "p_8476d48dd262509f",
+      "productId": "p_b8df6d1da2c44818",
       "language": "en",
       "status": "official",
       "sourceIds": [
-        "ear_8476d48dd262509f"
-      ]
-    },
-    {
-      "text": "直管荧光灯（Leuchtstofflampe）",
-      "productId": "p_8476d48dd262509f",
-      "language": "zh",
-      "status": "curated",
-      "sourceIds": [
-        "ear_8476d48dd262509f"
+        "ear_b8df6d1da2c44818"
       ]
     },
     {
@@ -14407,20 +14389,20 @@ window.WEEE_NAMES = {
     },
     {
       "text": "Chipkarte",
-      "productId": "p_2da026252c211646",
+      "productId": "p_367d4bf175debc7d",
       "language": "de",
       "status": "official",
       "sourceIds": [
-        "ear_2da026252c211646"
+        "ear_367d4bf175debc7d"
       ]
     },
     {
       "text": "芯片卡",
-      "productId": "p_2da026252c211646",
+      "productId": "p_367d4bf175debc7d",
       "language": "zh",
       "status": "curated",
       "sourceIds": [
-        "ear_2da026252c211646"
+        "ear_367d4bf175debc7d"
       ]
     },
     {
@@ -16287,15 +16269,6 @@ window.WEEE_NAMES = {
       ]
     },
     {
-      "text": "数码相机（Kamera）",
-      "productId": "p_ff127f31936f3ef0",
-      "language": "zh",
-      "status": "curated",
-      "sourceIds": [
-        "ear_ff127f31936f3ef0"
-      ]
-    },
-    {
       "text": "Behandlungseinheit",
       "productId": "p_995d64bbeb1a1d8b",
       "language": "de",
@@ -17719,29 +17692,20 @@ window.WEEE_NAMES = {
     },
     {
       "text": "Barcodescanner",
-      "productId": "p_9e28dfbe41ed3353",
+      "productId": "p_gap_g127",
       "language": "de",
       "status": "official",
       "sourceIds": [
-        "ear_9e28dfbe41ed3353"
+        "ear_rule_ict_20261102"
       ]
     },
     {
       "text": "Barcode (QR Code) Reader",
-      "productId": "p_9e28dfbe41ed3353",
+      "productId": "p_gap_g127",
       "language": "en",
       "status": "official",
       "sourceIds": [
-        "ear_9e28dfbe41ed3353"
-      ]
-    },
-    {
-      "text": "条码扫描器（Barcodescanner）",
-      "productId": "p_9e28dfbe41ed3353",
-      "language": "zh",
-      "status": "curated",
-      "sourceIds": [
-        "ear_9e28dfbe41ed3353"
+        "ear_rule_ict_20261102"
       ]
     },
     {
@@ -17773,29 +17737,20 @@ window.WEEE_NAMES = {
     },
     {
       "text": "Registrierkasse",
-      "productId": "p_cdd962939f62425d",
+      "productId": "p_gap_g126",
       "language": "de",
       "status": "official",
       "sourceIds": [
-        "ear_cdd962939f62425d"
+        "ear_rule_ict_20261102"
       ]
     },
     {
       "text": "Cash register",
-      "productId": "p_cdd962939f62425d",
+      "productId": "p_gap_g126",
       "language": "en",
       "status": "official",
       "sourceIds": [
-        "ear_cdd962939f62425d"
-      ]
-    },
-    {
-      "text": "收银机（Registrierkasse）",
-      "productId": "p_cdd962939f62425d",
-      "language": "zh",
-      "status": "curated",
-      "sourceIds": [
-        "ear_cdd962939f62425d"
+        "ear_rule_ict_20261102"
       ]
     },
     {
@@ -17953,29 +17908,20 @@ window.WEEE_NAMES = {
     },
     {
       "text": "Überwachungskamera",
-      "productId": "p_7aa33ad8b6c0b6bb",
+      "productId": "p_gap_g118",
       "language": "de",
       "status": "official",
       "sourceIds": [
-        "ear_7aa33ad8b6c0b6bb"
+        "ear_rule_ict_20261102"
       ]
     },
     {
       "text": "Surveillance camera",
-      "productId": "p_7aa33ad8b6c0b6bb",
+      "productId": "p_gap_g118",
       "language": "en",
       "status": "official",
       "sourceIds": [
-        "ear_7aa33ad8b6c0b6bb"
-      ]
-    },
-    {
-      "text": "监控摄像头（Überwachungskamera）",
-      "productId": "p_7aa33ad8b6c0b6bb",
-      "language": "zh",
-      "status": "curated",
-      "sourceIds": [
-        "ear_7aa33ad8b6c0b6bb"
+        "ear_rule_ict_20261102"
       ]
     },
     {
@@ -18889,29 +18835,20 @@ window.WEEE_NAMES = {
     },
     {
       "text": "Wärmepumpe",
-      "productId": "p_3e2a0e594cd806e6",
+      "productId": "p_gap_g006",
       "language": "de",
       "status": "official",
       "sourceIds": [
-        "ear_3e2a0e594cd806e6"
+        "ear_rule_thermal_20261102"
       ]
     },
     {
       "text": "Heat pump",
-      "productId": "p_3e2a0e594cd806e6",
+      "productId": "p_gap_g006",
       "language": "en",
       "status": "official",
       "sourceIds": [
-        "ear_3e2a0e594cd806e6"
-      ]
-    },
-    {
-      "text": "热泵（Wärmepumpe）",
-      "productId": "p_3e2a0e594cd806e6",
-      "language": "zh",
-      "status": "curated",
-      "sourceIds": [
-        "ear_3e2a0e594cd806e6"
+        "ear_rule_thermal_20261102"
       ]
     },
     {
@@ -19501,29 +19438,20 @@ window.WEEE_NAMES = {
     },
     {
       "text": "USB-Dockingstation",
-      "productId": "p_aa58efe60a73112f",
+      "productId": "p_2c0516a53045cedb",
       "language": "de",
       "status": "official",
       "sourceIds": [
-        "ear_aa58efe60a73112f"
+        "ear_2c0516a53045cedb"
       ]
     },
     {
       "text": "USB docking station",
-      "productId": "p_aa58efe60a73112f",
+      "productId": "p_2c0516a53045cedb",
       "language": "en",
       "status": "official",
       "sourceIds": [
-        "ear_aa58efe60a73112f"
-      ]
-    },
-    {
-      "text": "USB 扩展坞（USB-Dockingstation）",
-      "productId": "p_aa58efe60a73112f",
-      "language": "zh",
-      "status": "curated",
-      "sourceIds": [
-        "ear_aa58efe60a73112f"
+        "ear_2c0516a53045cedb"
       ]
     },
     {
@@ -19735,20 +19663,20 @@ window.WEEE_NAMES = {
     },
     {
       "text": "Airbag Kfz",
-      "productId": "p_c55aacaaf0b7a5d8",
+      "productId": "p_644605b62a178a23",
       "language": "de",
       "status": "official",
       "sourceIds": [
-        "ear_c55aacaaf0b7a5d8"
+        "ear_644605b62a178a23"
       ]
     },
     {
       "text": "汽车安全气囊",
-      "productId": "p_c55aacaaf0b7a5d8",
+      "productId": "p_644605b62a178a23",
       "language": "zh",
       "status": "curated",
       "sourceIds": [
-        "ear_c55aacaaf0b7a5d8"
+        "ear_644605b62a178a23"
       ]
     },
     {
@@ -20842,29 +20770,20 @@ window.WEEE_NAMES = {
     },
     {
       "text": "Brotbackautomat",
-      "productId": "p_cde0e2bf6cce31a7",
+      "productId": "p_alias_416",
       "language": "de",
       "status": "official",
       "sourceIds": [
-        "ear_cde0e2bf6cce31a7"
+        "ear_rule_ordinary_20261102"
       ]
     },
     {
       "text": "Breadmaker",
-      "productId": "p_cde0e2bf6cce31a7",
+      "productId": "p_alias_416",
       "language": "en",
       "status": "official",
       "sourceIds": [
-        "ear_cde0e2bf6cce31a7"
-      ]
-    },
-    {
-      "text": "面包机（Brotbackautomat）",
-      "productId": "p_cde0e2bf6cce31a7",
-      "language": "zh",
-      "status": "curated",
-      "sourceIds": [
-        "ear_cde0e2bf6cce31a7"
+        "ear_rule_ordinary_20261102"
       ]
     },
     {
@@ -21085,29 +21004,20 @@ window.WEEE_NAMES = {
     },
     {
       "text": "Netzwerkkamera",
-      "productId": "p_5d37d7f686b7e8bf",
+      "productId": "p_gap_g118",
       "language": "de",
       "status": "official",
       "sourceIds": [
-        "ear_5d37d7f686b7e8bf"
+        "ear_rule_ict_20261102"
       ]
     },
     {
       "text": "Network camera",
-      "productId": "p_5d37d7f686b7e8bf",
+      "productId": "p_gap_g118",
       "language": "en",
       "status": "official",
       "sourceIds": [
-        "ear_5d37d7f686b7e8bf"
-      ]
-    },
-    {
-      "text": "网络摄像机（Netzwerkkamera）",
-      "productId": "p_5d37d7f686b7e8bf",
-      "language": "zh",
-      "status": "curated",
-      "sourceIds": [
-        "ear_5d37d7f686b7e8bf"
+        "ear_rule_ict_20261102"
       ]
     },
     {
@@ -21301,20 +21211,11 @@ window.WEEE_NAMES = {
     },
     {
       "text": "TV Box",
-      "productId": "p_e94b5b044a7a3167",
+      "productId": "p_gap_g109",
       "language": "de",
       "status": "official",
       "sourceIds": [
-        "ear_e94b5b044a7a3167"
-      ]
-    },
-    {
-      "text": "电视盒子（TV Box）",
-      "productId": "p_e94b5b044a7a3167",
-      "language": "zh",
-      "status": "curated",
-      "sourceIds": [
-        "ear_e94b5b044a7a3167"
+        "ear_rule_ict_20261102"
       ]
     },
     {
@@ -21661,29 +21562,20 @@ window.WEEE_NAMES = {
     },
     {
       "text": "Kopierer",
-      "productId": "p_b4abf4e4df5a854a",
+      "productId": "p_alias_review_462",
       "language": "de",
       "status": "official",
       "sourceIds": [
-        "ear_b4abf4e4df5a854a"
+        "ear_copier_20261102"
       ]
     },
     {
       "text": "Copier",
-      "productId": "p_b4abf4e4df5a854a",
+      "productId": "p_alias_review_462",
       "language": "en",
       "status": "official",
       "sourceIds": [
-        "ear_b4abf4e4df5a854a"
-      ]
-    },
-    {
-      "text": "复印机（Kopierer）",
-      "productId": "p_b4abf4e4df5a854a",
-      "language": "zh",
-      "status": "curated",
-      "sourceIds": [
-        "ear_b4abf4e4df5a854a"
+        "ear_copier_20261102"
       ]
     },
     {
@@ -21850,20 +21742,11 @@ window.WEEE_NAMES = {
     },
     {
       "text": "Laptop",
-      "productId": "p_312f91285e048e09",
+      "productId": "p_gap_g102",
       "language": "de",
       "status": "official",
       "sourceIds": [
-        "ear_312f91285e048e09"
-      ]
-    },
-    {
-      "text": "笔记本电脑（Laptop）",
-      "productId": "p_312f91285e048e09",
-      "language": "zh",
-      "status": "curated",
-      "sourceIds": [
-        "ear_312f91285e048e09"
+        "ear_gap_g102"
       ]
     },
     {
@@ -22633,47 +22516,29 @@ window.WEEE_NAMES = {
     },
     {
       "text": "Gefriergerät",
-      "productId": "p_f56965373da12816",
+      "productId": "p_f81f5edd5dc36332",
       "language": "de",
       "status": "official",
       "sourceIds": [
-        "ear_f56965373da12816"
+        "ear_f81f5edd5dc36332"
       ]
     },
     {
       "text": "Freezer",
-      "productId": "p_f56965373da12816",
+      "productId": "p_f81f5edd5dc36332",
       "language": "en",
       "status": "official",
       "sourceIds": [
-        "ear_f56965373da12816"
-      ]
-    },
-    {
-      "text": "冷冻柜（Gefriergerät）",
-      "productId": "p_f56965373da12816",
-      "language": "zh",
-      "status": "curated",
-      "sourceIds": [
-        "ear_f56965373da12816"
+        "ear_f81f5edd5dc36332"
       ]
     },
     {
       "text": "Fernbedienung",
-      "productId": "p_0b06e45a34ed1377",
+      "productId": "p_b1cb11cfadcd348e",
       "language": "de",
       "status": "official",
       "sourceIds": [
-        "ear_0b06e45a34ed1377"
-      ]
-    },
-    {
-      "text": "遥控器（Fernbedienung）",
-      "productId": "p_0b06e45a34ed1377",
-      "language": "zh",
-      "status": "curated",
-      "sourceIds": [
-        "ear_0b06e45a34ed1377"
+        "ear_b1cb11cfadcd348e"
       ]
     },
     {
@@ -22732,29 +22597,20 @@ window.WEEE_NAMES = {
     },
     {
       "text": "Videorekorder",
-      "productId": "p_48f9bdc175df447e",
+      "productId": "p_alias_review_464",
       "language": "de",
       "status": "official",
       "sourceIds": [
-        "ear_48f9bdc175df447e"
+        "ear_rule_ordinary_20261102"
       ]
     },
     {
       "text": "Video recorder",
-      "productId": "p_48f9bdc175df447e",
+      "productId": "p_alias_review_464",
       "language": "en",
       "status": "official",
       "sourceIds": [
-        "ear_48f9bdc175df447e"
-      ]
-    },
-    {
-      "text": "录像机（Videorekorder）",
-      "productId": "p_48f9bdc175df447e",
-      "language": "zh",
-      "status": "curated",
-      "sourceIds": [
-        "ear_48f9bdc175df447e"
+        "ear_rule_ordinary_20261102"
       ]
     },
     {

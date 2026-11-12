@@ -6040,41 +6040,6 @@ window.WEEE_EVIDENCE = {
       "sourceEntryCount": 1
     },
     {
-      "id": "ear_89c4c547da14f099",
-      "type": "official_entry",
-      "title": "Schermaschine für Haustiere",
-      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-11-12",
-      "query": [
-        "a",
-        "b",
-        "c",
-        "d",
-        "e",
-        "f",
-        "g",
-        "h",
-        "i",
-        "k",
-        "l",
-        "m",
-        "n",
-        "o",
-        "p",
-        "r",
-        "s",
-        "t",
-        "u",
-        "w",
-        "z"
-      ],
-      "candidates": [
-        "Kleingeräte, die in privaten Haushalten genutzt werden können"
-      ],
-      "remarks": [],
-      "sourceEntryCount": 1
-    },
-    {
       "id": "ear_9109acf151f04414",
       "type": "official_entry",
       "title": "WLAN-Adapter",
@@ -6365,48 +6330,6 @@ window.WEEE_EVIDENCE = {
         "Kleingeräte, die in privaten Haushalten genutzt werden können"
       ],
       "remarks": [],
-      "sourceEntryCount": 1
-    },
-    {
-      "id": "ear_8476d48dd262509f",
-      "type": "official_entry",
-      "title": "Leuchtstofflampe",
-      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-11-12",
-      "query": [
-        "a",
-        "b",
-        "c",
-        "d",
-        "e",
-        "f",
-        "g",
-        "h",
-        "i",
-        "j",
-        "k",
-        "l",
-        "m",
-        "n",
-        "o",
-        "p",
-        "r",
-        "s",
-        "t",
-        "u",
-        "w",
-        "z",
-        "ä",
-        "ö"
-      ],
-      "candidates": [
-        "Gasentladungslampen, die in privaten Haushalten genutzt werden können",
-        "Lampen für die ausschließliche Nutzung in anderen als privaten Haushalten"
-      ],
-      "remarks": [
-        "Lampen (Leuchtmittel) besitzen immer einen genormten Sockel (Gewinde, Stift, Bajonett, Kappe).",
-        "Ob die b2b- oder die b2c-Geräteart zu wählen ist, ist abhängig vom Ort der Nutzung."
-      ],
       "sourceEntryCount": 1
     },
     {
@@ -6905,41 +6828,6 @@ window.WEEE_EVIDENCE = {
       ],
       "candidates": [
         "Kleingeräte, die in privaten Haushalten genutzt werden können"
-      ],
-      "remarks": [],
-      "sourceEntryCount": 1
-    },
-    {
-      "id": "ear_2da026252c211646",
-      "type": "official_entry",
-      "title": "Chipkarte",
-      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-11-12",
-      "query": [
-        "a",
-        "b",
-        "c",
-        "d",
-        "e",
-        "f",
-        "g",
-        "h",
-        "i",
-        "k",
-        "l",
-        "m",
-        "n",
-        "o",
-        "p",
-        "r",
-        "s",
-        "t",
-        "u",
-        "v",
-        "z"
-      ],
-      "candidates": [
-        "Kleine Geräte der Informations- und Telekommunikationstechnik, die in privaten Haushalten genutzt werden können"
       ],
       "remarks": [],
       "sourceEntryCount": 1
@@ -9355,50 +9243,6 @@ window.WEEE_EVIDENCE = {
       "sourceEntryCount": 1
     },
     {
-      "id": "ear_ff127f31936f3ef0",
-      "type": "official_entry",
-      "title": "Kamera",
-      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-11-12",
-      "query": [
-        "a",
-        "b",
-        "c",
-        "d",
-        "e",
-        "f",
-        "g",
-        "h",
-        "i",
-        "k",
-        "l",
-        "m",
-        "n",
-        "o",
-        "p",
-        "q",
-        "r",
-        "s",
-        "t",
-        "u",
-        "v",
-        "w",
-        "x",
-        "y",
-        "z",
-        "ä"
-      ],
-      "candidates": [
-        "Kleingeräte für die ausschließliche Nutzung in anderen als privaten Haushalten",
-        "Kleingeräte, die in privaten Haushalten genutzt werden können"
-      ],
-      "remarks": [
-        "Auch Kameras, die beispielsweise mit WLAN, GPS ausgestattet sind, sind Kleingeräte.",
-        "Ob die b2b- oder die b2c-Geräteart zu wählen ist, ist abhängig vom Ort der Nutzung."
-      ],
-      "sourceEntryCount": 1
-    },
-    {
       "id": "ear_995d64bbeb1a1d8b",
       "type": "official_entry",
       "title": "Behandlungseinheit",
@@ -11241,32 +11085,6 @@ window.WEEE_EVIDENCE = {
       "sourceEntryCount": 1
     },
     {
-      "id": "ear_9e28dfbe41ed3353",
-      "type": "official_entry",
-      "title": "Barcodescanner",
-      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-11-12",
-      "query": [
-        "a",
-        "b",
-        "c",
-        "d",
-        "e",
-        "h",
-        "l",
-        "n",
-        "o",
-        "q",
-        "r",
-        "s"
-      ],
-      "candidates": [
-        "Kleine Geräte der Informations- und Telekommunikationstechnik für die ausschließliche Nutzung in anderen als privaten Haushalten"
-      ],
-      "remarks": [],
-      "sourceEntryCount": 1
-    },
-    {
       "id": "ear_069ec02245353dbb",
       "type": "official_entry",
       "title": "Mikroschalter",
@@ -11300,35 +11118,6 @@ window.WEEE_EVIDENCE = {
       "remarks": [
         "Einzige Funktion: Schalten. Miniatur-Bauelement"
       ],
-      "sourceEntryCount": 1
-    },
-    {
-      "id": "ear_cdd962939f62425d",
-      "type": "official_entry",
-      "title": "Registrierkasse",
-      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-11-12",
-      "query": [
-        "a",
-        "c",
-        "e",
-        "g",
-        "h",
-        "i",
-        "k",
-        "m",
-        "n",
-        "o",
-        "r",
-        "s",
-        "t",
-        "u",
-        "z"
-      ],
-      "candidates": [
-        "Kleine Geräte der Informations- und Telekommunikationstechnik für die ausschließliche Nutzung in anderen als privaten Haushalten"
-      ],
-      "remarks": [],
       "sourceEntryCount": 1
     },
     {
@@ -11512,37 +11301,6 @@ window.WEEE_EVIDENCE = {
       ],
       "candidates": [
         "Kleine Geräte der Informations- und Telekommunikationstechnik, die in privaten Haushalten genutzt werden können"
-      ],
-      "remarks": [],
-      "sourceEntryCount": 1
-    },
-    {
-      "id": "ear_7aa33ad8b6c0b6bb",
-      "type": "official_entry",
-      "title": "Überwachungskamera",
-      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-11-12",
-      "query": [
-        "a",
-        "b",
-        "c",
-        "e",
-        "g",
-        "h",
-        "i",
-        "k",
-        "l",
-        "m",
-        "n",
-        "r",
-        "s",
-        "u",
-        "v",
-        "w",
-        "ü"
-      ],
-      "candidates": [
-        "Kleingeräte, die in privaten Haushalten genutzt werden können"
       ],
       "remarks": [],
       "sourceEntryCount": 1
@@ -12737,47 +12495,6 @@ window.WEEE_EVIDENCE = {
       "sourceEntryCount": 1
     },
     {
-      "id": "ear_3e2a0e594cd806e6",
-      "type": "official_entry",
-      "title": "Wärmepumpe",
-      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-11-12",
-      "query": [
-        "a",
-        "b",
-        "c",
-        "d",
-        "e",
-        "f",
-        "g",
-        "h",
-        "i",
-        "k",
-        "l",
-        "m",
-        "n",
-        "o",
-        "p",
-        "r",
-        "s",
-        "t",
-        "u",
-        "w",
-        "z",
-        "ä",
-        "ö"
-      ],
-      "candidates": [
-        "Wärmeüberträger für die ausschließliche Nutzung in anderen als privaten Haushalten",
-        "Wärmeüberträger, die in privaten Haushalten genutzt werden können"
-      ],
-      "remarks": [
-        "Ob die b2b- oder die b2c-Geräteart zu wählen ist, ist abhängig vom Ort der Nutzung.",
-        "Keine Ausnahme, kein ortsfestes Großgerät."
-      ],
-      "sourceEntryCount": 1
-    },
-    {
       "id": "ear_c22b0c8147ad2e30",
       "type": "official_entry",
       "title": "Magnetrührer",
@@ -13529,40 +13246,6 @@ window.WEEE_EVIDENCE = {
       "sourceEntryCount": 1
     },
     {
-      "id": "ear_aa58efe60a73112f",
-      "type": "official_entry",
-      "title": "USB-Dockingstation",
-      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-11-12",
-      "query": [
-        "a",
-        "b",
-        "c",
-        "d",
-        "e",
-        "g",
-        "h",
-        "i",
-        "k",
-        "l",
-        "n",
-        "o",
-        "p",
-        "r",
-        "s",
-        "t",
-        "u",
-        "w"
-      ],
-      "candidates": [
-        "Kleine Geräte der Informations- und Telekommunikationstechnik, die in privaten Haushalten genutzt werden können"
-      ],
-      "remarks": [
-        "Adapter zur Erweiterung für Laptop/Notebook/PC"
-      ],
-      "sourceEntryCount": 1
-    },
-    {
       "id": "ear_da186736c3d50f56",
       "type": "official_entry",
       "title": "Bremswiderstand",
@@ -13808,35 +13491,6 @@ window.WEEE_EVIDENCE = {
         "o",
         "r",
         "s",
-        "t",
-        "u",
-        "v",
-        "z"
-      ],
-      "candidates": [
-        "Nicht im Anwendungsbereich"
-      ],
-      "remarks": [],
-      "sourceEntryCount": 1
-    },
-    {
-      "id": "ear_c55aacaaf0b7a5d8",
-      "type": "official_entry",
-      "title": "Airbag Kfz",
-      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-11-12",
-      "query": [
-        "a",
-        "b",
-        "e",
-        "f",
-        "g",
-        "i",
-        "k",
-        "m",
-        "n",
-        "o",
-        "r",
         "t",
         "u",
         "v",
@@ -15154,35 +14808,6 @@ window.WEEE_EVIDENCE = {
       "sourceEntryCount": 1
     },
     {
-      "id": "ear_cde0e2bf6cce31a7",
-      "type": "official_entry",
-      "title": "Brotbackautomat",
-      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-11-12",
-      "query": [
-        "a",
-        "b",
-        "c",
-        "d",
-        "e",
-        "h",
-        "i",
-        "k",
-        "m",
-        "n",
-        "o",
-        "r",
-        "s",
-        "t",
-        "u"
-      ],
-      "candidates": [
-        "Kleingeräte, die in privaten Haushalten genutzt werden können"
-      ],
-      "remarks": [],
-      "sourceEntryCount": 1
-    },
-    {
       "id": "ear_a5a191fc5d0c20be",
       "type": "official_entry",
       "title": "Ein-Ohr-Headset",
@@ -15418,38 +15043,6 @@ window.WEEE_EVIDENCE = {
         "u",
         "v",
         "w"
-      ],
-      "candidates": [
-        "Kleingeräte, die in privaten Haushalten genutzt werden können"
-      ],
-      "remarks": [],
-      "sourceEntryCount": 1
-    },
-    {
-      "id": "ear_5d37d7f686b7e8bf",
-      "type": "official_entry",
-      "title": "Netzwerkkamera",
-      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-11-12",
-      "query": [
-        "a",
-        "b",
-        "c",
-        "e",
-        "g",
-        "h",
-        "k",
-        "l",
-        "m",
-        "n",
-        "o",
-        "r",
-        "s",
-        "t",
-        "u",
-        "w",
-        "z",
-        "ü"
       ],
       "candidates": [
         "Kleingeräte, die in privaten Haushalten genutzt werden können"
@@ -15703,39 +15296,6 @@ window.WEEE_EVIDENCE = {
         "z",
         "ä",
         "ö"
-      ],
-      "candidates": [
-        "Kleingeräte, die in privaten Haushalten genutzt werden können"
-      ],
-      "remarks": [],
-      "sourceEntryCount": 1
-    },
-    {
-      "id": "ear_e94b5b044a7a3167",
-      "type": "official_entry",
-      "title": "TV Box",
-      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-11-12",
-      "query": [
-        "a",
-        "b",
-        "c",
-        "d",
-        "e",
-        "f",
-        "g",
-        "i",
-        "k",
-        "l",
-        "m",
-        "n",
-        "o",
-        "r",
-        "s",
-        "t",
-        "v",
-        "x",
-        "y"
       ],
       "candidates": [
         "Kleingeräte, die in privaten Haushalten genutzt werden können"
@@ -16229,44 +15789,6 @@ window.WEEE_EVIDENCE = {
       "sourceEntryCount": 1
     },
     {
-      "id": "ear_b4abf4e4df5a854a",
-      "type": "official_entry",
-      "title": "Kopierer",
-      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-11-12",
-      "query": [
-        "a",
-        "b",
-        "c",
-        "e",
-        "g",
-        "h",
-        "i",
-        "k",
-        "l",
-        "m",
-        "n",
-        "o",
-        "p",
-        "r",
-        "s",
-        "t",
-        "u",
-        "w",
-        "z",
-        "ä"
-      ],
-      "candidates": [
-        "Großgeräte für die ausschließliche Nutzung in anderen als privaten Haushalten",
-        "Kleine Geräte der Informations- und Telekommunikationstechnik, die in privaten Haushalten genutzt werden können"
-      ],
-      "remarks": [
-        "Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab.",
-        "Ob die b2b- oder die b2c-Geräteart zu wählen ist, ist abhängig vom Ort der Nutzung."
-      ],
-      "sourceEntryCount": 1
-    },
-    {
       "id": "ear_9d7d38fe1593322f",
       "type": "official_entry",
       "title": "Werkzeug",
@@ -16484,25 +16006,6 @@ window.WEEE_EVIDENCE = {
       "remarks": [
         "Es muss sich um eine Kühlbox handeln, die ein Kältemittel enthält"
       ],
-      "sourceEntryCount": 1
-    },
-    {
-      "id": "ear_312f91285e048e09",
-      "type": "official_entry",
-      "title": "Laptop",
-      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-11-12",
-      "query": [
-        "a",
-        "l",
-        "o",
-        "p",
-        "t"
-      ],
-      "candidates": [
-        "Bildschirmgeräte, die in privaten Haushalten genutzt werden können"
-      ],
-      "remarks": [],
       "sourceEntryCount": 1
     },
     {
@@ -17368,78 +16871,6 @@ window.WEEE_EVIDENCE = {
       "sourceEntryCount": 1
     },
     {
-      "id": "ear_f56965373da12816",
-      "type": "official_entry",
-      "title": "Gefriergerät",
-      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-11-12",
-      "query": [
-        "a",
-        "b",
-        "c",
-        "d",
-        "e",
-        "f",
-        "g",
-        "h",
-        "i",
-        "l",
-        "n",
-        "o",
-        "r",
-        "t",
-        "u",
-        "w",
-        "z",
-        "ä"
-      ],
-      "candidates": [
-        "Wärmeüberträger für die ausschließliche Nutzung in anderen als privaten Haushalten",
-        "Wärmeüberträger, die in privaten Haushalten genutzt werden können"
-      ],
-      "remarks": [
-        "Ob die b2b- oder die b2c-Geräteart zu wählen ist, ist abhängig vom Ort der Nutzung."
-      ],
-      "sourceEntryCount": 1
-    },
-    {
-      "id": "ear_0b06e45a34ed1377",
-      "type": "official_entry",
-      "title": "Fernbedienung",
-      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-11-12",
-      "query": [
-        "a",
-        "b",
-        "c",
-        "d",
-        "e",
-        "f",
-        "g",
-        "h",
-        "i",
-        "k",
-        "l",
-        "m",
-        "n",
-        "o",
-        "r",
-        "s",
-        "t",
-        "u",
-        "v",
-        "z",
-        "ü"
-      ],
-      "candidates": [
-        "Kleingeräte, die in privaten Haushalten genutzt werden können"
-      ],
-      "remarks": [
-        "Einzeln in Verkehr gebracht oder zur Nachrüstung."
-      ],
-      "sourceEntryCount": 1
-    },
-    {
       "id": "ear_45fa8f79ea001415",
       "type": "official_entry",
       "title": "Piezofeuerzeug",
@@ -17504,37 +16935,6 @@ window.WEEE_EVIDENCE = {
         "v",
         "x",
         "z"
-      ],
-      "candidates": [
-        "Kleingeräte, die in privaten Haushalten genutzt werden können"
-      ],
-      "remarks": [],
-      "sourceEntryCount": 1
-    },
-    {
-      "id": "ear_48f9bdc175df447e",
-      "type": "official_entry",
-      "title": "Videorekorder",
-      "url": "https://www.stiftung-ear.de/service/geraetezuordnung/",
-      "checked": "2026-11-12",
-      "query": [
-        "a",
-        "b",
-        "c",
-        "d",
-        "e",
-        "g",
-        "i",
-        "k",
-        "l",
-        "m",
-        "n",
-        "o",
-        "p",
-        "r",
-        "s",
-        "t",
-        "v"
       ],
       "candidates": [
         "Kleingeräte, die in privaten Haushalten genutzt werden können"
