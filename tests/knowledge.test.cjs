@@ -13,11 +13,11 @@ const config=input(),evidence={id:'fixture-source',type:'test_fixture',title:'�
 
 // Broad terms must retain all literal product matches, without a score or top-five cutoff.
 for(const [query,expectedCount,requiredNames] of [
- ['灯',43,['气体放电灯','LED灯带','太阳能灯','手电筒','露营提灯']],
- ['线',35,['USB线','音频线','HDMI 高清连接线','DP 显示连接线']]
+ ['灯',55,['气体放电灯','LED灯带','太阳能灯','手电筒','露营提灯']],
+ ['线',55,['USB线','音频线','HDMI 高清连接线','DP 显示连接线']]
 ]){const matches=k.suggest(query);equal(matches.length,expectedCount);equal(new Set(matches.map(row=>row.productId)).size,expectedCount);for(const name of requiredNames)equal(matches.some(row=>row.label===name),true);equal(matches.every(row=>row.matchType==='literal'),true);}
 equal(k.lookup('表').candidates.some(row=>row.productId===k.lookup('车辆附加仪表（车速表除外）').product.id),true);
-equal(k.lookup('表').candidates.length,10);
-equal(new Set(k.lookup('表').candidates.map(row=>row.productId)).size,10);
+equal(k.lookup('表').candidates.length,15);
+equal(new Set(k.lookup('表').candidates.map(row=>row.productId)).size,15);
 equal(k.suggest('Multimter').some(row=>row.productId===k.lookup('Multimeter').product.id&&row.matchType==='similar'),true);
 console.log('PASS',checks,'knowledge/independent product fixtures, schema integrity, ambiguity, provenance, isolated defaults, data-only product extension');

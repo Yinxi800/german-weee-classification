@@ -65,15 +65,22 @@ function renderGuide(){const s=state.guide,root=$('guide-form');root.replaceChil
  update();showSection('guide-form');$('status').textContent='条件填写';}
 function factLabel(key,value,isGuide,record){if(isGuide){const spec=guideFields[key];return spec?.options?.find(row=>row[0]===value)?.[1]||String(value);}const q=questionFor(key,record);return value==='yes'?q?.yes:value==='no'?q?.no:String(value);}
 const referenceLabels={
- 'Nicht im Anwendungsbereich':'不在 ElektroG 适用范围内',
- 'Großgeräte, die in privaten Haushalten genutzt werden können':'第 4 类 · 可用于家庭的大型设备',
- 'Großgeräte für die ausschließliche Nutzung in anderen als privaten Haushalten':'第 4 类 · 仅限专业场所使用的大型设备',
- 'Kleingeräte, die in privaten Haushalten genutzt werden können':'第 5 类 · 可用于家庭的小型设备',
- 'Kleingeräte für die ausschließliche Nutzung in anderen als privaten Haushalten':'第 5 类 · 仅限专业场所使用的小型设备',
- 'Kleine Geräte der Informations- und Telekommunikationstechnik, die in privaten Haushalten genutzt werden können':'第 6 类 · 可用于家庭的信息和通信设备',
- 'Kleine Geräte der Informations- und Telekommunikationstechnik für die ausschließliche Nutzung in anderen als privaten Haushalten':'第 6 类 · 仅限专业场所使用的信息和通信设备',
- 'Bildschirmgeräte, die in privaten Haushalten genutzt werden können':'第 2 类 · 可用于家庭的屏幕设备',
- 'Bildschirmgeräte für die ausschließliche Nutzung in anderen als privaten Haushalten':'第 2 类 · 仅限专业场所使用的屏幕设备'
+  "Wärmeüberträger, die in privaten Haushalten genutzt werden können":"第 1 类 · 可用于家庭的温度交换设备",
+  "Wärmeüberträger für die ausschließliche Nutzung in anderen als privaten Haushalten":"第 1 类 · 仅限专业场所使用的温度交换设备",
+  "Bildschirmgeräte, die in privaten Haushalten genutzt werden können":"第 2 类 · 可用于家庭的屏幕设备",
+  "Bildschirmgeräte für die ausschließliche Nutzung in anderen als privaten Haushalten":"第 2 类 · 仅限专业场所使用的屏幕设备",
+  "Gasentladungslampen, die in privaten Haushalten genutzt werden können":"第 3 类 · 可用于家庭的气体放电灯",
+  "Lampen, außer Gasentladungslampen, die in privaten Haushalten genutzt werden können":"第 3 类 · 可用于家庭的非气体放电灯",
+  "Lampen für die ausschließliche Nutzung in anderen als privaten Haushalten":"第 3 类 · 仅限专业场所使用的灯",
+  "Großgeräte, die in privaten Haushalten genutzt werden können":"第 4 类 · 可用于家庭的大型设备",
+  "Großgeräte für die ausschließliche Nutzung in anderen als privaten Haushalten":"第 4 类 · 仅限专业场所使用的大型设备",
+  "Große Photovoltaikmodule, die in privaten Haushalten genutzt werden können":"第 4 类 · 可用于家庭的大型光伏组件",
+  "Kleingeräte, die in privaten Haushalten genutzt werden können":"第 5 类 · 可用于家庭的小型设备",
+  "Kleingeräte für die ausschließliche Nutzung in anderen als privaten Haushalten":"第 5 类 · 仅限专业场所使用的小型设备",
+  "Kleine Photovoltaikmodule, die in privaten Haushalten genutzt werden können":"第 5 类 · 可用于家庭的小型光伏组件",
+  "Kleine Geräte der Informations- und Telekommunikationstechnik, die in privaten Haushalten genutzt werden können":"第 6 类 · 可用于家庭的小型信息和通信设备",
+  "Kleine Geräte der Informations- und Telekommunikationstechnik für die ausschließliche Nutzung in anderen als privaten Haushalten":"第 6 类 · 仅限专业场所使用的小型信息和通信设备",
+  "Nicht im Anwendungsbereich":"不在 ElektroG 适用范围内"
 };
 function makeResult(assessment,record,label){const ready=assessment.status==='ready',outside=assessment.status==='outside_scope',kind=assessment.kind,resolution=record?.resolution,resolvedId=resolution?.choices[assessment.facts[resolution.field]?.value],resolved=resolvedId?KNOWLEDGE.getProduct(resolvedId):record,h=assessment.facts.household?.value,info=ready?categories[kind]:null,official=ready?directory(kind,h):null,sources=sourceEntries(resolved),ruleEvidence=assessment.ruleIds.map(id=>ENGINE.RULES[id]).filter(Boolean);
  const referenceSource=assessment.status==='review'&&record?.decision.mode==='review'&&record?.officialReferenceConditions?sources.find(source=>source.type==='official_entry'&&source.title===record.officialName):null;

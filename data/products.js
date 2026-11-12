@@ -20642,6 +20642,15955 @@ window.WEEE_PRODUCTS = {
       "presentation": {},
       "reviewReason": "special_conditions_not_covered",
       "reviewText": "该名称可能指不同产品，请先核对产品实际功能与形态，再使用条件引导或联系 EAR 复核。"
+    },
+    {
+      "id": "p_gap_g132",
+      "name": "数码相机",
+      "officialName": "Digitalkamera",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [],
+        "variants": [
+          {
+            "kind": "small",
+            "household": "yes"
+          },
+          {
+            "kind": "small",
+            "household": "no"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {},
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_gap_g132"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_gap_g132",
+        "ear_gap_g132_camera"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 条目：Digitalkamera / Kamera",
+          "EAR 将数码相机列为小型设备（Kleingeräte），不属于小型信息和通信设备",
+          "带 WLAN、GPS 等功能的相机仍按小型设备归类；b2b 或 b2c 设备类型按实际使用地点选择"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_21296cdb81dfa149",
+      "name": "红外加热板",
+      "officialName": "Infrarot-Wärmestrahler",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_21296cdb81dfa149"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_21296cdb81dfa149"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_21296cdb81dfa149"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Infrarot-Wärmestrahler / Infrared light panel",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_48e55baf407262cd",
+      "name": "电子验孕/排卵测试仪",
+      "officialName": "Schwangerschaftstester (digital)",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_48e55baf407262cd"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_48e55baf407262cd"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_48e55baf407262cd"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Schwangerschaftstester (digital) / Ovulation & Pregnancy Tester",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_89c4c547da14f099",
+      "name": "宠物电推剪（Schermaschine für Haustiere）",
+      "officialName": "Schermaschine für Haustiere",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_89c4c547da14f099"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_89c4c547da14f099"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_89c4c547da14f099"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Schermaschine für Haustiere / Grooming Clipper for pets",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_9109acf151f04414",
+      "name": "无线网卡（WiFi 适配器）",
+      "officialName": "WLAN-Adapter",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_9109acf151f04414"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_9109acf151f04414"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_9109acf151f04414"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：WLAN-Adapter / WiFi Stick",
+          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_230af8cc3949201a",
+      "name": "蓄热式电暖器",
+      "officialName": "Nachtspeicherofen",
+      "coverage": "review",
+      "decision": {
+        "mode": "review"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_230af8cc3949201a"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_230af8cc3949201a"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Nachtspeicherofen / Night storage heater",
+          "EAR 候选设备类型：第 4 类 · 可用于家庭的大型设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "officialReferenceConditions": "EAR 对「Nachtspeicherofen」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。 EAR 说明：Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab.",
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_cb16393ec98873b4",
+      "name": "自动取款机",
+      "officialName": "Geldautomat",
+      "coverage": "review",
+      "decision": {
+        "mode": "review"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_cb16393ec98873b4"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_cb16393ec98873b4"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Geldautomat / Cash machine",
+          "EAR 候选设备类型：第 4 类 · 仅限专业场所使用的大型设备；第 5 类 · 仅限专业场所使用的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "officialReferenceConditions": "EAR 对「Geldautomat」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。 EAR 说明：Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab.",
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_e1065664f402c39d",
+      "name": "便携个人报警器",
+      "officialName": "Taschenalarm",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_e1065664f402c39d"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_e1065664f402c39d"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_e1065664f402c39d"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Taschenalarm / Personal alarm",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_a2263474043eab69",
+      "name": "雪崩收发信机",
+      "officialName": "LVS-Gerät",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_a2263474043eab69"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_a2263474043eab69"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_a2263474043eab69"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：LVS-Gerät / Avalanche transceiver",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_0fed3bbd72185cf9",
+      "name": "停车缴费机",
+      "officialName": "Parkscheinautomat",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "large",
+        "required": [],
+        "conditions": {
+          "household": "no"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_0fed3bbd72185cf9"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "no",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_0fed3bbd72185cf9"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_0fed3bbd72185cf9"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Parkscheinautomat / Parking ticket vending machine",
+          "EAR 候选设备类型：第 4 类 · 仅限专业场所使用的大型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_31498d36e2e741c9",
+      "name": "自动灌溉定时器",
+      "officialName": "Bewässerungscomputer",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_31498d36e2e741c9"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_31498d36e2e741c9"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_31498d36e2e741c9"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Bewässerungscomputer / Water timer for irrigation",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_2aa3083080e8f46f",
+      "name": "水旋流处理装置",
+      "officialName": "Wasserwirbler",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_2aa3083080e8f46f"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_2aa3083080e8f46f"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_2aa3083080e8f46f"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Wasserwirbler / Hexagon Water Swirl",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_8476d48dd262509f",
+      "name": "直管荧光灯（Leuchtstofflampe）",
+      "officialName": "Leuchtstofflampe",
+      "coverage": "review",
+      "decision": {
+        "mode": "review"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_8476d48dd262509f"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_8476d48dd262509f"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Leuchtstofflampe / Straight fluorescent lamp",
+          "EAR 候选设备类型：第 3 类 · 可用于家庭的气体放电灯；第 3 类 · 仅限专业场所使用的灯",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "officialReferenceConditions": "EAR 对「Leuchtstofflampe」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。 EAR 说明：Lampen (Leuchtmittel) besitzen immer einen genormten Sockel (Gewinde, Stift, Bajonett, Kappe). Ob die b2b- oder die b2c-Geräteart zu wählen ist, ist abhängig vom Ort der Nutzung.",
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_878fb25058face45",
+      "name": "录音磁带",
+      "officialName": "Audiokassette",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_878fb25058face45"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_878fb25058face45"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Audiokassette / Audio cassette",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「Audiokassette」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_4c0cf233faaf6005",
+      "name": "电竞椅",
+      "officialName": "Gamingsessel",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "large",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_4c0cf233faaf6005"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_4c0cf233faaf6005"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_4c0cf233faaf6005"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Gamingsessel / Gaming Chair",
+          "EAR 候选设备类型：第 4 类 · 可用于家庭的大型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_3918f49a69d4d01e",
+      "name": "电子墨水钥匙扣",
+      "officialName": "E-ink-Schlüsselanhänger",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "screen",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_3918f49a69d4d01e"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_3918f49a69d4d01e"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_3918f49a69d4d01e"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：E-ink-Schlüsselanhänger / Smart keychain",
+          "EAR 候选设备类型：第 2 类 · 可用于家庭的屏幕设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_5379e202f1ab8186",
+      "name": "眼动追踪仪",
+      "officialName": "Eye Tracker",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_5379e202f1ab8186"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_5379e202f1ab8186"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_5379e202f1ab8186"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Eye Tracker / Gaming eye tracker",
+          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_b67443f684adc3c7",
+      "name": "止吠器",
+      "officialName": "Anti-Bell-Gerät",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_b67443f684adc3c7"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_b67443f684adc3c7"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_b67443f684adc3c7"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Anti-Bell-Gerät / Anti barking device",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_64b54b37f07f0792",
+      "name": "IPL 脱毛仪",
+      "officialName": "IPL Haarentferner",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_64b54b37f07f0792"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_64b54b37f07f0792"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_64b54b37f07f0792"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：IPL Haarentferner / IPL hair removal",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_4999403f8de44456",
+      "name": "电热垫",
+      "officialName": "Heizkissen",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_4999403f8de44456"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_4999403f8de44456"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_4999403f8de44456"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Heizkissen / Heating pad",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_9fafc967b3ff5dd7",
+      "name": "超声波清洗机",
+      "officialName": "Ultraschallreiniger",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [],
+        "variants": [
+          {
+            "kind": "small",
+            "household": "no"
+          },
+          {
+            "kind": "small",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_9fafc967b3ff5dd7"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_9fafc967b3ff5dd7"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_9fafc967b3ff5dd7"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Ultraschallreiniger / Ultrasonic cleaner",
+          "EAR 候选设备类型：第 5 类 · 仅限专业场所使用的小型设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_367d4bf175debc7d",
+      "name": "智能卡",
+      "officialName": "Smartcard",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "no"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_367d4bf175debc7d"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "no",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_367d4bf175debc7d"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_367d4bf175debc7d"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Smartcard / Smart card",
+          "EAR 候选设备类型：第 6 类 · 仅限专业场所使用的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_244dbce346507eea",
+      "name": "LED 发光水龙头",
+      "officialName": "LED-Wasserhahn",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_244dbce346507eea"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_244dbce346507eea"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_244dbce346507eea"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：LED-Wasserhahn / LED Water Faucet",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_ea57c76422610a16",
+      "name": "华夫饼机",
+      "officialName": "Waffelbackgerät",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_ea57c76422610a16"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_ea57c76422610a16"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_ea57c76422610a16"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Waffelbackgerät / Waffle maker",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_8d309b979bc1fc35",
+      "name": "水床加热器",
+      "officialName": "Wasserbettheizung",
+      "coverage": "review",
+      "decision": {
+        "mode": "review"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_8d309b979bc1fc35"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_8d309b979bc1fc35"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Wasserbettheizung / Waterbed heater",
+          "EAR 候选设备类型：第 4 类 · 可用于家庭的大型设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "officialReferenceConditions": "EAR 对「Wasserbettheizung」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。 EAR 说明：Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab. Flexible Geräte werden im kompaktesten Zustand (zusammengelegt/-gerollt) gemessen.",
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_1325b6dd77fa363f",
+      "name": "桑拿控制面板",
+      "officialName": "Saunasteuerung",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_1325b6dd77fa363f"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_1325b6dd77fa363f"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_1325b6dd77fa363f"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Saunasteuerung / Sauna control panel",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_dbee4f9cc121294d",
+      "name": "胶片/幻灯片扫描仪",
+      "officialName": "Multiscanner",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_dbee4f9cc121294d"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_dbee4f9cc121294d"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_dbee4f9cc121294d"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Multiscanner / Film and slide scanner",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_2da026252c211646",
+      "name": "芯片卡",
+      "officialName": "Chipkarte",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_2da026252c211646"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_2da026252c211646"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_2da026252c211646"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Chipkarte / Smart card",
+          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_a55f3950cb97b0c1",
+      "name": "游戏卡带",
+      "officialName": "Spielecartridge",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_a55f3950cb97b0c1"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_a55f3950cb97b0c1"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_a55f3950cb97b0c1"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Spielecartridge / ROM cartridge for gaming",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_3ee01e9cde87c36a",
+      "name": "雷达预警器",
+      "officialName": "Radarwarner",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_3ee01e9cde87c36a"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_3ee01e9cde87c36a"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_3ee01e9cde87c36a"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Radarwarner / Radar warning equipment",
+          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_fef526a7068b2889",
+      "name": "音频转接器",
+      "officialName": "Audioadapter",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_fef526a7068b2889"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_fef526a7068b2889"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_fef526a7068b2889"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Audioadapter / Audio adapter",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_74a4249ae557a537",
+      "name": "倒车雷达套装",
+      "officialName": "Einparkhilfe-Set",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_74a4249ae557a537"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_74a4249ae557a537"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Einparkhilfe-Set / Beep & Park set",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「Einparkhilfe-Set」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_577ea1c2724fda34",
+      "name": "天然石电暖器",
+      "officialName": "Natursteinheizkörper",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "large",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_577ea1c2724fda34"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_577ea1c2724fda34"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_577ea1c2724fda34"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Natursteinheizkörper / Electric panel heater",
+          "EAR 候选设备类型：第 4 类 · 可用于家庭的大型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_045195eb28e4cda9",
+      "name": "电子捕兽器",
+      "officialName": "elektrische Tierfalle",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_045195eb28e4cda9"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_045195eb28e4cda9"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_045195eb28e4cda9"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：elektrische Tierfalle / Electric animal trap",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_6353328fbf6271ff",
+      "name": "按摩椅",
+      "officialName": "Massagesessel",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "large",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_6353328fbf6271ff"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_6353328fbf6271ff"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_6353328fbf6271ff"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Massagesessel / Massage chair",
+          "EAR 候选设备类型：第 4 类 · 可用于家庭的大型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_c5d8384de5166e2c",
+      "name": "接地电阻测试仪",
+      "officialName": "Erdungsmessgerät",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_c5d8384de5166e2c"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_c5d8384de5166e2c"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_c5d8384de5166e2c"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Erdungsmessgerät / Earth resistance tester",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_d12dc7bf66682038",
+      "name": "电动鼓风机",
+      "officialName": "Luftgebläse",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_d12dc7bf66682038"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_d12dc7bf66682038"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_d12dc7bf66682038"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Luftgebläse / Air blower pump fan",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_6c1234b1335e1314",
+      "name": "手持无线扫描仪",
+      "officialName": "Funkscanner",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_6c1234b1335e1314"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_6c1234b1335e1314"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_6c1234b1335e1314"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Funkscanner / Handheld scanner",
+          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_67f7057cd12874b6",
+      "name": "倒车显示屏",
+      "officialName": "Rückfahrmonitor",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "screen",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_67f7057cd12874b6"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_67f7057cd12874b6"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_67f7057cd12874b6"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Rückfahrmonitor / Rear view camera monitor",
+          "EAR 候选设备类型：第 2 类 · 可用于家庭的屏幕设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_9fc1f01f0ef060ee",
+      "name": "LED 浴室镜",
+      "officialName": "LED-Badspiegel",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "large",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_9fc1f01f0ef060ee"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_9fc1f01f0ef060ee"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_9fc1f01f0ef060ee"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：LED-Badspiegel / Illuminated Bathroom Mirror",
+          "EAR 候选设备类型：第 4 类 · 可用于家庭的大型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_9e8632b93b47b585",
+      "name": "纹身机",
+      "officialName": "Tätowiermaschine",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_9e8632b93b47b585"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_9e8632b93b47b585"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_9e8632b93b47b585"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Tätowiermaschine / Tattoo machine",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_a66120e0083f818f",
+      "name": "储水式热水器",
+      "officialName": "Warmwasserspeicher",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "thermal",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_a66120e0083f818f"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_a66120e0083f818f"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_a66120e0083f818f"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Warmwasserspeicher / Hot water storage tank",
+          "EAR 候选设备类型：第 1 类 · 可用于家庭的温度交换设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_8446158b514eb576",
+      "name": "防打鼾手环",
+      "officialName": "Anti-Schnarch-Armband",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_8446158b514eb576"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_8446158b514eb576"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_8446158b514eb576"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Anti-Schnarch-Armband / Anti snoring device",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_4515ce976d7a9381",
+      "name": "壁炉吸灰器",
+      "officialName": "Aschesauger",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_4515ce976d7a9381"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_4515ce976d7a9381"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_4515ce976d7a9381"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Aschesauger / Ash vacuum cleaner",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_2b74d0ec8b11d199",
+      "name": "网络存储器（NAS）",
+      "officialName": "NAS (Network Attached Storage)",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_2b74d0ec8b11d199"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_2b74d0ec8b11d199"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_2b74d0ec8b11d199"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：NAS (Network Attached Storage) / NAS (Network Attached Storage)",
+          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_becf45a1c553ee28",
+      "name": "浸入式电加热棒",
+      "officialName": "Tauchsieder",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_becf45a1c553ee28"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_becf45a1c553ee28"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_becf45a1c553ee28"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Tauchsieder / Portable water heater",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_efdac2ac2a7283ef",
+      "name": "太阳能集热器（无电气功能）",
+      "officialName": "Solarthermie-Kollektoren (keine elektrische Funktion)",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_efdac2ac2a7283ef"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_efdac2ac2a7283ef"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Solarthermie-Kollektoren (keine elektrische Funktion) / Solar heat collectors (no electrical function)",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「Solarthermie-Kollektoren (keine elektrische Funktion)」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_00d7409323320de4",
+      "name": "RFID 屏蔽卡（无芯片和天线）",
+      "officialName": "RFID-Blockerkarte (ohne Chip und Antenne)",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_00d7409323320de4"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_00d7409323320de4"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：RFID-Blockerkarte (ohne Chip und Antenne) / RFID blocker card (without antenna and chip)",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「RFID-Blockerkarte (ohne Chip und Antenne)」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_094da54ed903bbbd",
+      "name": "电子指南针",
+      "officialName": "Kompass, digital",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_094da54ed903bbbd"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_094da54ed903bbbd"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_094da54ed903bbbd"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Kompass, digital / Compass, digital",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_a0da97f43296f5e6",
+      "name": "墙壁照明开关",
+      "officialName": "Wand-Lichtschalter",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_a0da97f43296f5e6"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_a0da97f43296f5e6"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_a0da97f43296f5e6"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Wand-Lichtschalter / Light switch",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_8a88116f8d5deb0b",
+      "name": "自行车发电机",
+      "officialName": "Dynamo für Fahrräder",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_8a88116f8d5deb0b"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_8a88116f8d5deb0b"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_8a88116f8d5deb0b"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Dynamo für Fahrräder / Dynamo for bikes",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_61d53f5b2fc58dbe",
+      "name": "收音机",
+      "officialName": "Radiogerät",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_61d53f5b2fc58dbe"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_61d53f5b2fc58dbe"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_61d53f5b2fc58dbe"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Radiogerät / Radio set",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_2a1f3c28d9938008",
+      "name": "NFC 手机壳",
+      "officialName": "NFC-Handyhülle",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "screen",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_2a1f3c28d9938008"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_2a1f3c28d9938008"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_2a1f3c28d9938008"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：NFC-Handyhülle / Smart Ink Phone Case",
+          "EAR 候选设备类型：第 2 类 · 可用于家庭的屏幕设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_617e0f57c9e1bc93",
+      "name": "触控笔",
+      "officialName": "Eingabestift",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_617e0f57c9e1bc93"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_617e0f57c9e1bc93"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_617e0f57c9e1bc93"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Eingabestift / Smart pen",
+          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_ac96221c5a5b0124",
+      "name": "电子热分配表",
+      "officialName": "Heizkostenverteiler, elektronisch",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_ac96221c5a5b0124"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_ac96221c5a5b0124"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_ac96221c5a5b0124"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Heizkostenverteiler, elektronisch / Heat cost allocator",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_dd05cd591d5c2b19",
+      "name": "电动阁楼梯",
+      "officialName": "Bodentreppe, elektrisch",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "large",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_dd05cd591d5c2b19"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_dd05cd591d5c2b19"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_dd05cd591d5c2b19"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Bodentreppe, elektrisch / Attic ladder, electric",
+          "EAR 候选设备类型：第 4 类 · 可用于家庭的大型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_166f69501f322b93",
+      "name": "电动充气泵",
+      "officialName": "Luftpumpe, elektrisch",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_166f69501f322b93"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_166f69501f322b93"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_166f69501f322b93"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Luftpumpe, elektrisch / air pump, electric",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_464f70e842077788",
+      "name": "等离子球",
+      "officialName": "Plasmakugel",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_464f70e842077788"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_464f70e842077788"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_464f70e842077788"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Plasmakugel / Sensitive plasma globe",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_e9acf6d015eaebb4",
+      "name": "信息通信延长线",
+      "officialName": "ITK-Verlängerungskabel",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_e9acf6d015eaebb4"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_e9acf6d015eaebb4"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_e9acf6d015eaebb4"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：ITK-Verlängerungskabel / ITK (extension) cable",
+          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_a9c6ebf21db091bf",
+      "name": "大型天线",
+      "officialName": "große Antenne",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [],
+        "variants": [
+          {
+            "kind": "large",
+            "household": "no"
+          },
+          {
+            "kind": "large",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_a9c6ebf21db091bf"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_a9c6ebf21db091bf"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_a9c6ebf21db091bf"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：große Antenne / large Antenna",
+          "EAR 候选设备类型：第 4 类 · 仅限专业场所使用的大型设备；第 4 类 · 可用于家庭的大型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_87cb7575f6669619",
+      "name": "暖脚器",
+      "officialName": "Fußheizung",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_87cb7575f6669619"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_87cb7575f6669619"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_87cb7575f6669619"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Fußheizung / Heated foot warmer",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_37dbfe72474263d0",
+      "name": "磁带播放机",
+      "officialName": "Kassettenspieler",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_37dbfe72474263d0"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_37dbfe72474263d0"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_37dbfe72474263d0"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Kassettenspieler / Cassette player",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_cd4e7700ca1ac0e7",
+      "name": "真空封口机",
+      "officialName": "Vakuumiergerät",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [],
+        "variants": [
+          {
+            "kind": "small",
+            "household": "no"
+          },
+          {
+            "kind": "small",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_cd4e7700ca1ac0e7"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_cd4e7700ca1ac0e7"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_cd4e7700ca1ac0e7"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Vakuumiergerät / Vacuum Sealer",
+          "EAR 候选设备类型：第 5 类 · 仅限专业场所使用的小型设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_044fedd3dcb52068",
+      "name": "温控器",
+      "officialName": "Heizregler",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [],
+        "variants": [
+          {
+            "kind": "small",
+            "household": "no"
+          },
+          {
+            "kind": "small",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_044fedd3dcb52068"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_044fedd3dcb52068"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_044fedd3dcb52068"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Heizregler / Heating regulator",
+          "EAR 候选设备类型：第 5 类 · 仅限专业场所使用的小型设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_6db04ce0d19bf1b3",
+      "name": "大型计算机（主机）",
+      "officialName": "Großrechner",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [],
+        "variants": [
+          {
+            "kind": "large",
+            "household": "no"
+          },
+          {
+            "kind": "large",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_6db04ce0d19bf1b3"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_6db04ce0d19bf1b3"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_6db04ce0d19bf1b3"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Großrechner / Large computer-mainframe",
+          "EAR 候选设备类型：第 4 类 · 仅限专业场所使用的大型设备；第 4 类 · 可用于家庭的大型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_02a32e79d67be668",
+      "name": "商用咖啡机",
+      "officialName": "Kaffeemaschine für Gastronomie",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "large",
+        "required": [],
+        "conditions": {
+          "household": "no"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_02a32e79d67be668"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "no",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_02a32e79d67be668"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_02a32e79d67be668"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Kaffeemaschine für Gastronomie / commercial coffee machine for gastronomy",
+          "EAR 候选设备类型：第 4 类 · 仅限专业场所使用的大型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_72600a22ea5baee8",
+      "name": "植入式心脏起搏器",
+      "officialName": "Herzschrittmacher",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_72600a22ea5baee8"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_72600a22ea5baee8"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Herzschrittmacher / Implantable pace-maker",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「Herzschrittmacher」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_5736983cc4557d34",
+      "name": "操作台（输入键盘）",
+      "officialName": "Bedienpult (im Sinn einer Eingabetastatur)",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "no"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_5736983cc4557d34"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "no",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_5736983cc4557d34"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_5736983cc4557d34"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Bedienpult (im Sinn einer Eingabetastatur) / Operating desk (meaning input keypad)",
+          "EAR 候选设备类型：第 6 类 · 仅限专业场所使用的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_176c6c1969f7f0c2",
+      "name": "车载小型设备（即插即用型）",
+      "officialName": "Kleingerät für Kfz (z.B. per Plug & Play betriebenes)",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_176c6c1969f7f0c2"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_176c6c1969f7f0c2"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_176c6c1969f7f0c2"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Kleingerät für Kfz (z.B. per Plug & Play betriebenes) / Small appliance for cars (e.g. operated via plug & play)",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_7061c32ef3d1af48",
+      "name": "RFID 屏蔽卡（含芯片或天线）",
+      "officialName": "RFID-Blockerkarte (mit Chip oder Antenne)",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_7061c32ef3d1af48"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_7061c32ef3d1af48"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_7061c32ef3d1af48"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：RFID-Blockerkarte (mit Chip oder Antenne) / RFID blocker cards (with antenna or chip)",
+          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_14367d410f914e0b",
+      "name": "抬头显示器（HUD）",
+      "officialName": "Head-Up-Display",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_14367d410f914e0b"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_14367d410f914e0b"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_14367d410f914e0b"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Head-Up-Display / Head-up display",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_387c46dfc543112e",
+      "name": "电动软弹枪",
+      "officialName": "Softairwaffe, elektrisch",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_387c46dfc543112e"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_387c46dfc543112e"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_387c46dfc543112e"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Softairwaffe, elektrisch / Airsoft gun, electric",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_6828aac7dc249b48",
+      "name": "游戏耳机",
+      "officialName": "Gaming-Headset",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_6828aac7dc249b48"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_6828aac7dc249b48"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_6828aac7dc249b48"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Gaming-Headset / Gaming headset",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_ccf7b597d127d72c",
+      "name": "气象站",
+      "officialName": "Wetterstation",
+      "coverage": "review",
+      "decision": {
+        "mode": "review"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_ccf7b597d127d72c"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_ccf7b597d127d72c"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Wetterstation / Weather station",
+          "EAR 候选设备类型：第 2 类 · 可用于家庭的屏幕设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "officialReferenceConditions": "EAR 对「Wetterstation」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。 EAR 说明：Ob es sich um ein Bildschirmgerät oder ein Kleingerät handelt, hängt von der Größe des Bildschirms ab.",
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_5058a105610ac4b3",
+      "name": "噪音指示灯",
+      "officialName": "Lärm-Ampel",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_5058a105610ac4b3"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_5058a105610ac4b3"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_5058a105610ac4b3"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Lärm-Ampel / Noise lights",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_998340959606c404",
+      "name": "行车记录仪",
+      "officialName": "Dashcam",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_998340959606c404"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_998340959606c404"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_998340959606c404"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Dashcam / Dashcam",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_dee91136b65c85e4",
+      "name": "沐浴水温计",
+      "officialName": "Badethermometer",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_dee91136b65c85e4"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_dee91136b65c85e4"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_dee91136b65c85e4"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Badethermometer / Shower thermometer",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_258d307193ff152c",
+      "name": "交通信号灯",
+      "officialName": "Lichtsignalanlage",
+      "coverage": "review",
+      "decision": {
+        "mode": "review"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_258d307193ff152c"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_258d307193ff152c"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Lichtsignalanlage / Traffic lights",
+          "EAR 候选设备类型：第 4 类 · 仅限专业场所使用的大型设备；第 5 类 · 仅限专业场所使用的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "officialReferenceConditions": "EAR 对「Lichtsignalanlage」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。 EAR 说明：Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab.",
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_46a61417b8835f66",
+      "name": "卫星寻星仪",
+      "officialName": "Satfinder",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_46a61417b8835f66"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_46a61417b8835f66"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_46a61417b8835f66"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Satfinder / Satellite finder",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_f715470074b5f65f",
+      "name": "电子飞镖盘",
+      "officialName": "Dartscheibe, elektronisch",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_f715470074b5f65f"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_f715470074b5f65f"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_f715470074b5f65f"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Dartscheibe, elektronisch / Dartboard, electronic",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_9f663169558e42ea",
+      "name": "诊疗床",
+      "officialName": "Behandlungsliege",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "large",
+        "required": [],
+        "conditions": {
+          "household": "no"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_9f663169558e42ea"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "no",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_9f663169558e42ea"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_9f663169558e42ea"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Behandlungsliege / Treatment bed",
+          "EAR 候选设备类型：第 4 类 · 仅限专业场所使用的大型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_be28691aa56f3c28",
+      "name": "智能望远镜",
+      "officialName": "Smart-Teleskop",
+      "coverage": "review",
+      "decision": {
+        "mode": "review"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_be28691aa56f3c28"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_be28691aa56f3c28"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Smart-Teleskop / Smart telescope",
+          "EAR 候选设备类型：第 4 类 · 可用于家庭的大型设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "officialReferenceConditions": "EAR 对「Smart-Teleskop」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。 EAR 说明：Optik mit fest integrierter Nachführung",
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_7098602b4ae8e660",
+      "name": "握力计",
+      "officialName": "Handkraftmessgerät",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_7098602b4ae8e660"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_7098602b4ae8e660"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_7098602b4ae8e660"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Handkraftmessgerät / Grip strength trainer",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_5b6c950f1d508f69",
+      "name": "水下推进器",
+      "officialName": "Unterwasserscooter",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_5b6c950f1d508f69"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_5b6c950f1d508f69"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_5b6c950f1d508f69"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Unterwasserscooter / Underwater scooter",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_2ed62f7d2559812d",
+      "name": "金属探测器",
+      "officialName": "Metalldetektor",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_2ed62f7d2559812d"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_2ed62f7d2559812d"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_2ed62f7d2559812d"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Metalldetektor / Metal detector",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_e7d3fb5deacbf326",
+      "name": "反渗透净水系统",
+      "officialName": "Osmoseanlage",
+      "coverage": "review",
+      "decision": {
+        "mode": "review"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_e7d3fb5deacbf326"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_e7d3fb5deacbf326"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Osmoseanlage / Osmosis system",
+          "EAR 候选设备类型：第 4 类 · 仅限专业场所使用的大型设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "officialReferenceConditions": "EAR 对「Osmoseanlage」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。 EAR 说明：Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab. Ob die b2b- oder die b2c-Geräteart zu wählen ist, ist abhängig vom Ort der Nutzung.",
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_4ed2936f4731b155",
+      "name": "泳池逆流训练器",
+      "officialName": "Gegenstromanlage",
+      "coverage": "review",
+      "decision": {
+        "mode": "review"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_4ed2936f4731b155"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_4ed2936f4731b155"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Gegenstromanlage / Swimming pool current machine",
+          "EAR 候选设备类型：第 4 类 · 仅限专业场所使用的大型设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "officialReferenceConditions": "EAR 对「Gegenstromanlage」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。 EAR 说明：Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab. Ob die b2b- oder die b2c-Geräteart zu wählen ist, ist abhängig vom Ort der Nutzung.",
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_1e681931046aecf5",
+      "name": "超声波驱鼠器",
+      "officialName": "Marderschreck",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_1e681931046aecf5"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_1e681931046aecf5"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_1e681931046aecf5"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Marderschreck / Ultrasonic rodent repeller",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_17f8b7f42405cc14",
+      "name": "厨余垃圾处理器",
+      "officialName": "Küchenabfallzerkleinerer",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_17f8b7f42405cc14"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_17f8b7f42405cc14"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_17f8b7f42405cc14"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Küchenabfallzerkleinerer / Kitchen composter",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_e370bdd89260604a",
+      "name": "风力发电机",
+      "officialName": "Windgenerator",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "large",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_e370bdd89260604a"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_e370bdd89260604a"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_e370bdd89260604a"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Windgenerator / Wind turbine generator",
+          "EAR 候选设备类型：第 4 类 · 可用于家庭的大型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_d03cff568a90b52f",
+      "name": "LED 气球",
+      "officialName": "LED-Ballon",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_d03cff568a90b52f"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_d03cff568a90b52f"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_d03cff568a90b52f"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：LED-Ballon / LED balloon",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_bd5969a04ddca60c",
+      "name": "LED 发光项圈",
+      "officialName": "LED-Leuchthalsband",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_bd5969a04ddca60c"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_bd5969a04ddca60c"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_bd5969a04ddca60c"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：LED-Leuchthalsband / LED collar",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_382f7de4177ecd87",
+      "name": "录像带",
+      "officialName": "Videokassette",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_382f7de4177ecd87"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_382f7de4177ecd87"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Videokassette / Video cassette",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「Videokassette」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_217b77f174d6004f",
+      "name": "硬件服务器",
+      "officialName": "Hardware-Server",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [],
+        "variants": [
+          {
+            "kind": "ict",
+            "household": "no"
+          },
+          {
+            "kind": "ict",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_217b77f174d6004f"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_217b77f174d6004f"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_217b77f174d6004f"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Hardware-Server / Hardware-Server",
+          "EAR 候选设备类型：第 6 类 · 仅限专业场所使用的小型信息和通信设备；第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_5fd58a533d194529",
+      "name": "居家紧急呼叫器",
+      "officialName": "Hausnotruf",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_5fd58a533d194529"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_5fd58a533d194529"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_5fd58a533d194529"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Hausnotruf / Emergency button",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_a3dc0746d3b43ce0",
+      "name": "脚踏控制器",
+      "officialName": "Tastaturpedal",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_a3dc0746d3b43ce0"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_a3dc0746d3b43ce0"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_a3dc0746d3b43ce0"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Tastaturpedal / Hands-Free studio controller",
+          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_b8c5206c2f4f8f76",
+      "name": "对讲系统",
+      "officialName": "Gegensprechanlage",
+      "coverage": "review",
+      "decision": {
+        "mode": "review"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_b8c5206c2f4f8f76"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_b8c5206c2f4f8f76"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Gegensprechanlage / Intercom system",
+          "EAR 候选设备类型：第 2 类 · 可用于家庭的屏幕设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "officialReferenceConditions": "EAR 对「Gegensprechanlage」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。 EAR 说明：Ob es sich um ein Bildschirmgerät oder ein Kleingerät handelt, hängt von der Größe des Bildschirms ab.",
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_17edf51344c0c71a",
+      "name": "按摩器",
+      "officialName": "Massagegerät",
+      "coverage": "review",
+      "decision": {
+        "mode": "review"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_17edf51344c0c71a"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_17edf51344c0c71a"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Massagegerät / Massager",
+          "EAR 候选设备类型：第 4 类 · 可用于家庭的大型设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "officialReferenceConditions": "EAR 对「Massagegerät」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。 EAR 说明：Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab. Flexible Geräte werden im kompaktesten Zustand (zusammengelegt/-gerollt) gemessen.",
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_ff127f31936f3ef0",
+      "name": "数码相机（Kamera）",
+      "officialName": "Kamera",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [],
+        "variants": [
+          {
+            "kind": "small",
+            "household": "no"
+          },
+          {
+            "kind": "small",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_ff127f31936f3ef0"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_ff127f31936f3ef0"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_ff127f31936f3ef0"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Kamera / Camera",
+          "EAR 候选设备类型：第 5 类 · 仅限专业场所使用的小型设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_995d64bbeb1a1d8b",
+      "name": "综合治疗台",
+      "officialName": "Behandlungseinheit",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "large",
+        "required": [],
+        "conditions": {
+          "household": "no"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_995d64bbeb1a1d8b"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "no",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_995d64bbeb1a1d8b"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_995d64bbeb1a1d8b"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Behandlungseinheit / treatment unit",
+          "EAR 候选设备类型：第 4 类 · 仅限专业场所使用的大型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_1eae156cb4f87db3",
+      "name": "酒精呼气测试仪",
+      "officialName": "Atemtester",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_1eae156cb4f87db3"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_1eae156cb4f87db3"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_1eae156cb4f87db3"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Atemtester / Breathalyzer",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_8831c13fdc4989df",
+      "name": "血液电疗仪",
+      "officialName": "Blutzapper",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_8831c13fdc4989df"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_8831c13fdc4989df"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_8831c13fdc4989df"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Blutzapper / blood zapper",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_714f63fa932528f2",
+      "name": "脱毛蜡疗机",
+      "officialName": "Wachsstation",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_714f63fa932528f2"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_714f63fa932528f2"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_714f63fa932528f2"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Wachsstation / Waxing kit",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_c4452e04fec4abb2",
+      "name": "驱鼹鼠器",
+      "officialName": "Maulwurfvertreiber",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_c4452e04fec4abb2"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_c4452e04fec4abb2"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_c4452e04fec4abb2"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Maulwurfvertreiber / Mole repellent",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_907ccd9d3bd94589",
+      "name": "离子水机",
+      "officialName": "Wasserionisator",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_907ccd9d3bd94589"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_907ccd9d3bd94589"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_907ccd9d3bd94589"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Wasserionisator / Water ionizer",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_56dad26c14e8e81a",
+      "name": "DVI 线",
+      "officialName": "DVI-Kabel",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_56dad26c14e8e81a"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_56dad26c14e8e81a"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_56dad26c14e8e81a"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：DVI-Kabel / DVI cable",
+          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_f2a533b3d2e2c77a",
+      "name": "地面打磨机",
+      "officialName": "Bodenschleifmaschine",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "large",
+        "required": [],
+        "conditions": {
+          "household": "no"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_f2a533b3d2e2c77a"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "no",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_f2a533b3d2e2c77a"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_f2a533b3d2e2c77a"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Bodenschleifmaschine / Floor grinding machine",
+          "EAR 候选设备类型：第 4 类 · 仅限专业场所使用的大型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_5c804ff598fa0b4d",
+      "name": "抛光机",
+      "officialName": "Poliermaschine",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_5c804ff598fa0b4d"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_5c804ff598fa0b4d"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_5c804ff598fa0b4d"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Poliermaschine / Polishing machine",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_190c26f8248797f4",
+      "name": "厨师机（多功能料理机）",
+      "officialName": "Küchenmaschine",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_190c26f8248797f4"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_190c26f8248797f4"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_190c26f8248797f4"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Küchenmaschine / Kitchen machine",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_59e141f57b51b814",
+      "name": "SIM 卡",
+      "officialName": "SIM-Karte",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_59e141f57b51b814"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_59e141f57b51b814"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_59e141f57b51b814"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：SIM-Karte / SIM card",
+          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_0fd2948f90f13096",
+      "name": "汽车搭电线",
+      "officialName": "Starthilfekabel",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_0fd2948f90f13096"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_0fd2948f90f13096"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_0fd2948f90f13096"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Starthilfekabel / Jumper cable",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_db1fbcfa5084967c",
+      "name": "智能电表传感器",
+      "officialName": "Smarter Stromzählersensor",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_db1fbcfa5084967c"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_db1fbcfa5084967c"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_db1fbcfa5084967c"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Smarter Stromzählersensor / WiFi Smart Meter",
+          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_0d18345fd4bb6cfa",
+      "name": "触屏收银系统",
+      "officialName": "Touchscreen-Kassensystem",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "screen",
+        "required": [],
+        "conditions": {
+          "household": "no"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_0d18345fd4bb6cfa"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "no",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_0d18345fd4bb6cfa"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_0d18345fd4bb6cfa"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Touchscreen-Kassensystem / Touchscreen cash register",
+          "EAR 候选设备类型：第 2 类 · 仅限专业场所使用的屏幕设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_bd8d0852b8e4956b",
+      "name": "反窃听探测器",
+      "officialName": "Wanzenfinder",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_bd8d0852b8e4956b"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_bd8d0852b8e4956b"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_bd8d0852b8e4956b"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Wanzenfinder / Anti Spy Detector",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_0c4dfdd808f27f50",
+      "name": "接线端子",
+      "officialName": "Kabelschuh",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_0c4dfdd808f27f50"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_0c4dfdd808f27f50"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Kabelschuh / Crimp Terminal",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「Kabelschuh」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_cf76481bd0d8bfc0",
+      "name": "无线充电器（Qi）",
+      "officialName": "Qi-Ladegerät",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_cf76481bd0d8bfc0"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_cf76481bd0d8bfc0"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_cf76481bd0d8bfc0"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Qi-Ladegerät / wireless charger",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_b060aa7e7bde0464",
+      "name": "3D 扫描仪",
+      "officialName": "3D-Scanner",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [],
+        "variants": [
+          {
+            "kind": "small",
+            "household": "no"
+          },
+          {
+            "kind": "small",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_b060aa7e7bde0464"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_b060aa7e7bde0464"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_b060aa7e7bde0464"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：3D-Scanner / 3D scanner",
+          "EAR 候选设备类型：第 5 类 · 仅限专业场所使用的小型设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_b2d131a380cb530f",
+      "name": "断路器",
+      "officialName": "Leitungsschutzschalter",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_b2d131a380cb530f"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_b2d131a380cb530f"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_b2d131a380cb530f"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Leitungsschutzschalter / Circuit breaker",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_f80cd3fe5a04ecf4",
+      "name": "墙壁插座",
+      "officialName": "Wand-Steckdose",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_f80cd3fe5a04ecf4"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_f80cd3fe5a04ecf4"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_f80cd3fe5a04ecf4"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Wand-Steckdose / Wall Socket",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_c596e1a03916b297",
+      "name": "软水机",
+      "officialName": "Wasserenthärter",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [],
+        "variants": [
+          {
+            "kind": "large",
+            "household": "no"
+          },
+          {
+            "kind": "large",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_c596e1a03916b297"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_c596e1a03916b297"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_c596e1a03916b297"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Wasserenthärter / Water softener",
+          "EAR 候选设备类型：第 4 类 · 仅限专业场所使用的大型设备；第 4 类 · 可用于家庭的大型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_d23a01ee3b29869e",
+      "name": "白炽灯泡",
+      "officialName": "Glühlampe",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_d23a01ee3b29869e"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_d23a01ee3b29869e"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Glühlampe / Filament bulb",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「Glühlampe」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_5d15b1f45e7d76c5",
+      "name": "继电器",
+      "officialName": "Relais",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_5d15b1f45e7d76c5"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_5d15b1f45e7d76c5"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Relais / relay",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「Relais」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_21a6d1122f946ab9",
+      "name": "缝纫机",
+      "officialName": "Nähmaschine",
+      "coverage": "review",
+      "decision": {
+        "mode": "review"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_21a6d1122f946ab9"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_21a6d1122f946ab9"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Nähmaschine / Sewing Machine",
+          "EAR 候选设备类型：第 4 类 · 仅限专业场所使用的大型设备；第 4 类 · 可用于家庭的大型设备；第 5 类 · 仅限专业场所使用的小型设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "officialReferenceConditions": "EAR 对「Nähmaschine」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。 EAR 说明：Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab. Ob die b2b- oder die b2c-Geräteart zu wählen ist, ist abhängig vom Ort der Nutzung.",
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_dc16e95f6546b347",
+      "name": "燃气壁挂炉",
+      "officialName": "Gastherme",
+      "coverage": "review",
+      "decision": {
+        "mode": "review"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_dc16e95f6546b347"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_dc16e95f6546b347"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Gastherme / Gas boiler",
+          "EAR 候选设备类型：第 4 类 · 可用于家庭的大型设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "officialReferenceConditions": "EAR 对「Gastherme」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。 EAR 说明：Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab.",
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_4310c4cfd039170a",
+      "name": "电子烟",
+      "officialName": "E-Zigarette",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_4310c4cfd039170a"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_4310c4cfd039170a"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_4310c4cfd039170a"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：E-Zigarette / Electronic cigarette",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_5171ce75f99283bd",
+      "name": "导航仪",
+      "officialName": "Navigationsgerät",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_5171ce75f99283bd"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_5171ce75f99283bd"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_5171ce75f99283bd"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Navigationsgerät / Navigation device",
+          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_09b879a1c8585c97",
+      "name": "LED 灯",
+      "officialName": "LED-Lampe",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [],
+        "variants": [
+          {
+            "kind": "lamp",
+            "household": "no"
+          },
+          {
+            "kind": "lamp",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_09b879a1c8585c97"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_09b879a1c8585c97"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_09b879a1c8585c97"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：LED-Lampe / LED lamp",
+          "EAR 候选设备类型：第 3 类 · 仅限专业场所使用的灯；第 3 类 · 可用于家庭的非气体放电灯",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_084c99278df28142",
+      "name": "平衡车",
+      "officialName": "Hoverboard",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "large",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_084c99278df28142"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_084c99278df28142"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_084c99278df28142"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Hoverboard / Hoverboard",
+          "EAR 候选设备类型：第 4 类 · 可用于家庭的大型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_395b5b2cf5789e3d",
+      "name": "投影幕布",
+      "officialName": "Projektionsleinwand",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "large",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_395b5b2cf5789e3d"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_395b5b2cf5789e3d"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_395b5b2cf5789e3d"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Projektionsleinwand / Projector screen",
+          "EAR 候选设备类型：第 4 类 · 可用于家庭的大型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_c41957feb802c29a",
+      "name": "电热炉盘",
+      "officialName": "Kochplatte",
+      "coverage": "review",
+      "decision": {
+        "mode": "review"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_c41957feb802c29a"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_c41957feb802c29a"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Kochplatte / Hot plate",
+          "EAR 候选设备类型：第 4 类 · 仅限专业场所使用的大型设备；第 4 类 · 可用于家庭的大型设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "officialReferenceConditions": "EAR 对「Kochplatte」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。 EAR 说明：Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab. Ob die b2b- oder die b2c-Geräteart zu wählen ist, ist abhängig vom Ort der Nutzung.",
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_8e854da51408f737",
+      "name": "天线",
+      "officialName": "Antenne",
+      "coverage": "review",
+      "decision": {
+        "mode": "review"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_8e854da51408f737"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_8e854da51408f737"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Antenne / Antenna",
+          "EAR 候选设备类型：第 5 类 · 仅限专业场所使用的小型设备；第 5 类 · 可用于家庭的小型设备；不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "officialReferenceConditions": "EAR 对「Antenne」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。 EAR 说明：Antennen, die z.B. für Unterhaltungselektronik (Radio/TV) genutzt werden. Eigenständige bzw. einzeln angebotene Antennen sind registrierungspflichtig. Ob die b2b- oder die b2c-Geräteart zu wählen ist, ist abhängig vom Ort der Nutzung.",
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_3b292f3136f607ae",
+      "name": "祛痘笔",
+      "officialName": "Anti-Akne-Stift",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_3b292f3136f607ae"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_3b292f3136f607ae"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_3b292f3136f607ae"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Anti-Akne-Stift / Anti-acne pen",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_6e938530247426f0",
+      "name": "电动自行车架",
+      "officialName": "Fahrradträger, elektrisch",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "large",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_6e938530247426f0"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_6e938530247426f0"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_6e938530247426f0"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Fahrradträger, elektrisch / Bike rack, electric",
+          "EAR 候选设备类型：第 4 类 · 可用于家庭的大型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_9b4bf058722d40c9",
+      "name": "电源适配器（不含电脑电源）",
+      "officialName": "Netzteil, außer PC-Netzteil",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_9b4bf058722d40c9"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_9b4bf058722d40c9"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_9b4bf058722d40c9"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Netzteil, außer PC-Netzteil / AC adapter, except power supply of personal computers",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_9c1114c69621cd62",
+      "name": "电动猫砂盆",
+      "officialName": "Katzentoilette",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "large",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_9c1114c69621cd62"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_9c1114c69621cd62"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_9c1114c69621cd62"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Katzentoilette / Cat litter tray",
+          "EAR 候选设备类型：第 4 类 · 可用于家庭的大型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_4c40acf9b4c3fe2f",
+      "name": "激光测距仪",
+      "officialName": "Laser-Entfernungsmesser",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_4c40acf9b4c3fe2f"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_4c40acf9b4c3fe2f"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_4c40acf9b4c3fe2f"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Laser-Entfernungsmesser / Laser measure device",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_c5b994b57472c5a1",
+      "name": "警报器",
+      "officialName": "Alarmsirene",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [],
+        "variants": [
+          {
+            "kind": "small",
+            "household": "no"
+          },
+          {
+            "kind": "small",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_c5b994b57472c5a1"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_c5b994b57472c5a1"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_c5b994b57472c5a1"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Alarmsirene / Security siren",
+          "EAR 候选设备类型：第 5 类 · 仅限专业场所使用的小型设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_9d536109d90ef597",
+      "name": "家庭报警系统",
+      "officialName": "Hausalarm",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_9d536109d90ef597"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_9d536109d90ef597"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_9d536109d90ef597"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Hausalarm / Home alarm system",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_fc0fe56db42a822b",
+      "name": "数显角度尺",
+      "officialName": "Winkelmesser, digital",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_fc0fe56db42a822b"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_fc0fe56db42a822b"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_fc0fe56db42a822b"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Winkelmesser, digital / Angle finder, digital",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_d2ef48deea2269a9",
+      "name": "验电笔",
+      "officialName": "Spannungsprüfer",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_d2ef48deea2269a9"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_d2ef48deea2269a9"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_d2ef48deea2269a9"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Spannungsprüfer / Voltage tester",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_aa1f9e57633b6e5b",
+      "name": "电动招财猫",
+      "officialName": "Winkekatze",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_aa1f9e57633b6e5b"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_aa1f9e57633b6e5b"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_aa1f9e57633b6e5b"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Winkekatze / Waving cat",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_e44d8f175999637a",
+      "name": "自动洗牌机",
+      "officialName": "Kartenmischmaschine",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_e44d8f175999637a"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_e44d8f175999637a"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_e44d8f175999637a"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Kartenmischmaschine / Automatic card shuffler",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_4394f7d9c200f97e",
+      "name": "烫钻器",
+      "officialName": "Strasskolben",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_4394f7d9c200f97e"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_4394f7d9c200f97e"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_4394f7d9c200f97e"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Strasskolben / Hotfix applicator",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_5036ddc2a1a6470e",
+      "name": "LED 手持灯笼棒",
+      "officialName": "Laternenstab mit LED",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_5036ddc2a1a6470e"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_5036ddc2a1a6470e"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_5036ddc2a1a6470e"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Laternenstab mit LED / Handheld lantern",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_cdae27a63e779cac",
+      "name": "投影机灯泡（LED）",
+      "officialName": "Beamerlampe (LED)",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "gas",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_cdae27a63e779cac"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_cdae27a63e779cac"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_cdae27a63e779cac"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Beamerlampe (LED) / Projector lamp (LED)",
+          "EAR 候选设备类型：第 3 类 · 可用于家庭的气体放电灯",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_1ee35cc7f1ff77ed",
+      "name": "工业相机",
+      "officialName": "Industriekamera",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "no"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_1ee35cc7f1ff77ed"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "no",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_1ee35cc7f1ff77ed"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_1ee35cc7f1ff77ed"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Industriekamera / Industrial camera",
+          "EAR 候选设备类型：第 5 类 · 仅限专业场所使用的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_45a94ca174cc51b9",
+      "name": "臭氧发生器",
+      "officialName": "Ozongenerator",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_45a94ca174cc51b9"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_45a94ca174cc51b9"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_45a94ca174cc51b9"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Ozongenerator / Ozone generator",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_6ab585f07b0e1f64",
+      "name": "生物共振分析仪",
+      "officialName": "Bioresonanzgerät",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_6ab585f07b0e1f64"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_6ab585f07b0e1f64"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_6ab585f07b0e1f64"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Bioresonanzgerät / Bio resonance analyzer",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_279484979622218b",
+      "name": "航空耳机",
+      "officialName": "Headset für Piloten",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "no"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_279484979622218b"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "no",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_279484979622218b"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_279484979622218b"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Headset für Piloten / Aviation headset",
+          "EAR 候选设备类型：第 6 类 · 仅限专业场所使用的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_20f2c74091f859a8",
+      "name": "电动切片机",
+      "officialName": "Allesschneider",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_20f2c74091f859a8"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_20f2c74091f859a8"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_20f2c74091f859a8"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Allesschneider / Food slicer",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_830f283d210b27ab",
+      "name": "宠物芯片读取器",
+      "officialName": "Chiplesegerät Haustier",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_830f283d210b27ab"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_830f283d210b27ab"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_830f283d210b27ab"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Chiplesegerät Haustier / Pet microchip scanner",
+          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_78c9c8dc1e13250a",
+      "name": "全向会议麦克风",
+      "officialName": "Konferenzspinne",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "no"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_78c9c8dc1e13250a"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "no",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_78c9c8dc1e13250a"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_78c9c8dc1e13250a"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Konferenzspinne / Omnidirectional Conference Speaker",
+          "EAR 候选设备类型：第 6 类 · 仅限专业场所使用的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_9e28dfbe41ed3353",
+      "name": "条码扫描器（Barcodescanner）",
+      "officialName": "Barcodescanner",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "no"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_9e28dfbe41ed3353"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "no",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_9e28dfbe41ed3353"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_9e28dfbe41ed3353"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Barcodescanner / Barcode (QR Code) Reader",
+          "EAR 候选设备类型：第 6 类 · 仅限专业场所使用的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_069ec02245353dbb",
+      "name": "微动开关",
+      "officialName": "Mikroschalter",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_069ec02245353dbb"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_069ec02245353dbb"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Mikroschalter / Micro switch",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「Mikroschalter」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_cdd962939f62425d",
+      "name": "收银机（Registrierkasse）",
+      "officialName": "Registrierkasse",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "no"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_cdd962939f62425d"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "no",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_cdd962939f62425d"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_cdd962939f62425d"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Registrierkasse / Cash register",
+          "EAR 候选设备类型：第 6 类 · 仅限专业场所使用的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_7e08b2236a81f74b",
+      "name": "HDMI 转接器",
+      "officialName": "HDMI-Adapter",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_7e08b2236a81f74b"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_7e08b2236a81f74b"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_7e08b2236a81f74b"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：HDMI-Adapter / HDMI adapter",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_9fedf8a5592c87c6",
+      "name": "汽车中控锁",
+      "officialName": "Zentralverriegelung Kfz",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_9fedf8a5592c87c6"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_9fedf8a5592c87c6"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Zentralverriegelung Kfz / Central locking (automotive)",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「Zentralverriegelung Kfz」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_acd3e0a2712eccc8",
+      "name": "汽车继电器",
+      "officialName": "Kfz-Relais",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_acd3e0a2712eccc8"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_acd3e0a2712eccc8"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Kfz-Relais / Relay (automotive)",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「Kfz-Relais」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_798e261cb9f3b5bc",
+      "name": "健康手环",
+      "officialName": "Gesundheitsarmband",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_798e261cb9f3b5bc"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_798e261cb9f3b5bc"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_798e261cb9f3b5bc"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Gesundheitsarmband / Health watch",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_27c316cf678cc968",
+      "name": "可穿戴设备",
+      "officialName": "Wearable",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_27c316cf678cc968"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_27c316cf678cc968"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_27c316cf678cc968"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Wearable / Wearable",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_0bc4b60b4f60ef3a",
+      "name": "电话转接器",
+      "officialName": "Telefonadapter",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_0bc4b60b4f60ef3a"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_0bc4b60b4f60ef3a"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_0bc4b60b4f60ef3a"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Telefonadapter / Telephone Socket Adapter",
+          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_7aa33ad8b6c0b6bb",
+      "name": "监控摄像头（Überwachungskamera）",
+      "officialName": "Überwachungskamera",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_7aa33ad8b6c0b6bb"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_7aa33ad8b6c0b6bb"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_7aa33ad8b6c0b6bb"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Überwachungskamera / Surveillance camera",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_9ed6b57b3db24840",
+      "name": "加油机",
+      "officialName": "Zapfsäule",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "large",
+        "required": [],
+        "conditions": {
+          "household": "no"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_9ed6b57b3db24840"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "no",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_9ed6b57b3db24840"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_9ed6b57b3db24840"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Zapfsäule / Petrol pump",
+          "EAR 候选设备类型：第 4 类 · 仅限专业场所使用的大型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_aa01a6a63a5958ea",
+      "name": "停车场道闸",
+      "officialName": "Parkplatzschranke",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "large",
+        "required": [],
+        "conditions": {
+          "household": "no"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_aa01a6a63a5958ea"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "no",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_aa01a6a63a5958ea"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_aa01a6a63a5958ea"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Parkplatzschranke / Parking system",
+          "EAR 候选设备类型：第 4 类 · 仅限专业场所使用的大型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_f7500b95d096b979",
+      "name": "保险柜",
+      "officialName": "Tresor",
+      "coverage": "review",
+      "decision": {
+        "mode": "review"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_f7500b95d096b979"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_f7500b95d096b979"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Tresor / Vault",
+          "EAR 候选设备类型：第 4 类 · 仅限专业场所使用的大型设备；第 4 类 · 可用于家庭的大型设备；第 5 类 · 仅限专业场所使用的小型设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "officialReferenceConditions": "EAR 对「Tresor」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。 EAR 说明：Ein Tresor ist insgesamt registrierungspflichtig, wenn er fest integrierte elektrische Funktionen enthält. Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab. Ob die b2b- oder die b2c-Geräteart zu wählen ist, ist abhängig vom Ort der Nutzung.",
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_92f7bbf3566fec0e",
+      "name": "体温计",
+      "officialName": "Fieberthermometer",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_92f7bbf3566fec0e"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_92f7bbf3566fec0e"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_92f7bbf3566fec0e"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Fieberthermometer / Medical thermometer",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_41f35c4f6717faaa",
+      "name": "VR 眼镜",
+      "officialName": "VR-Brille",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_41f35c4f6717faaa"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_41f35c4f6717faaa"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_41f35c4f6717faaa"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：VR-Brille / VR Headset",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_f65e289096562285",
+      "name": "池塘造雾器",
+      "officialName": "Teichnebler",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_f65e289096562285"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_f65e289096562285"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_f65e289096562285"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Teichnebler / Mist maker fogger",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_be0fae3873cb2396",
+      "name": "录音笔",
+      "officialName": "Diktiergerät",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_be0fae3873cb2396"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_be0fae3873cb2396"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_be0fae3873cb2396"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Diktiergerät / Digital voice recorder",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_ffc4189bf71bf805",
+      "name": "热量表",
+      "officialName": "Wärmemengenzähler WMZ",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [],
+        "variants": [
+          {
+            "kind": "small",
+            "household": "no"
+          },
+          {
+            "kind": "small",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_ffc4189bf71bf805"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_ffc4189bf71bf805"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_ffc4189bf71bf805"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Wärmemengenzähler WMZ / heat meter",
+          "EAR 候选设备类型：第 5 类 · 仅限专业场所使用的小型设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_eb3a936776ba97a4",
+      "name": "汽车遥控钥匙",
+      "officialName": "Funkschlüssel Kfz",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_eb3a936776ba97a4"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_eb3a936776ba97a4"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Funkschlüssel Kfz / Remote car key",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「Funkschlüssel Kfz」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_39ad89ea4dea533f",
+      "name": "UV 光疗灯（美甲）",
+      "officialName": "UV-Lichthärtegerät",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_39ad89ea4dea533f"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_39ad89ea4dea533f"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_39ad89ea4dea533f"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：UV-Lichthärtegerät / UV nail dryer",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_d8174be91c2ce783",
+      "name": "闹钟",
+      "officialName": "Wecker",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_d8174be91c2ce783"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_d8174be91c2ce783"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_d8174be91c2ce783"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Wecker / Alarm clock",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_06b55c18c97943d7",
+      "name": "电焊机",
+      "officialName": "Schweißgerät",
+      "coverage": "review",
+      "decision": {
+        "mode": "review"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_06b55c18c97943d7"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_06b55c18c97943d7"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Schweißgerät / Welding machine",
+          "EAR 候选设备类型：第 4 类 · 仅限专业场所使用的大型设备；第 4 类 · 可用于家庭的大型设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "officialReferenceConditions": "EAR 对「Schweißgerät」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。 EAR 说明：Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab. Ob die b2b- oder die b2c-Geräteart zu wählen ist, ist abhängig vom Ort der Nutzung.",
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_24012c0ef770fe19",
+      "name": "烘手器",
+      "officialName": "Händetrockner",
+      "coverage": "review",
+      "decision": {
+        "mode": "review"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_24012c0ef770fe19"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_24012c0ef770fe19"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Händetrockner / Hand dryer",
+          "EAR 候选设备类型：第 4 类 · 仅限专业场所使用的大型设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "officialReferenceConditions": "EAR 对「Händetrockner」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。 EAR 说明：Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab. Ob die b2b- oder die b2c-Geräteart zu wählen ist, ist abhängig vom Ort der Nutzung.",
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_e6c8c698d249fe6c",
+      "name": "条件接收模块（CI 模块）",
+      "officialName": "CI-Modul",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_e6c8c698d249fe6c"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_e6c8c698d249fe6c"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_e6c8c698d249fe6c"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：CI-Modul / Common Interface module",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_683dbdc66f572ed9",
+      "name": "电动电视沙发椅",
+      "officialName": "Fernsehsessel",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "large",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_683dbdc66f572ed9"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_683dbdc66f572ed9"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_683dbdc66f572ed9"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Fernsehsessel / TV armchair",
+          "EAR 候选设备类型：第 4 类 · 可用于家庭的大型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_c60a713842b14bbe",
+      "name": "通风设备",
+      "officialName": "Lüftungsgerät",
+      "coverage": "review",
+      "decision": {
+        "mode": "review"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_c60a713842b14bbe"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_c60a713842b14bbe"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Lüftungsgerät / Ventilation equipment",
+          "EAR 候选设备类型：第 4 类 · 可用于家庭的大型设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "officialReferenceConditions": "EAR 对「Lüftungsgerät」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。 EAR 说明：Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab. Keine Ausnahme, kein ortsfestes Großgerät.",
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_2afe5e571f6a4537",
+      "name": "熔断器",
+      "officialName": "Schmelzsicherung",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_2afe5e571f6a4537"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_2afe5e571f6a4537"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_2afe5e571f6a4537"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Schmelzsicherung / Safety fuse",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_205f62373e5788ba",
+      "name": "车内照明灯",
+      "officialName": "Innenbeleuchtung Kfz",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_205f62373e5788ba"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_205f62373e5788ba"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Innenbeleuchtung Kfz / Car interior lighting",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「Innenbeleuchtung Kfz」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_b5f8dbfedcc03ce6",
+      "name": "发电机",
+      "officialName": "Stromerzeuger",
+      "coverage": "review",
+      "decision": {
+        "mode": "review"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_b5f8dbfedcc03ce6"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_b5f8dbfedcc03ce6"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Stromerzeuger / Generator",
+          "EAR 候选设备类型：第 4 类 · 可用于家庭的大型设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "officialReferenceConditions": "EAR 对「Stromerzeuger」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。 EAR 说明：Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab.",
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_cc6eaaf50e7636c5",
+      "name": "CD/DVD/MP3 播放器",
+      "officialName": "CD-/DVD-/MP3-Spieler",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_cc6eaaf50e7636c5"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_cc6eaaf50e7636c5"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_cc6eaaf50e7636c5"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：CD-/DVD-/MP3-Spieler / CD/DVD/MP3 player",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_2456183780794ce7",
+      "name": "医用电脑",
+      "officialName": "medizinischer PC",
+      "coverage": "review",
+      "decision": {
+        "mode": "review"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_2456183780794ce7"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_2456183780794ce7"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：medizinischer PC / Medical PC",
+          "EAR 候选设备类型：第 4 类 · 仅限专业场所使用的大型设备；第 6 类 · 仅限专业场所使用的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "officialReferenceConditions": "EAR 对「medizinischer PC」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。 EAR 说明：Ob die Geräteart Kleine ITK oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab.",
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_ce4216a47f6126dc",
+      "name": "工业电脑",
+      "officialName": "Industrie-PC",
+      "coverage": "review",
+      "decision": {
+        "mode": "review"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_ce4216a47f6126dc"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_ce4216a47f6126dc"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Industrie-PC / Industrial PC",
+          "EAR 候选设备类型：第 4 类 · 仅限专业场所使用的大型设备；第 6 类 · 仅限专业场所使用的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "officialReferenceConditions": "EAR 对「Industrie-PC」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。 EAR 说明：Ob die Geräteart Kleine ITK oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab.",
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_da4bf1ce04e9ccc4",
+      "name": "电热膜",
+      "officialName": "Heizfolie",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_da4bf1ce04e9ccc4"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_da4bf1ce04e9ccc4"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_da4bf1ce04e9ccc4"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Heizfolie / Heating foil",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_33871f3e3e8e6586",
+      "name": "加热设备",
+      "officialName": "Heizgerät",
+      "coverage": "review",
+      "decision": {
+        "mode": "review"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_33871f3e3e8e6586"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_33871f3e3e8e6586"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Heizgerät / Heating equipment",
+          "EAR 候选设备类型：第 4 类 · 仅限专业场所使用的大型设备；第 4 类 · 可用于家庭的大型设备；第 5 类 · 仅限专业场所使用的小型设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "officialReferenceConditions": "EAR 对「Heizgerät」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。 EAR 说明：Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab. Ob die b2b- oder die b2c-Geräteart zu wählen ist, ist abhängig vom Ort der Nutzung.",
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_26026e0e23212a44",
+      "name": "食品加工/包装用制冷设备",
+      "officialName": "Kühlgerät zur Lebensmittelverpackung/-verarbeitung",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "thermal",
+        "required": [],
+        "conditions": {
+          "household": "no"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_26026e0e23212a44"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "no",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_26026e0e23212a44"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_26026e0e23212a44"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Kühlgerät zur Lebensmittelverpackung/-verarbeitung / Cooling appliance for food packaging/processing",
+          "EAR 候选设备类型：第 1 类 · 仅限专业场所使用的温度交换设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_16346ea21e070d49",
+      "name": "太阳能充电控制器",
+      "officialName": "Laderegler Solar",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_16346ea21e070d49"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_16346ea21e070d49"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_16346ea21e070d49"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Laderegler Solar / Charge controller, solar",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_ae7f0149092b402b",
+      "name": "充电式扫地机",
+      "officialName": "Akku-Kehrmaschine",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "large",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_ae7f0149092b402b"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_ae7f0149092b402b"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_ae7f0149092b402b"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Akku-Kehrmaschine / Electric push sweeper",
+          "EAR 候选设备类型：第 4 类 · 可用于家庭的大型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_1d1a0db2b6244897",
+      "name": "多功能电煎锅",
+      "officialName": "Multifunktionspfanne",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_1d1a0db2b6244897"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_1d1a0db2b6244897"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_1d1a0db2b6244897"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Multifunktionspfanne / Multi-Function Electric Cooker Pan",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_cf76a6d9d0c7595b",
+      "name": "摩托头盔蓝牙耳机",
+      "officialName": "Bluetooth Headset für Motorradfahrer",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_cf76a6d9d0c7595b"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_cf76a6d9d0c7595b"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_cf76a6d9d0c7595b"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Bluetooth Headset für Motorradfahrer / Motorcycle helmet speaker",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_5630b9966e5b134f",
+      "name": "自行车附加电气装置",
+      "officialName": "Anbaugerät für Fahrräder",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_5630b9966e5b134f"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_5630b9966e5b134f"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_5630b9966e5b134f"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Anbaugerät für Fahrräder / Auxiliary product for bicycles",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_e11b44fa324b0c59",
+      "name": "蒸汽淋浴房",
+      "officialName": "Dampfdusche",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [],
+        "variants": [
+          {
+            "kind": "large",
+            "household": "no"
+          },
+          {
+            "kind": "large",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_e11b44fa324b0c59"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_e11b44fa324b0c59"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_e11b44fa324b0c59"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Dampfdusche / Steam shower",
+          "EAR 候选设备类型：第 4 类 · 仅限专业场所使用的大型设备；第 4 类 · 可用于家庭的大型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_53262e58e0606f58",
+      "name": "激光笔",
+      "officialName": "Laserpointer",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_53262e58e0606f58"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_53262e58e0606f58"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_53262e58e0606f58"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Laserpointer / Laser pointer",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_a107bdf6ad25d473",
+      "name": "LED 灯箱",
+      "officialName": "LED-Leuchtplatte",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_a107bdf6ad25d473"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_a107bdf6ad25d473"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_a107bdf6ad25d473"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：LED-Leuchtplatte / LED light box",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_3e2a0e594cd806e6",
+      "name": "热泵（Wärmepumpe）",
+      "officialName": "Wärmepumpe",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [],
+        "variants": [
+          {
+            "kind": "thermal",
+            "household": "no"
+          },
+          {
+            "kind": "thermal",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_3e2a0e594cd806e6"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_3e2a0e594cd806e6"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_3e2a0e594cd806e6"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Wärmepumpe / Heat pump",
+          "EAR 候选设备类型：第 1 类 · 仅限专业场所使用的温度交换设备；第 1 类 · 可用于家庭的温度交换设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_c22b0c8147ad2e30",
+      "name": "磁力搅拌器",
+      "officialName": "Magnetrührer",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [],
+        "variants": [
+          {
+            "kind": "small",
+            "household": "no"
+          },
+          {
+            "kind": "small",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_c22b0c8147ad2e30"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_c22b0c8147ad2e30"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_c22b0c8147ad2e30"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Magnetrührer / Magnetic stirrer",
+          "EAR 候选设备类型：第 5 类 · 仅限专业场所使用的小型设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_f77f3e9e336299a5",
+      "name": "测速仪",
+      "officialName": "Geschwindigkeitsmessgerät",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_f77f3e9e336299a5"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_f77f3e9e336299a5"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_f77f3e9e336299a5"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Geschwindigkeitsmessgerät / Speed Radar",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_d22ec4784c9c5eac",
+      "name": "医用监视器",
+      "officialName": "medizinischer Monitor",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "screen",
+        "required": [],
+        "conditions": {
+          "household": "no"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_d22ec4784c9c5eac"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "no",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_d22ec4784c9c5eac"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_d22ec4784c9c5eac"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：medizinischer Monitor / Medical monitor",
+          "EAR 候选设备类型：第 2 类 · 仅限专业场所使用的屏幕设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_d7021d94443061fa",
+      "name": "电动美甲打磨机",
+      "officialName": "Nagelfräser",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_d7021d94443061fa"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_d7021d94443061fa"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_d7021d94443061fa"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Nagelfräser / Nail drill",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_85854bb6b9b6cbcc",
+      "name": "电磁场测试仪",
+      "officialName": "EMF-Messgerät",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_85854bb6b9b6cbcc"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_85854bb6b9b6cbcc"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_85854bb6b9b6cbcc"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：EMF-Messgerät / EMF meter",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_2d7dcbd0bab368dc",
+      "name": "工业笔记本电脑",
+      "officialName": "Industrie-Notebook",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "screen",
+        "required": [],
+        "conditions": {
+          "household": "no"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_2d7dcbd0bab368dc"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "no",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_2d7dcbd0bab368dc"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_2d7dcbd0bab368dc"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Industrie-Notebook / Industrial notebook",
+          "EAR 候选设备类型：第 2 类 · 仅限专业场所使用的屏幕设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_3f07abc8651b6bbc",
+      "name": "实验室稳压电源",
+      "officialName": "Labornetzgerät",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_3f07abc8651b6bbc"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_3f07abc8651b6bbc"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_3f07abc8651b6bbc"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Labornetzgerät / Switching power supply",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_2f3306c3719e3bfc",
+      "name": "除颤器",
+      "officialName": "Defibrillator",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [],
+        "variants": [
+          {
+            "kind": "small",
+            "household": "no"
+          },
+          {
+            "kind": "small",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_2f3306c3719e3bfc"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_2f3306c3719e3bfc"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_2f3306c3719e3bfc"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Defibrillator / Defibrillator",
+          "EAR 候选设备类型：第 5 类 · 仅限专业场所使用的小型设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_a036d8346e1fef08",
+      "name": "喷笔气泵",
+      "officialName": "Airbrushkompressor",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_a036d8346e1fef08"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_a036d8346e1fef08"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_a036d8346e1fef08"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Airbrushkompressor / Airbrush compressor",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_9b796ee26028e4da",
+      "name": "手持停车示意牌",
+      "officialName": "Anhaltestab",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_9b796ee26028e4da"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_9b796ee26028e4da"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_9b796ee26028e4da"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Anhaltestab / Handheld stop sign for safety",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_2a813922a618466c",
+      "name": "助眠仪（白噪音机）",
+      "officialName": "Einschlafhilfe",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_2a813922a618466c"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_2a813922a618466c"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_2a813922a618466c"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Einschlafhilfe / Sleep Sound Machine",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_8095970412f42c57",
+      "name": "翻译机",
+      "officialName": "Sprachübersetzer",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_8095970412f42c57"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_8095970412f42c57"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_8095970412f42c57"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Sprachübersetzer / Language translator",
+          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_e21c10e5033807cb",
+      "name": "自行车锁",
+      "officialName": "Fahrradschloss",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_e21c10e5033807cb"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_e21c10e5033807cb"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_e21c10e5033807cb"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Fahrradschloss / bicycle lock",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_7a1ec2e215cd9f0d",
+      "name": "蓝牙适配器",
+      "officialName": "Bluetooth-Adapter",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_7a1ec2e215cd9f0d"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_7a1ec2e215cd9f0d"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_7a1ec2e215cd9f0d"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Bluetooth-Adapter / Bluetooth dongle",
+          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_7ccc808c5f29bb9b",
+      "name": "桌面流水摆件",
+      "officialName": "Zimmerbrunnen",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_7ccc808c5f29bb9b"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_7ccc808c5f29bb9b"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_7ccc808c5f29bb9b"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Zimmerbrunnen / Tabletop fountain",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_f5b83857ee5f01cb",
+      "name": "硬盘盒",
+      "officialName": "Festplattengehäuse",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_f5b83857ee5f01cb"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_f5b83857ee5f01cb"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_f5b83857ee5f01cb"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Festplattengehäuse / Hard Drive Enclosure",
+          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_81ac1c8f006efdb3",
+      "name": "巧克力喷泉机",
+      "officialName": "Schokobrunnen",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_81ac1c8f006efdb3"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_81ac1c8f006efdb3"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_81ac1c8f006efdb3"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Schokobrunnen / Chocolate fountain",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_0baebce22206b829",
+      "name": "蒸馏水机",
+      "officialName": "Wasserdestilliergerät",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_0baebce22206b829"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_0baebce22206b829"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_0baebce22206b829"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Wasserdestilliergerät / Water distiller",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_aac288ce2ea8f503",
+      "name": "电动榨汁机",
+      "officialName": "Saftpresse",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_aac288ce2ea8f503"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_aac288ce2ea8f503"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_aac288ce2ea8f503"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Saftpresse / Electric juicer",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_d6a74092a82695cb",
+      "name": "存储卡",
+      "officialName": "Speicherkarte",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_d6a74092a82695cb"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_d6a74092a82695cb"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_d6a74092a82695cb"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Speicherkarte / Memory card",
+          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_9aa47cb9692143bc",
+      "name": "棉花糖机",
+      "officialName": "Zuckerwattemaschine",
+      "coverage": "review",
+      "decision": {
+        "mode": "review"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_9aa47cb9692143bc"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_9aa47cb9692143bc"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Zuckerwattemaschine / cotton candy maker",
+          "EAR 候选设备类型：第 4 类 · 仅限专业场所使用的大型设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "officialReferenceConditions": "EAR 对「Zuckerwattemaschine」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。",
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_0604260a0ec8e160",
+      "name": "劈木机",
+      "officialName": "Holzspalter",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [],
+        "variants": [
+          {
+            "kind": "large",
+            "household": "no"
+          },
+          {
+            "kind": "large",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_0604260a0ec8e160"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_0604260a0ec8e160"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_0604260a0ec8e160"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Holzspalter / Log splitter",
+          "EAR 候选设备类型：第 4 类 · 仅限专业场所使用的大型设备；第 4 类 · 可用于家庭的大型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_aa58efe60a73112f",
+      "name": "USB 扩展坞（USB-Dockingstation）",
+      "officialName": "USB-Dockingstation",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_aa58efe60a73112f"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_aa58efe60a73112f"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_aa58efe60a73112f"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：USB-Dockingstation / USB docking station",
+          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_da186736c3d50f56",
+      "name": "制动电阻",
+      "officialName": "Bremswiderstand",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_da186736c3d50f56"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_da186736c3d50f56"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Bremswiderstand / Braking resistor",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「Bremswiderstand」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_41b89d10619cdd3e",
+      "name": "蓝牙信标（Beacon）",
+      "officialName": "Beacon",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "no"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_41b89d10619cdd3e"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "no",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_41b89d10619cdd3e"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_41b89d10619cdd3e"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Beacon / Beacon",
+          "EAR 候选设备类型：第 6 类 · 仅限专业场所使用的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_b028a01917a1be53",
+      "name": "十字线激光水平仪",
+      "officialName": "Kreuzlinienlaser",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_b028a01917a1be53"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_b028a01917a1be53"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_b028a01917a1be53"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Kreuzlinienlaser / Cross line Laser",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_153e76f76811ccdd",
+      "name": "转轮除湿机",
+      "officialName": "Adsorptionsentfeuchter",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "large",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_153e76f76811ccdd"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_153e76f76811ccdd"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_153e76f76811ccdd"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Adsorptionsentfeuchter / Desiccant Dehumidifier",
+          "EAR 候选设备类型：第 4 类 · 可用于家庭的大型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_8dacfb898929d7a5",
+      "name": "电动摩托车",
+      "officialName": "E-Motorrad",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_8dacfb898929d7a5"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_8dacfb898929d7a5"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：E-Motorrad / electric Motorbike",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「E-Motorrad」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_6ea04df6e56fd6d3",
+      "name": "汽车火花塞",
+      "officialName": "Zündkerze Kfz",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_6ea04df6e56fd6d3"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_6ea04df6e56fd6d3"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Zündkerze Kfz / Spark Plug (automotive)",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「Zündkerze Kfz」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_d0229f16961a2d4f",
+      "name": "汽车发电机",
+      "officialName": "Lichtmaschine Kfz",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_d0229f16961a2d4f"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_d0229f16961a2d4f"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Lichtmaschine Kfz / Alternator (automotive)",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「Lichtmaschine Kfz」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_644605b62a178a23",
+      "name": "ABS 传感器",
+      "officialName": "ABS-Sensor Kfz",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_644605b62a178a23"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_644605b62a178a23"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：ABS-Sensor Kfz / Airbag (automotive)",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「ABS-Sensor Kfz」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_c55aacaaf0b7a5d8",
+      "name": "汽车安全气囊",
+      "officialName": "Airbag Kfz",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_c55aacaaf0b7a5d8"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_c55aacaaf0b7a5d8"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Airbag Kfz / Airbag (automotive)",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「Airbag Kfz」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_6241509eb1ae5084",
+      "name": "传真机",
+      "officialName": "Faxgerät",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_6241509eb1ae5084"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_6241509eb1ae5084"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_6241509eb1ae5084"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Faxgerät / Fax machine",
+          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_1d06c945eb9c02b4",
+      "name": "电话答录机",
+      "officialName": "Anrufbeantworter",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_1d06c945eb9c02b4"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_1d06c945eb9c02b4"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_1d06c945eb9c02b4"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Anrufbeantworter / Answering machine",
+          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_9d5f1013473aa67d",
+      "name": "摄像机",
+      "officialName": "Videokamera",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_9d5f1013473aa67d"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_9d5f1013473aa67d"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_9d5f1013473aa67d"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Videokamera / Video camera",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_923efaa7fae59594",
+      "name": "绝缘材料（线缆绝缘）",
+      "officialName": "Isoliermaterial",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_923efaa7fae59594"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_923efaa7fae59594"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Isoliermaterial / Cable insulation",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「Isoliermaterial」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_df8edb08d7ac8c81",
+      "name": "带附加功能插座（含网络插座）",
+      "officialName": "Steckdose mit Zusatzfunktion (auch Web- und IP-Steckdose)",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_df8edb08d7ac8c81"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_df8edb08d7ac8c81"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_df8edb08d7ac8c81"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Steckdose mit Zusatzfunktion (auch Web- und IP-Steckdose) / Socket with additional function (also web and IP socket)",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_cac3dfffb99371e8",
+      "name": "夜视仪",
+      "officialName": "Nachtsichtgerät",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_cac3dfffb99371e8"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_cac3dfffb99371e8"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_cac3dfffb99371e8"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Nachtsichtgerät / Night vision equipment",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_02c3c48a5078c2d8",
+      "name": "桑拿设备",
+      "officialName": "Sauna",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [],
+        "variants": [
+          {
+            "kind": "large",
+            "household": "no"
+          },
+          {
+            "kind": "large",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_02c3c48a5078c2d8"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_02c3c48a5078c2d8"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_02c3c48a5078c2d8"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Sauna / Sauna",
+          "EAR 候选设备类型：第 4 类 · 仅限专业场所使用的大型设备；第 4 类 · 可用于家庭的大型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_f20a6048cc6693a6",
+      "name": "充电桩",
+      "officialName": "Stromtankstelle",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "large",
+        "required": [],
+        "conditions": {
+          "household": "no"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_f20a6048cc6693a6"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "no",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_f20a6048cc6693a6"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_f20a6048cc6693a6"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Stromtankstelle / Charging station",
+          "EAR 候选设备类型：第 4 类 · 仅限专业场所使用的大型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_8959679601e07426",
+      "name": "美容床/椅",
+      "officialName": "Kosmetikliege/-stuhl",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "large",
+        "required": [],
+        "conditions": {
+          "household": "no"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_8959679601e07426"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "no",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_8959679601e07426"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_8959679601e07426"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Kosmetikliege/-stuhl / Beautician's bed/chair",
+          "EAR 候选设备类型：第 4 类 · 仅限专业场所使用的大型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_9ccff7b1ba3791b5",
+      "name": "带电气功能的家具",
+      "officialName": "Möbel mit integrierter elektrischer Funktion",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "large",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_9ccff7b1ba3791b5"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_9ccff7b1ba3791b5"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_9ccff7b1ba3791b5"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Möbel mit integrierter elektrischer Funktion / Furniture with integrated electrical function",
+          "EAR 候选设备类型：第 4 类 · 可用于家庭的大型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_c449865fb987c760",
+      "name": "恒温控制器",
+      "officialName": "Thermostat",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [],
+        "variants": [
+          {
+            "kind": "small",
+            "household": "no"
+          },
+          {
+            "kind": "small",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_c449865fb987c760"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_c449865fb987c760"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_c449865fb987c760"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Thermostat / Thermostat",
+          "EAR 候选设备类型：第 5 类 · 仅限专业场所使用的小型设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_9fa4292981cd8ffe",
+      "name": "日光浴舱",
+      "officialName": "Bräunungskabine",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "large",
+        "required": [],
+        "conditions": {
+          "household": "no"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_9fa4292981cd8ffe"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "no",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_9fa4292981cd8ffe"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_9fa4292981cd8ffe"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Bräunungskabine / Tanning cabin",
+          "EAR 候选设备类型：第 4 类 · 仅限专业场所使用的大型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_ca85243488941cdd",
+      "name": "起身辅助装置",
+      "officialName": "Aufstehhilfe",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "large",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_ca85243488941cdd"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_ca85243488941cdd"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_ca85243488941cdd"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Aufstehhilfe / Stand-up aid",
+          "EAR 候选设备类型：第 4 类 · 可用于家庭的大型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_1799f2bef618ab8c",
+      "name": "数显卡尺",
+      "officialName": "Digitaler Messschieber",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_1799f2bef618ab8c"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_1799f2bef618ab8c"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_1799f2bef618ab8c"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Digitaler Messschieber / Electronic caliper",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_892ab9e2e0e05bb7",
+      "name": "半导体饮料冷藏柜",
+      "officialName": "Getränkekühler (thermoelektrisch)",
+      "coverage": "review",
+      "decision": {
+        "mode": "review"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_892ab9e2e0e05bb7"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_892ab9e2e0e05bb7"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Getränkekühler (thermoelektrisch) / Drinks cooler (thermoelectric)",
+          "EAR 候选设备类型：第 4 类 · 可用于家庭的大型设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "officialReferenceConditions": "EAR 对「Getränkekühler (thermoelektrisch)」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。 EAR 说明：Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab.",
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_ec81dc773edac6f5",
+      "name": "半导体车载冰箱",
+      "officialName": "Kühlbox (thermoelektrisch)",
+      "coverage": "review",
+      "decision": {
+        "mode": "review"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_ec81dc773edac6f5"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_ec81dc773edac6f5"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Kühlbox (thermoelektrisch) / Cooler (thermoelectric)",
+          "EAR 候选设备类型：第 4 类 · 可用于家庭的大型设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "officialReferenceConditions": "EAR 对「Kühlbox (thermoelektrisch)」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。 EAR 说明：Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab.",
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_77f74a52d7f71a46",
+      "name": "电烤炉",
+      "officialName": "Elektrogrill",
+      "coverage": "review",
+      "decision": {
+        "mode": "review"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_77f74a52d7f71a46"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_77f74a52d7f71a46"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Elektrogrill / Electric grill",
+          "EAR 候选设备类型：第 4 类 · 可用于家庭的大型设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "officialReferenceConditions": "EAR 对「Elektrogrill」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。 EAR 说明：Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab.",
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_42da12096c246396",
+      "name": "电刺激肌肉训练仪",
+      "officialName": "Elektrostimulationsgerät",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_42da12096c246396"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_42da12096c246396"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_42da12096c246396"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Elektrostimulationsgerät / Muscle stimulator",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_2981fcb55503b85a",
+      "name": "GPS 定位设备",
+      "officialName": "GPS-Gerät",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_2981fcb55503b85a"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_2981fcb55503b85a"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_2981fcb55503b85a"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：GPS-Gerät / GPS equipment",
+          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_d9367baa861a2e5e",
+      "name": "电动滑板车",
+      "officialName": "E-Scooter",
+      "coverage": "review",
+      "decision": {
+        "mode": "review"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_d9367baa861a2e5e"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_d9367baa861a2e5e"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：E-Scooter / Electric Scooter",
+          "EAR 候选设备类型：第 4 类 · 可用于家庭的大型设备；不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "officialReferenceConditions": "EAR 对「E-Scooter」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。 EAR 说明：Nur E-Scooter mit zwei Rädern und ohne Sitzplatz gehören zur Geräteart Großgeräte, die in privaten Haushalten genutzt werden können. E-Scooter mit einer anderen Anzahl an Rädern oder mit Sitzplatz sind nicht registrierungspflichtig.",
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_e39594fe9875a4ff",
+      "name": "消毒液分配器",
+      "officialName": "Hygienespender",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [],
+        "variants": [
+          {
+            "kind": "small",
+            "household": "no"
+          },
+          {
+            "kind": "small",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_e39594fe9875a4ff"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_e39594fe9875a4ff"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_e39594fe9875a4ff"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Hygienespender / Sanitizer dispenser",
+          "EAR 候选设备类型：第 5 类 · 仅限专业场所使用的小型设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_c3b111728739532c",
+      "name": "水泵控制器",
+      "officialName": "Pumpensteuerung",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_c3b111728739532c"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_c3b111728739532c"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_c3b111728739532c"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Pumpensteuerung / Water pump control",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_07ea218106d5602c",
+      "name": "扩音器",
+      "officialName": "Me­ga­fon",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_07ea218106d5602c"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_07ea218106d5602c"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_07ea218106d5602c"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Me­ga­fon / Megaphone",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_f481aaa87196515c",
+      "name": "旅行转换插头",
+      "officialName": "Reisestecker",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_f481aaa87196515c"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_f481aaa87196515c"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_f481aaa87196515c"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Reisestecker / Travel plug",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_f05a225e14ff5e19",
+      "name": "集成电路",
+      "officialName": "IC",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_f05a225e14ff5e19"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_f05a225e14ff5e19"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：IC / Integrated circuit",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「IC」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_cfb2e41f5aa59d60",
+      "name": "DIN 导轨",
+      "officialName": "Hutschiene",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_cfb2e41f5aa59d60"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_cfb2e41f5aa59d60"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Hutschiene / DIN rail",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「Hutschiene」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_fd07016f995c6e13",
+      "name": "疱疹热疗笔",
+      "officialName": "Herpesstift",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_fd07016f995c6e13"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_fd07016f995c6e13"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_fd07016f995c6e13"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Herpesstift / Heat pen",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_6717a5f0c85cee95",
+      "name": "电动护理床",
+      "officialName": "Pflegebett",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "large",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_6717a5f0c85cee95"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_6717a5f0c85cee95"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_6717a5f0c85cee95"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Pflegebett / Nursing bed, electric",
+          "EAR 候选设备类型：第 4 类 · 可用于家庭的大型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_c602ae6412db2947",
+      "name": "智能家居设备",
+      "officialName": "Gerät der Hausautomation",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_c602ae6412db2947"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_c602ae6412db2947"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_c602ae6412db2947"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Gerät der Hausautomation / House automation equipment",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_ce648044d00733ab",
+      "name": "模型制作设备",
+      "officialName": "Gerät für Modellbau",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_ce648044d00733ab"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_ce648044d00733ab"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_ce648044d00733ab"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Gerät für Modellbau / Model construction equipment",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_c1c81f1f286c7643",
+      "name": "婴儿监视器",
+      "officialName": "Babyfon",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_c1c81f1f286c7643"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_c1c81f1f286c7643"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_c1c81f1f286c7643"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Babyfon / Baby monitor",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_050d16e8dc6c9f0d",
+      "name": "遮阳篷风速传感器",
+      "officialName": "Markisenwächter",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_050d16e8dc6c9f0d"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_050d16e8dc6c9f0d"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_050d16e8dc6c9f0d"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Markisenwächter / Wind sensor for awnings",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_e5874adb3858fb6f",
+      "name": "蝙蝠探测器",
+      "officialName": "Fledermaus-Detektor",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_e5874adb3858fb6f"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_e5874adb3858fb6f"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_e5874adb3858fb6f"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Fledermaus-Detektor / Bat detector",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_fb88f5bbaa357d3e",
+      "name": "食物烘干机",
+      "officialName": "Dörrautomat",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_fb88f5bbaa357d3e"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_fb88f5bbaa357d3e"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_fb88f5bbaa357d3e"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Dörrautomat / Food dehydrator",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_2b992c6d37bd56e4",
+      "name": "电子棋类电脑",
+      "officialName": "Schachcomputer",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_2b992c6d37bd56e4"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_2b992c6d37bd56e4"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_2b992c6d37bd56e4"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Schachcomputer / Computer chess board",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_adc74a584c02de65",
+      "name": "自行车码表",
+      "officialName": "Fahrradcomputer",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_adc74a584c02de65"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_adc74a584c02de65"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_adc74a584c02de65"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Fahrradcomputer / Computer for biking",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_f3bd8c269e72fc72",
+      "name": "幻灯机",
+      "officialName": "Diaprojektor",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_f3bd8c269e72fc72"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_f3bd8c269e72fc72"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_f3bd8c269e72fc72"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Diaprojektor / Slide projector",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_bd518ae0fb869ad8",
+      "name": "烟雾机",
+      "officialName": "Nebelmaschine",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_bd518ae0fb869ad8"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_bd518ae0fb869ad8"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_bd518ae0fb869ad8"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Nebelmaschine / Fog machine",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_753987a566630f1b",
+      "name": "电热鞋垫",
+      "officialName": "Beheizbare Schuhsohlen",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_753987a566630f1b"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_753987a566630f1b"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_753987a566630f1b"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Beheizbare Schuhsohlen / Heated insoles",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_7fc1a8d2fe72854d",
+      "name": "奶泡机",
+      "officialName": "Milchaufschäumer",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_7fc1a8d2fe72854d"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_7fc1a8d2fe72854d"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_7fc1a8d2fe72854d"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Milchaufschäumer / Milk frother",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_02ce8e0586520ca5",
+      "name": "雾化吸入器",
+      "officialName": "Inhalationsgerät",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_02ce8e0586520ca5"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_02ce8e0586520ca5"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_02ce8e0586520ca5"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Inhalationsgerät / Inhaler",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_cde0e2bf6cce31a7",
+      "name": "面包机（Brotbackautomat）",
+      "officialName": "Brotbackautomat",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_cde0e2bf6cce31a7"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_cde0e2bf6cce31a7"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_cde0e2bf6cce31a7"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Brotbackautomat / Breadmaker",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_a5a191fc5d0c20be",
+      "name": "单耳耳机",
+      "officialName": "Ein-Ohr-Headset",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_a5a191fc5d0c20be"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_a5a191fc5d0c20be"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_a5a191fc5d0c20be"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Ein-Ohr-Headset / Single sided Headset",
+          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_43a079f3f580d361",
+      "name": "烟雾报警器",
+      "officialName": "Rauchmelder",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_43a079f3f580d361"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_43a079f3f580d361"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_43a079f3f580d361"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Rauchmelder / Smoke detector",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_57245c59052b426a",
+      "name": "电缆卷盘",
+      "officialName": "Kabeltrommel",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_57245c59052b426a"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_57245c59052b426a"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_57245c59052b426a"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Kabeltrommel / Cable reel",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_76997876b9d774d8",
+      "name": "数码单反相机",
+      "officialName": "DSLR-Kamera",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_76997876b9d774d8"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_76997876b9d774d8"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_76997876b9d774d8"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：DSLR-Kamera / DSLR camera",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_eccc3eac4d260474",
+      "name": "电动打字机",
+      "officialName": "Schreibmaschine (elektrische)",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_eccc3eac4d260474"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_eccc3eac4d260474"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_eccc3eac4d260474"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Schreibmaschine (elektrische) / Typewriter (electric)",
+          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_00bbd02bafe23943",
+      "name": "平板扫描仪",
+      "officialName": "Flachbettscanner",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_00bbd02bafe23943"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_00bbd02bafe23943"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_00bbd02bafe23943"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Flachbettscanner / Document Scanner",
+          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_1a49c5ce8eb6cd38",
+      "name": "接地线",
+      "officialName": "Erdungskabel",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_1a49c5ce8eb6cd38"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_1a49c5ce8eb6cd38"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Erdungskabel / grounding cable",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「Erdungskabel」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_777ba5daefa8be5a",
+      "name": "电压转换器",
+      "officialName": "Spannungswandler",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_777ba5daefa8be5a"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_777ba5daefa8be5a"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_777ba5daefa8be5a"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Spannungswandler / Voltage converter",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_5d37d7f686b7e8bf",
+      "name": "网络摄像机（Netzwerkkamera）",
+      "officialName": "Netzwerkkamera",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_5d37d7f686b7e8bf"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_5d37d7f686b7e8bf"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_5d37d7f686b7e8bf"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Netzwerkkamera / Network camera",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_80e5cc7f2ae17ec9",
+      "name": "门铃",
+      "officialName": "Haustürklingel",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_80e5cc7f2ae17ec9"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_80e5cc7f2ae17ec9"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_80e5cc7f2ae17ec9"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Haustürklingel / Door bell",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_8bc9212a01c3d949",
+      "name": "电动卷笔刀",
+      "officialName": "elektrischer Anspitzer",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_8bc9212a01c3d949"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_8bc9212a01c3d949"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_8bc9212a01c3d949"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：elektrischer Anspitzer / Electric pencil sharpener",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_598d5cb44ceca042",
+      "name": "电动后视镜",
+      "officialName": "elektrischer Rückspiegel Kfz",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_598d5cb44ceca042"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_598d5cb44ceca042"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：elektrischer Rückspiegel Kfz / electric Rear-view Mirror",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「elektrischer Rückspiegel Kfz」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_68a8bfa2b9e7fe6c",
+      "name": "示波器",
+      "officialName": "Oszilloskop",
+      "coverage": "review",
+      "decision": {
+        "mode": "review"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_68a8bfa2b9e7fe6c"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_68a8bfa2b9e7fe6c"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Oszilloskop / Oscilloscope",
+          "EAR 候选设备类型：第 2 类 · 仅限专业场所使用的屏幕设备；第 2 类 · 可用于家庭的屏幕设备；第 5 类 · 仅限专业场所使用的小型设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "officialReferenceConditions": "EAR 对「Oszilloskop」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。 EAR 说明：Ob es sich um ein Bildschirmgerät oder ein Klein-/Großgerät handelt, hängt von der Größe des Bildschirms ab. Ob die b2b- oder die b2c-Geräteart zu wählen ist, ist abhängig vom Ort der Nutzung.",
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_de6dadc427db022d",
+      "name": "插座测试仪",
+      "officialName": "Steckdosentester",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_de6dadc427db022d"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_de6dadc427db022d"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_de6dadc427db022d"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Steckdosentester / Socket Tester",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_b1cb11cfadcd348e",
+      "name": "遥控器",
+      "officialName": "Fernsteuerung",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [],
+        "variants": [
+          {
+            "kind": "small",
+            "household": "no"
+          },
+          {
+            "kind": "small",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_b1cb11cfadcd348e"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_b1cb11cfadcd348e"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_b1cb11cfadcd348e"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Fernsteuerung / Remote control",
+          "EAR 候选设备类型：第 5 类 · 仅限专业场所使用的小型设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_8d1a96f942f943bf",
+      "name": "热风枪",
+      "officialName": "Heißluftpistole",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_8d1a96f942f943bf"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_8d1a96f942f943bf"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_8d1a96f942f943bf"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Heißluftpistole / Heat gun",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_e94b5b044a7a3167",
+      "name": "电视盒子（TV Box）",
+      "officialName": "TV Box",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_e94b5b044a7a3167"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_e94b5b044a7a3167"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_e94b5b044a7a3167"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：TV Box / TV Box",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_d38ab434911e887c",
+      "name": "调光器",
+      "officialName": "Lichtdimmer",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_d38ab434911e887c"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_d38ab434911e887c"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_d38ab434911e887c"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Lichtdimmer / Dimmer switch",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_d694caab755455a6",
+      "name": "麦克风",
+      "officialName": "Mikrofon",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_d694caab755455a6"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_d694caab755455a6"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_d694caab755455a6"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Mikrofon / Microphone",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_01dffabd439b6436",
+      "name": "LCD 模块",
+      "officialName": "LCD-Modul",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "screen",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_01dffabd439b6436"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_01dffabd439b6436"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_01dffabd439b6436"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：LCD-Modul / LCD module",
+          "EAR 候选设备类型：第 2 类 · 可用于家庭的屏幕设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_9b2c2b56ce9d11db",
+      "name": "感应垃圾桶",
+      "officialName": "Sensormülleimer",
+      "coverage": "review",
+      "decision": {
+        "mode": "review"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_9b2c2b56ce9d11db"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_9b2c2b56ce9d11db"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Sensormülleimer / Sensor bin",
+          "EAR 候选设备类型：第 4 类 · 可用于家庭的大型设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "officialReferenceConditions": "EAR 对「Sensormülleimer」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。 EAR 说明：Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab.",
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_ee75d0dad0b324a0",
+      "name": "玩具",
+      "officialName": "Spielzeug",
+      "coverage": "review",
+      "decision": {
+        "mode": "review"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_ee75d0dad0b324a0"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_ee75d0dad0b324a0"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Spielzeug / Toy",
+          "EAR 候选设备类型：第 4 类 · 仅限专业场所使用的大型设备；第 4 类 · 可用于家庭的大型设备；第 5 类 · 仅限专业场所使用的小型设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "officialReferenceConditions": "EAR 对「Spielzeug」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。 EAR 说明：Auch Spielzeug mit einem Bildschirm größer als 100 cm² ist ein Klein- oder Großgerät. Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab. Ob die b2b- oder die b2c-Geräteart zu wählen ist, ist abhängig vom Ort der Nutzung.",
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_6f8b7d7628ece654",
+      "name": "插电式香薰器",
+      "officialName": "Duftstecker",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_6f8b7d7628ece654"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_6f8b7d7628ece654"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_6f8b7d7628ece654"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Duftstecker / air freshener with plug",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_65e61e7cd0c72631",
+      "name": "NFC 芯片",
+      "officialName": "NFC-Chip",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [],
+        "variants": [
+          {
+            "kind": "ict",
+            "household": "no"
+          },
+          {
+            "kind": "ict",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_65e61e7cd0c72631"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_65e61e7cd0c72631"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_65e61e7cd0c72631"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：NFC-Chip / NFC chip",
+          "EAR 候选设备类型：第 6 类 · 仅限专业场所使用的小型信息和通信设备；第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_edfbb376a48737d4",
+      "name": "泵",
+      "officialName": "Pumpe",
+      "coverage": "review",
+      "decision": {
+        "mode": "review"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_edfbb376a48737d4"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_edfbb376a48737d4"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Pumpe / Pump",
+          "EAR 候选设备类型：第 4 类 · 仅限专业场所使用的大型设备；第 4 类 · 可用于家庭的大型设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "officialReferenceConditions": "EAR 对「Pumpe」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。 EAR 说明：Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab. Ob die b2b- oder die b2c-Geräteart zu wählen ist, ist abhängig vom Ort der Nutzung.",
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_dc3915cb33bbb51e",
+      "name": "票据发放机",
+      "officialName": "Ticketspender",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "no"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_dc3915cb33bbb51e"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "no",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_dc3915cb33bbb51e"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_dc3915cb33bbb51e"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Ticketspender / Ticket dispenser",
+          "EAR 候选设备类型：第 5 类 · 仅限专业场所使用的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_fa375f1aa72bc9a8",
+      "name": "小票打印机",
+      "officialName": "Quittungsdrucker",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "no"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_fa375f1aa72bc9a8"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "no",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_fa375f1aa72bc9a8"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_fa375f1aa72bc9a8"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Quittungsdrucker / Label printer",
+          "EAR 候选设备类型：第 6 类 · 仅限专业场所使用的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_ab1ccd7f7cf0d32a",
+      "name": "汽车保险丝",
+      "officialName": "Kfz-Sicherung",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_ab1ccd7f7cf0d32a"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_ab1ccd7f7cf0d32a"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Kfz-Sicherung / Car fuse",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「Kfz-Sicherung」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_143566767b3b05e1",
+      "name": "调光开关",
+      "officialName": "Dimmer",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_143566767b3b05e1"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_143566767b3b05e1"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_143566767b3b05e1"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Dimmer / Dimmer",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_8d0ddecc2f73824b",
+      "name": "高频头（LNB）",
+      "officialName": "LNB",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_8d0ddecc2f73824b"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_8d0ddecc2f73824b"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_8d0ddecc2f73824b"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：LNB / Low-noise block downconverter",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_b4abf4e4df5a854a",
+      "name": "复印机（Kopierer）",
+      "officialName": "Kopierer",
+      "coverage": "review",
+      "decision": {
+        "mode": "review"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_b4abf4e4df5a854a"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_b4abf4e4df5a854a"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Kopierer / Copier",
+          "EAR 候选设备类型：第 4 类 · 仅限专业场所使用的大型设备；第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "officialReferenceConditions": "EAR 对「Kopierer」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。 EAR 说明：Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab. Ob die b2b- oder die b2c-Geräteart zu wählen ist, ist abhängig vom Ort der Nutzung.",
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_9d7d38fe1593322f",
+      "name": "工具",
+      "officialName": "Werkzeug",
+      "coverage": "review",
+      "decision": {
+        "mode": "review"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_9d7d38fe1593322f"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_9d7d38fe1593322f"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Werkzeug / Tool",
+          "EAR 候选设备类型：第 4 类 · 仅限专业场所使用的大型设备；第 4 类 · 可用于家庭的大型设备；第 5 类 · 仅限专业场所使用的小型设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "officialReferenceConditions": "EAR 对「Werkzeug」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。 EAR 说明：Ob die Geräteart Klein- oder Großgeräte zu wählen ist, hängt von der Kantenlänge/äußeren Abmessung ab. Ob die b2b- oder die b2c-Geräteart zu wählen ist, ist abhängig vom Ort der Nutzung.",
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_68a48ac4f8dc0919",
+      "name": "烘鞋器",
+      "officialName": "Schuhtrockner",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_68a48ac4f8dc0919"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_68a48ac4f8dc0919"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_68a48ac4f8dc0919"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Schuhtrockner / Shoe dryer",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_3a4517a577195e84",
+      "name": "显微镜",
+      "officialName": "Mikroskop",
+      "coverage": "review",
+      "decision": {
+        "mode": "review"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_3a4517a577195e84"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_3a4517a577195e84"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Mikroskop / Microscope",
+          "EAR 候选设备类型：第 2 类 · 可用于家庭的屏幕设备；第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "officialReferenceConditions": "EAR 对「Mikroskop」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。 EAR 说明：Ob es sich um ein Bildschirmgerät oder ein Klein-/Großgerät handelt, hängt von der Größe des Bildschirms ab.",
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_e718f8bf9e9a42b1",
+      "name": "土壤湿度计",
+      "officialName": "Bodenfeuchtigkeitsmesser",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_e718f8bf9e9a42b1"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_e718f8bf9e9a42b1"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_e718f8bf9e9a42b1"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Bodenfeuchtigkeitsmesser / Soil moisture meter",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_f89ea7f4d8b05074",
+      "name": "压缩机制冷饮料柜",
+      "officialName": "Getränkekühler (mit Kompressor)",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "thermal",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_f89ea7f4d8b05074"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_f89ea7f4d8b05074"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_f89ea7f4d8b05074"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Getränkekühler (mit Kompressor) / Drinks cooler (with compressor)",
+          "EAR 候选设备类型：第 1 类 · 可用于家庭的温度交换设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_a76da995c8a27e99",
+      "name": "压缩机制冷保温箱",
+      "officialName": "Kühlbox (mit Kompressor)",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "thermal",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_a76da995c8a27e99"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_a76da995c8a27e99"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_a76da995c8a27e99"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Kühlbox (mit Kompressor) / Cooler (with compressor)",
+          "EAR 候选设备类型：第 1 类 · 可用于家庭的温度交换设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_312f91285e048e09",
+      "name": "笔记本电脑（Laptop）",
+      "officialName": "Laptop",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "screen",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_312f91285e048e09"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_312f91285e048e09"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_312f91285e048e09"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Laptop / Laptop",
+          "EAR 候选设备类型：第 2 类 · 可用于家庭的屏幕设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_9e8a5ae39f245b8b",
+      "name": "数显扭力扳手",
+      "officialName": "Digitaler Drehmomentschlüssel",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_9e8a5ae39f245b8b"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_9e8a5ae39f245b8b"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_9e8a5ae39f245b8b"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Digitaler Drehmomentschlüssel / Digital torque wrench",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_04232d3c10f01c75",
+      "name": "烤肉架电机（后装）",
+      "officialName": "Grillmotor (zum Nachrüsten)",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_04232d3c10f01c75"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_04232d3c10f01c75"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_04232d3c10f01c75"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Grillmotor (zum Nachrüsten) / Barbeque motor (retrofit)",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_61c48c2f74e05147",
+      "name": "电子节拍器",
+      "officialName": "Digitales Metronom",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_61c48c2f74e05147"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_61c48c2f74e05147"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_61c48c2f74e05147"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Digitales Metronom / Digital metronome tuner",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_514340e186f7c4a8",
+      "name": "超声波驱虫器",
+      "officialName": "Ultraschall Schädlingsbekämpfer",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_514340e186f7c4a8"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_514340e186f7c4a8"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_514340e186f7c4a8"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Ultraschall Schädlingsbekämpfer / Ultrasonic pest repeller",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_bec7f906cff021ee",
+      "name": "LED 发光手环",
+      "officialName": "LED-Armband",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_bec7f906cff021ee"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_bec7f906cff021ee"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_bec7f906cff021ee"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：LED-Armband / LED light bracelet",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_7425e5735747a691",
+      "name": "内置电位器",
+      "officialName": "Einbau-Potentiometer",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_7425e5735747a691"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_7425e5735747a691"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Einbau-Potentiometer / Single potentiomete",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「Einbau-Potentiometer」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_aef442dc064f0718",
+      "name": "电容器",
+      "officialName": "Kondensator",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_aef442dc064f0718"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_aef442dc064f0718"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Kondensator / Capacitor",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「Kondensator」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_aaa0d78af49a2fbc",
+      "name": "晶体管",
+      "officialName": "Transistor",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_aaa0d78af49a2fbc"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_aaa0d78af49a2fbc"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Transistor / Transistor",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「Transistor」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_9c75661c10d09cbe",
+      "name": "潜水电脑",
+      "officialName": "Tauchcomputer",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_9c75661c10d09cbe"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_9c75661c10d09cbe"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_9c75661c10d09cbe"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Tauchcomputer / Computer for diving",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_2c7983adf8c9e18c",
+      "name": "计算器",
+      "officialName": "Taschenrechner",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_2c7983adf8c9e18c"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_2c7983adf8c9e18c"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_2c7983adf8c9e18c"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Taschenrechner / Pocket calculator",
+          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_96d95376b8db48d9",
+      "name": "卫星电话",
+      "officialName": "Satellitentelefon",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_96d95376b8db48d9"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_96d95376b8db48d9"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_96d95376b8db48d9"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Satellitentelefon / Satellite telephone",
+          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_f3d09cf7843490bf",
+      "name": "平板手机",
+      "officialName": "Phablet",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_f3d09cf7843490bf"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_f3d09cf7843490bf"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_f3d09cf7843490bf"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Phablet / Phablet",
+          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_fe8509830dcdae7d",
+      "name": "数据记录仪",
+      "officialName": "Datenaufzeichnungsgerät",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_fe8509830dcdae7d"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_fe8509830dcdae7d"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_fe8509830dcdae7d"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Datenaufzeichnungsgerät / Data recording equipment",
+          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_5131be85f934d65a",
+      "name": "野外摄像机（狩猎相机）",
+      "officialName": "Wildkamera",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_5131be85f934d65a"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_5131be85f934d65a"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_5131be85f934d65a"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Wildkamera / Wildlife camera",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_cc8af3cf05fef295",
+      "name": "电阻器",
+      "officialName": "Widerstand",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_cc8af3cf05fef295"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_cc8af3cf05fef295"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Widerstand / Resistor",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「Widerstand」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_bef9e10b68c8ec32",
+      "name": "接线盒",
+      "officialName": "Abzweigdose",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_bef9e10b68c8ec32"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_bef9e10b68c8ec32"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Abzweigdose / Junction box",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「Abzweigdose」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_ad4cb87fbca5ae52",
+      "name": "线槽（空）",
+      "officialName": "Kabelkanal",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_ad4cb87fbca5ae52"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_ad4cb87fbca5ae52"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Kabelkanal / empty cable duct",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「Kabelkanal」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_d982bb65e351152c",
+      "name": "CD/DVD/蓝光光盘",
+      "officialName": "CD-, DVD-, Blu-Ray-Disc",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_d982bb65e351152c"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_d982bb65e351152c"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：CD-, DVD-, Blu-Ray-Disc / CD, DVD, Blu-Ray Disc",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「CD-, DVD-, Blu-Ray-Disc」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_2e6031f9b829cad4",
+      "name": "广播/电视接收机",
+      "officialName": "Receiver für Rundfunk (Radio), TV",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_2e6031f9b829cad4"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_2e6031f9b829cad4"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_2e6031f9b829cad4"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Receiver für Rundfunk (Radio), TV / Receiver for radio, TV",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_d62ac6924fbbde99",
+      "name": "音响组合",
+      "officialName": "Hi-Fi-Anlage",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_d62ac6924fbbde99"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_d62ac6924fbbde99"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_d62ac6924fbbde99"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Hi-Fi-Anlage / Hi-fi equipment",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_de7ca8bbf929da1c",
+      "name": "投币游戏机",
+      "officialName": "Geldspielautomat",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "large",
+        "required": [],
+        "conditions": {
+          "household": "no"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_de7ca8bbf929da1c"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "no",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_de7ca8bbf929da1c"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_de7ca8bbf929da1c"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Geldspielautomat / Coin slot machine",
+          "EAR 候选设备类型：第 4 类 · 仅限专业场所使用的大型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_a809fd2e1602eac5",
+      "name": "插槽式处理器",
+      "officialName": "Prozessor zum Stecken in einen Sockel",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_a809fd2e1602eac5"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_a809fd2e1602eac5"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_a809fd2e1602eac5"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Prozessor zum Stecken in einen Sockel / Processor to insert in a base",
+          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_b3aaf2cad57d41fb",
+      "name": "冷藏展示柜",
+      "officialName": "Kühltheke",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "thermal",
+        "required": [],
+        "conditions": {
+          "household": "no"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_b3aaf2cad57d41fb"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "no",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_b3aaf2cad57d41fb"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_b3aaf2cad57d41fb"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Kühltheke / Refrigerated counter",
+          "EAR 候选设备类型：第 1 类 · 仅限专业场所使用的温度交换设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_6634de8d29c9c3b4",
+      "name": "吸奶器",
+      "officialName": "Milchpumpe",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_6634de8d29c9c3b4"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_6634de8d29c9c3b4"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_6634de8d29c9c3b4"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Milchpumpe / Breast pump",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_1509ea02ffe09bc7",
+      "name": "LED 发光箭尾",
+      "officialName": "LED-Leuchpfeiltnocken",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_1509ea02ffe09bc7"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_1509ea02ffe09bc7"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_1509ea02ffe09bc7"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：LED-Leuchpfeiltnocken / LED lighted arrow nocks",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_0c565eb97713bd44",
+      "name": "汽车动力调校设备",
+      "officialName": "Chiptuninggerät für Kfz",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_0c565eb97713bd44"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_0c565eb97713bd44"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_0c565eb97713bd44"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Chiptuninggerät für Kfz / Chiptuning for cars",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_fc883590d17770b8",
+      "name": "低压耦合器",
+      "officialName": "Niedervoltkoppler",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_fc883590d17770b8"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_fc883590d17770b8"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_fc883590d17770b8"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Niedervoltkoppler / Low-voltage coupler",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_9f1ce91388e29975",
+      "name": "3D 打印笔",
+      "officialName": "3D-Druckstift",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_9f1ce91388e29975"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_9f1ce91388e29975"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_9f1ce91388e29975"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：3D-Druckstift / 3D printing pen",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_252a632695cc6a66",
+      "name": "电动机",
+      "officialName": "Elektromotor",
+      "coverage": "review",
+      "decision": {
+        "mode": "review"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_252a632695cc6a66"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_252a632695cc6a66"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Elektromotor / Electric motor",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备；不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "officialReferenceConditions": "EAR 对「Elektromotor」列出多个候选结果，请按实际用途、外部尺寸与使用地点核对；不符合所列条件或无法确定时，请联系 EAR 复核。 EAR 说明：Eigenständige bzw. einzeln angebotene Elektromotore sind registrierungspflichtig.",
+      "reviewReason": "special_conditions_not_covered"
+    },
+    {
+      "id": "p_f56965373da12816",
+      "name": "冷冻柜（Gefriergerät）",
+      "officialName": "Gefriergerät",
+      "coverage": "supported",
+      "decision": {
+        "mode": "variants",
+        "required": [],
+        "variants": [
+          {
+            "kind": "thermal",
+            "household": "no"
+          },
+          {
+            "kind": "thermal",
+            "household": "yes"
+          }
+        ],
+        "fixedSmall": false
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_f56965373da12816"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_f56965373da12816"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_f56965373da12816"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Gefriergerät / Freezer",
+          "EAR 候选设备类型：第 1 类 · 仅限专业场所使用的温度交换设备；第 1 类 · 可用于家庭的温度交换设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_0b06e45a34ed1377",
+      "name": "遥控器（Fernbedienung）",
+      "officialName": "Fernbedienung",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_0b06e45a34ed1377"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_0b06e45a34ed1377"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_0b06e45a34ed1377"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Fernbedienung / Remote control",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_45fa8f79ea001415",
+      "name": "压电打火机",
+      "officialName": "Piezofeuerzeug",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_45fa8f79ea001415"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_45fa8f79ea001415"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Piezofeuerzeug / piezoelectric lighter",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「Piezofeuerzeug」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_f041dc33cf3aad09",
+      "name": "红点瞄准镜",
+      "officialName": "Rotpunktvisier",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_f041dc33cf3aad09"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_f041dc33cf3aad09"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_f041dc33cf3aad09"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Rotpunktvisier / Hunting Riflescope Red Dot",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_48f9bdc175df447e",
+      "name": "录像机（Videorekorder）",
+      "officialName": "Videorekorder",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_48f9bdc175df447e"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_48f9bdc175df447e"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_48f9bdc175df447e"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Videorekorder / Video recorder",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_873a8112a9666ffe",
+      "name": "暗装接线盒",
+      "officialName": "Unterputz-Gerätedose",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_873a8112a9666ffe"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_873a8112a9666ffe"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Unterputz-Gerätedose / Flush-mounted switch box",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「Unterputz-Gerätedose」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_d1114324f04e2716",
+      "name": "电动刀",
+      "officialName": "Elektrisches Messer",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_d1114324f04e2716"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_d1114324f04e2716"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_d1114324f04e2716"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Elektrisches Messer / Electric knive",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_cb85c01518540c8c",
+      "name": "电击器",
+      "officialName": "Elektroschocker",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_cb85c01518540c8c"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_cb85c01518540c8c"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_cb85c01518540c8c"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Elektroschocker / Electric shock device",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_d49bcb4e7c22d3b6",
+      "name": "电子哨",
+      "officialName": "Elektronische Pfeife",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_d49bcb4e7c22d3b6"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_d49bcb4e7c22d3b6"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_d49bcb4e7c22d3b6"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Elektronische Pfeife / Electronic whistle",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_1585c71a70e91c01",
+      "name": "LCD 自动变光电焊面罩",
+      "officialName": "Schweißhelm mit LCD-Visier",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_1585c71a70e91c01"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_1585c71a70e91c01"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_1585c71a70e91c01"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Schweißhelm mit LCD-Visier / Welding helmet, LCD",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_403a74f7fe1115f8",
+      "name": "HDMI 分配器",
+      "officialName": "HDMI-Splitter",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_403a74f7fe1115f8"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_403a74f7fe1115f8"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_403a74f7fe1115f8"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：HDMI-Splitter / HDMI Switch",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_5b1ec99bf838f554",
+      "name": "电动自拍杆",
+      "officialName": "Selfie-Stick mit elektr. Funktion",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_5b1ec99bf838f554"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_5b1ec99bf838f554"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_5b1ec99bf838f554"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Selfie-Stick mit elektr. Funktion / Selfie stick",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_1145bdd7b5feb650",
+      "name": "焊条",
+      "officialName": "Schweißelektrode",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_1145bdd7b5feb650"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_1145bdd7b5feb650"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Schweißelektrode / welding electrode",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「Schweißelektrode」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_747f3da41a944695",
+      "name": "单颗 LED",
+      "officialName": "Einzel-LED",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_747f3da41a944695"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_747f3da41a944695"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Einzel-LED / single LED",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「Einzel-LED」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_8aa5b0bda8c8b662",
+      "name": "电话插座",
+      "officialName": "Telefondose",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_8aa5b0bda8c8b662"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_8aa5b0bda8c8b662"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_8aa5b0bda8c8b662"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Telefondose / Telephone outlet/socket",
+          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_663533818e66ee6a",
+      "name": "RGB 控制器",
+      "officialName": "RGB-Controller",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_663533818e66ee6a"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_663533818e66ee6a"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_663533818e66ee6a"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：RGB-Controller / RGB controller",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_7ae6d05af716455f",
+      "name": "湿度计",
+      "officialName": "Hygrometer",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_7ae6d05af716455f"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_7ae6d05af716455f"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_7ae6d05af716455f"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Hygrometer / Hygrometer",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_6189330b271e8d07",
+      "name": "USB 集线器",
+      "officialName": "USB-Hub",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_6189330b271e8d07"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_6189330b271e8d07"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_6189330b271e8d07"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：USB-Hub / USB Hub",
+          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_105c339ccc214189",
+      "name": "电话分线盒",
+      "officialName": "Telefonverteiler",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_105c339ccc214189"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_105c339ccc214189"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_105c339ccc214189"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Telefonverteiler / Telephone junction box",
+          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_8f6e1b524240c2a6",
+      "name": "运行小时计",
+      "officialName": "Betriebsstundenzähler",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_8f6e1b524240c2a6"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_8f6e1b524240c2a6"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_8f6e1b524240c2a6"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Betriebsstundenzähler / Engine hour meter",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_e25e56a85965a98c",
+      "name": "胎压监测系统",
+      "officialName": "Reifendruckkontrollsystem Kfz",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_e25e56a85965a98c"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_e25e56a85965a98c"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Reifendruckkontrollsystem Kfz / Tyre pressure monitoring system",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「Reifendruckkontrollsystem Kfz」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_31cc87185098a2dd",
+      "name": "划船机仪表",
+      "officialName": "Rudercomputer",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_31cc87185098a2dd"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_31cc87185098a2dd"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_31cc87185098a2dd"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Rudercomputer / Computer for rowing",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_d29f16e33de19490",
+      "name": "加密狗",
+      "officialName": "Kopierschutzstecker",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "ict",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_d29f16e33de19490"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_d29f16e33de19490"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_d29f16e33de19490"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Kopierschutzstecker / Dongle",
+          "EAR 候选设备类型：第 6 类 · 可用于家庭的小型信息和通信设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
+    },
+    {
+      "id": "p_68fdbb729bf0bc70",
+      "name": "电感线圈",
+      "officialName": "Spule",
+      "coverage": "supported",
+      "decision": {
+        "mode": "outside_scope"
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_68fdbb729bf0bc70"
+          ]
+        }
+      },
+      "defaults": {},
+      "evidenceIds": [
+        "ear_68fdbb729bf0bc70"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Spule / Inductor",
+          "EAR 候选设备类型：不在 ElektroG 适用范围内",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      },
+      "scopeText": "EAR 将「Spule」列为不在 ElektroG 适用范围内。请核对实际产品是否与官方条目一致；如有电子功能或附加组件，需另行确认。"
+    },
+    {
+      "id": "p_2c127bf32ccb4edf",
+      "name": "定时器",
+      "officialName": "Timer",
+      "coverage": "supported",
+      "decision": {
+        "mode": "direct",
+        "directKind": "small",
+        "required": [],
+        "conditions": {
+          "household": "yes"
+        }
+      },
+      "facts": {
+        "referenceShape": {
+          "value": "EAR 条目对应的完整产品形态",
+          "basis": "curated_summary",
+          "sourceIds": [
+            "ear_2c127bf32ccb4edf"
+          ]
+        }
+      },
+      "defaults": {
+        "household": {
+          "value": "yes",
+          "basis": "assumption",
+          "sourceIds": [
+            "ear_2c127bf32ccb4edf"
+          ]
+        }
+      },
+      "evidenceIds": [
+        "ear_2c127bf32ccb4edf"
+      ],
+      "presentation": {
+        "defaultsText": [
+          "已匹配 EAR 官方条目：Timer / Timer",
+          "EAR 候选设备类型：第 5 类 · 可用于家庭的小型设备",
+          "本结果依据 EAR 官方候选设备类型，注册前请核对产品实际形态并到 EAR 复核。"
+        ],
+        "measurement": "body",
+        "householdEditable": true,
+        "sizeRuleDerived": false,
+        "questionOverrides": {}
+      }
     }
   ]
 };

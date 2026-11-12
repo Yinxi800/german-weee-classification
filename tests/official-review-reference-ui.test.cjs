@@ -2,7 +2,7 @@ const {chromium}=require('playwright'),assert=require('node:assert/strict'),path
 (async()=>{
  const context={window:{}};vm.createContext(context);for(const x of ['products','evidence'])vm.runInContext(fs.readFileSync(path.join(__dirname,'../data/'+x+'.js'),'utf8'),context);
  const records=context.window.WEEE_PRODUCTS.records.filter(p=>p.decision.mode==='review'&&p.officialReferenceConditions);
- assert.equal(records.length,85);const browser=await chromium.launch({headless:true,...(process.env.CHROME_PATH?{executablePath:process.env.CHROME_PATH}:{})}),page=await browser.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));
+ assert.equal(records.length,121);const browser=await chromium.launch({headless:true,...(process.env.CHROME_PATH?{executablePath:process.env.CHROME_PATH}:{})}),page=await browser.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));
  const url=process.env.WEEE_TEST_URL||pathToFileURL(path.join(__dirname,'../index.html')).href;await page.goto(url);
  for(const item of records){
   const result=await page.evaluate(name=>{const input=document.getElementById('product');input.value=name;document.getElementById('begin').click();const r=resultData,box=document.getElementById('official-reference');return {data:r,visible:!!box&&box.offsetParent!==null,text:box?.innerText||'',copy:formatResult(r)};},item.officialName);
@@ -16,5 +16,5 @@ const {chromium}=require('playwright'),assert=require('node:assert/strict'),path
   ['RFID-Chip',[/私人终端用户/,/第 6 类/,/仅服务商用用户/,/不在 ElektroG/]]
  ]){await page.evaluate(name=>{document.getElementById('product').value=name;document.getElementById('begin').click()},name);const t=await page.locator('#official-reference').innerText();for(const re of patterns)assert.match(t,re,name);}
  const download=page.waitForEvent('download');await page.getByRole('button',{name:'导出结果'}).click();const f=await download,exported=JSON.parse(fs.readFileSync(await f.path(),'utf8'));assert.equal(exported.officialReference.name,'RFID-Chip');assert(exported.officialReference.options.length>=3);
- await page.setViewportSize({width:320,height:900});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));assert.deepEqual(errors,[]);await browser.close();console.log('PASS all 85 official reference results, conditions, exception cases, copy/export, responsive and existing review status');
+ await page.setViewportSize({width:320,height:900});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));assert.deepEqual(errors,[]);await browser.close();console.log('PASS all 121 official reference results, conditions, exception cases, copy/export, responsive and existing review status');
 })().catch(e=>{console.error(e);process.exit(1)});

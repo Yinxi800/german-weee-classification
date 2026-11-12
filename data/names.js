@@ -13621,6 +13621,9663 @@ window.WEEE_NAMES = {
         "ear_rule_ordinary_20261102"
       ],
       "suggestible": false
+    },
+    {
+      "text": "数码相机",
+      "productId": "p_gap_g132",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g132"
+      ]
+    },
+    {
+      "text": "数码照相机",
+      "productId": "p_gap_g132",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g132"
+      ]
+    },
+    {
+      "text": "照相机",
+      "productId": "p_gap_g132",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g132_camera"
+      ]
+    },
+    {
+      "text": "相机",
+      "productId": "p_gap_g132",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g132_camera"
+      ]
+    },
+    {
+      "text": "Digitalkamera",
+      "productId": "p_gap_g132",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_gap_g132"
+      ]
+    },
+    {
+      "text": "Digital camera",
+      "productId": "p_gap_g132",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_gap_g132"
+      ]
+    },
+    {
+      "text": "Kamera",
+      "productId": "p_gap_g132",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_gap_g132_camera"
+      ]
+    },
+    {
+      "text": "Camera",
+      "productId": "p_gap_g132",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_gap_g132_camera"
+      ]
+    },
+    {
+      "text": "Fotoapparat",
+      "productId": "p_gap_g132",
+      "language": "de",
+      "status": "curated",
+      "sourceIds": [
+        "ear_gap_g132_camera"
+      ]
+    },
+    {
+      "text": "Infrarot-Wärmestrahler",
+      "productId": "p_21296cdb81dfa149",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_21296cdb81dfa149"
+      ]
+    },
+    {
+      "text": "Infrared light panel",
+      "productId": "p_21296cdb81dfa149",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_21296cdb81dfa149"
+      ]
+    },
+    {
+      "text": "红外加热板",
+      "productId": "p_21296cdb81dfa149",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_21296cdb81dfa149"
+      ]
+    },
+    {
+      "text": "Schwangerschaftstester (digital)",
+      "productId": "p_48e55baf407262cd",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_48e55baf407262cd"
+      ]
+    },
+    {
+      "text": "Ovulation & Pregnancy Tester",
+      "productId": "p_48e55baf407262cd",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_48e55baf407262cd"
+      ]
+    },
+    {
+      "text": "电子验孕/排卵测试仪",
+      "productId": "p_48e55baf407262cd",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_48e55baf407262cd"
+      ]
+    },
+    {
+      "text": "Schermaschine für Haustiere",
+      "productId": "p_89c4c547da14f099",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_89c4c547da14f099"
+      ]
+    },
+    {
+      "text": "Grooming Clipper for pets",
+      "productId": "p_89c4c547da14f099",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_89c4c547da14f099"
+      ]
+    },
+    {
+      "text": "宠物电推剪（Schermaschine für Haustiere）",
+      "productId": "p_89c4c547da14f099",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_89c4c547da14f099"
+      ]
+    },
+    {
+      "text": "WLAN-Adapter",
+      "productId": "p_9109acf151f04414",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_9109acf151f04414"
+      ]
+    },
+    {
+      "text": "WiFi Stick",
+      "productId": "p_9109acf151f04414",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_9109acf151f04414"
+      ]
+    },
+    {
+      "text": "无线网卡（WiFi 适配器）",
+      "productId": "p_9109acf151f04414",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_9109acf151f04414"
+      ]
+    },
+    {
+      "text": "Nachtspeicherofen",
+      "productId": "p_230af8cc3949201a",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_230af8cc3949201a"
+      ]
+    },
+    {
+      "text": "Night storage heater",
+      "productId": "p_230af8cc3949201a",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_230af8cc3949201a"
+      ]
+    },
+    {
+      "text": "蓄热式电暖器",
+      "productId": "p_230af8cc3949201a",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_230af8cc3949201a"
+      ]
+    },
+    {
+      "text": "Geldautomat",
+      "productId": "p_cb16393ec98873b4",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_cb16393ec98873b4"
+      ]
+    },
+    {
+      "text": "Cash machine",
+      "productId": "p_cb16393ec98873b4",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_cb16393ec98873b4"
+      ]
+    },
+    {
+      "text": "自动取款机",
+      "productId": "p_cb16393ec98873b4",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_cb16393ec98873b4"
+      ]
+    },
+    {
+      "text": "Taschenalarm",
+      "productId": "p_e1065664f402c39d",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_e1065664f402c39d"
+      ]
+    },
+    {
+      "text": "Personal alarm",
+      "productId": "p_e1065664f402c39d",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_e1065664f402c39d"
+      ]
+    },
+    {
+      "text": "便携个人报警器",
+      "productId": "p_e1065664f402c39d",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_e1065664f402c39d"
+      ]
+    },
+    {
+      "text": "LVS-Gerät",
+      "productId": "p_a2263474043eab69",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_a2263474043eab69"
+      ]
+    },
+    {
+      "text": "Avalanche transceiver",
+      "productId": "p_a2263474043eab69",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_a2263474043eab69"
+      ]
+    },
+    {
+      "text": "雪崩收发信机",
+      "productId": "p_a2263474043eab69",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_a2263474043eab69"
+      ]
+    },
+    {
+      "text": "Parkscheinautomat",
+      "productId": "p_0fed3bbd72185cf9",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_0fed3bbd72185cf9"
+      ]
+    },
+    {
+      "text": "Parking ticket vending machine",
+      "productId": "p_0fed3bbd72185cf9",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_0fed3bbd72185cf9"
+      ]
+    },
+    {
+      "text": "停车缴费机",
+      "productId": "p_0fed3bbd72185cf9",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_0fed3bbd72185cf9"
+      ]
+    },
+    {
+      "text": "Bewässerungscomputer",
+      "productId": "p_31498d36e2e741c9",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_31498d36e2e741c9"
+      ]
+    },
+    {
+      "text": "Water timer for irrigation",
+      "productId": "p_31498d36e2e741c9",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_31498d36e2e741c9"
+      ]
+    },
+    {
+      "text": "自动灌溉定时器",
+      "productId": "p_31498d36e2e741c9",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_31498d36e2e741c9"
+      ]
+    },
+    {
+      "text": "Wasserwirbler",
+      "productId": "p_2aa3083080e8f46f",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_2aa3083080e8f46f"
+      ]
+    },
+    {
+      "text": "Hexagon Water Swirl",
+      "productId": "p_2aa3083080e8f46f",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_2aa3083080e8f46f"
+      ]
+    },
+    {
+      "text": "水旋流处理装置",
+      "productId": "p_2aa3083080e8f46f",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_2aa3083080e8f46f"
+      ]
+    },
+    {
+      "text": "Leuchtstofflampe",
+      "productId": "p_8476d48dd262509f",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_8476d48dd262509f"
+      ]
+    },
+    {
+      "text": "Straight fluorescent lamp",
+      "productId": "p_8476d48dd262509f",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_8476d48dd262509f"
+      ]
+    },
+    {
+      "text": "直管荧光灯（Leuchtstofflampe）",
+      "productId": "p_8476d48dd262509f",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_8476d48dd262509f"
+      ]
+    },
+    {
+      "text": "Audiokassette",
+      "productId": "p_878fb25058face45",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_878fb25058face45"
+      ]
+    },
+    {
+      "text": "Audio cassette",
+      "productId": "p_878fb25058face45",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_878fb25058face45"
+      ]
+    },
+    {
+      "text": "录音磁带",
+      "productId": "p_878fb25058face45",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_878fb25058face45"
+      ]
+    },
+    {
+      "text": "Gamingsessel",
+      "productId": "p_4c0cf233faaf6005",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_4c0cf233faaf6005"
+      ]
+    },
+    {
+      "text": "Gaming Chair",
+      "productId": "p_4c0cf233faaf6005",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_4c0cf233faaf6005"
+      ]
+    },
+    {
+      "text": "电竞椅",
+      "productId": "p_4c0cf233faaf6005",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_4c0cf233faaf6005"
+      ]
+    },
+    {
+      "text": "E-ink-Schlüsselanhänger",
+      "productId": "p_3918f49a69d4d01e",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_3918f49a69d4d01e"
+      ]
+    },
+    {
+      "text": "Smart keychain",
+      "productId": "p_3918f49a69d4d01e",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_3918f49a69d4d01e"
+      ]
+    },
+    {
+      "text": "电子墨水钥匙扣",
+      "productId": "p_3918f49a69d4d01e",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_3918f49a69d4d01e"
+      ]
+    },
+    {
+      "text": "Eye Tracker",
+      "productId": "p_5379e202f1ab8186",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_5379e202f1ab8186"
+      ]
+    },
+    {
+      "text": "Gaming eye tracker",
+      "productId": "p_5379e202f1ab8186",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_5379e202f1ab8186"
+      ]
+    },
+    {
+      "text": "眼动追踪仪",
+      "productId": "p_5379e202f1ab8186",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_5379e202f1ab8186"
+      ]
+    },
+    {
+      "text": "Anti-Bell-Gerät",
+      "productId": "p_b67443f684adc3c7",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_b67443f684adc3c7"
+      ]
+    },
+    {
+      "text": "Anti barking device",
+      "productId": "p_b67443f684adc3c7",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_b67443f684adc3c7"
+      ]
+    },
+    {
+      "text": "止吠器",
+      "productId": "p_b67443f684adc3c7",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_b67443f684adc3c7"
+      ]
+    },
+    {
+      "text": "IPL Haarentferner",
+      "productId": "p_64b54b37f07f0792",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_64b54b37f07f0792"
+      ]
+    },
+    {
+      "text": "IPL hair removal",
+      "productId": "p_64b54b37f07f0792",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_64b54b37f07f0792"
+      ]
+    },
+    {
+      "text": "IPL 脱毛仪",
+      "productId": "p_64b54b37f07f0792",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_64b54b37f07f0792"
+      ]
+    },
+    {
+      "text": "Heizkissen",
+      "productId": "p_4999403f8de44456",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_4999403f8de44456"
+      ]
+    },
+    {
+      "text": "Heating pad",
+      "productId": "p_4999403f8de44456",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_4999403f8de44456"
+      ]
+    },
+    {
+      "text": "电热垫",
+      "productId": "p_4999403f8de44456",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_4999403f8de44456"
+      ]
+    },
+    {
+      "text": "Ultraschallreiniger",
+      "productId": "p_9fafc967b3ff5dd7",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_9fafc967b3ff5dd7"
+      ]
+    },
+    {
+      "text": "Ultrasonic cleaner",
+      "productId": "p_9fafc967b3ff5dd7",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_9fafc967b3ff5dd7"
+      ]
+    },
+    {
+      "text": "超声波清洗机",
+      "productId": "p_9fafc967b3ff5dd7",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_9fafc967b3ff5dd7"
+      ]
+    },
+    {
+      "text": "Smartcard",
+      "productId": "p_367d4bf175debc7d",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_367d4bf175debc7d"
+      ]
+    },
+    {
+      "text": "Smart card",
+      "productId": "p_367d4bf175debc7d",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_367d4bf175debc7d"
+      ]
+    },
+    {
+      "text": "智能卡",
+      "productId": "p_367d4bf175debc7d",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_367d4bf175debc7d"
+      ]
+    },
+    {
+      "text": "LED-Wasserhahn",
+      "productId": "p_244dbce346507eea",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_244dbce346507eea"
+      ]
+    },
+    {
+      "text": "LED Water Faucet",
+      "productId": "p_244dbce346507eea",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_244dbce346507eea"
+      ]
+    },
+    {
+      "text": "LED 发光水龙头",
+      "productId": "p_244dbce346507eea",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_244dbce346507eea"
+      ]
+    },
+    {
+      "text": "Waffelbackgerät",
+      "productId": "p_ea57c76422610a16",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_ea57c76422610a16"
+      ]
+    },
+    {
+      "text": "Waffle maker",
+      "productId": "p_ea57c76422610a16",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_ea57c76422610a16"
+      ]
+    },
+    {
+      "text": "华夫饼机",
+      "productId": "p_ea57c76422610a16",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_ea57c76422610a16"
+      ]
+    },
+    {
+      "text": "Wasserbettheizung",
+      "productId": "p_8d309b979bc1fc35",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_8d309b979bc1fc35"
+      ]
+    },
+    {
+      "text": "Waterbed heater",
+      "productId": "p_8d309b979bc1fc35",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_8d309b979bc1fc35"
+      ]
+    },
+    {
+      "text": "水床加热器",
+      "productId": "p_8d309b979bc1fc35",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_8d309b979bc1fc35"
+      ]
+    },
+    {
+      "text": "Saunasteuerung",
+      "productId": "p_1325b6dd77fa363f",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_1325b6dd77fa363f"
+      ]
+    },
+    {
+      "text": "Sauna control panel",
+      "productId": "p_1325b6dd77fa363f",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_1325b6dd77fa363f"
+      ]
+    },
+    {
+      "text": "桑拿控制面板",
+      "productId": "p_1325b6dd77fa363f",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_1325b6dd77fa363f"
+      ]
+    },
+    {
+      "text": "Multiscanner",
+      "productId": "p_dbee4f9cc121294d",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_dbee4f9cc121294d"
+      ]
+    },
+    {
+      "text": "Film and slide scanner",
+      "productId": "p_dbee4f9cc121294d",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_dbee4f9cc121294d"
+      ]
+    },
+    {
+      "text": "胶片/幻灯片扫描仪",
+      "productId": "p_dbee4f9cc121294d",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_dbee4f9cc121294d"
+      ]
+    },
+    {
+      "text": "Chipkarte",
+      "productId": "p_2da026252c211646",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_2da026252c211646"
+      ]
+    },
+    {
+      "text": "芯片卡",
+      "productId": "p_2da026252c211646",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_2da026252c211646"
+      ]
+    },
+    {
+      "text": "Spielecartridge",
+      "productId": "p_a55f3950cb97b0c1",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_a55f3950cb97b0c1"
+      ]
+    },
+    {
+      "text": "ROM cartridge for gaming",
+      "productId": "p_a55f3950cb97b0c1",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_a55f3950cb97b0c1"
+      ]
+    },
+    {
+      "text": "游戏卡带",
+      "productId": "p_a55f3950cb97b0c1",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_a55f3950cb97b0c1"
+      ]
+    },
+    {
+      "text": "Radarwarner",
+      "productId": "p_3ee01e9cde87c36a",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_3ee01e9cde87c36a"
+      ]
+    },
+    {
+      "text": "Radar warning equipment",
+      "productId": "p_3ee01e9cde87c36a",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_3ee01e9cde87c36a"
+      ]
+    },
+    {
+      "text": "雷达预警器",
+      "productId": "p_3ee01e9cde87c36a",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_3ee01e9cde87c36a"
+      ]
+    },
+    {
+      "text": "Audioadapter",
+      "productId": "p_fef526a7068b2889",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_fef526a7068b2889"
+      ]
+    },
+    {
+      "text": "Audio adapter",
+      "productId": "p_fef526a7068b2889",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_fef526a7068b2889"
+      ]
+    },
+    {
+      "text": "音频转接器",
+      "productId": "p_fef526a7068b2889",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_fef526a7068b2889"
+      ]
+    },
+    {
+      "text": "Einparkhilfe-Set",
+      "productId": "p_74a4249ae557a537",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_74a4249ae557a537"
+      ]
+    },
+    {
+      "text": "Beep & Park set",
+      "productId": "p_74a4249ae557a537",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_74a4249ae557a537"
+      ]
+    },
+    {
+      "text": "倒车雷达套装",
+      "productId": "p_74a4249ae557a537",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_74a4249ae557a537"
+      ]
+    },
+    {
+      "text": "Natursteinheizkörper",
+      "productId": "p_577ea1c2724fda34",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_577ea1c2724fda34"
+      ]
+    },
+    {
+      "text": "Electric panel heater",
+      "productId": "p_577ea1c2724fda34",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_577ea1c2724fda34"
+      ]
+    },
+    {
+      "text": "天然石电暖器",
+      "productId": "p_577ea1c2724fda34",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_577ea1c2724fda34"
+      ]
+    },
+    {
+      "text": "elektrische Tierfalle",
+      "productId": "p_045195eb28e4cda9",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_045195eb28e4cda9"
+      ]
+    },
+    {
+      "text": "Electric animal trap",
+      "productId": "p_045195eb28e4cda9",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_045195eb28e4cda9"
+      ]
+    },
+    {
+      "text": "电子捕兽器",
+      "productId": "p_045195eb28e4cda9",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_045195eb28e4cda9"
+      ]
+    },
+    {
+      "text": "Massagesessel",
+      "productId": "p_6353328fbf6271ff",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_6353328fbf6271ff"
+      ]
+    },
+    {
+      "text": "Massage chair",
+      "productId": "p_6353328fbf6271ff",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_6353328fbf6271ff"
+      ]
+    },
+    {
+      "text": "按摩椅",
+      "productId": "p_6353328fbf6271ff",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_6353328fbf6271ff"
+      ]
+    },
+    {
+      "text": "Erdungsmessgerät",
+      "productId": "p_c5d8384de5166e2c",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_c5d8384de5166e2c"
+      ]
+    },
+    {
+      "text": "Earth resistance tester",
+      "productId": "p_c5d8384de5166e2c",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_c5d8384de5166e2c"
+      ]
+    },
+    {
+      "text": "接地电阻测试仪",
+      "productId": "p_c5d8384de5166e2c",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_c5d8384de5166e2c"
+      ]
+    },
+    {
+      "text": "Luftgebläse",
+      "productId": "p_d12dc7bf66682038",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_d12dc7bf66682038"
+      ]
+    },
+    {
+      "text": "Air blower pump fan",
+      "productId": "p_d12dc7bf66682038",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_d12dc7bf66682038"
+      ]
+    },
+    {
+      "text": "电动鼓风机",
+      "productId": "p_d12dc7bf66682038",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_d12dc7bf66682038"
+      ]
+    },
+    {
+      "text": "Funkscanner",
+      "productId": "p_6c1234b1335e1314",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_6c1234b1335e1314"
+      ]
+    },
+    {
+      "text": "Handheld scanner",
+      "productId": "p_6c1234b1335e1314",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_6c1234b1335e1314"
+      ]
+    },
+    {
+      "text": "手持无线扫描仪",
+      "productId": "p_6c1234b1335e1314",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_6c1234b1335e1314"
+      ]
+    },
+    {
+      "text": "Rückfahrmonitor",
+      "productId": "p_67f7057cd12874b6",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_67f7057cd12874b6"
+      ]
+    },
+    {
+      "text": "Rear view camera monitor",
+      "productId": "p_67f7057cd12874b6",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_67f7057cd12874b6"
+      ]
+    },
+    {
+      "text": "倒车显示屏",
+      "productId": "p_67f7057cd12874b6",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_67f7057cd12874b6"
+      ]
+    },
+    {
+      "text": "LED-Badspiegel",
+      "productId": "p_9fc1f01f0ef060ee",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_9fc1f01f0ef060ee"
+      ]
+    },
+    {
+      "text": "Illuminated Bathroom Mirror",
+      "productId": "p_9fc1f01f0ef060ee",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_9fc1f01f0ef060ee"
+      ]
+    },
+    {
+      "text": "LED 浴室镜",
+      "productId": "p_9fc1f01f0ef060ee",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_9fc1f01f0ef060ee"
+      ]
+    },
+    {
+      "text": "Tätowiermaschine",
+      "productId": "p_9e8632b93b47b585",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_9e8632b93b47b585"
+      ]
+    },
+    {
+      "text": "Tattoo machine",
+      "productId": "p_9e8632b93b47b585",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_9e8632b93b47b585"
+      ]
+    },
+    {
+      "text": "纹身机",
+      "productId": "p_9e8632b93b47b585",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_9e8632b93b47b585"
+      ]
+    },
+    {
+      "text": "Warmwasserspeicher",
+      "productId": "p_a66120e0083f818f",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_a66120e0083f818f"
+      ]
+    },
+    {
+      "text": "Hot water storage tank",
+      "productId": "p_a66120e0083f818f",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_a66120e0083f818f"
+      ]
+    },
+    {
+      "text": "储水式热水器",
+      "productId": "p_a66120e0083f818f",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_a66120e0083f818f"
+      ]
+    },
+    {
+      "text": "Anti-Schnarch-Armband",
+      "productId": "p_8446158b514eb576",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_8446158b514eb576"
+      ]
+    },
+    {
+      "text": "Anti snoring device",
+      "productId": "p_8446158b514eb576",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_8446158b514eb576"
+      ]
+    },
+    {
+      "text": "防打鼾手环",
+      "productId": "p_8446158b514eb576",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_8446158b514eb576"
+      ]
+    },
+    {
+      "text": "Aschesauger",
+      "productId": "p_4515ce976d7a9381",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_4515ce976d7a9381"
+      ]
+    },
+    {
+      "text": "Ash vacuum cleaner",
+      "productId": "p_4515ce976d7a9381",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_4515ce976d7a9381"
+      ]
+    },
+    {
+      "text": "壁炉吸灰器",
+      "productId": "p_4515ce976d7a9381",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_4515ce976d7a9381"
+      ]
+    },
+    {
+      "text": "NAS (Network Attached Storage)",
+      "productId": "p_2b74d0ec8b11d199",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_2b74d0ec8b11d199"
+      ]
+    },
+    {
+      "text": "网络存储器（NAS）",
+      "productId": "p_2b74d0ec8b11d199",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_2b74d0ec8b11d199"
+      ]
+    },
+    {
+      "text": "Tauchsieder",
+      "productId": "p_becf45a1c553ee28",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_becf45a1c553ee28"
+      ]
+    },
+    {
+      "text": "Portable water heater",
+      "productId": "p_becf45a1c553ee28",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_becf45a1c553ee28"
+      ]
+    },
+    {
+      "text": "浸入式电加热棒",
+      "productId": "p_becf45a1c553ee28",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_becf45a1c553ee28"
+      ]
+    },
+    {
+      "text": "Solarthermie-Kollektoren (keine elektrische Funktion)",
+      "productId": "p_efdac2ac2a7283ef",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_efdac2ac2a7283ef"
+      ]
+    },
+    {
+      "text": "Solar heat collectors (no electrical function)",
+      "productId": "p_efdac2ac2a7283ef",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_efdac2ac2a7283ef"
+      ]
+    },
+    {
+      "text": "太阳能集热器（无电气功能）",
+      "productId": "p_efdac2ac2a7283ef",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_efdac2ac2a7283ef"
+      ]
+    },
+    {
+      "text": "RFID-Blockerkarte (ohne Chip und Antenne)",
+      "productId": "p_00d7409323320de4",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_00d7409323320de4"
+      ]
+    },
+    {
+      "text": "RFID blocker card (without antenna and chip)",
+      "productId": "p_00d7409323320de4",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_00d7409323320de4"
+      ]
+    },
+    {
+      "text": "RFID 屏蔽卡（无芯片和天线）",
+      "productId": "p_00d7409323320de4",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_00d7409323320de4"
+      ]
+    },
+    {
+      "text": "Kompass, digital",
+      "productId": "p_094da54ed903bbbd",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_094da54ed903bbbd"
+      ]
+    },
+    {
+      "text": "Compass, digital",
+      "productId": "p_094da54ed903bbbd",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_094da54ed903bbbd"
+      ]
+    },
+    {
+      "text": "电子指南针",
+      "productId": "p_094da54ed903bbbd",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_094da54ed903bbbd"
+      ]
+    },
+    {
+      "text": "Wand-Lichtschalter",
+      "productId": "p_a0da97f43296f5e6",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_a0da97f43296f5e6"
+      ]
+    },
+    {
+      "text": "Light switch",
+      "productId": "p_a0da97f43296f5e6",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_a0da97f43296f5e6"
+      ]
+    },
+    {
+      "text": "墙壁照明开关",
+      "productId": "p_a0da97f43296f5e6",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_a0da97f43296f5e6"
+      ]
+    },
+    {
+      "text": "Dynamo für Fahrräder",
+      "productId": "p_8a88116f8d5deb0b",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_8a88116f8d5deb0b"
+      ]
+    },
+    {
+      "text": "Dynamo for bikes",
+      "productId": "p_8a88116f8d5deb0b",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_8a88116f8d5deb0b"
+      ]
+    },
+    {
+      "text": "自行车发电机",
+      "productId": "p_8a88116f8d5deb0b",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_8a88116f8d5deb0b"
+      ]
+    },
+    {
+      "text": "Radiogerät",
+      "productId": "p_61d53f5b2fc58dbe",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_61d53f5b2fc58dbe"
+      ]
+    },
+    {
+      "text": "Radio set",
+      "productId": "p_61d53f5b2fc58dbe",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_61d53f5b2fc58dbe"
+      ]
+    },
+    {
+      "text": "收音机",
+      "productId": "p_61d53f5b2fc58dbe",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_61d53f5b2fc58dbe"
+      ]
+    },
+    {
+      "text": "NFC-Handyhülle",
+      "productId": "p_2a1f3c28d9938008",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_2a1f3c28d9938008"
+      ]
+    },
+    {
+      "text": "Smart Ink Phone Case",
+      "productId": "p_2a1f3c28d9938008",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_2a1f3c28d9938008"
+      ]
+    },
+    {
+      "text": "NFC 手机壳",
+      "productId": "p_2a1f3c28d9938008",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_2a1f3c28d9938008"
+      ]
+    },
+    {
+      "text": "Eingabestift",
+      "productId": "p_617e0f57c9e1bc93",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_617e0f57c9e1bc93"
+      ]
+    },
+    {
+      "text": "Smart pen",
+      "productId": "p_617e0f57c9e1bc93",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_617e0f57c9e1bc93"
+      ]
+    },
+    {
+      "text": "触控笔",
+      "productId": "p_617e0f57c9e1bc93",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_617e0f57c9e1bc93"
+      ]
+    },
+    {
+      "text": "Heizkostenverteiler, elektronisch",
+      "productId": "p_ac96221c5a5b0124",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_ac96221c5a5b0124"
+      ]
+    },
+    {
+      "text": "Heat cost allocator",
+      "productId": "p_ac96221c5a5b0124",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_ac96221c5a5b0124"
+      ]
+    },
+    {
+      "text": "电子热分配表",
+      "productId": "p_ac96221c5a5b0124",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_ac96221c5a5b0124"
+      ]
+    },
+    {
+      "text": "Bodentreppe, elektrisch",
+      "productId": "p_dd05cd591d5c2b19",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_dd05cd591d5c2b19"
+      ]
+    },
+    {
+      "text": "Attic ladder, electric",
+      "productId": "p_dd05cd591d5c2b19",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_dd05cd591d5c2b19"
+      ]
+    },
+    {
+      "text": "电动阁楼梯",
+      "productId": "p_dd05cd591d5c2b19",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_dd05cd591d5c2b19"
+      ]
+    },
+    {
+      "text": "Luftpumpe, elektrisch",
+      "productId": "p_166f69501f322b93",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_166f69501f322b93"
+      ]
+    },
+    {
+      "text": "air pump, electric",
+      "productId": "p_166f69501f322b93",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_166f69501f322b93"
+      ]
+    },
+    {
+      "text": "电动充气泵",
+      "productId": "p_166f69501f322b93",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_166f69501f322b93"
+      ]
+    },
+    {
+      "text": "Plasmakugel",
+      "productId": "p_464f70e842077788",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_464f70e842077788"
+      ]
+    },
+    {
+      "text": "Sensitive plasma globe",
+      "productId": "p_464f70e842077788",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_464f70e842077788"
+      ]
+    },
+    {
+      "text": "等离子球",
+      "productId": "p_464f70e842077788",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_464f70e842077788"
+      ]
+    },
+    {
+      "text": "ITK-Verlängerungskabel",
+      "productId": "p_e9acf6d015eaebb4",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_e9acf6d015eaebb4"
+      ]
+    },
+    {
+      "text": "ITK (extension) cable",
+      "productId": "p_e9acf6d015eaebb4",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_e9acf6d015eaebb4"
+      ]
+    },
+    {
+      "text": "信息通信延长线",
+      "productId": "p_e9acf6d015eaebb4",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_e9acf6d015eaebb4"
+      ]
+    },
+    {
+      "text": "große Antenne",
+      "productId": "p_a9c6ebf21db091bf",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_a9c6ebf21db091bf"
+      ]
+    },
+    {
+      "text": "large Antenna",
+      "productId": "p_a9c6ebf21db091bf",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_a9c6ebf21db091bf"
+      ]
+    },
+    {
+      "text": "大型天线",
+      "productId": "p_a9c6ebf21db091bf",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_a9c6ebf21db091bf"
+      ]
+    },
+    {
+      "text": "Fußheizung",
+      "productId": "p_87cb7575f6669619",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_87cb7575f6669619"
+      ]
+    },
+    {
+      "text": "Heated foot warmer",
+      "productId": "p_87cb7575f6669619",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_87cb7575f6669619"
+      ]
+    },
+    {
+      "text": "暖脚器",
+      "productId": "p_87cb7575f6669619",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_87cb7575f6669619"
+      ]
+    },
+    {
+      "text": "Kassettenspieler",
+      "productId": "p_37dbfe72474263d0",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_37dbfe72474263d0"
+      ]
+    },
+    {
+      "text": "Cassette player",
+      "productId": "p_37dbfe72474263d0",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_37dbfe72474263d0"
+      ]
+    },
+    {
+      "text": "磁带播放机",
+      "productId": "p_37dbfe72474263d0",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_37dbfe72474263d0"
+      ]
+    },
+    {
+      "text": "Vakuumiergerät",
+      "productId": "p_cd4e7700ca1ac0e7",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_cd4e7700ca1ac0e7"
+      ]
+    },
+    {
+      "text": "Vacuum Sealer",
+      "productId": "p_cd4e7700ca1ac0e7",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_cd4e7700ca1ac0e7"
+      ]
+    },
+    {
+      "text": "真空封口机",
+      "productId": "p_cd4e7700ca1ac0e7",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_cd4e7700ca1ac0e7"
+      ]
+    },
+    {
+      "text": "Heizregler",
+      "productId": "p_044fedd3dcb52068",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_044fedd3dcb52068"
+      ]
+    },
+    {
+      "text": "Heating regulator",
+      "productId": "p_044fedd3dcb52068",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_044fedd3dcb52068"
+      ]
+    },
+    {
+      "text": "温控器",
+      "productId": "p_044fedd3dcb52068",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_044fedd3dcb52068"
+      ]
+    },
+    {
+      "text": "Großrechner",
+      "productId": "p_6db04ce0d19bf1b3",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_6db04ce0d19bf1b3"
+      ]
+    },
+    {
+      "text": "Large computer-mainframe",
+      "productId": "p_6db04ce0d19bf1b3",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_6db04ce0d19bf1b3"
+      ]
+    },
+    {
+      "text": "大型计算机（主机）",
+      "productId": "p_6db04ce0d19bf1b3",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_6db04ce0d19bf1b3"
+      ]
+    },
+    {
+      "text": "Kaffeemaschine für Gastronomie",
+      "productId": "p_02a32e79d67be668",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_02a32e79d67be668"
+      ]
+    },
+    {
+      "text": "commercial coffee machine for gastronomy",
+      "productId": "p_02a32e79d67be668",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_02a32e79d67be668"
+      ]
+    },
+    {
+      "text": "商用咖啡机",
+      "productId": "p_02a32e79d67be668",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_02a32e79d67be668"
+      ]
+    },
+    {
+      "text": "Herzschrittmacher",
+      "productId": "p_72600a22ea5baee8",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_72600a22ea5baee8"
+      ]
+    },
+    {
+      "text": "Implantable pace-maker",
+      "productId": "p_72600a22ea5baee8",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_72600a22ea5baee8"
+      ]
+    },
+    {
+      "text": "植入式心脏起搏器",
+      "productId": "p_72600a22ea5baee8",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_72600a22ea5baee8"
+      ]
+    },
+    {
+      "text": "Bedienpult (im Sinn einer Eingabetastatur)",
+      "productId": "p_5736983cc4557d34",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_5736983cc4557d34"
+      ]
+    },
+    {
+      "text": "Operating desk (meaning input keypad)",
+      "productId": "p_5736983cc4557d34",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_5736983cc4557d34"
+      ]
+    },
+    {
+      "text": "操作台（输入键盘）",
+      "productId": "p_5736983cc4557d34",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_5736983cc4557d34"
+      ]
+    },
+    {
+      "text": "Kleingerät für Kfz (z.B. per Plug & Play betriebenes)",
+      "productId": "p_176c6c1969f7f0c2",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_176c6c1969f7f0c2"
+      ]
+    },
+    {
+      "text": "Small appliance for cars (e.g. operated via plug & play)",
+      "productId": "p_176c6c1969f7f0c2",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_176c6c1969f7f0c2"
+      ]
+    },
+    {
+      "text": "车载小型设备（即插即用型）",
+      "productId": "p_176c6c1969f7f0c2",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_176c6c1969f7f0c2"
+      ]
+    },
+    {
+      "text": "RFID-Blockerkarte (mit Chip oder Antenne)",
+      "productId": "p_7061c32ef3d1af48",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_7061c32ef3d1af48"
+      ]
+    },
+    {
+      "text": "RFID blocker cards (with antenna or chip)",
+      "productId": "p_7061c32ef3d1af48",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_7061c32ef3d1af48"
+      ]
+    },
+    {
+      "text": "RFID 屏蔽卡（含芯片或天线）",
+      "productId": "p_7061c32ef3d1af48",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_7061c32ef3d1af48"
+      ]
+    },
+    {
+      "text": "Head-Up-Display",
+      "productId": "p_14367d410f914e0b",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_14367d410f914e0b"
+      ]
+    },
+    {
+      "text": "Head-up display",
+      "productId": "p_14367d410f914e0b",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_14367d410f914e0b"
+      ]
+    },
+    {
+      "text": "抬头显示器（HUD）",
+      "productId": "p_14367d410f914e0b",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_14367d410f914e0b"
+      ]
+    },
+    {
+      "text": "Softairwaffe, elektrisch",
+      "productId": "p_387c46dfc543112e",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_387c46dfc543112e"
+      ]
+    },
+    {
+      "text": "Airsoft gun, electric",
+      "productId": "p_387c46dfc543112e",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_387c46dfc543112e"
+      ]
+    },
+    {
+      "text": "电动软弹枪",
+      "productId": "p_387c46dfc543112e",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_387c46dfc543112e"
+      ]
+    },
+    {
+      "text": "Gaming-Headset",
+      "productId": "p_6828aac7dc249b48",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_6828aac7dc249b48"
+      ]
+    },
+    {
+      "text": "Gaming headset",
+      "productId": "p_6828aac7dc249b48",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_6828aac7dc249b48"
+      ]
+    },
+    {
+      "text": "游戏耳机",
+      "productId": "p_6828aac7dc249b48",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_6828aac7dc249b48"
+      ]
+    },
+    {
+      "text": "Wetterstation",
+      "productId": "p_ccf7b597d127d72c",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_ccf7b597d127d72c"
+      ]
+    },
+    {
+      "text": "Weather station",
+      "productId": "p_ccf7b597d127d72c",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_ccf7b597d127d72c"
+      ]
+    },
+    {
+      "text": "气象站",
+      "productId": "p_ccf7b597d127d72c",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_ccf7b597d127d72c"
+      ]
+    },
+    {
+      "text": "Lärm-Ampel",
+      "productId": "p_5058a105610ac4b3",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_5058a105610ac4b3"
+      ]
+    },
+    {
+      "text": "Noise lights",
+      "productId": "p_5058a105610ac4b3",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_5058a105610ac4b3"
+      ]
+    },
+    {
+      "text": "噪音指示灯",
+      "productId": "p_5058a105610ac4b3",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_5058a105610ac4b3"
+      ]
+    },
+    {
+      "text": "Dashcam",
+      "productId": "p_998340959606c404",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_998340959606c404"
+      ]
+    },
+    {
+      "text": "行车记录仪",
+      "productId": "p_998340959606c404",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_998340959606c404"
+      ]
+    },
+    {
+      "text": "Badethermometer",
+      "productId": "p_dee91136b65c85e4",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_dee91136b65c85e4"
+      ]
+    },
+    {
+      "text": "Shower thermometer",
+      "productId": "p_dee91136b65c85e4",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_dee91136b65c85e4"
+      ]
+    },
+    {
+      "text": "沐浴水温计",
+      "productId": "p_dee91136b65c85e4",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_dee91136b65c85e4"
+      ]
+    },
+    {
+      "text": "Lichtsignalanlage",
+      "productId": "p_258d307193ff152c",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_258d307193ff152c"
+      ]
+    },
+    {
+      "text": "Traffic lights",
+      "productId": "p_258d307193ff152c",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_258d307193ff152c"
+      ]
+    },
+    {
+      "text": "交通信号灯",
+      "productId": "p_258d307193ff152c",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_258d307193ff152c"
+      ]
+    },
+    {
+      "text": "Satfinder",
+      "productId": "p_46a61417b8835f66",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_46a61417b8835f66"
+      ]
+    },
+    {
+      "text": "Satellite finder",
+      "productId": "p_46a61417b8835f66",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_46a61417b8835f66"
+      ]
+    },
+    {
+      "text": "卫星寻星仪",
+      "productId": "p_46a61417b8835f66",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_46a61417b8835f66"
+      ]
+    },
+    {
+      "text": "Dartscheibe, elektronisch",
+      "productId": "p_f715470074b5f65f",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_f715470074b5f65f"
+      ]
+    },
+    {
+      "text": "Dartboard, electronic",
+      "productId": "p_f715470074b5f65f",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_f715470074b5f65f"
+      ]
+    },
+    {
+      "text": "电子飞镖盘",
+      "productId": "p_f715470074b5f65f",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_f715470074b5f65f"
+      ]
+    },
+    {
+      "text": "Behandlungsliege",
+      "productId": "p_9f663169558e42ea",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_9f663169558e42ea"
+      ]
+    },
+    {
+      "text": "Treatment bed",
+      "productId": "p_9f663169558e42ea",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_9f663169558e42ea"
+      ]
+    },
+    {
+      "text": "诊疗床",
+      "productId": "p_9f663169558e42ea",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_9f663169558e42ea"
+      ]
+    },
+    {
+      "text": "Smart-Teleskop",
+      "productId": "p_be28691aa56f3c28",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_be28691aa56f3c28"
+      ]
+    },
+    {
+      "text": "Smart telescope",
+      "productId": "p_be28691aa56f3c28",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_be28691aa56f3c28"
+      ]
+    },
+    {
+      "text": "智能望远镜",
+      "productId": "p_be28691aa56f3c28",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_be28691aa56f3c28"
+      ]
+    },
+    {
+      "text": "Handkraftmessgerät",
+      "productId": "p_7098602b4ae8e660",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_7098602b4ae8e660"
+      ]
+    },
+    {
+      "text": "Grip strength trainer",
+      "productId": "p_7098602b4ae8e660",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_7098602b4ae8e660"
+      ]
+    },
+    {
+      "text": "握力计",
+      "productId": "p_7098602b4ae8e660",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_7098602b4ae8e660"
+      ]
+    },
+    {
+      "text": "Unterwasserscooter",
+      "productId": "p_5b6c950f1d508f69",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_5b6c950f1d508f69"
+      ]
+    },
+    {
+      "text": "Underwater scooter",
+      "productId": "p_5b6c950f1d508f69",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_5b6c950f1d508f69"
+      ]
+    },
+    {
+      "text": "水下推进器",
+      "productId": "p_5b6c950f1d508f69",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_5b6c950f1d508f69"
+      ]
+    },
+    {
+      "text": "Metalldetektor",
+      "productId": "p_2ed62f7d2559812d",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_2ed62f7d2559812d"
+      ]
+    },
+    {
+      "text": "Metal detector",
+      "productId": "p_2ed62f7d2559812d",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_2ed62f7d2559812d"
+      ]
+    },
+    {
+      "text": "金属探测器",
+      "productId": "p_2ed62f7d2559812d",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_2ed62f7d2559812d"
+      ]
+    },
+    {
+      "text": "Osmoseanlage",
+      "productId": "p_e7d3fb5deacbf326",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_e7d3fb5deacbf326"
+      ]
+    },
+    {
+      "text": "Osmosis system",
+      "productId": "p_e7d3fb5deacbf326",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_e7d3fb5deacbf326"
+      ]
+    },
+    {
+      "text": "反渗透净水系统",
+      "productId": "p_e7d3fb5deacbf326",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_e7d3fb5deacbf326"
+      ]
+    },
+    {
+      "text": "Gegenstromanlage",
+      "productId": "p_4ed2936f4731b155",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_4ed2936f4731b155"
+      ]
+    },
+    {
+      "text": "Swimming pool current machine",
+      "productId": "p_4ed2936f4731b155",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_4ed2936f4731b155"
+      ]
+    },
+    {
+      "text": "泳池逆流训练器",
+      "productId": "p_4ed2936f4731b155",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_4ed2936f4731b155"
+      ]
+    },
+    {
+      "text": "Marderschreck",
+      "productId": "p_1e681931046aecf5",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_1e681931046aecf5"
+      ]
+    },
+    {
+      "text": "Ultrasonic rodent repeller",
+      "productId": "p_1e681931046aecf5",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_1e681931046aecf5"
+      ]
+    },
+    {
+      "text": "超声波驱鼠器",
+      "productId": "p_1e681931046aecf5",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_1e681931046aecf5"
+      ]
+    },
+    {
+      "text": "Küchenabfallzerkleinerer",
+      "productId": "p_17f8b7f42405cc14",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_17f8b7f42405cc14"
+      ]
+    },
+    {
+      "text": "Kitchen composter",
+      "productId": "p_17f8b7f42405cc14",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_17f8b7f42405cc14"
+      ]
+    },
+    {
+      "text": "厨余垃圾处理器",
+      "productId": "p_17f8b7f42405cc14",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_17f8b7f42405cc14"
+      ]
+    },
+    {
+      "text": "Windgenerator",
+      "productId": "p_e370bdd89260604a",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_e370bdd89260604a"
+      ]
+    },
+    {
+      "text": "Wind turbine generator",
+      "productId": "p_e370bdd89260604a",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_e370bdd89260604a"
+      ]
+    },
+    {
+      "text": "风力发电机",
+      "productId": "p_e370bdd89260604a",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_e370bdd89260604a"
+      ]
+    },
+    {
+      "text": "LED-Ballon",
+      "productId": "p_d03cff568a90b52f",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_d03cff568a90b52f"
+      ]
+    },
+    {
+      "text": "LED balloon",
+      "productId": "p_d03cff568a90b52f",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_d03cff568a90b52f"
+      ]
+    },
+    {
+      "text": "LED 气球",
+      "productId": "p_d03cff568a90b52f",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_d03cff568a90b52f"
+      ]
+    },
+    {
+      "text": "LED-Leuchthalsband",
+      "productId": "p_bd5969a04ddca60c",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_bd5969a04ddca60c"
+      ]
+    },
+    {
+      "text": "LED collar",
+      "productId": "p_bd5969a04ddca60c",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_bd5969a04ddca60c"
+      ]
+    },
+    {
+      "text": "LED 发光项圈",
+      "productId": "p_bd5969a04ddca60c",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_bd5969a04ddca60c"
+      ]
+    },
+    {
+      "text": "Videokassette",
+      "productId": "p_382f7de4177ecd87",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_382f7de4177ecd87"
+      ]
+    },
+    {
+      "text": "Video cassette",
+      "productId": "p_382f7de4177ecd87",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_382f7de4177ecd87"
+      ]
+    },
+    {
+      "text": "录像带",
+      "productId": "p_382f7de4177ecd87",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_382f7de4177ecd87"
+      ]
+    },
+    {
+      "text": "Hardware-Server",
+      "productId": "p_217b77f174d6004f",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_217b77f174d6004f"
+      ]
+    },
+    {
+      "text": "硬件服务器",
+      "productId": "p_217b77f174d6004f",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_217b77f174d6004f"
+      ]
+    },
+    {
+      "text": "Hausnotruf",
+      "productId": "p_5fd58a533d194529",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_5fd58a533d194529"
+      ]
+    },
+    {
+      "text": "Emergency button",
+      "productId": "p_5fd58a533d194529",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_5fd58a533d194529"
+      ]
+    },
+    {
+      "text": "居家紧急呼叫器",
+      "productId": "p_5fd58a533d194529",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_5fd58a533d194529"
+      ]
+    },
+    {
+      "text": "Tastaturpedal",
+      "productId": "p_a3dc0746d3b43ce0",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_a3dc0746d3b43ce0"
+      ]
+    },
+    {
+      "text": "Hands-Free studio controller",
+      "productId": "p_a3dc0746d3b43ce0",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_a3dc0746d3b43ce0"
+      ]
+    },
+    {
+      "text": "脚踏控制器",
+      "productId": "p_a3dc0746d3b43ce0",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_a3dc0746d3b43ce0"
+      ]
+    },
+    {
+      "text": "Gegensprechanlage",
+      "productId": "p_b8c5206c2f4f8f76",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_b8c5206c2f4f8f76"
+      ]
+    },
+    {
+      "text": "Intercom system",
+      "productId": "p_b8c5206c2f4f8f76",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_b8c5206c2f4f8f76"
+      ]
+    },
+    {
+      "text": "对讲系统",
+      "productId": "p_b8c5206c2f4f8f76",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_b8c5206c2f4f8f76"
+      ]
+    },
+    {
+      "text": "Massagegerät",
+      "productId": "p_17edf51344c0c71a",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_17edf51344c0c71a"
+      ]
+    },
+    {
+      "text": "Massager",
+      "productId": "p_17edf51344c0c71a",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_17edf51344c0c71a"
+      ]
+    },
+    {
+      "text": "按摩器",
+      "productId": "p_17edf51344c0c71a",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_17edf51344c0c71a"
+      ]
+    },
+    {
+      "text": "数码相机（Kamera）",
+      "productId": "p_ff127f31936f3ef0",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_ff127f31936f3ef0"
+      ]
+    },
+    {
+      "text": "Behandlungseinheit",
+      "productId": "p_995d64bbeb1a1d8b",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_995d64bbeb1a1d8b"
+      ]
+    },
+    {
+      "text": "treatment unit",
+      "productId": "p_995d64bbeb1a1d8b",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_995d64bbeb1a1d8b"
+      ]
+    },
+    {
+      "text": "综合治疗台",
+      "productId": "p_995d64bbeb1a1d8b",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_995d64bbeb1a1d8b"
+      ]
+    },
+    {
+      "text": "Atemtester",
+      "productId": "p_1eae156cb4f87db3",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_1eae156cb4f87db3"
+      ]
+    },
+    {
+      "text": "Breathalyzer",
+      "productId": "p_1eae156cb4f87db3",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_1eae156cb4f87db3"
+      ]
+    },
+    {
+      "text": "酒精呼气测试仪",
+      "productId": "p_1eae156cb4f87db3",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_1eae156cb4f87db3"
+      ]
+    },
+    {
+      "text": "Blutzapper",
+      "productId": "p_8831c13fdc4989df",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_8831c13fdc4989df"
+      ]
+    },
+    {
+      "text": "blood zapper",
+      "productId": "p_8831c13fdc4989df",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_8831c13fdc4989df"
+      ]
+    },
+    {
+      "text": "血液电疗仪",
+      "productId": "p_8831c13fdc4989df",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_8831c13fdc4989df"
+      ]
+    },
+    {
+      "text": "Wachsstation",
+      "productId": "p_714f63fa932528f2",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_714f63fa932528f2"
+      ]
+    },
+    {
+      "text": "Waxing kit",
+      "productId": "p_714f63fa932528f2",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_714f63fa932528f2"
+      ]
+    },
+    {
+      "text": "脱毛蜡疗机",
+      "productId": "p_714f63fa932528f2",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_714f63fa932528f2"
+      ]
+    },
+    {
+      "text": "Maulwurfvertreiber",
+      "productId": "p_c4452e04fec4abb2",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_c4452e04fec4abb2"
+      ]
+    },
+    {
+      "text": "Mole repellent",
+      "productId": "p_c4452e04fec4abb2",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_c4452e04fec4abb2"
+      ]
+    },
+    {
+      "text": "驱鼹鼠器",
+      "productId": "p_c4452e04fec4abb2",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_c4452e04fec4abb2"
+      ]
+    },
+    {
+      "text": "Wasserionisator",
+      "productId": "p_907ccd9d3bd94589",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_907ccd9d3bd94589"
+      ]
+    },
+    {
+      "text": "Water ionizer",
+      "productId": "p_907ccd9d3bd94589",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_907ccd9d3bd94589"
+      ]
+    },
+    {
+      "text": "离子水机",
+      "productId": "p_907ccd9d3bd94589",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_907ccd9d3bd94589"
+      ]
+    },
+    {
+      "text": "DVI-Kabel",
+      "productId": "p_56dad26c14e8e81a",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_56dad26c14e8e81a"
+      ]
+    },
+    {
+      "text": "DVI cable",
+      "productId": "p_56dad26c14e8e81a",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_56dad26c14e8e81a"
+      ]
+    },
+    {
+      "text": "DVI 线",
+      "productId": "p_56dad26c14e8e81a",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_56dad26c14e8e81a"
+      ]
+    },
+    {
+      "text": "Bodenschleifmaschine",
+      "productId": "p_f2a533b3d2e2c77a",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_f2a533b3d2e2c77a"
+      ]
+    },
+    {
+      "text": "Floor grinding machine",
+      "productId": "p_f2a533b3d2e2c77a",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_f2a533b3d2e2c77a"
+      ]
+    },
+    {
+      "text": "地面打磨机",
+      "productId": "p_f2a533b3d2e2c77a",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_f2a533b3d2e2c77a"
+      ]
+    },
+    {
+      "text": "Poliermaschine",
+      "productId": "p_5c804ff598fa0b4d",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_5c804ff598fa0b4d"
+      ]
+    },
+    {
+      "text": "Polishing machine",
+      "productId": "p_5c804ff598fa0b4d",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_5c804ff598fa0b4d"
+      ]
+    },
+    {
+      "text": "抛光机",
+      "productId": "p_5c804ff598fa0b4d",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_5c804ff598fa0b4d"
+      ]
+    },
+    {
+      "text": "Küchenmaschine",
+      "productId": "p_190c26f8248797f4",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_190c26f8248797f4"
+      ]
+    },
+    {
+      "text": "Kitchen machine",
+      "productId": "p_190c26f8248797f4",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_190c26f8248797f4"
+      ]
+    },
+    {
+      "text": "厨师机（多功能料理机）",
+      "productId": "p_190c26f8248797f4",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_190c26f8248797f4"
+      ]
+    },
+    {
+      "text": "SIM-Karte",
+      "productId": "p_59e141f57b51b814",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_59e141f57b51b814"
+      ]
+    },
+    {
+      "text": "SIM card",
+      "productId": "p_59e141f57b51b814",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_59e141f57b51b814"
+      ]
+    },
+    {
+      "text": "SIM 卡",
+      "productId": "p_59e141f57b51b814",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_59e141f57b51b814"
+      ]
+    },
+    {
+      "text": "Starthilfekabel",
+      "productId": "p_0fd2948f90f13096",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_0fd2948f90f13096"
+      ]
+    },
+    {
+      "text": "Jumper cable",
+      "productId": "p_0fd2948f90f13096",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_0fd2948f90f13096"
+      ]
+    },
+    {
+      "text": "汽车搭电线",
+      "productId": "p_0fd2948f90f13096",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_0fd2948f90f13096"
+      ]
+    },
+    {
+      "text": "Smarter Stromzählersensor",
+      "productId": "p_db1fbcfa5084967c",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_db1fbcfa5084967c"
+      ]
+    },
+    {
+      "text": "WiFi Smart Meter",
+      "productId": "p_db1fbcfa5084967c",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_db1fbcfa5084967c"
+      ]
+    },
+    {
+      "text": "智能电表传感器",
+      "productId": "p_db1fbcfa5084967c",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_db1fbcfa5084967c"
+      ]
+    },
+    {
+      "text": "Touchscreen-Kassensystem",
+      "productId": "p_0d18345fd4bb6cfa",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_0d18345fd4bb6cfa"
+      ]
+    },
+    {
+      "text": "Touchscreen cash register",
+      "productId": "p_0d18345fd4bb6cfa",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_0d18345fd4bb6cfa"
+      ]
+    },
+    {
+      "text": "触屏收银系统",
+      "productId": "p_0d18345fd4bb6cfa",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_0d18345fd4bb6cfa"
+      ]
+    },
+    {
+      "text": "Wanzenfinder",
+      "productId": "p_bd8d0852b8e4956b",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_bd8d0852b8e4956b"
+      ]
+    },
+    {
+      "text": "Anti Spy Detector",
+      "productId": "p_bd8d0852b8e4956b",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_bd8d0852b8e4956b"
+      ]
+    },
+    {
+      "text": "反窃听探测器",
+      "productId": "p_bd8d0852b8e4956b",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_bd8d0852b8e4956b"
+      ]
+    },
+    {
+      "text": "Kabelschuh",
+      "productId": "p_0c4dfdd808f27f50",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_0c4dfdd808f27f50"
+      ]
+    },
+    {
+      "text": "Crimp Terminal",
+      "productId": "p_0c4dfdd808f27f50",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_0c4dfdd808f27f50"
+      ]
+    },
+    {
+      "text": "接线端子",
+      "productId": "p_0c4dfdd808f27f50",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_0c4dfdd808f27f50"
+      ]
+    },
+    {
+      "text": "Qi-Ladegerät",
+      "productId": "p_cf76481bd0d8bfc0",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_cf76481bd0d8bfc0"
+      ]
+    },
+    {
+      "text": "wireless charger",
+      "productId": "p_cf76481bd0d8bfc0",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_cf76481bd0d8bfc0"
+      ]
+    },
+    {
+      "text": "无线充电器（Qi）",
+      "productId": "p_cf76481bd0d8bfc0",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_cf76481bd0d8bfc0"
+      ]
+    },
+    {
+      "text": "3D-Scanner",
+      "productId": "p_b060aa7e7bde0464",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_b060aa7e7bde0464"
+      ]
+    },
+    {
+      "text": "3D scanner",
+      "productId": "p_b060aa7e7bde0464",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_b060aa7e7bde0464"
+      ]
+    },
+    {
+      "text": "3D 扫描仪",
+      "productId": "p_b060aa7e7bde0464",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_b060aa7e7bde0464"
+      ]
+    },
+    {
+      "text": "Leitungsschutzschalter",
+      "productId": "p_b2d131a380cb530f",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_b2d131a380cb530f"
+      ]
+    },
+    {
+      "text": "Circuit breaker",
+      "productId": "p_b2d131a380cb530f",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_b2d131a380cb530f"
+      ]
+    },
+    {
+      "text": "断路器",
+      "productId": "p_b2d131a380cb530f",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_b2d131a380cb530f"
+      ]
+    },
+    {
+      "text": "Wand-Steckdose",
+      "productId": "p_f80cd3fe5a04ecf4",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_f80cd3fe5a04ecf4"
+      ]
+    },
+    {
+      "text": "Wall Socket",
+      "productId": "p_f80cd3fe5a04ecf4",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_f80cd3fe5a04ecf4"
+      ]
+    },
+    {
+      "text": "墙壁插座",
+      "productId": "p_f80cd3fe5a04ecf4",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_f80cd3fe5a04ecf4"
+      ]
+    },
+    {
+      "text": "Wasserenthärter",
+      "productId": "p_c596e1a03916b297",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_c596e1a03916b297"
+      ]
+    },
+    {
+      "text": "Water softener",
+      "productId": "p_c596e1a03916b297",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_c596e1a03916b297"
+      ]
+    },
+    {
+      "text": "软水机",
+      "productId": "p_c596e1a03916b297",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_c596e1a03916b297"
+      ]
+    },
+    {
+      "text": "Glühlampe",
+      "productId": "p_d23a01ee3b29869e",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_d23a01ee3b29869e"
+      ]
+    },
+    {
+      "text": "Filament bulb",
+      "productId": "p_d23a01ee3b29869e",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_d23a01ee3b29869e"
+      ]
+    },
+    {
+      "text": "白炽灯泡",
+      "productId": "p_d23a01ee3b29869e",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_d23a01ee3b29869e"
+      ]
+    },
+    {
+      "text": "Relais",
+      "productId": "p_5d15b1f45e7d76c5",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_5d15b1f45e7d76c5"
+      ]
+    },
+    {
+      "text": "relay",
+      "productId": "p_5d15b1f45e7d76c5",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_5d15b1f45e7d76c5"
+      ]
+    },
+    {
+      "text": "继电器",
+      "productId": "p_5d15b1f45e7d76c5",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_5d15b1f45e7d76c5"
+      ]
+    },
+    {
+      "text": "Nähmaschine",
+      "productId": "p_21a6d1122f946ab9",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_21a6d1122f946ab9"
+      ]
+    },
+    {
+      "text": "Sewing Machine",
+      "productId": "p_21a6d1122f946ab9",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_21a6d1122f946ab9"
+      ]
+    },
+    {
+      "text": "缝纫机",
+      "productId": "p_21a6d1122f946ab9",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_21a6d1122f946ab9"
+      ]
+    },
+    {
+      "text": "Gastherme",
+      "productId": "p_dc16e95f6546b347",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_dc16e95f6546b347"
+      ]
+    },
+    {
+      "text": "Gas boiler",
+      "productId": "p_dc16e95f6546b347",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_dc16e95f6546b347"
+      ]
+    },
+    {
+      "text": "燃气壁挂炉",
+      "productId": "p_dc16e95f6546b347",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_dc16e95f6546b347"
+      ]
+    },
+    {
+      "text": "E-Zigarette",
+      "productId": "p_4310c4cfd039170a",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_4310c4cfd039170a"
+      ]
+    },
+    {
+      "text": "Electronic cigarette",
+      "productId": "p_4310c4cfd039170a",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_4310c4cfd039170a"
+      ]
+    },
+    {
+      "text": "电子烟",
+      "productId": "p_4310c4cfd039170a",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_4310c4cfd039170a"
+      ]
+    },
+    {
+      "text": "Navigationsgerät",
+      "productId": "p_5171ce75f99283bd",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_5171ce75f99283bd"
+      ]
+    },
+    {
+      "text": "Navigation device",
+      "productId": "p_5171ce75f99283bd",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_5171ce75f99283bd"
+      ]
+    },
+    {
+      "text": "导航仪",
+      "productId": "p_5171ce75f99283bd",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_5171ce75f99283bd"
+      ]
+    },
+    {
+      "text": "LED-Lampe",
+      "productId": "p_09b879a1c8585c97",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_09b879a1c8585c97"
+      ]
+    },
+    {
+      "text": "LED lamp",
+      "productId": "p_09b879a1c8585c97",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_09b879a1c8585c97"
+      ]
+    },
+    {
+      "text": "LED 灯",
+      "productId": "p_09b879a1c8585c97",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_09b879a1c8585c97"
+      ]
+    },
+    {
+      "text": "Hoverboard",
+      "productId": "p_084c99278df28142",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_084c99278df28142"
+      ]
+    },
+    {
+      "text": "平衡车",
+      "productId": "p_084c99278df28142",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_084c99278df28142"
+      ]
+    },
+    {
+      "text": "Projektionsleinwand",
+      "productId": "p_395b5b2cf5789e3d",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_395b5b2cf5789e3d"
+      ]
+    },
+    {
+      "text": "Projector screen",
+      "productId": "p_395b5b2cf5789e3d",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_395b5b2cf5789e3d"
+      ]
+    },
+    {
+      "text": "投影幕布",
+      "productId": "p_395b5b2cf5789e3d",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_395b5b2cf5789e3d"
+      ]
+    },
+    {
+      "text": "Kochplatte",
+      "productId": "p_c41957feb802c29a",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_c41957feb802c29a"
+      ]
+    },
+    {
+      "text": "Hot plate",
+      "productId": "p_c41957feb802c29a",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_c41957feb802c29a"
+      ]
+    },
+    {
+      "text": "电热炉盘",
+      "productId": "p_c41957feb802c29a",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_c41957feb802c29a"
+      ]
+    },
+    {
+      "text": "Antenne",
+      "productId": "p_8e854da51408f737",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_8e854da51408f737"
+      ]
+    },
+    {
+      "text": "Antenna",
+      "productId": "p_8e854da51408f737",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_8e854da51408f737"
+      ]
+    },
+    {
+      "text": "天线",
+      "productId": "p_8e854da51408f737",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_8e854da51408f737"
+      ]
+    },
+    {
+      "text": "Anti-Akne-Stift",
+      "productId": "p_3b292f3136f607ae",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_3b292f3136f607ae"
+      ]
+    },
+    {
+      "text": "Anti-acne pen",
+      "productId": "p_3b292f3136f607ae",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_3b292f3136f607ae"
+      ]
+    },
+    {
+      "text": "祛痘笔",
+      "productId": "p_3b292f3136f607ae",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_3b292f3136f607ae"
+      ]
+    },
+    {
+      "text": "Fahrradträger, elektrisch",
+      "productId": "p_6e938530247426f0",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_6e938530247426f0"
+      ]
+    },
+    {
+      "text": "Bike rack, electric",
+      "productId": "p_6e938530247426f0",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_6e938530247426f0"
+      ]
+    },
+    {
+      "text": "电动自行车架",
+      "productId": "p_6e938530247426f0",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_6e938530247426f0"
+      ]
+    },
+    {
+      "text": "Netzteil, außer PC-Netzteil",
+      "productId": "p_9b4bf058722d40c9",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_9b4bf058722d40c9"
+      ]
+    },
+    {
+      "text": "AC adapter, except power supply of personal computers",
+      "productId": "p_9b4bf058722d40c9",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_9b4bf058722d40c9"
+      ]
+    },
+    {
+      "text": "电源适配器（不含电脑电源）",
+      "productId": "p_9b4bf058722d40c9",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_9b4bf058722d40c9"
+      ]
+    },
+    {
+      "text": "Katzentoilette",
+      "productId": "p_9c1114c69621cd62",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_9c1114c69621cd62"
+      ]
+    },
+    {
+      "text": "Cat litter tray",
+      "productId": "p_9c1114c69621cd62",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_9c1114c69621cd62"
+      ]
+    },
+    {
+      "text": "电动猫砂盆",
+      "productId": "p_9c1114c69621cd62",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_9c1114c69621cd62"
+      ]
+    },
+    {
+      "text": "Laser-Entfernungsmesser",
+      "productId": "p_4c40acf9b4c3fe2f",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_4c40acf9b4c3fe2f"
+      ]
+    },
+    {
+      "text": "Laser measure device",
+      "productId": "p_4c40acf9b4c3fe2f",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_4c40acf9b4c3fe2f"
+      ]
+    },
+    {
+      "text": "激光测距仪",
+      "productId": "p_4c40acf9b4c3fe2f",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_4c40acf9b4c3fe2f"
+      ]
+    },
+    {
+      "text": "Alarmsirene",
+      "productId": "p_c5b994b57472c5a1",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_c5b994b57472c5a1"
+      ]
+    },
+    {
+      "text": "Security siren",
+      "productId": "p_c5b994b57472c5a1",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_c5b994b57472c5a1"
+      ]
+    },
+    {
+      "text": "警报器",
+      "productId": "p_c5b994b57472c5a1",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_c5b994b57472c5a1"
+      ]
+    },
+    {
+      "text": "Hausalarm",
+      "productId": "p_9d536109d90ef597",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_9d536109d90ef597"
+      ]
+    },
+    {
+      "text": "Home alarm system",
+      "productId": "p_9d536109d90ef597",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_9d536109d90ef597"
+      ]
+    },
+    {
+      "text": "家庭报警系统",
+      "productId": "p_9d536109d90ef597",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_9d536109d90ef597"
+      ]
+    },
+    {
+      "text": "Winkelmesser, digital",
+      "productId": "p_fc0fe56db42a822b",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_fc0fe56db42a822b"
+      ]
+    },
+    {
+      "text": "Angle finder, digital",
+      "productId": "p_fc0fe56db42a822b",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_fc0fe56db42a822b"
+      ]
+    },
+    {
+      "text": "数显角度尺",
+      "productId": "p_fc0fe56db42a822b",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_fc0fe56db42a822b"
+      ]
+    },
+    {
+      "text": "Spannungsprüfer",
+      "productId": "p_d2ef48deea2269a9",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_d2ef48deea2269a9"
+      ]
+    },
+    {
+      "text": "Voltage tester",
+      "productId": "p_d2ef48deea2269a9",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_d2ef48deea2269a9"
+      ]
+    },
+    {
+      "text": "验电笔",
+      "productId": "p_d2ef48deea2269a9",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_d2ef48deea2269a9"
+      ]
+    },
+    {
+      "text": "Winkekatze",
+      "productId": "p_aa1f9e57633b6e5b",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_aa1f9e57633b6e5b"
+      ]
+    },
+    {
+      "text": "Waving cat",
+      "productId": "p_aa1f9e57633b6e5b",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_aa1f9e57633b6e5b"
+      ]
+    },
+    {
+      "text": "电动招财猫",
+      "productId": "p_aa1f9e57633b6e5b",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_aa1f9e57633b6e5b"
+      ]
+    },
+    {
+      "text": "Kartenmischmaschine",
+      "productId": "p_e44d8f175999637a",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_e44d8f175999637a"
+      ]
+    },
+    {
+      "text": "Automatic card shuffler",
+      "productId": "p_e44d8f175999637a",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_e44d8f175999637a"
+      ]
+    },
+    {
+      "text": "自动洗牌机",
+      "productId": "p_e44d8f175999637a",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_e44d8f175999637a"
+      ]
+    },
+    {
+      "text": "Strasskolben",
+      "productId": "p_4394f7d9c200f97e",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_4394f7d9c200f97e"
+      ]
+    },
+    {
+      "text": "Hotfix applicator",
+      "productId": "p_4394f7d9c200f97e",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_4394f7d9c200f97e"
+      ]
+    },
+    {
+      "text": "烫钻器",
+      "productId": "p_4394f7d9c200f97e",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_4394f7d9c200f97e"
+      ]
+    },
+    {
+      "text": "Laternenstab mit LED",
+      "productId": "p_5036ddc2a1a6470e",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_5036ddc2a1a6470e"
+      ]
+    },
+    {
+      "text": "Handheld lantern",
+      "productId": "p_5036ddc2a1a6470e",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_5036ddc2a1a6470e"
+      ]
+    },
+    {
+      "text": "LED 手持灯笼棒",
+      "productId": "p_5036ddc2a1a6470e",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_5036ddc2a1a6470e"
+      ]
+    },
+    {
+      "text": "Beamerlampe (LED)",
+      "productId": "p_cdae27a63e779cac",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_cdae27a63e779cac"
+      ]
+    },
+    {
+      "text": "Projector lamp (LED)",
+      "productId": "p_cdae27a63e779cac",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_cdae27a63e779cac"
+      ]
+    },
+    {
+      "text": "投影机灯泡（LED）",
+      "productId": "p_cdae27a63e779cac",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_cdae27a63e779cac"
+      ]
+    },
+    {
+      "text": "Industriekamera",
+      "productId": "p_1ee35cc7f1ff77ed",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_1ee35cc7f1ff77ed"
+      ]
+    },
+    {
+      "text": "Industrial camera",
+      "productId": "p_1ee35cc7f1ff77ed",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_1ee35cc7f1ff77ed"
+      ]
+    },
+    {
+      "text": "工业相机",
+      "productId": "p_1ee35cc7f1ff77ed",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_1ee35cc7f1ff77ed"
+      ]
+    },
+    {
+      "text": "Ozongenerator",
+      "productId": "p_45a94ca174cc51b9",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_45a94ca174cc51b9"
+      ]
+    },
+    {
+      "text": "Ozone generator",
+      "productId": "p_45a94ca174cc51b9",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_45a94ca174cc51b9"
+      ]
+    },
+    {
+      "text": "臭氧发生器",
+      "productId": "p_45a94ca174cc51b9",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_45a94ca174cc51b9"
+      ]
+    },
+    {
+      "text": "Bioresonanzgerät",
+      "productId": "p_6ab585f07b0e1f64",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_6ab585f07b0e1f64"
+      ]
+    },
+    {
+      "text": "Bio resonance analyzer",
+      "productId": "p_6ab585f07b0e1f64",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_6ab585f07b0e1f64"
+      ]
+    },
+    {
+      "text": "生物共振分析仪",
+      "productId": "p_6ab585f07b0e1f64",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_6ab585f07b0e1f64"
+      ]
+    },
+    {
+      "text": "Headset für Piloten",
+      "productId": "p_279484979622218b",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_279484979622218b"
+      ]
+    },
+    {
+      "text": "Aviation headset",
+      "productId": "p_279484979622218b",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_279484979622218b"
+      ]
+    },
+    {
+      "text": "航空耳机",
+      "productId": "p_279484979622218b",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_279484979622218b"
+      ]
+    },
+    {
+      "text": "Allesschneider",
+      "productId": "p_20f2c74091f859a8",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_20f2c74091f859a8"
+      ]
+    },
+    {
+      "text": "Food slicer",
+      "productId": "p_20f2c74091f859a8",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_20f2c74091f859a8"
+      ]
+    },
+    {
+      "text": "电动切片机",
+      "productId": "p_20f2c74091f859a8",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_20f2c74091f859a8"
+      ]
+    },
+    {
+      "text": "Chiplesegerät Haustier",
+      "productId": "p_830f283d210b27ab",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_830f283d210b27ab"
+      ]
+    },
+    {
+      "text": "Pet microchip scanner",
+      "productId": "p_830f283d210b27ab",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_830f283d210b27ab"
+      ]
+    },
+    {
+      "text": "宠物芯片读取器",
+      "productId": "p_830f283d210b27ab",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_830f283d210b27ab"
+      ]
+    },
+    {
+      "text": "Konferenzspinne",
+      "productId": "p_78c9c8dc1e13250a",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_78c9c8dc1e13250a"
+      ]
+    },
+    {
+      "text": "Omnidirectional Conference Speaker",
+      "productId": "p_78c9c8dc1e13250a",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_78c9c8dc1e13250a"
+      ]
+    },
+    {
+      "text": "全向会议麦克风",
+      "productId": "p_78c9c8dc1e13250a",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_78c9c8dc1e13250a"
+      ]
+    },
+    {
+      "text": "Barcodescanner",
+      "productId": "p_9e28dfbe41ed3353",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_9e28dfbe41ed3353"
+      ]
+    },
+    {
+      "text": "Barcode (QR Code) Reader",
+      "productId": "p_9e28dfbe41ed3353",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_9e28dfbe41ed3353"
+      ]
+    },
+    {
+      "text": "条码扫描器（Barcodescanner）",
+      "productId": "p_9e28dfbe41ed3353",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_9e28dfbe41ed3353"
+      ]
+    },
+    {
+      "text": "Mikroschalter",
+      "productId": "p_069ec02245353dbb",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_069ec02245353dbb"
+      ]
+    },
+    {
+      "text": "Micro switch",
+      "productId": "p_069ec02245353dbb",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_069ec02245353dbb"
+      ]
+    },
+    {
+      "text": "微动开关",
+      "productId": "p_069ec02245353dbb",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_069ec02245353dbb"
+      ]
+    },
+    {
+      "text": "Registrierkasse",
+      "productId": "p_cdd962939f62425d",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_cdd962939f62425d"
+      ]
+    },
+    {
+      "text": "Cash register",
+      "productId": "p_cdd962939f62425d",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_cdd962939f62425d"
+      ]
+    },
+    {
+      "text": "收银机（Registrierkasse）",
+      "productId": "p_cdd962939f62425d",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_cdd962939f62425d"
+      ]
+    },
+    {
+      "text": "HDMI-Adapter",
+      "productId": "p_7e08b2236a81f74b",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_7e08b2236a81f74b"
+      ]
+    },
+    {
+      "text": "HDMI adapter",
+      "productId": "p_7e08b2236a81f74b",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_7e08b2236a81f74b"
+      ]
+    },
+    {
+      "text": "HDMI 转接器",
+      "productId": "p_7e08b2236a81f74b",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_7e08b2236a81f74b"
+      ]
+    },
+    {
+      "text": "Zentralverriegelung Kfz",
+      "productId": "p_9fedf8a5592c87c6",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_9fedf8a5592c87c6"
+      ]
+    },
+    {
+      "text": "Central locking (automotive)",
+      "productId": "p_9fedf8a5592c87c6",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_9fedf8a5592c87c6"
+      ]
+    },
+    {
+      "text": "汽车中控锁",
+      "productId": "p_9fedf8a5592c87c6",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_9fedf8a5592c87c6"
+      ]
+    },
+    {
+      "text": "Kfz-Relais",
+      "productId": "p_acd3e0a2712eccc8",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_acd3e0a2712eccc8"
+      ]
+    },
+    {
+      "text": "Relay (automotive)",
+      "productId": "p_acd3e0a2712eccc8",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_acd3e0a2712eccc8"
+      ]
+    },
+    {
+      "text": "汽车继电器",
+      "productId": "p_acd3e0a2712eccc8",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_acd3e0a2712eccc8"
+      ]
+    },
+    {
+      "text": "Gesundheitsarmband",
+      "productId": "p_798e261cb9f3b5bc",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_798e261cb9f3b5bc"
+      ]
+    },
+    {
+      "text": "Health watch",
+      "productId": "p_798e261cb9f3b5bc",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_798e261cb9f3b5bc"
+      ]
+    },
+    {
+      "text": "健康手环",
+      "productId": "p_798e261cb9f3b5bc",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_798e261cb9f3b5bc"
+      ]
+    },
+    {
+      "text": "Wearable",
+      "productId": "p_27c316cf678cc968",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_27c316cf678cc968"
+      ]
+    },
+    {
+      "text": "可穿戴设备",
+      "productId": "p_27c316cf678cc968",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_27c316cf678cc968"
+      ]
+    },
+    {
+      "text": "Telefonadapter",
+      "productId": "p_0bc4b60b4f60ef3a",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_0bc4b60b4f60ef3a"
+      ]
+    },
+    {
+      "text": "Telephone Socket Adapter",
+      "productId": "p_0bc4b60b4f60ef3a",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_0bc4b60b4f60ef3a"
+      ]
+    },
+    {
+      "text": "电话转接器",
+      "productId": "p_0bc4b60b4f60ef3a",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_0bc4b60b4f60ef3a"
+      ]
+    },
+    {
+      "text": "Überwachungskamera",
+      "productId": "p_7aa33ad8b6c0b6bb",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_7aa33ad8b6c0b6bb"
+      ]
+    },
+    {
+      "text": "Surveillance camera",
+      "productId": "p_7aa33ad8b6c0b6bb",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_7aa33ad8b6c0b6bb"
+      ]
+    },
+    {
+      "text": "监控摄像头（Überwachungskamera）",
+      "productId": "p_7aa33ad8b6c0b6bb",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_7aa33ad8b6c0b6bb"
+      ]
+    },
+    {
+      "text": "Zapfsäule",
+      "productId": "p_9ed6b57b3db24840",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_9ed6b57b3db24840"
+      ]
+    },
+    {
+      "text": "Petrol pump",
+      "productId": "p_9ed6b57b3db24840",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_9ed6b57b3db24840"
+      ]
+    },
+    {
+      "text": "加油机",
+      "productId": "p_9ed6b57b3db24840",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_9ed6b57b3db24840"
+      ]
+    },
+    {
+      "text": "Parkplatzschranke",
+      "productId": "p_aa01a6a63a5958ea",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_aa01a6a63a5958ea"
+      ]
+    },
+    {
+      "text": "Parking system",
+      "productId": "p_aa01a6a63a5958ea",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_aa01a6a63a5958ea"
+      ]
+    },
+    {
+      "text": "停车场道闸",
+      "productId": "p_aa01a6a63a5958ea",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_aa01a6a63a5958ea"
+      ]
+    },
+    {
+      "text": "Tresor",
+      "productId": "p_f7500b95d096b979",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_f7500b95d096b979"
+      ]
+    },
+    {
+      "text": "Vault",
+      "productId": "p_f7500b95d096b979",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_f7500b95d096b979"
+      ]
+    },
+    {
+      "text": "保险柜",
+      "productId": "p_f7500b95d096b979",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_f7500b95d096b979"
+      ]
+    },
+    {
+      "text": "Fieberthermometer",
+      "productId": "p_92f7bbf3566fec0e",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_92f7bbf3566fec0e"
+      ]
+    },
+    {
+      "text": "Medical thermometer",
+      "productId": "p_92f7bbf3566fec0e",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_92f7bbf3566fec0e"
+      ]
+    },
+    {
+      "text": "体温计",
+      "productId": "p_92f7bbf3566fec0e",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_92f7bbf3566fec0e"
+      ]
+    },
+    {
+      "text": "VR-Brille",
+      "productId": "p_41f35c4f6717faaa",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_41f35c4f6717faaa"
+      ]
+    },
+    {
+      "text": "VR Headset",
+      "productId": "p_41f35c4f6717faaa",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_41f35c4f6717faaa"
+      ]
+    },
+    {
+      "text": "VR 眼镜",
+      "productId": "p_41f35c4f6717faaa",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_41f35c4f6717faaa"
+      ]
+    },
+    {
+      "text": "Teichnebler",
+      "productId": "p_f65e289096562285",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_f65e289096562285"
+      ]
+    },
+    {
+      "text": "Mist maker fogger",
+      "productId": "p_f65e289096562285",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_f65e289096562285"
+      ]
+    },
+    {
+      "text": "池塘造雾器",
+      "productId": "p_f65e289096562285",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_f65e289096562285"
+      ]
+    },
+    {
+      "text": "Diktiergerät",
+      "productId": "p_be0fae3873cb2396",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_be0fae3873cb2396"
+      ]
+    },
+    {
+      "text": "Digital voice recorder",
+      "productId": "p_be0fae3873cb2396",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_be0fae3873cb2396"
+      ]
+    },
+    {
+      "text": "录音笔",
+      "productId": "p_be0fae3873cb2396",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_be0fae3873cb2396"
+      ]
+    },
+    {
+      "text": "Wärmemengenzähler WMZ",
+      "productId": "p_ffc4189bf71bf805",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_ffc4189bf71bf805"
+      ]
+    },
+    {
+      "text": "heat meter",
+      "productId": "p_ffc4189bf71bf805",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_ffc4189bf71bf805"
+      ]
+    },
+    {
+      "text": "热量表",
+      "productId": "p_ffc4189bf71bf805",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_ffc4189bf71bf805"
+      ]
+    },
+    {
+      "text": "Funkschlüssel Kfz",
+      "productId": "p_eb3a936776ba97a4",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_eb3a936776ba97a4"
+      ]
+    },
+    {
+      "text": "Remote car key",
+      "productId": "p_eb3a936776ba97a4",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_eb3a936776ba97a4"
+      ]
+    },
+    {
+      "text": "汽车遥控钥匙",
+      "productId": "p_eb3a936776ba97a4",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_eb3a936776ba97a4"
+      ]
+    },
+    {
+      "text": "UV-Lichthärtegerät",
+      "productId": "p_39ad89ea4dea533f",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_39ad89ea4dea533f"
+      ]
+    },
+    {
+      "text": "UV nail dryer",
+      "productId": "p_39ad89ea4dea533f",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_39ad89ea4dea533f"
+      ]
+    },
+    {
+      "text": "UV 光疗灯（美甲）",
+      "productId": "p_39ad89ea4dea533f",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_39ad89ea4dea533f"
+      ]
+    },
+    {
+      "text": "Wecker",
+      "productId": "p_d8174be91c2ce783",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_d8174be91c2ce783"
+      ]
+    },
+    {
+      "text": "Alarm clock",
+      "productId": "p_d8174be91c2ce783",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_d8174be91c2ce783"
+      ]
+    },
+    {
+      "text": "闹钟",
+      "productId": "p_d8174be91c2ce783",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_d8174be91c2ce783"
+      ]
+    },
+    {
+      "text": "Schweißgerät",
+      "productId": "p_06b55c18c97943d7",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_06b55c18c97943d7"
+      ]
+    },
+    {
+      "text": "Welding machine",
+      "productId": "p_06b55c18c97943d7",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_06b55c18c97943d7"
+      ]
+    },
+    {
+      "text": "电焊机",
+      "productId": "p_06b55c18c97943d7",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_06b55c18c97943d7"
+      ]
+    },
+    {
+      "text": "Händetrockner",
+      "productId": "p_24012c0ef770fe19",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_24012c0ef770fe19"
+      ]
+    },
+    {
+      "text": "Hand dryer",
+      "productId": "p_24012c0ef770fe19",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_24012c0ef770fe19"
+      ]
+    },
+    {
+      "text": "烘手器",
+      "productId": "p_24012c0ef770fe19",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_24012c0ef770fe19"
+      ]
+    },
+    {
+      "text": "CI-Modul",
+      "productId": "p_e6c8c698d249fe6c",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_e6c8c698d249fe6c"
+      ]
+    },
+    {
+      "text": "Common Interface module",
+      "productId": "p_e6c8c698d249fe6c",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_e6c8c698d249fe6c"
+      ]
+    },
+    {
+      "text": "条件接收模块（CI 模块）",
+      "productId": "p_e6c8c698d249fe6c",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_e6c8c698d249fe6c"
+      ]
+    },
+    {
+      "text": "Fernsehsessel",
+      "productId": "p_683dbdc66f572ed9",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_683dbdc66f572ed9"
+      ]
+    },
+    {
+      "text": "TV armchair",
+      "productId": "p_683dbdc66f572ed9",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_683dbdc66f572ed9"
+      ]
+    },
+    {
+      "text": "电动电视沙发椅",
+      "productId": "p_683dbdc66f572ed9",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_683dbdc66f572ed9"
+      ]
+    },
+    {
+      "text": "Lüftungsgerät",
+      "productId": "p_c60a713842b14bbe",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_c60a713842b14bbe"
+      ]
+    },
+    {
+      "text": "Ventilation equipment",
+      "productId": "p_c60a713842b14bbe",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_c60a713842b14bbe"
+      ]
+    },
+    {
+      "text": "通风设备",
+      "productId": "p_c60a713842b14bbe",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_c60a713842b14bbe"
+      ]
+    },
+    {
+      "text": "Schmelzsicherung",
+      "productId": "p_2afe5e571f6a4537",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_2afe5e571f6a4537"
+      ]
+    },
+    {
+      "text": "Safety fuse",
+      "productId": "p_2afe5e571f6a4537",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_2afe5e571f6a4537"
+      ]
+    },
+    {
+      "text": "熔断器",
+      "productId": "p_2afe5e571f6a4537",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_2afe5e571f6a4537"
+      ]
+    },
+    {
+      "text": "Innenbeleuchtung Kfz",
+      "productId": "p_205f62373e5788ba",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_205f62373e5788ba"
+      ]
+    },
+    {
+      "text": "Car interior lighting",
+      "productId": "p_205f62373e5788ba",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_205f62373e5788ba"
+      ]
+    },
+    {
+      "text": "车内照明灯",
+      "productId": "p_205f62373e5788ba",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_205f62373e5788ba"
+      ]
+    },
+    {
+      "text": "Stromerzeuger",
+      "productId": "p_b5f8dbfedcc03ce6",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_b5f8dbfedcc03ce6"
+      ]
+    },
+    {
+      "text": "Generator",
+      "productId": "p_b5f8dbfedcc03ce6",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_b5f8dbfedcc03ce6"
+      ]
+    },
+    {
+      "text": "发电机",
+      "productId": "p_b5f8dbfedcc03ce6",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_b5f8dbfedcc03ce6"
+      ]
+    },
+    {
+      "text": "CD-/DVD-/MP3-Spieler",
+      "productId": "p_cc6eaaf50e7636c5",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_cc6eaaf50e7636c5"
+      ]
+    },
+    {
+      "text": "CD/DVD/MP3 player",
+      "productId": "p_cc6eaaf50e7636c5",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_cc6eaaf50e7636c5"
+      ]
+    },
+    {
+      "text": "CD/DVD/MP3 播放器",
+      "productId": "p_cc6eaaf50e7636c5",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_cc6eaaf50e7636c5"
+      ]
+    },
+    {
+      "text": "medizinischer PC",
+      "productId": "p_2456183780794ce7",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_2456183780794ce7"
+      ]
+    },
+    {
+      "text": "Medical PC",
+      "productId": "p_2456183780794ce7",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_2456183780794ce7"
+      ]
+    },
+    {
+      "text": "医用电脑",
+      "productId": "p_2456183780794ce7",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_2456183780794ce7"
+      ]
+    },
+    {
+      "text": "Industrie-PC",
+      "productId": "p_ce4216a47f6126dc",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_ce4216a47f6126dc"
+      ]
+    },
+    {
+      "text": "Industrial PC",
+      "productId": "p_ce4216a47f6126dc",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_ce4216a47f6126dc"
+      ]
+    },
+    {
+      "text": "工业电脑",
+      "productId": "p_ce4216a47f6126dc",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_ce4216a47f6126dc"
+      ]
+    },
+    {
+      "text": "CPU fan",
+      "productId": "p_4adfeae82542bfad",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_4adfeae82542bfad"
+      ]
+    },
+    {
+      "text": "Heizfolie",
+      "productId": "p_da4bf1ce04e9ccc4",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_da4bf1ce04e9ccc4"
+      ]
+    },
+    {
+      "text": "Heating foil",
+      "productId": "p_da4bf1ce04e9ccc4",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_da4bf1ce04e9ccc4"
+      ]
+    },
+    {
+      "text": "电热膜",
+      "productId": "p_da4bf1ce04e9ccc4",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_da4bf1ce04e9ccc4"
+      ]
+    },
+    {
+      "text": "Heizgerät",
+      "productId": "p_33871f3e3e8e6586",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_33871f3e3e8e6586"
+      ]
+    },
+    {
+      "text": "Heating equipment",
+      "productId": "p_33871f3e3e8e6586",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_33871f3e3e8e6586"
+      ]
+    },
+    {
+      "text": "加热设备",
+      "productId": "p_33871f3e3e8e6586",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_33871f3e3e8e6586"
+      ]
+    },
+    {
+      "text": "Kühlgerät zur Lebensmittelverpackung/-verarbeitung",
+      "productId": "p_26026e0e23212a44",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_26026e0e23212a44"
+      ]
+    },
+    {
+      "text": "Cooling appliance for food packaging/processing",
+      "productId": "p_26026e0e23212a44",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_26026e0e23212a44"
+      ]
+    },
+    {
+      "text": "食品加工/包装用制冷设备",
+      "productId": "p_26026e0e23212a44",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_26026e0e23212a44"
+      ]
+    },
+    {
+      "text": "Laderegler Solar",
+      "productId": "p_16346ea21e070d49",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_16346ea21e070d49"
+      ]
+    },
+    {
+      "text": "Charge controller, solar",
+      "productId": "p_16346ea21e070d49",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_16346ea21e070d49"
+      ]
+    },
+    {
+      "text": "太阳能充电控制器",
+      "productId": "p_16346ea21e070d49",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_16346ea21e070d49"
+      ]
+    },
+    {
+      "text": "Akku-Kehrmaschine",
+      "productId": "p_ae7f0149092b402b",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_ae7f0149092b402b"
+      ]
+    },
+    {
+      "text": "Electric push sweeper",
+      "productId": "p_ae7f0149092b402b",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_ae7f0149092b402b"
+      ]
+    },
+    {
+      "text": "充电式扫地机",
+      "productId": "p_ae7f0149092b402b",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_ae7f0149092b402b"
+      ]
+    },
+    {
+      "text": "Multifunktionspfanne",
+      "productId": "p_1d1a0db2b6244897",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_1d1a0db2b6244897"
+      ]
+    },
+    {
+      "text": "Multi-Function Electric Cooker Pan",
+      "productId": "p_1d1a0db2b6244897",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_1d1a0db2b6244897"
+      ]
+    },
+    {
+      "text": "多功能电煎锅",
+      "productId": "p_1d1a0db2b6244897",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_1d1a0db2b6244897"
+      ]
+    },
+    {
+      "text": "Bluetooth Headset für Motorradfahrer",
+      "productId": "p_cf76a6d9d0c7595b",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_cf76a6d9d0c7595b"
+      ]
+    },
+    {
+      "text": "Motorcycle helmet speaker",
+      "productId": "p_cf76a6d9d0c7595b",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_cf76a6d9d0c7595b"
+      ]
+    },
+    {
+      "text": "摩托头盔蓝牙耳机",
+      "productId": "p_cf76a6d9d0c7595b",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_cf76a6d9d0c7595b"
+      ]
+    },
+    {
+      "text": "Microphone, exclusively for communication or IT use",
+      "productId": "p_2d00d5701bda9895",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_2d00d5701bda9895"
+      ]
+    },
+    {
+      "text": "Anbaugerät für Fahrräder",
+      "productId": "p_5630b9966e5b134f",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_5630b9966e5b134f"
+      ]
+    },
+    {
+      "text": "Auxiliary product for bicycles",
+      "productId": "p_5630b9966e5b134f",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_5630b9966e5b134f"
+      ]
+    },
+    {
+      "text": "自行车附加电气装置",
+      "productId": "p_5630b9966e5b134f",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_5630b9966e5b134f"
+      ]
+    },
+    {
+      "text": "Dampfdusche",
+      "productId": "p_e11b44fa324b0c59",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_e11b44fa324b0c59"
+      ]
+    },
+    {
+      "text": "Steam shower",
+      "productId": "p_e11b44fa324b0c59",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_e11b44fa324b0c59"
+      ]
+    },
+    {
+      "text": "蒸汽淋浴房",
+      "productId": "p_e11b44fa324b0c59",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_e11b44fa324b0c59"
+      ]
+    },
+    {
+      "text": "Laserpointer",
+      "productId": "p_53262e58e0606f58",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_53262e58e0606f58"
+      ]
+    },
+    {
+      "text": "Laser pointer",
+      "productId": "p_53262e58e0606f58",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_53262e58e0606f58"
+      ]
+    },
+    {
+      "text": "激光笔",
+      "productId": "p_53262e58e0606f58",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_53262e58e0606f58"
+      ]
+    },
+    {
+      "text": "LED-Leuchtplatte",
+      "productId": "p_a107bdf6ad25d473",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_a107bdf6ad25d473"
+      ]
+    },
+    {
+      "text": "LED light box",
+      "productId": "p_a107bdf6ad25d473",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_a107bdf6ad25d473"
+      ]
+    },
+    {
+      "text": "LED 灯箱",
+      "productId": "p_a107bdf6ad25d473",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_a107bdf6ad25d473"
+      ]
+    },
+    {
+      "text": "Wärmepumpe",
+      "productId": "p_3e2a0e594cd806e6",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_3e2a0e594cd806e6"
+      ]
+    },
+    {
+      "text": "Heat pump",
+      "productId": "p_3e2a0e594cd806e6",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_3e2a0e594cd806e6"
+      ]
+    },
+    {
+      "text": "热泵（Wärmepumpe）",
+      "productId": "p_3e2a0e594cd806e6",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_3e2a0e594cd806e6"
+      ]
+    },
+    {
+      "text": "Magnetrührer",
+      "productId": "p_c22b0c8147ad2e30",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_c22b0c8147ad2e30"
+      ]
+    },
+    {
+      "text": "Magnetic stirrer",
+      "productId": "p_c22b0c8147ad2e30",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_c22b0c8147ad2e30"
+      ]
+    },
+    {
+      "text": "磁力搅拌器",
+      "productId": "p_c22b0c8147ad2e30",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_c22b0c8147ad2e30"
+      ]
+    },
+    {
+      "text": "Geschwindigkeitsmessgerät",
+      "productId": "p_f77f3e9e336299a5",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_f77f3e9e336299a5"
+      ]
+    },
+    {
+      "text": "Speed Radar",
+      "productId": "p_f77f3e9e336299a5",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_f77f3e9e336299a5"
+      ]
+    },
+    {
+      "text": "测速仪",
+      "productId": "p_f77f3e9e336299a5",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_f77f3e9e336299a5"
+      ]
+    },
+    {
+      "text": "medizinischer Monitor",
+      "productId": "p_d22ec4784c9c5eac",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_d22ec4784c9c5eac"
+      ]
+    },
+    {
+      "text": "Medical monitor",
+      "productId": "p_d22ec4784c9c5eac",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_d22ec4784c9c5eac"
+      ]
+    },
+    {
+      "text": "医用监视器",
+      "productId": "p_d22ec4784c9c5eac",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_d22ec4784c9c5eac"
+      ]
+    },
+    {
+      "text": "Nagelfräser",
+      "productId": "p_d7021d94443061fa",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_d7021d94443061fa"
+      ]
+    },
+    {
+      "text": "Nail drill",
+      "productId": "p_d7021d94443061fa",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_d7021d94443061fa"
+      ]
+    },
+    {
+      "text": "电动美甲打磨机",
+      "productId": "p_d7021d94443061fa",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_d7021d94443061fa"
+      ]
+    },
+    {
+      "text": "EMF-Messgerät",
+      "productId": "p_85854bb6b9b6cbcc",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_85854bb6b9b6cbcc"
+      ]
+    },
+    {
+      "text": "EMF meter",
+      "productId": "p_85854bb6b9b6cbcc",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_85854bb6b9b6cbcc"
+      ]
+    },
+    {
+      "text": "电磁场测试仪",
+      "productId": "p_85854bb6b9b6cbcc",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_85854bb6b9b6cbcc"
+      ]
+    },
+    {
+      "text": "Industrie-Notebook",
+      "productId": "p_2d7dcbd0bab368dc",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_2d7dcbd0bab368dc"
+      ]
+    },
+    {
+      "text": "Industrial notebook",
+      "productId": "p_2d7dcbd0bab368dc",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_2d7dcbd0bab368dc"
+      ]
+    },
+    {
+      "text": "工业笔记本电脑",
+      "productId": "p_2d7dcbd0bab368dc",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_2d7dcbd0bab368dc"
+      ]
+    },
+    {
+      "text": "Labornetzgerät",
+      "productId": "p_3f07abc8651b6bbc",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_3f07abc8651b6bbc"
+      ]
+    },
+    {
+      "text": "Switching power supply",
+      "productId": "p_3f07abc8651b6bbc",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_3f07abc8651b6bbc"
+      ]
+    },
+    {
+      "text": "实验室稳压电源",
+      "productId": "p_3f07abc8651b6bbc",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_3f07abc8651b6bbc"
+      ]
+    },
+    {
+      "text": "Defibrillator",
+      "productId": "p_2f3306c3719e3bfc",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_2f3306c3719e3bfc"
+      ]
+    },
+    {
+      "text": "除颤器",
+      "productId": "p_2f3306c3719e3bfc",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_2f3306c3719e3bfc"
+      ]
+    },
+    {
+      "text": "Airbrushkompressor",
+      "productId": "p_a036d8346e1fef08",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_a036d8346e1fef08"
+      ]
+    },
+    {
+      "text": "Airbrush compressor",
+      "productId": "p_a036d8346e1fef08",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_a036d8346e1fef08"
+      ]
+    },
+    {
+      "text": "喷笔气泵",
+      "productId": "p_a036d8346e1fef08",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_a036d8346e1fef08"
+      ]
+    },
+    {
+      "text": "Anhaltestab",
+      "productId": "p_9b796ee26028e4da",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_9b796ee26028e4da"
+      ]
+    },
+    {
+      "text": "Handheld stop sign for safety",
+      "productId": "p_9b796ee26028e4da",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_9b796ee26028e4da"
+      ]
+    },
+    {
+      "text": "手持停车示意牌",
+      "productId": "p_9b796ee26028e4da",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_9b796ee26028e4da"
+      ]
+    },
+    {
+      "text": "Einschlafhilfe",
+      "productId": "p_2a813922a618466c",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_2a813922a618466c"
+      ]
+    },
+    {
+      "text": "Sleep Sound Machine",
+      "productId": "p_2a813922a618466c",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_2a813922a618466c"
+      ]
+    },
+    {
+      "text": "助眠仪（白噪音机）",
+      "productId": "p_2a813922a618466c",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_2a813922a618466c"
+      ]
+    },
+    {
+      "text": "Sprachübersetzer",
+      "productId": "p_8095970412f42c57",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_8095970412f42c57"
+      ]
+    },
+    {
+      "text": "Language translator",
+      "productId": "p_8095970412f42c57",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_8095970412f42c57"
+      ]
+    },
+    {
+      "text": "翻译机",
+      "productId": "p_8095970412f42c57",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_8095970412f42c57"
+      ]
+    },
+    {
+      "text": "Fahrradschloss",
+      "productId": "p_e21c10e5033807cb",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_e21c10e5033807cb"
+      ]
+    },
+    {
+      "text": "bicycle lock",
+      "productId": "p_e21c10e5033807cb",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_e21c10e5033807cb"
+      ]
+    },
+    {
+      "text": "自行车锁",
+      "productId": "p_e21c10e5033807cb",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_e21c10e5033807cb"
+      ]
+    },
+    {
+      "text": "Bluetooth-Adapter",
+      "productId": "p_7a1ec2e215cd9f0d",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_7a1ec2e215cd9f0d"
+      ]
+    },
+    {
+      "text": "Bluetooth dongle",
+      "productId": "p_7a1ec2e215cd9f0d",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_7a1ec2e215cd9f0d"
+      ]
+    },
+    {
+      "text": "蓝牙适配器",
+      "productId": "p_7a1ec2e215cd9f0d",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_7a1ec2e215cd9f0d"
+      ]
+    },
+    {
+      "text": "Zimmerbrunnen",
+      "productId": "p_7ccc808c5f29bb9b",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_7ccc808c5f29bb9b"
+      ]
+    },
+    {
+      "text": "Tabletop fountain",
+      "productId": "p_7ccc808c5f29bb9b",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_7ccc808c5f29bb9b"
+      ]
+    },
+    {
+      "text": "桌面流水摆件",
+      "productId": "p_7ccc808c5f29bb9b",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_7ccc808c5f29bb9b"
+      ]
+    },
+    {
+      "text": "Festplattengehäuse",
+      "productId": "p_f5b83857ee5f01cb",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_f5b83857ee5f01cb"
+      ]
+    },
+    {
+      "text": "Hard Drive Enclosure",
+      "productId": "p_f5b83857ee5f01cb",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_f5b83857ee5f01cb"
+      ]
+    },
+    {
+      "text": "硬盘盒",
+      "productId": "p_f5b83857ee5f01cb",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_f5b83857ee5f01cb"
+      ]
+    },
+    {
+      "text": "Schokobrunnen",
+      "productId": "p_81ac1c8f006efdb3",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_81ac1c8f006efdb3"
+      ]
+    },
+    {
+      "text": "Chocolate fountain",
+      "productId": "p_81ac1c8f006efdb3",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_81ac1c8f006efdb3"
+      ]
+    },
+    {
+      "text": "巧克力喷泉机",
+      "productId": "p_81ac1c8f006efdb3",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_81ac1c8f006efdb3"
+      ]
+    },
+    {
+      "text": "Wasserdestilliergerät",
+      "productId": "p_0baebce22206b829",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_0baebce22206b829"
+      ]
+    },
+    {
+      "text": "Water distiller",
+      "productId": "p_0baebce22206b829",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_0baebce22206b829"
+      ]
+    },
+    {
+      "text": "蒸馏水机",
+      "productId": "p_0baebce22206b829",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_0baebce22206b829"
+      ]
+    },
+    {
+      "text": "Saftpresse",
+      "productId": "p_aac288ce2ea8f503",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_aac288ce2ea8f503"
+      ]
+    },
+    {
+      "text": "Electric juicer",
+      "productId": "p_aac288ce2ea8f503",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_aac288ce2ea8f503"
+      ]
+    },
+    {
+      "text": "电动榨汁机",
+      "productId": "p_aac288ce2ea8f503",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_aac288ce2ea8f503"
+      ]
+    },
+    {
+      "text": "Speicherkarte",
+      "productId": "p_d6a74092a82695cb",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_d6a74092a82695cb"
+      ]
+    },
+    {
+      "text": "Memory card",
+      "productId": "p_d6a74092a82695cb",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_d6a74092a82695cb"
+      ]
+    },
+    {
+      "text": "存储卡",
+      "productId": "p_d6a74092a82695cb",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_d6a74092a82695cb"
+      ]
+    },
+    {
+      "text": "Zuckerwattemaschine",
+      "productId": "p_9aa47cb9692143bc",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_9aa47cb9692143bc"
+      ]
+    },
+    {
+      "text": "cotton candy maker",
+      "productId": "p_9aa47cb9692143bc",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_9aa47cb9692143bc"
+      ]
+    },
+    {
+      "text": "棉花糖机",
+      "productId": "p_9aa47cb9692143bc",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_9aa47cb9692143bc"
+      ]
+    },
+    {
+      "text": "Holzspalter",
+      "productId": "p_0604260a0ec8e160",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_0604260a0ec8e160"
+      ]
+    },
+    {
+      "text": "Log splitter",
+      "productId": "p_0604260a0ec8e160",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_0604260a0ec8e160"
+      ]
+    },
+    {
+      "text": "劈木机",
+      "productId": "p_0604260a0ec8e160",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_0604260a0ec8e160"
+      ]
+    },
+    {
+      "text": "USB-Dockingstation",
+      "productId": "p_aa58efe60a73112f",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_aa58efe60a73112f"
+      ]
+    },
+    {
+      "text": "USB docking station",
+      "productId": "p_aa58efe60a73112f",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_aa58efe60a73112f"
+      ]
+    },
+    {
+      "text": "USB 扩展坞（USB-Dockingstation）",
+      "productId": "p_aa58efe60a73112f",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_aa58efe60a73112f"
+      ]
+    },
+    {
+      "text": "Bremswiderstand",
+      "productId": "p_da186736c3d50f56",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_da186736c3d50f56"
+      ]
+    },
+    {
+      "text": "Braking resistor",
+      "productId": "p_da186736c3d50f56",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_da186736c3d50f56"
+      ]
+    },
+    {
+      "text": "制动电阻",
+      "productId": "p_da186736c3d50f56",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_da186736c3d50f56"
+      ]
+    },
+    {
+      "text": "Beacon",
+      "productId": "p_41b89d10619cdd3e",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_41b89d10619cdd3e"
+      ]
+    },
+    {
+      "text": "蓝牙信标（Beacon）",
+      "productId": "p_41b89d10619cdd3e",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_41b89d10619cdd3e"
+      ]
+    },
+    {
+      "text": "Kreuzlinienlaser",
+      "productId": "p_b028a01917a1be53",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_b028a01917a1be53"
+      ]
+    },
+    {
+      "text": "Cross line Laser",
+      "productId": "p_b028a01917a1be53",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_b028a01917a1be53"
+      ]
+    },
+    {
+      "text": "十字线激光水平仪",
+      "productId": "p_b028a01917a1be53",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_b028a01917a1be53"
+      ]
+    },
+    {
+      "text": "Adsorptionsentfeuchter",
+      "productId": "p_153e76f76811ccdd",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_153e76f76811ccdd"
+      ]
+    },
+    {
+      "text": "Desiccant Dehumidifier",
+      "productId": "p_153e76f76811ccdd",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_153e76f76811ccdd"
+      ]
+    },
+    {
+      "text": "转轮除湿机",
+      "productId": "p_153e76f76811ccdd",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_153e76f76811ccdd"
+      ]
+    },
+    {
+      "text": "E-Motorrad",
+      "productId": "p_8dacfb898929d7a5",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_8dacfb898929d7a5"
+      ]
+    },
+    {
+      "text": "electric Motorbike",
+      "productId": "p_8dacfb898929d7a5",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_8dacfb898929d7a5"
+      ]
+    },
+    {
+      "text": "电动摩托车",
+      "productId": "p_8dacfb898929d7a5",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_8dacfb898929d7a5"
+      ]
+    },
+    {
+      "text": "Zündkerze Kfz",
+      "productId": "p_6ea04df6e56fd6d3",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_6ea04df6e56fd6d3"
+      ]
+    },
+    {
+      "text": "Spark Plug (automotive)",
+      "productId": "p_6ea04df6e56fd6d3",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_6ea04df6e56fd6d3"
+      ]
+    },
+    {
+      "text": "汽车火花塞",
+      "productId": "p_6ea04df6e56fd6d3",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_6ea04df6e56fd6d3"
+      ]
+    },
+    {
+      "text": "Lichtmaschine Kfz",
+      "productId": "p_d0229f16961a2d4f",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_d0229f16961a2d4f"
+      ]
+    },
+    {
+      "text": "Alternator (automotive)",
+      "productId": "p_d0229f16961a2d4f",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_d0229f16961a2d4f"
+      ]
+    },
+    {
+      "text": "汽车发电机",
+      "productId": "p_d0229f16961a2d4f",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_d0229f16961a2d4f"
+      ]
+    },
+    {
+      "text": "ABS-Sensor Kfz",
+      "productId": "p_644605b62a178a23",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_644605b62a178a23"
+      ]
+    },
+    {
+      "text": "Airbag (automotive)",
+      "productId": "p_644605b62a178a23",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_644605b62a178a23"
+      ]
+    },
+    {
+      "text": "ABS 传感器",
+      "productId": "p_644605b62a178a23",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_644605b62a178a23"
+      ]
+    },
+    {
+      "text": "Airbag Kfz",
+      "productId": "p_c55aacaaf0b7a5d8",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_c55aacaaf0b7a5d8"
+      ]
+    },
+    {
+      "text": "汽车安全气囊",
+      "productId": "p_c55aacaaf0b7a5d8",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_c55aacaaf0b7a5d8"
+      ]
+    },
+    {
+      "text": "Faxgerät",
+      "productId": "p_6241509eb1ae5084",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_6241509eb1ae5084"
+      ]
+    },
+    {
+      "text": "Fax machine",
+      "productId": "p_6241509eb1ae5084",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_6241509eb1ae5084"
+      ]
+    },
+    {
+      "text": "传真机",
+      "productId": "p_6241509eb1ae5084",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_6241509eb1ae5084"
+      ]
+    },
+    {
+      "text": "Anrufbeantworter",
+      "productId": "p_1d06c945eb9c02b4",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_1d06c945eb9c02b4"
+      ]
+    },
+    {
+      "text": "Answering machine",
+      "productId": "p_1d06c945eb9c02b4",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_1d06c945eb9c02b4"
+      ]
+    },
+    {
+      "text": "电话答录机",
+      "productId": "p_1d06c945eb9c02b4",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_1d06c945eb9c02b4"
+      ]
+    },
+    {
+      "text": "Videokamera",
+      "productId": "p_9d5f1013473aa67d",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_9d5f1013473aa67d"
+      ]
+    },
+    {
+      "text": "Video camera",
+      "productId": "p_9d5f1013473aa67d",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_9d5f1013473aa67d"
+      ]
+    },
+    {
+      "text": "摄像机",
+      "productId": "p_9d5f1013473aa67d",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_9d5f1013473aa67d"
+      ]
+    },
+    {
+      "text": "Isoliermaterial",
+      "productId": "p_923efaa7fae59594",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_923efaa7fae59594"
+      ]
+    },
+    {
+      "text": "Cable insulation",
+      "productId": "p_923efaa7fae59594",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_923efaa7fae59594"
+      ]
+    },
+    {
+      "text": "绝缘材料（线缆绝缘）",
+      "productId": "p_923efaa7fae59594",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_923efaa7fae59594"
+      ]
+    },
+    {
+      "text": "Steckdose mit Zusatzfunktion (auch Web- und IP-Steckdose)",
+      "productId": "p_df8edb08d7ac8c81",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_df8edb08d7ac8c81"
+      ]
+    },
+    {
+      "text": "Socket with additional function (also web and IP socket)",
+      "productId": "p_df8edb08d7ac8c81",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_df8edb08d7ac8c81"
+      ]
+    },
+    {
+      "text": "带附加功能插座（含网络插座）",
+      "productId": "p_df8edb08d7ac8c81",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_df8edb08d7ac8c81"
+      ]
+    },
+    {
+      "text": "Nachtsichtgerät",
+      "productId": "p_cac3dfffb99371e8",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_cac3dfffb99371e8"
+      ]
+    },
+    {
+      "text": "Night vision equipment",
+      "productId": "p_cac3dfffb99371e8",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_cac3dfffb99371e8"
+      ]
+    },
+    {
+      "text": "夜视仪",
+      "productId": "p_cac3dfffb99371e8",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_cac3dfffb99371e8"
+      ]
+    },
+    {
+      "text": "Sauna",
+      "productId": "p_02c3c48a5078c2d8",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_02c3c48a5078c2d8"
+      ]
+    },
+    {
+      "text": "桑拿设备",
+      "productId": "p_02c3c48a5078c2d8",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_02c3c48a5078c2d8"
+      ]
+    },
+    {
+      "text": "Stromtankstelle",
+      "productId": "p_f20a6048cc6693a6",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_f20a6048cc6693a6"
+      ]
+    },
+    {
+      "text": "Charging station",
+      "productId": "p_f20a6048cc6693a6",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_f20a6048cc6693a6"
+      ]
+    },
+    {
+      "text": "充电桩",
+      "productId": "p_f20a6048cc6693a6",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_f20a6048cc6693a6"
+      ]
+    },
+    {
+      "text": "Kosmetikliege/-stuhl",
+      "productId": "p_8959679601e07426",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_8959679601e07426"
+      ]
+    },
+    {
+      "text": "Beautician's bed/chair",
+      "productId": "p_8959679601e07426",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_8959679601e07426"
+      ]
+    },
+    {
+      "text": "美容床/椅",
+      "productId": "p_8959679601e07426",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_8959679601e07426"
+      ]
+    },
+    {
+      "text": "Möbel mit integrierter elektrischer Funktion",
+      "productId": "p_9ccff7b1ba3791b5",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_9ccff7b1ba3791b5"
+      ]
+    },
+    {
+      "text": "Furniture with integrated electrical function",
+      "productId": "p_9ccff7b1ba3791b5",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_9ccff7b1ba3791b5"
+      ]
+    },
+    {
+      "text": "带电气功能的家具",
+      "productId": "p_9ccff7b1ba3791b5",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_9ccff7b1ba3791b5"
+      ]
+    },
+    {
+      "text": "Thermostat",
+      "productId": "p_c449865fb987c760",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_c449865fb987c760"
+      ]
+    },
+    {
+      "text": "恒温控制器",
+      "productId": "p_c449865fb987c760",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_c449865fb987c760"
+      ]
+    },
+    {
+      "text": "Bräunungskabine",
+      "productId": "p_9fa4292981cd8ffe",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_9fa4292981cd8ffe"
+      ]
+    },
+    {
+      "text": "Tanning cabin",
+      "productId": "p_9fa4292981cd8ffe",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_9fa4292981cd8ffe"
+      ]
+    },
+    {
+      "text": "日光浴舱",
+      "productId": "p_9fa4292981cd8ffe",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_9fa4292981cd8ffe"
+      ]
+    },
+    {
+      "text": "Aufstehhilfe",
+      "productId": "p_ca85243488941cdd",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_ca85243488941cdd"
+      ]
+    },
+    {
+      "text": "Stand-up aid",
+      "productId": "p_ca85243488941cdd",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_ca85243488941cdd"
+      ]
+    },
+    {
+      "text": "起身辅助装置",
+      "productId": "p_ca85243488941cdd",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_ca85243488941cdd"
+      ]
+    },
+    {
+      "text": "Digitaler Messschieber",
+      "productId": "p_1799f2bef618ab8c",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_1799f2bef618ab8c"
+      ]
+    },
+    {
+      "text": "Electronic caliper",
+      "productId": "p_1799f2bef618ab8c",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_1799f2bef618ab8c"
+      ]
+    },
+    {
+      "text": "数显卡尺",
+      "productId": "p_1799f2bef618ab8c",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_1799f2bef618ab8c"
+      ]
+    },
+    {
+      "text": "Getränkekühler (thermoelektrisch)",
+      "productId": "p_892ab9e2e0e05bb7",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_892ab9e2e0e05bb7"
+      ]
+    },
+    {
+      "text": "Drinks cooler (thermoelectric)",
+      "productId": "p_892ab9e2e0e05bb7",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_892ab9e2e0e05bb7"
+      ]
+    },
+    {
+      "text": "半导体饮料冷藏柜",
+      "productId": "p_892ab9e2e0e05bb7",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_892ab9e2e0e05bb7"
+      ]
+    },
+    {
+      "text": "Kühlbox (thermoelektrisch)",
+      "productId": "p_ec81dc773edac6f5",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_ec81dc773edac6f5"
+      ]
+    },
+    {
+      "text": "Cooler (thermoelectric)",
+      "productId": "p_ec81dc773edac6f5",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_ec81dc773edac6f5"
+      ]
+    },
+    {
+      "text": "半导体车载冰箱",
+      "productId": "p_ec81dc773edac6f5",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_ec81dc773edac6f5"
+      ]
+    },
+    {
+      "text": "Elektrogrill",
+      "productId": "p_77f74a52d7f71a46",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_77f74a52d7f71a46"
+      ]
+    },
+    {
+      "text": "Electric grill",
+      "productId": "p_77f74a52d7f71a46",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_77f74a52d7f71a46"
+      ]
+    },
+    {
+      "text": "电烤炉",
+      "productId": "p_77f74a52d7f71a46",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_77f74a52d7f71a46"
+      ]
+    },
+    {
+      "text": "Elektrostimulationsgerät",
+      "productId": "p_42da12096c246396",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_42da12096c246396"
+      ]
+    },
+    {
+      "text": "Muscle stimulator",
+      "productId": "p_42da12096c246396",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_42da12096c246396"
+      ]
+    },
+    {
+      "text": "电刺激肌肉训练仪",
+      "productId": "p_42da12096c246396",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_42da12096c246396"
+      ]
+    },
+    {
+      "text": "GPS-Gerät",
+      "productId": "p_2981fcb55503b85a",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_2981fcb55503b85a"
+      ]
+    },
+    {
+      "text": "GPS equipment",
+      "productId": "p_2981fcb55503b85a",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_2981fcb55503b85a"
+      ]
+    },
+    {
+      "text": "GPS 定位设备",
+      "productId": "p_2981fcb55503b85a",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_2981fcb55503b85a"
+      ]
+    },
+    {
+      "text": "E-Scooter",
+      "productId": "p_d9367baa861a2e5e",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_d9367baa861a2e5e"
+      ]
+    },
+    {
+      "text": "Electric Scooter",
+      "productId": "p_d9367baa861a2e5e",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_d9367baa861a2e5e"
+      ]
+    },
+    {
+      "text": "电动滑板车",
+      "productId": "p_d9367baa861a2e5e",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_d9367baa861a2e5e"
+      ]
+    },
+    {
+      "text": "Hygienespender",
+      "productId": "p_e39594fe9875a4ff",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_e39594fe9875a4ff"
+      ]
+    },
+    {
+      "text": "Sanitizer dispenser",
+      "productId": "p_e39594fe9875a4ff",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_e39594fe9875a4ff"
+      ]
+    },
+    {
+      "text": "消毒液分配器",
+      "productId": "p_e39594fe9875a4ff",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_e39594fe9875a4ff"
+      ]
+    },
+    {
+      "text": "Pumpensteuerung",
+      "productId": "p_c3b111728739532c",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_c3b111728739532c"
+      ]
+    },
+    {
+      "text": "Water pump control",
+      "productId": "p_c3b111728739532c",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_c3b111728739532c"
+      ]
+    },
+    {
+      "text": "水泵控制器",
+      "productId": "p_c3b111728739532c",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_c3b111728739532c"
+      ]
+    },
+    {
+      "text": "Me­ga­fon",
+      "productId": "p_07ea218106d5602c",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_07ea218106d5602c"
+      ]
+    },
+    {
+      "text": "Megaphone",
+      "productId": "p_07ea218106d5602c",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_07ea218106d5602c"
+      ]
+    },
+    {
+      "text": "扩音器",
+      "productId": "p_07ea218106d5602c",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_07ea218106d5602c"
+      ]
+    },
+    {
+      "text": "Reisestecker",
+      "productId": "p_f481aaa87196515c",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_f481aaa87196515c"
+      ]
+    },
+    {
+      "text": "Travel plug",
+      "productId": "p_f481aaa87196515c",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_f481aaa87196515c"
+      ]
+    },
+    {
+      "text": "旅行转换插头",
+      "productId": "p_f481aaa87196515c",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_f481aaa87196515c"
+      ]
+    },
+    {
+      "text": "IC",
+      "productId": "p_f05a225e14ff5e19",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_f05a225e14ff5e19"
+      ]
+    },
+    {
+      "text": "Integrated circuit",
+      "productId": "p_f05a225e14ff5e19",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_f05a225e14ff5e19"
+      ]
+    },
+    {
+      "text": "集成电路",
+      "productId": "p_f05a225e14ff5e19",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_f05a225e14ff5e19"
+      ]
+    },
+    {
+      "text": "Hutschiene",
+      "productId": "p_cfb2e41f5aa59d60",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_cfb2e41f5aa59d60"
+      ]
+    },
+    {
+      "text": "DIN rail",
+      "productId": "p_cfb2e41f5aa59d60",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_cfb2e41f5aa59d60"
+      ]
+    },
+    {
+      "text": "DIN 导轨",
+      "productId": "p_cfb2e41f5aa59d60",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_cfb2e41f5aa59d60"
+      ]
+    },
+    {
+      "text": "Herpesstift",
+      "productId": "p_fd07016f995c6e13",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_fd07016f995c6e13"
+      ]
+    },
+    {
+      "text": "Heat pen",
+      "productId": "p_fd07016f995c6e13",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_fd07016f995c6e13"
+      ]
+    },
+    {
+      "text": "疱疹热疗笔",
+      "productId": "p_fd07016f995c6e13",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_fd07016f995c6e13"
+      ]
+    },
+    {
+      "text": "Pflegebett",
+      "productId": "p_6717a5f0c85cee95",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_6717a5f0c85cee95"
+      ]
+    },
+    {
+      "text": "Nursing bed, electric",
+      "productId": "p_6717a5f0c85cee95",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_6717a5f0c85cee95"
+      ]
+    },
+    {
+      "text": "电动护理床",
+      "productId": "p_6717a5f0c85cee95",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_6717a5f0c85cee95"
+      ]
+    },
+    {
+      "text": "Gerät der Hausautomation",
+      "productId": "p_c602ae6412db2947",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_c602ae6412db2947"
+      ]
+    },
+    {
+      "text": "House automation equipment",
+      "productId": "p_c602ae6412db2947",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_c602ae6412db2947"
+      ]
+    },
+    {
+      "text": "智能家居设备",
+      "productId": "p_c602ae6412db2947",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_c602ae6412db2947"
+      ]
+    },
+    {
+      "text": "Gerät für Modellbau",
+      "productId": "p_ce648044d00733ab",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_ce648044d00733ab"
+      ]
+    },
+    {
+      "text": "Model construction equipment",
+      "productId": "p_ce648044d00733ab",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_ce648044d00733ab"
+      ]
+    },
+    {
+      "text": "模型制作设备",
+      "productId": "p_ce648044d00733ab",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_ce648044d00733ab"
+      ]
+    },
+    {
+      "text": "Babyfon",
+      "productId": "p_c1c81f1f286c7643",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_c1c81f1f286c7643"
+      ]
+    },
+    {
+      "text": "Baby monitor",
+      "productId": "p_c1c81f1f286c7643",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_c1c81f1f286c7643"
+      ]
+    },
+    {
+      "text": "婴儿监视器",
+      "productId": "p_c1c81f1f286c7643",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_c1c81f1f286c7643"
+      ]
+    },
+    {
+      "text": "Markisenwächter",
+      "productId": "p_050d16e8dc6c9f0d",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_050d16e8dc6c9f0d"
+      ]
+    },
+    {
+      "text": "Wind sensor for awnings",
+      "productId": "p_050d16e8dc6c9f0d",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_050d16e8dc6c9f0d"
+      ]
+    },
+    {
+      "text": "遮阳篷风速传感器",
+      "productId": "p_050d16e8dc6c9f0d",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_050d16e8dc6c9f0d"
+      ]
+    },
+    {
+      "text": "Fledermaus-Detektor",
+      "productId": "p_e5874adb3858fb6f",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_e5874adb3858fb6f"
+      ]
+    },
+    {
+      "text": "Bat detector",
+      "productId": "p_e5874adb3858fb6f",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_e5874adb3858fb6f"
+      ]
+    },
+    {
+      "text": "蝙蝠探测器",
+      "productId": "p_e5874adb3858fb6f",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_e5874adb3858fb6f"
+      ]
+    },
+    {
+      "text": "Dörrautomat",
+      "productId": "p_fb88f5bbaa357d3e",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_fb88f5bbaa357d3e"
+      ]
+    },
+    {
+      "text": "Food dehydrator",
+      "productId": "p_fb88f5bbaa357d3e",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_fb88f5bbaa357d3e"
+      ]
+    },
+    {
+      "text": "食物烘干机",
+      "productId": "p_fb88f5bbaa357d3e",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_fb88f5bbaa357d3e"
+      ]
+    },
+    {
+      "text": "Schachcomputer",
+      "productId": "p_2b992c6d37bd56e4",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_2b992c6d37bd56e4"
+      ]
+    },
+    {
+      "text": "Computer chess board",
+      "productId": "p_2b992c6d37bd56e4",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_2b992c6d37bd56e4"
+      ]
+    },
+    {
+      "text": "电子棋类电脑",
+      "productId": "p_2b992c6d37bd56e4",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_2b992c6d37bd56e4"
+      ]
+    },
+    {
+      "text": "Fahrradcomputer",
+      "productId": "p_adc74a584c02de65",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_adc74a584c02de65"
+      ]
+    },
+    {
+      "text": "Computer for biking",
+      "productId": "p_adc74a584c02de65",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_adc74a584c02de65"
+      ]
+    },
+    {
+      "text": "自行车码表",
+      "productId": "p_adc74a584c02de65",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_adc74a584c02de65"
+      ]
+    },
+    {
+      "text": "Diaprojektor",
+      "productId": "p_f3bd8c269e72fc72",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_f3bd8c269e72fc72"
+      ]
+    },
+    {
+      "text": "Slide projector",
+      "productId": "p_f3bd8c269e72fc72",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_f3bd8c269e72fc72"
+      ]
+    },
+    {
+      "text": "幻灯机",
+      "productId": "p_f3bd8c269e72fc72",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_f3bd8c269e72fc72"
+      ]
+    },
+    {
+      "text": "Nebelmaschine",
+      "productId": "p_bd518ae0fb869ad8",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_bd518ae0fb869ad8"
+      ]
+    },
+    {
+      "text": "Fog machine",
+      "productId": "p_bd518ae0fb869ad8",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_bd518ae0fb869ad8"
+      ]
+    },
+    {
+      "text": "烟雾机",
+      "productId": "p_bd518ae0fb869ad8",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_bd518ae0fb869ad8"
+      ]
+    },
+    {
+      "text": "Beheizbare Schuhsohlen",
+      "productId": "p_753987a566630f1b",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_753987a566630f1b"
+      ]
+    },
+    {
+      "text": "Heated insoles",
+      "productId": "p_753987a566630f1b",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_753987a566630f1b"
+      ]
+    },
+    {
+      "text": "电热鞋垫",
+      "productId": "p_753987a566630f1b",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_753987a566630f1b"
+      ]
+    },
+    {
+      "text": "Milchaufschäumer",
+      "productId": "p_7fc1a8d2fe72854d",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_7fc1a8d2fe72854d"
+      ]
+    },
+    {
+      "text": "Milk frother",
+      "productId": "p_7fc1a8d2fe72854d",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_7fc1a8d2fe72854d"
+      ]
+    },
+    {
+      "text": "奶泡机",
+      "productId": "p_7fc1a8d2fe72854d",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_7fc1a8d2fe72854d"
+      ]
+    },
+    {
+      "text": "Inhalationsgerät",
+      "productId": "p_02ce8e0586520ca5",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_02ce8e0586520ca5"
+      ]
+    },
+    {
+      "text": "Inhaler",
+      "productId": "p_02ce8e0586520ca5",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_02ce8e0586520ca5"
+      ]
+    },
+    {
+      "text": "雾化吸入器",
+      "productId": "p_02ce8e0586520ca5",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_02ce8e0586520ca5"
+      ]
+    },
+    {
+      "text": "Brotbackautomat",
+      "productId": "p_cde0e2bf6cce31a7",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_cde0e2bf6cce31a7"
+      ]
+    },
+    {
+      "text": "Breadmaker",
+      "productId": "p_cde0e2bf6cce31a7",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_cde0e2bf6cce31a7"
+      ]
+    },
+    {
+      "text": "面包机（Brotbackautomat）",
+      "productId": "p_cde0e2bf6cce31a7",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_cde0e2bf6cce31a7"
+      ]
+    },
+    {
+      "text": "Ein-Ohr-Headset",
+      "productId": "p_a5a191fc5d0c20be",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_a5a191fc5d0c20be"
+      ]
+    },
+    {
+      "text": "Single sided Headset",
+      "productId": "p_a5a191fc5d0c20be",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_a5a191fc5d0c20be"
+      ]
+    },
+    {
+      "text": "单耳耳机",
+      "productId": "p_a5a191fc5d0c20be",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_a5a191fc5d0c20be"
+      ]
+    },
+    {
+      "text": "Rauchmelder",
+      "productId": "p_43a079f3f580d361",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_43a079f3f580d361"
+      ]
+    },
+    {
+      "text": "Smoke detector",
+      "productId": "p_43a079f3f580d361",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_43a079f3f580d361"
+      ]
+    },
+    {
+      "text": "烟雾报警器",
+      "productId": "p_43a079f3f580d361",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_43a079f3f580d361"
+      ]
+    },
+    {
+      "text": "Kabeltrommel",
+      "productId": "p_57245c59052b426a",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_57245c59052b426a"
+      ]
+    },
+    {
+      "text": "Cable reel",
+      "productId": "p_57245c59052b426a",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_57245c59052b426a"
+      ]
+    },
+    {
+      "text": "电缆卷盘",
+      "productId": "p_57245c59052b426a",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_57245c59052b426a"
+      ]
+    },
+    {
+      "text": "DSLR-Kamera",
+      "productId": "p_76997876b9d774d8",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_76997876b9d774d8"
+      ]
+    },
+    {
+      "text": "DSLR camera",
+      "productId": "p_76997876b9d774d8",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_76997876b9d774d8"
+      ]
+    },
+    {
+      "text": "数码单反相机",
+      "productId": "p_76997876b9d774d8",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_76997876b9d774d8"
+      ]
+    },
+    {
+      "text": "Schreibmaschine (elektrische)",
+      "productId": "p_eccc3eac4d260474",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_eccc3eac4d260474"
+      ]
+    },
+    {
+      "text": "Typewriter (electric)",
+      "productId": "p_eccc3eac4d260474",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_eccc3eac4d260474"
+      ]
+    },
+    {
+      "text": "电动打字机",
+      "productId": "p_eccc3eac4d260474",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_eccc3eac4d260474"
+      ]
+    },
+    {
+      "text": "Flachbettscanner",
+      "productId": "p_00bbd02bafe23943",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_00bbd02bafe23943"
+      ]
+    },
+    {
+      "text": "Document Scanner",
+      "productId": "p_00bbd02bafe23943",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_00bbd02bafe23943"
+      ]
+    },
+    {
+      "text": "平板扫描仪",
+      "productId": "p_00bbd02bafe23943",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_00bbd02bafe23943"
+      ]
+    },
+    {
+      "text": "Erdungskabel",
+      "productId": "p_1a49c5ce8eb6cd38",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_1a49c5ce8eb6cd38"
+      ]
+    },
+    {
+      "text": "grounding cable",
+      "productId": "p_1a49c5ce8eb6cd38",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_1a49c5ce8eb6cd38"
+      ]
+    },
+    {
+      "text": "接地线",
+      "productId": "p_1a49c5ce8eb6cd38",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_1a49c5ce8eb6cd38"
+      ]
+    },
+    {
+      "text": "Spannungswandler",
+      "productId": "p_777ba5daefa8be5a",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_777ba5daefa8be5a"
+      ]
+    },
+    {
+      "text": "Voltage converter",
+      "productId": "p_777ba5daefa8be5a",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_777ba5daefa8be5a"
+      ]
+    },
+    {
+      "text": "电压转换器",
+      "productId": "p_777ba5daefa8be5a",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_777ba5daefa8be5a"
+      ]
+    },
+    {
+      "text": "Netzwerkkamera",
+      "productId": "p_5d37d7f686b7e8bf",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_5d37d7f686b7e8bf"
+      ]
+    },
+    {
+      "text": "Network camera",
+      "productId": "p_5d37d7f686b7e8bf",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_5d37d7f686b7e8bf"
+      ]
+    },
+    {
+      "text": "网络摄像机（Netzwerkkamera）",
+      "productId": "p_5d37d7f686b7e8bf",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_5d37d7f686b7e8bf"
+      ]
+    },
+    {
+      "text": "Haustürklingel",
+      "productId": "p_80e5cc7f2ae17ec9",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_80e5cc7f2ae17ec9"
+      ]
+    },
+    {
+      "text": "Door bell",
+      "productId": "p_80e5cc7f2ae17ec9",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_80e5cc7f2ae17ec9"
+      ]
+    },
+    {
+      "text": "门铃",
+      "productId": "p_80e5cc7f2ae17ec9",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_80e5cc7f2ae17ec9"
+      ]
+    },
+    {
+      "text": "elektrischer Anspitzer",
+      "productId": "p_8bc9212a01c3d949",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_8bc9212a01c3d949"
+      ]
+    },
+    {
+      "text": "Electric pencil sharpener",
+      "productId": "p_8bc9212a01c3d949",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_8bc9212a01c3d949"
+      ]
+    },
+    {
+      "text": "电动卷笔刀",
+      "productId": "p_8bc9212a01c3d949",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_8bc9212a01c3d949"
+      ]
+    },
+    {
+      "text": "elektrischer Rückspiegel Kfz",
+      "productId": "p_598d5cb44ceca042",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_598d5cb44ceca042"
+      ]
+    },
+    {
+      "text": "electric Rear-view Mirror",
+      "productId": "p_598d5cb44ceca042",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_598d5cb44ceca042"
+      ]
+    },
+    {
+      "text": "电动后视镜",
+      "productId": "p_598d5cb44ceca042",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_598d5cb44ceca042"
+      ]
+    },
+    {
+      "text": "Oszilloskop",
+      "productId": "p_68a8bfa2b9e7fe6c",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_68a8bfa2b9e7fe6c"
+      ]
+    },
+    {
+      "text": "Oscilloscope",
+      "productId": "p_68a8bfa2b9e7fe6c",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_68a8bfa2b9e7fe6c"
+      ]
+    },
+    {
+      "text": "示波器",
+      "productId": "p_68a8bfa2b9e7fe6c",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_68a8bfa2b9e7fe6c"
+      ]
+    },
+    {
+      "text": "Steckdosentester",
+      "productId": "p_de6dadc427db022d",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_de6dadc427db022d"
+      ]
+    },
+    {
+      "text": "Socket Tester",
+      "productId": "p_de6dadc427db022d",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_de6dadc427db022d"
+      ]
+    },
+    {
+      "text": "插座测试仪",
+      "productId": "p_de6dadc427db022d",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_de6dadc427db022d"
+      ]
+    },
+    {
+      "text": "Fernsteuerung",
+      "productId": "p_b1cb11cfadcd348e",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_b1cb11cfadcd348e"
+      ]
+    },
+    {
+      "text": "Remote control",
+      "productId": "p_b1cb11cfadcd348e",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_b1cb11cfadcd348e"
+      ]
+    },
+    {
+      "text": "遥控器",
+      "productId": "p_b1cb11cfadcd348e",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_b1cb11cfadcd348e"
+      ]
+    },
+    {
+      "text": "Heißluftpistole",
+      "productId": "p_8d1a96f942f943bf",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_8d1a96f942f943bf"
+      ]
+    },
+    {
+      "text": "Heat gun",
+      "productId": "p_8d1a96f942f943bf",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_8d1a96f942f943bf"
+      ]
+    },
+    {
+      "text": "热风枪",
+      "productId": "p_8d1a96f942f943bf",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_8d1a96f942f943bf"
+      ]
+    },
+    {
+      "text": "TV Box",
+      "productId": "p_e94b5b044a7a3167",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_e94b5b044a7a3167"
+      ]
+    },
+    {
+      "text": "电视盒子（TV Box）",
+      "productId": "p_e94b5b044a7a3167",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_e94b5b044a7a3167"
+      ]
+    },
+    {
+      "text": "Lichtdimmer",
+      "productId": "p_d38ab434911e887c",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_d38ab434911e887c"
+      ]
+    },
+    {
+      "text": "Dimmer switch",
+      "productId": "p_d38ab434911e887c",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_d38ab434911e887c"
+      ]
+    },
+    {
+      "text": "调光器",
+      "productId": "p_d38ab434911e887c",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_d38ab434911e887c"
+      ]
+    },
+    {
+      "text": "Mikrofon",
+      "productId": "p_d694caab755455a6",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_d694caab755455a6"
+      ]
+    },
+    {
+      "text": "Microphone",
+      "productId": "p_d694caab755455a6",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_d694caab755455a6"
+      ]
+    },
+    {
+      "text": "麦克风",
+      "productId": "p_d694caab755455a6",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_d694caab755455a6"
+      ]
+    },
+    {
+      "text": "LCD-Modul",
+      "productId": "p_01dffabd439b6436",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_01dffabd439b6436"
+      ]
+    },
+    {
+      "text": "LCD module",
+      "productId": "p_01dffabd439b6436",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_01dffabd439b6436"
+      ]
+    },
+    {
+      "text": "LCD 模块",
+      "productId": "p_01dffabd439b6436",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_01dffabd439b6436"
+      ]
+    },
+    {
+      "text": "Sensormülleimer",
+      "productId": "p_9b2c2b56ce9d11db",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_9b2c2b56ce9d11db"
+      ]
+    },
+    {
+      "text": "Sensor bin",
+      "productId": "p_9b2c2b56ce9d11db",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_9b2c2b56ce9d11db"
+      ]
+    },
+    {
+      "text": "感应垃圾桶",
+      "productId": "p_9b2c2b56ce9d11db",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_9b2c2b56ce9d11db"
+      ]
+    },
+    {
+      "text": "Spielzeug",
+      "productId": "p_ee75d0dad0b324a0",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_ee75d0dad0b324a0"
+      ]
+    },
+    {
+      "text": "Toy",
+      "productId": "p_ee75d0dad0b324a0",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_ee75d0dad0b324a0"
+      ]
+    },
+    {
+      "text": "玩具",
+      "productId": "p_ee75d0dad0b324a0",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_ee75d0dad0b324a0"
+      ]
+    },
+    {
+      "text": "Duftstecker",
+      "productId": "p_6f8b7d7628ece654",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_6f8b7d7628ece654"
+      ]
+    },
+    {
+      "text": "air freshener with plug",
+      "productId": "p_6f8b7d7628ece654",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_6f8b7d7628ece654"
+      ]
+    },
+    {
+      "text": "插电式香薰器",
+      "productId": "p_6f8b7d7628ece654",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_6f8b7d7628ece654"
+      ]
+    },
+    {
+      "text": "NFC-Chip",
+      "productId": "p_65e61e7cd0c72631",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_65e61e7cd0c72631"
+      ]
+    },
+    {
+      "text": "NFC chip",
+      "productId": "p_65e61e7cd0c72631",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_65e61e7cd0c72631"
+      ]
+    },
+    {
+      "text": "NFC 芯片",
+      "productId": "p_65e61e7cd0c72631",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_65e61e7cd0c72631"
+      ]
+    },
+    {
+      "text": "Pumpe",
+      "productId": "p_edfbb376a48737d4",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_edfbb376a48737d4"
+      ]
+    },
+    {
+      "text": "Pump",
+      "productId": "p_edfbb376a48737d4",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_edfbb376a48737d4"
+      ]
+    },
+    {
+      "text": "泵",
+      "productId": "p_edfbb376a48737d4",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_edfbb376a48737d4"
+      ]
+    },
+    {
+      "text": "Ticketspender",
+      "productId": "p_dc3915cb33bbb51e",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_dc3915cb33bbb51e"
+      ]
+    },
+    {
+      "text": "Ticket dispenser",
+      "productId": "p_dc3915cb33bbb51e",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_dc3915cb33bbb51e"
+      ]
+    },
+    {
+      "text": "票据发放机",
+      "productId": "p_dc3915cb33bbb51e",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_dc3915cb33bbb51e"
+      ]
+    },
+    {
+      "text": "Quittungsdrucker",
+      "productId": "p_fa375f1aa72bc9a8",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_fa375f1aa72bc9a8"
+      ]
+    },
+    {
+      "text": "Label printer",
+      "productId": "p_fa375f1aa72bc9a8",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_fa375f1aa72bc9a8"
+      ]
+    },
+    {
+      "text": "小票打印机",
+      "productId": "p_fa375f1aa72bc9a8",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_fa375f1aa72bc9a8"
+      ]
+    },
+    {
+      "text": "Kfz-Sicherung",
+      "productId": "p_ab1ccd7f7cf0d32a",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_ab1ccd7f7cf0d32a"
+      ]
+    },
+    {
+      "text": "Car fuse",
+      "productId": "p_ab1ccd7f7cf0d32a",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_ab1ccd7f7cf0d32a"
+      ]
+    },
+    {
+      "text": "汽车保险丝",
+      "productId": "p_ab1ccd7f7cf0d32a",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_ab1ccd7f7cf0d32a"
+      ]
+    },
+    {
+      "text": "Dimmer",
+      "productId": "p_143566767b3b05e1",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_143566767b3b05e1"
+      ]
+    },
+    {
+      "text": "调光开关",
+      "productId": "p_143566767b3b05e1",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_143566767b3b05e1"
+      ]
+    },
+    {
+      "text": "LNB",
+      "productId": "p_8d0ddecc2f73824b",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_8d0ddecc2f73824b"
+      ]
+    },
+    {
+      "text": "Low-noise block downconverter",
+      "productId": "p_8d0ddecc2f73824b",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_8d0ddecc2f73824b"
+      ]
+    },
+    {
+      "text": "高频头（LNB）",
+      "productId": "p_8d0ddecc2f73824b",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_8d0ddecc2f73824b"
+      ]
+    },
+    {
+      "text": "Kopierer",
+      "productId": "p_b4abf4e4df5a854a",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_b4abf4e4df5a854a"
+      ]
+    },
+    {
+      "text": "Copier",
+      "productId": "p_b4abf4e4df5a854a",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_b4abf4e4df5a854a"
+      ]
+    },
+    {
+      "text": "复印机（Kopierer）",
+      "productId": "p_b4abf4e4df5a854a",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_b4abf4e4df5a854a"
+      ]
+    },
+    {
+      "text": "Werkzeug",
+      "productId": "p_9d7d38fe1593322f",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_9d7d38fe1593322f"
+      ]
+    },
+    {
+      "text": "Tool",
+      "productId": "p_9d7d38fe1593322f",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_9d7d38fe1593322f"
+      ]
+    },
+    {
+      "text": "工具",
+      "productId": "p_9d7d38fe1593322f",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_9d7d38fe1593322f"
+      ]
+    },
+    {
+      "text": "Schuhtrockner",
+      "productId": "p_68a48ac4f8dc0919",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_68a48ac4f8dc0919"
+      ]
+    },
+    {
+      "text": "Shoe dryer",
+      "productId": "p_68a48ac4f8dc0919",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_68a48ac4f8dc0919"
+      ]
+    },
+    {
+      "text": "烘鞋器",
+      "productId": "p_68a48ac4f8dc0919",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_68a48ac4f8dc0919"
+      ]
+    },
+    {
+      "text": "Mikroskop",
+      "productId": "p_3a4517a577195e84",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_3a4517a577195e84"
+      ]
+    },
+    {
+      "text": "Microscope",
+      "productId": "p_3a4517a577195e84",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_3a4517a577195e84"
+      ]
+    },
+    {
+      "text": "显微镜",
+      "productId": "p_3a4517a577195e84",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_3a4517a577195e84"
+      ]
+    },
+    {
+      "text": "Bodenfeuchtigkeitsmesser",
+      "productId": "p_e718f8bf9e9a42b1",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_e718f8bf9e9a42b1"
+      ]
+    },
+    {
+      "text": "Soil moisture meter",
+      "productId": "p_e718f8bf9e9a42b1",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_e718f8bf9e9a42b1"
+      ]
+    },
+    {
+      "text": "土壤湿度计",
+      "productId": "p_e718f8bf9e9a42b1",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_e718f8bf9e9a42b1"
+      ]
+    },
+    {
+      "text": "Getränkekühler (mit Kompressor)",
+      "productId": "p_f89ea7f4d8b05074",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_f89ea7f4d8b05074"
+      ]
+    },
+    {
+      "text": "Drinks cooler (with compressor)",
+      "productId": "p_f89ea7f4d8b05074",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_f89ea7f4d8b05074"
+      ]
+    },
+    {
+      "text": "压缩机制冷饮料柜",
+      "productId": "p_f89ea7f4d8b05074",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_f89ea7f4d8b05074"
+      ]
+    },
+    {
+      "text": "Kühlbox (mit Kompressor)",
+      "productId": "p_a76da995c8a27e99",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_a76da995c8a27e99"
+      ]
+    },
+    {
+      "text": "Cooler (with compressor)",
+      "productId": "p_a76da995c8a27e99",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_a76da995c8a27e99"
+      ]
+    },
+    {
+      "text": "压缩机制冷保温箱",
+      "productId": "p_a76da995c8a27e99",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_a76da995c8a27e99"
+      ]
+    },
+    {
+      "text": "Laptop",
+      "productId": "p_312f91285e048e09",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_312f91285e048e09"
+      ]
+    },
+    {
+      "text": "笔记本电脑（Laptop）",
+      "productId": "p_312f91285e048e09",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_312f91285e048e09"
+      ]
+    },
+    {
+      "text": "Digitaler Drehmomentschlüssel",
+      "productId": "p_9e8a5ae39f245b8b",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_9e8a5ae39f245b8b"
+      ]
+    },
+    {
+      "text": "Digital torque wrench",
+      "productId": "p_9e8a5ae39f245b8b",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_9e8a5ae39f245b8b"
+      ]
+    },
+    {
+      "text": "数显扭力扳手",
+      "productId": "p_9e8a5ae39f245b8b",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_9e8a5ae39f245b8b"
+      ]
+    },
+    {
+      "text": "Grillmotor (zum Nachrüsten)",
+      "productId": "p_04232d3c10f01c75",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_04232d3c10f01c75"
+      ]
+    },
+    {
+      "text": "Barbeque motor (retrofit)",
+      "productId": "p_04232d3c10f01c75",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_04232d3c10f01c75"
+      ]
+    },
+    {
+      "text": "烤肉架电机（后装）",
+      "productId": "p_04232d3c10f01c75",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_04232d3c10f01c75"
+      ]
+    },
+    {
+      "text": "Digitales Metronom",
+      "productId": "p_61c48c2f74e05147",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_61c48c2f74e05147"
+      ]
+    },
+    {
+      "text": "Digital metronome tuner",
+      "productId": "p_61c48c2f74e05147",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_61c48c2f74e05147"
+      ]
+    },
+    {
+      "text": "电子节拍器",
+      "productId": "p_61c48c2f74e05147",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_61c48c2f74e05147"
+      ]
+    },
+    {
+      "text": "Ultraschall Schädlingsbekämpfer",
+      "productId": "p_514340e186f7c4a8",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_514340e186f7c4a8"
+      ]
+    },
+    {
+      "text": "Ultrasonic pest repeller",
+      "productId": "p_514340e186f7c4a8",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_514340e186f7c4a8"
+      ]
+    },
+    {
+      "text": "超声波驱虫器",
+      "productId": "p_514340e186f7c4a8",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_514340e186f7c4a8"
+      ]
+    },
+    {
+      "text": "LED-Armband",
+      "productId": "p_bec7f906cff021ee",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_bec7f906cff021ee"
+      ]
+    },
+    {
+      "text": "LED light bracelet",
+      "productId": "p_bec7f906cff021ee",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_bec7f906cff021ee"
+      ]
+    },
+    {
+      "text": "LED 发光手环",
+      "productId": "p_bec7f906cff021ee",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_bec7f906cff021ee"
+      ]
+    },
+    {
+      "text": "Einbau-Potentiometer",
+      "productId": "p_7425e5735747a691",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_7425e5735747a691"
+      ]
+    },
+    {
+      "text": "Single potentiomete",
+      "productId": "p_7425e5735747a691",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_7425e5735747a691"
+      ]
+    },
+    {
+      "text": "内置电位器",
+      "productId": "p_7425e5735747a691",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_7425e5735747a691"
+      ]
+    },
+    {
+      "text": "Kondensator",
+      "productId": "p_aef442dc064f0718",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_aef442dc064f0718"
+      ]
+    },
+    {
+      "text": "Capacitor",
+      "productId": "p_aef442dc064f0718",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_aef442dc064f0718"
+      ]
+    },
+    {
+      "text": "电容器",
+      "productId": "p_aef442dc064f0718",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_aef442dc064f0718"
+      ]
+    },
+    {
+      "text": "Transistor",
+      "productId": "p_aaa0d78af49a2fbc",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_aaa0d78af49a2fbc"
+      ]
+    },
+    {
+      "text": "晶体管",
+      "productId": "p_aaa0d78af49a2fbc",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_aaa0d78af49a2fbc"
+      ]
+    },
+    {
+      "text": "Tauchcomputer",
+      "productId": "p_9c75661c10d09cbe",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_9c75661c10d09cbe"
+      ]
+    },
+    {
+      "text": "Computer for diving",
+      "productId": "p_9c75661c10d09cbe",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_9c75661c10d09cbe"
+      ]
+    },
+    {
+      "text": "潜水电脑",
+      "productId": "p_9c75661c10d09cbe",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_9c75661c10d09cbe"
+      ]
+    },
+    {
+      "text": "Taschenrechner",
+      "productId": "p_2c7983adf8c9e18c",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_2c7983adf8c9e18c"
+      ]
+    },
+    {
+      "text": "Pocket calculator",
+      "productId": "p_2c7983adf8c9e18c",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_2c7983adf8c9e18c"
+      ]
+    },
+    {
+      "text": "计算器",
+      "productId": "p_2c7983adf8c9e18c",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_2c7983adf8c9e18c"
+      ]
+    },
+    {
+      "text": "Satellitentelefon",
+      "productId": "p_96d95376b8db48d9",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_96d95376b8db48d9"
+      ]
+    },
+    {
+      "text": "Satellite telephone",
+      "productId": "p_96d95376b8db48d9",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_96d95376b8db48d9"
+      ]
+    },
+    {
+      "text": "卫星电话",
+      "productId": "p_96d95376b8db48d9",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_96d95376b8db48d9"
+      ]
+    },
+    {
+      "text": "Phablet",
+      "productId": "p_f3d09cf7843490bf",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_f3d09cf7843490bf"
+      ]
+    },
+    {
+      "text": "平板手机",
+      "productId": "p_f3d09cf7843490bf",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_f3d09cf7843490bf"
+      ]
+    },
+    {
+      "text": "Datenaufzeichnungsgerät",
+      "productId": "p_fe8509830dcdae7d",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_fe8509830dcdae7d"
+      ]
+    },
+    {
+      "text": "Data recording equipment",
+      "productId": "p_fe8509830dcdae7d",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_fe8509830dcdae7d"
+      ]
+    },
+    {
+      "text": "数据记录仪",
+      "productId": "p_fe8509830dcdae7d",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_fe8509830dcdae7d"
+      ]
+    },
+    {
+      "text": "Wildkamera",
+      "productId": "p_5131be85f934d65a",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_5131be85f934d65a"
+      ]
+    },
+    {
+      "text": "Wildlife camera",
+      "productId": "p_5131be85f934d65a",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_5131be85f934d65a"
+      ]
+    },
+    {
+      "text": "野外摄像机（狩猎相机）",
+      "productId": "p_5131be85f934d65a",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_5131be85f934d65a"
+      ]
+    },
+    {
+      "text": "Widerstand",
+      "productId": "p_cc8af3cf05fef295",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_cc8af3cf05fef295"
+      ]
+    },
+    {
+      "text": "Resistor",
+      "productId": "p_cc8af3cf05fef295",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_cc8af3cf05fef295"
+      ]
+    },
+    {
+      "text": "电阻器",
+      "productId": "p_cc8af3cf05fef295",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_cc8af3cf05fef295"
+      ]
+    },
+    {
+      "text": "Abzweigdose",
+      "productId": "p_bef9e10b68c8ec32",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_bef9e10b68c8ec32"
+      ]
+    },
+    {
+      "text": "Junction box",
+      "productId": "p_bef9e10b68c8ec32",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_bef9e10b68c8ec32"
+      ]
+    },
+    {
+      "text": "接线盒",
+      "productId": "p_bef9e10b68c8ec32",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_bef9e10b68c8ec32"
+      ]
+    },
+    {
+      "text": "Kabelkanal",
+      "productId": "p_ad4cb87fbca5ae52",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_ad4cb87fbca5ae52"
+      ]
+    },
+    {
+      "text": "empty cable duct",
+      "productId": "p_ad4cb87fbca5ae52",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_ad4cb87fbca5ae52"
+      ]
+    },
+    {
+      "text": "线槽（空）",
+      "productId": "p_ad4cb87fbca5ae52",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_ad4cb87fbca5ae52"
+      ]
+    },
+    {
+      "text": "CD-, DVD-, Blu-Ray-Disc",
+      "productId": "p_d982bb65e351152c",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_d982bb65e351152c"
+      ]
+    },
+    {
+      "text": "CD, DVD, Blu-Ray Disc",
+      "productId": "p_d982bb65e351152c",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_d982bb65e351152c"
+      ]
+    },
+    {
+      "text": "CD/DVD/蓝光光盘",
+      "productId": "p_d982bb65e351152c",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_d982bb65e351152c"
+      ]
+    },
+    {
+      "text": "Receiver für Rundfunk (Radio), TV",
+      "productId": "p_2e6031f9b829cad4",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_2e6031f9b829cad4"
+      ]
+    },
+    {
+      "text": "Receiver for radio, TV",
+      "productId": "p_2e6031f9b829cad4",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_2e6031f9b829cad4"
+      ]
+    },
+    {
+      "text": "广播/电视接收机",
+      "productId": "p_2e6031f9b829cad4",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_2e6031f9b829cad4"
+      ]
+    },
+    {
+      "text": "Hi-Fi-Anlage",
+      "productId": "p_d62ac6924fbbde99",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_d62ac6924fbbde99"
+      ]
+    },
+    {
+      "text": "Hi-fi equipment",
+      "productId": "p_d62ac6924fbbde99",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_d62ac6924fbbde99"
+      ]
+    },
+    {
+      "text": "音响组合",
+      "productId": "p_d62ac6924fbbde99",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_d62ac6924fbbde99"
+      ]
+    },
+    {
+      "text": "Geldspielautomat",
+      "productId": "p_de7ca8bbf929da1c",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_de7ca8bbf929da1c"
+      ]
+    },
+    {
+      "text": "Coin slot machine",
+      "productId": "p_de7ca8bbf929da1c",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_de7ca8bbf929da1c"
+      ]
+    },
+    {
+      "text": "投币游戏机",
+      "productId": "p_de7ca8bbf929da1c",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_de7ca8bbf929da1c"
+      ]
+    },
+    {
+      "text": "Prozessor zum Stecken in einen Sockel",
+      "productId": "p_a809fd2e1602eac5",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_a809fd2e1602eac5"
+      ]
+    },
+    {
+      "text": "Processor to insert in a base",
+      "productId": "p_a809fd2e1602eac5",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_a809fd2e1602eac5"
+      ]
+    },
+    {
+      "text": "插槽式处理器",
+      "productId": "p_a809fd2e1602eac5",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_a809fd2e1602eac5"
+      ]
+    },
+    {
+      "text": "Kühltheke",
+      "productId": "p_b3aaf2cad57d41fb",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_b3aaf2cad57d41fb"
+      ]
+    },
+    {
+      "text": "Refrigerated counter",
+      "productId": "p_b3aaf2cad57d41fb",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_b3aaf2cad57d41fb"
+      ]
+    },
+    {
+      "text": "冷藏展示柜",
+      "productId": "p_b3aaf2cad57d41fb",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_b3aaf2cad57d41fb"
+      ]
+    },
+    {
+      "text": "Milchpumpe",
+      "productId": "p_6634de8d29c9c3b4",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_6634de8d29c9c3b4"
+      ]
+    },
+    {
+      "text": "Breast pump",
+      "productId": "p_6634de8d29c9c3b4",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_6634de8d29c9c3b4"
+      ]
+    },
+    {
+      "text": "吸奶器",
+      "productId": "p_6634de8d29c9c3b4",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_6634de8d29c9c3b4"
+      ]
+    },
+    {
+      "text": "LED-Leuchpfeiltnocken",
+      "productId": "p_1509ea02ffe09bc7",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_1509ea02ffe09bc7"
+      ]
+    },
+    {
+      "text": "LED lighted arrow nocks",
+      "productId": "p_1509ea02ffe09bc7",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_1509ea02ffe09bc7"
+      ]
+    },
+    {
+      "text": "LED 发光箭尾",
+      "productId": "p_1509ea02ffe09bc7",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_1509ea02ffe09bc7"
+      ]
+    },
+    {
+      "text": "Chiptuninggerät für Kfz",
+      "productId": "p_0c565eb97713bd44",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_0c565eb97713bd44"
+      ]
+    },
+    {
+      "text": "Chiptuning for cars",
+      "productId": "p_0c565eb97713bd44",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_0c565eb97713bd44"
+      ]
+    },
+    {
+      "text": "汽车动力调校设备",
+      "productId": "p_0c565eb97713bd44",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_0c565eb97713bd44"
+      ]
+    },
+    {
+      "text": "Niedervoltkoppler",
+      "productId": "p_fc883590d17770b8",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_fc883590d17770b8"
+      ]
+    },
+    {
+      "text": "Low-voltage coupler",
+      "productId": "p_fc883590d17770b8",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_fc883590d17770b8"
+      ]
+    },
+    {
+      "text": "低压耦合器",
+      "productId": "p_fc883590d17770b8",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_fc883590d17770b8"
+      ]
+    },
+    {
+      "text": "3D-Druckstift",
+      "productId": "p_9f1ce91388e29975",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_9f1ce91388e29975"
+      ]
+    },
+    {
+      "text": "3D printing pen",
+      "productId": "p_9f1ce91388e29975",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_9f1ce91388e29975"
+      ]
+    },
+    {
+      "text": "3D 打印笔",
+      "productId": "p_9f1ce91388e29975",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_9f1ce91388e29975"
+      ]
+    },
+    {
+      "text": "Elektromotor",
+      "productId": "p_252a632695cc6a66",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_252a632695cc6a66"
+      ]
+    },
+    {
+      "text": "Electric motor",
+      "productId": "p_252a632695cc6a66",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_252a632695cc6a66"
+      ]
+    },
+    {
+      "text": "电动机",
+      "productId": "p_252a632695cc6a66",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_252a632695cc6a66"
+      ]
+    },
+    {
+      "text": "Gefriergerät",
+      "productId": "p_f56965373da12816",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_f56965373da12816"
+      ]
+    },
+    {
+      "text": "Freezer",
+      "productId": "p_f56965373da12816",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_f56965373da12816"
+      ]
+    },
+    {
+      "text": "冷冻柜（Gefriergerät）",
+      "productId": "p_f56965373da12816",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_f56965373da12816"
+      ]
+    },
+    {
+      "text": "Fernbedienung",
+      "productId": "p_0b06e45a34ed1377",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_0b06e45a34ed1377"
+      ]
+    },
+    {
+      "text": "遥控器（Fernbedienung）",
+      "productId": "p_0b06e45a34ed1377",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_0b06e45a34ed1377"
+      ]
+    },
+    {
+      "text": "Piezofeuerzeug",
+      "productId": "p_45fa8f79ea001415",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_45fa8f79ea001415"
+      ]
+    },
+    {
+      "text": "piezoelectric lighter",
+      "productId": "p_45fa8f79ea001415",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_45fa8f79ea001415"
+      ]
+    },
+    {
+      "text": "压电打火机",
+      "productId": "p_45fa8f79ea001415",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_45fa8f79ea001415"
+      ]
+    },
+    {
+      "text": "Rotpunktvisier",
+      "productId": "p_f041dc33cf3aad09",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_f041dc33cf3aad09"
+      ]
+    },
+    {
+      "text": "Hunting Riflescope Red Dot",
+      "productId": "p_f041dc33cf3aad09",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_f041dc33cf3aad09"
+      ]
+    },
+    {
+      "text": "红点瞄准镜",
+      "productId": "p_f041dc33cf3aad09",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_f041dc33cf3aad09"
+      ]
+    },
+    {
+      "text": "Videorekorder",
+      "productId": "p_48f9bdc175df447e",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_48f9bdc175df447e"
+      ]
+    },
+    {
+      "text": "Video recorder",
+      "productId": "p_48f9bdc175df447e",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_48f9bdc175df447e"
+      ]
+    },
+    {
+      "text": "录像机（Videorekorder）",
+      "productId": "p_48f9bdc175df447e",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_48f9bdc175df447e"
+      ]
+    },
+    {
+      "text": "Unterputz-Gerätedose",
+      "productId": "p_873a8112a9666ffe",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_873a8112a9666ffe"
+      ]
+    },
+    {
+      "text": "Flush-mounted switch box",
+      "productId": "p_873a8112a9666ffe",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_873a8112a9666ffe"
+      ]
+    },
+    {
+      "text": "暗装接线盒",
+      "productId": "p_873a8112a9666ffe",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_873a8112a9666ffe"
+      ]
+    },
+    {
+      "text": "Elektrisches Messer",
+      "productId": "p_d1114324f04e2716",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_d1114324f04e2716"
+      ]
+    },
+    {
+      "text": "Electric knive",
+      "productId": "p_d1114324f04e2716",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_d1114324f04e2716"
+      ]
+    },
+    {
+      "text": "电动刀",
+      "productId": "p_d1114324f04e2716",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_d1114324f04e2716"
+      ]
+    },
+    {
+      "text": "Elektroschocker",
+      "productId": "p_cb85c01518540c8c",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_cb85c01518540c8c"
+      ]
+    },
+    {
+      "text": "Electric shock device",
+      "productId": "p_cb85c01518540c8c",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_cb85c01518540c8c"
+      ]
+    },
+    {
+      "text": "电击器",
+      "productId": "p_cb85c01518540c8c",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_cb85c01518540c8c"
+      ]
+    },
+    {
+      "text": "Elektronische Pfeife",
+      "productId": "p_d49bcb4e7c22d3b6",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_d49bcb4e7c22d3b6"
+      ]
+    },
+    {
+      "text": "Electronic whistle",
+      "productId": "p_d49bcb4e7c22d3b6",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_d49bcb4e7c22d3b6"
+      ]
+    },
+    {
+      "text": "电子哨",
+      "productId": "p_d49bcb4e7c22d3b6",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_d49bcb4e7c22d3b6"
+      ]
+    },
+    {
+      "text": "Schweißhelm mit LCD-Visier",
+      "productId": "p_1585c71a70e91c01",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_1585c71a70e91c01"
+      ]
+    },
+    {
+      "text": "Welding helmet, LCD",
+      "productId": "p_1585c71a70e91c01",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_1585c71a70e91c01"
+      ]
+    },
+    {
+      "text": "LCD 自动变光电焊面罩",
+      "productId": "p_1585c71a70e91c01",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_1585c71a70e91c01"
+      ]
+    },
+    {
+      "text": "HDMI-Splitter",
+      "productId": "p_403a74f7fe1115f8",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_403a74f7fe1115f8"
+      ]
+    },
+    {
+      "text": "HDMI Switch",
+      "productId": "p_403a74f7fe1115f8",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_403a74f7fe1115f8"
+      ]
+    },
+    {
+      "text": "HDMI 分配器",
+      "productId": "p_403a74f7fe1115f8",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_403a74f7fe1115f8"
+      ]
+    },
+    {
+      "text": "Selfie-Stick mit elektr. Funktion",
+      "productId": "p_5b1ec99bf838f554",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_5b1ec99bf838f554"
+      ]
+    },
+    {
+      "text": "Selfie stick",
+      "productId": "p_5b1ec99bf838f554",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_5b1ec99bf838f554"
+      ]
+    },
+    {
+      "text": "电动自拍杆",
+      "productId": "p_5b1ec99bf838f554",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_5b1ec99bf838f554"
+      ]
+    },
+    {
+      "text": "Schweißelektrode",
+      "productId": "p_1145bdd7b5feb650",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_1145bdd7b5feb650"
+      ]
+    },
+    {
+      "text": "welding electrode",
+      "productId": "p_1145bdd7b5feb650",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_1145bdd7b5feb650"
+      ]
+    },
+    {
+      "text": "焊条",
+      "productId": "p_1145bdd7b5feb650",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_1145bdd7b5feb650"
+      ]
+    },
+    {
+      "text": "Einzel-LED",
+      "productId": "p_747f3da41a944695",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_747f3da41a944695"
+      ]
+    },
+    {
+      "text": "single LED",
+      "productId": "p_747f3da41a944695",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_747f3da41a944695"
+      ]
+    },
+    {
+      "text": "单颗 LED",
+      "productId": "p_747f3da41a944695",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_747f3da41a944695"
+      ]
+    },
+    {
+      "text": "Telefondose",
+      "productId": "p_8aa5b0bda8c8b662",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_8aa5b0bda8c8b662"
+      ]
+    },
+    {
+      "text": "Telephone outlet/socket",
+      "productId": "p_8aa5b0bda8c8b662",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_8aa5b0bda8c8b662"
+      ]
+    },
+    {
+      "text": "电话插座",
+      "productId": "p_8aa5b0bda8c8b662",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_8aa5b0bda8c8b662"
+      ]
+    },
+    {
+      "text": "RGB-Controller",
+      "productId": "p_663533818e66ee6a",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_663533818e66ee6a"
+      ]
+    },
+    {
+      "text": "RGB controller",
+      "productId": "p_663533818e66ee6a",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_663533818e66ee6a"
+      ]
+    },
+    {
+      "text": "RGB 控制器",
+      "productId": "p_663533818e66ee6a",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_663533818e66ee6a"
+      ]
+    },
+    {
+      "text": "Hygrometer",
+      "productId": "p_7ae6d05af716455f",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_7ae6d05af716455f"
+      ]
+    },
+    {
+      "text": "湿度计",
+      "productId": "p_7ae6d05af716455f",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_7ae6d05af716455f"
+      ]
+    },
+    {
+      "text": "USB-Hub",
+      "productId": "p_6189330b271e8d07",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_6189330b271e8d07"
+      ]
+    },
+    {
+      "text": "USB Hub",
+      "productId": "p_6189330b271e8d07",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_6189330b271e8d07"
+      ]
+    },
+    {
+      "text": "USB 集线器",
+      "productId": "p_6189330b271e8d07",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_6189330b271e8d07"
+      ]
+    },
+    {
+      "text": "Telefonverteiler",
+      "productId": "p_105c339ccc214189",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_105c339ccc214189"
+      ]
+    },
+    {
+      "text": "Telephone junction box",
+      "productId": "p_105c339ccc214189",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_105c339ccc214189"
+      ]
+    },
+    {
+      "text": "电话分线盒",
+      "productId": "p_105c339ccc214189",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_105c339ccc214189"
+      ]
+    },
+    {
+      "text": "Betriebsstundenzähler",
+      "productId": "p_8f6e1b524240c2a6",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_8f6e1b524240c2a6"
+      ]
+    },
+    {
+      "text": "Engine hour meter",
+      "productId": "p_8f6e1b524240c2a6",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_8f6e1b524240c2a6"
+      ]
+    },
+    {
+      "text": "运行小时计",
+      "productId": "p_8f6e1b524240c2a6",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_8f6e1b524240c2a6"
+      ]
+    },
+    {
+      "text": "Reifendruckkontrollsystem Kfz",
+      "productId": "p_e25e56a85965a98c",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_e25e56a85965a98c"
+      ]
+    },
+    {
+      "text": "Tyre pressure monitoring system",
+      "productId": "p_e25e56a85965a98c",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_e25e56a85965a98c"
+      ]
+    },
+    {
+      "text": "胎压监测系统",
+      "productId": "p_e25e56a85965a98c",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_e25e56a85965a98c"
+      ]
+    },
+    {
+      "text": "Rudercomputer",
+      "productId": "p_31cc87185098a2dd",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_31cc87185098a2dd"
+      ]
+    },
+    {
+      "text": "Computer for rowing",
+      "productId": "p_31cc87185098a2dd",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_31cc87185098a2dd"
+      ]
+    },
+    {
+      "text": "划船机仪表",
+      "productId": "p_31cc87185098a2dd",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_31cc87185098a2dd"
+      ]
+    },
+    {
+      "text": "Kopierschutzstecker",
+      "productId": "p_d29f16e33de19490",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_d29f16e33de19490"
+      ]
+    },
+    {
+      "text": "Dongle",
+      "productId": "p_d29f16e33de19490",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_d29f16e33de19490"
+      ]
+    },
+    {
+      "text": "加密狗",
+      "productId": "p_d29f16e33de19490",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_d29f16e33de19490"
+      ]
+    },
+    {
+      "text": "Spule",
+      "productId": "p_68fdbb729bf0bc70",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_68fdbb729bf0bc70"
+      ]
+    },
+    {
+      "text": "Inductor",
+      "productId": "p_68fdbb729bf0bc70",
+      "language": "en",
+      "status": "official",
+      "sourceIds": [
+        "ear_68fdbb729bf0bc70"
+      ]
+    },
+    {
+      "text": "电感线圈",
+      "productId": "p_68fdbb729bf0bc70",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_68fdbb729bf0bc70"
+      ]
+    },
+    {
+      "text": "Timer",
+      "productId": "p_2c127bf32ccb4edf",
+      "language": "de",
+      "status": "official",
+      "sourceIds": [
+        "ear_2c127bf32ccb4edf"
+      ]
+    },
+    {
+      "text": "定时器",
+      "productId": "p_2c127bf32ccb4edf",
+      "language": "zh",
+      "status": "curated",
+      "sourceIds": [
+        "ear_2c127bf32ccb4edf"
+      ]
     }
   ],
   "groups": {
