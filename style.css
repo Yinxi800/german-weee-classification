@@ -4,3 +4,5 @@
 #product-form .guide-form-actions{display:grid;grid-template-columns:1fr 1fr}@media(max-width:420px){#product-form .guide-form-actions{grid-template-columns:1fr}}
 
 .name-defaults{margin:0 0 24px;color:var(--muted);font-size:12px}.name-defaults summary{cursor:pointer;color:var(--blue);padding:8px 0}.name-defaults p{margin:8px 0}.name-defaults select{font:inherit;color:var(--ink);background:var(--white);border:1px solid var(--line);border-radius:8px;padding:10px;max-width:100%;margin:8px 0}.name-defaults select:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+#work-title{font-size:24px;line-height:1.35;overflow-wrap:anywhere}
+.result-box strong{font-size:24px;line-height:1.35;overflow-wrap:anywhere}
